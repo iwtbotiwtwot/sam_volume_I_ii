@@ -1,0 +1,660 @@
+{
+  "checks": 2234,
+  "executed_code_snapshots": [
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/executed_code/point_source.py",
+      "sha256": "c8c5efcb5137ca34fd06ac89c0066a36eccf90dbd13c777de0d559b1dc0e9f8c"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/executed_code/source_batch.py",
+      "sha256": "6d489b92c1756980ee30d218883417db0bb05638eec5ca14aaea83cd9f5d8907"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3b/executed_code/point_source.py",
+      "sha256": "66ecfc213871bf3dd8b926edfbaff9f4e4fe052e9068e2dab23db343baf3bb04"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3b/executed_code/source_pilot.py",
+      "sha256": "64897035843a09db957ce77895dc16631f20510ff195fdf80a59115fd3e5001f"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/executed_code/point_source.py",
+      "sha256": "66ecfc213871bf3dd8b926edfbaff9f4e4fe052e9068e2dab23db343baf3bb04"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/executed_code/source_pilot.py",
+      "sha256": "cd7f045744a9c4f05e0cbb12c4dc4d6cebabdd969d30c686bdccb720fae6df79"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/executed_code/point_source.py",
+      "sha256": "66ecfc213871bf3dd8b926edfbaff9f4e4fe052e9068e2dab23db343baf3bb04"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/executed_code/source_pilot.py",
+      "sha256": "cd7f045744a9c4f05e0cbb12c4dc4d6cebabdd969d30c686bdccb720fae6df79"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p5/executed_code/point_source.py",
+      "sha256": "66ecfc213871bf3dd8b926edfbaff9f4e4fe052e9068e2dab23db343baf3bb04"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p5/executed_code/source_pilot.py",
+      "sha256": "cd7f045744a9c4f05e0cbb12c4dc4d6cebabdd969d30c686bdccb720fae6df79"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/executed_code/point_source.py",
+      "sha256": "c8c5efcb5137ca34fd06ac89c0066a36eccf90dbd13c777de0d559b1dc0e9f8c"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/executed_code/source_batch.py",
+      "sha256": "6d489b92c1756980ee30d218883417db0bb05638eec5ca14aaea83cd9f5d8907"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/executed_code/point_source.py",
+      "sha256": "c8c5efcb5137ca34fd06ac89c0066a36eccf90dbd13c777de0d559b1dc0e9f8c"
+    },
+    {
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/executed_code/source_batch.py",
+      "sha256": "6d489b92c1756980ee30d218883417db0bb05638eec5ca14aaea83cd9f5d8907"
+    }
+  ],
+  "incomplete_attempts": [
+    {
+      "input_present": true,
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3b/sessions/STARBREAKER_1fc1a4f443854685b28d0b4d9ce65da2/calls/5d2721b1169f4f8abecb452dc0bd238c",
+      "receipt_present": false,
+      "scientific_return_assigned": false
+    },
+    {
+      "input_present": true,
+      "path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p5/sessions/STARBREAKER_591dffe725674d24a8b1fc992689f9b8/calls/9805ba34f9e542aebc29a390ac3e8b2a",
+      "receipt_present": false,
+      "scientific_return_assigned": false
+    }
+  ],
+  "native_executions_from_this_script": 0,
+  "native_source_minor_inverses": 6,
+  "records": [
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/0a5e5ad5ecce4707b5fb2e865ba76fb6/INPUT.json",
+      "input_sha256": "476584e9a20eb3454f53c3ba048293ac1c391fcec7fa310c5e3680003a0f3ba9",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/0a5e5ad5ecce4707b5fb2e865ba76fb6/OUTPUT.json",
+      "output_sha256": "411da5d345e021f2c80673126b0dcdf3de4a33e617a83800deda15d23c7e704e",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/0a5e5ad5ecce4707b5fb2e865ba76fb6/RECEIPT.json",
+      "receipt_sha256": "5b693d277e10ab936ca6ae34ea288d50b0d95c8264f2f5553374a42579240bce"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/0fa15068dc4147e1ab00ba5552bba826/INPUT.json",
+      "input_sha256": "c49d06b0e42859144428824b1446cad33f1af26362b0d2e799aa763c34dec2a5",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/0fa15068dc4147e1ab00ba5552bba826/OUTPUT.json",
+      "output_sha256": "04b3eca7911cb046cd07e546633b9b1b7a7b63d2a89cf073100ff39a1867a327",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/0fa15068dc4147e1ab00ba5552bba826/RECEIPT.json",
+      "receipt_sha256": "78f16e1bdf0584f15cf819312568251a30f2095e1a0fe8c0532c1b328d2723b3"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/10268cb7acf04f8e9124216d5c70c425/INPUT.json",
+      "input_sha256": "e34190890c84c7659dfbb69d734558465e5930d2de602a34b06d82926880ccd9",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/10268cb7acf04f8e9124216d5c70c425/OUTPUT.json",
+      "output_sha256": "6106831960b15668e06de6bf5f85ca6e71140a11016938be089fa7481d9a485c",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/10268cb7acf04f8e9124216d5c70c425/RECEIPT.json",
+      "receipt_sha256": "0eb9aab399bc7c57373c6a609aa976bbd17a14cc7f771e866ebd902e4933a8d9"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/14972fb24bb94c779546a387d4a0d941/INPUT.json",
+      "input_sha256": "736bb7ae979f5c10ac5c9f2b42dd315f7f097e8afbd8b4b2162fb5a3e1027292",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/14972fb24bb94c779546a387d4a0d941/OUTPUT.json",
+      "output_sha256": "5bf6e90fa1ae20edb888d22065942794109d95863e672cf9d1d07585f37007eb",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/14972fb24bb94c779546a387d4a0d941/RECEIPT.json",
+      "receipt_sha256": "90b25ed14485643d9b04335208f8148f8f36d0440ba65fc3ae84a393ad4773b1"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/14fd5a66946147e8b258801398d8d9c7/INPUT.json",
+      "input_sha256": "0a701bc76ccc8d2d107ae95e68eff0d4d462759c472fd986a62414e8a15b3d1d",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/14fd5a66946147e8b258801398d8d9c7/OUTPUT.json",
+      "output_sha256": "4fdc1d835bd458d5ecc0b3dc7bb2f5e646d5dee3b0fbed0ae0214273373ea519",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/14fd5a66946147e8b258801398d8d9c7/RECEIPT.json",
+      "receipt_sha256": "1506da40999357207277ab70894fe0b4d368a2af8a8bd468e991046a6d512447"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/23bb5eb4a186404ebcc4df754bc35039/INPUT.json",
+      "input_sha256": "3ca204b9e20b13244533e40d8a8f3ad19af59139af5d433051128c5b1095adf0",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/23bb5eb4a186404ebcc4df754bc35039/OUTPUT.json",
+      "output_sha256": "ef20cf9983aaabde58ea5128dc42dd88db5ed05e05a8866c23ea8a653fb12b90",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/23bb5eb4a186404ebcc4df754bc35039/RECEIPT.json",
+      "receipt_sha256": "dd29e8d1397ea4036745a0b79c5cfeca2e6c56c31e1e50ac767fb6230d3cb8f3"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/23d2f61254974dd298f01ed7bf5b9f12/INPUT.json",
+      "input_sha256": "608b8edcbb5e87cd745752dd0dec2d9600c0d3a557df28d3cbf7b934fe63dd0d",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/23d2f61254974dd298f01ed7bf5b9f12/OUTPUT.json",
+      "output_sha256": "4240506498b76ec47eb044ebab4507708e35cee3b115ac2f247e8273d75dee07",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/23d2f61254974dd298f01ed7bf5b9f12/RECEIPT.json",
+      "receipt_sha256": "afced5ceb525305cb30e1da23fea4352f9f887d55b2dfaea09cda71e68dac5d1"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/2598a891dfb94f8e978dcf6e052612b0/INPUT.json",
+      "input_sha256": "d5bb662fd3957e6f34a8c87222851a704039e0a86c83430f53153425b45c5070",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/2598a891dfb94f8e978dcf6e052612b0/OUTPUT.json",
+      "output_sha256": "c37b473e3139b8d8630008fda3f24019b10316299228e89ea23e70e962b943f3",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/2598a891dfb94f8e978dcf6e052612b0/RECEIPT.json",
+      "receipt_sha256": "4ed3fa178070230d62567d38dc41b02053f05f377ca35d53d5e03df8ca08f581"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/265f42e077574d35b44efd5750efb6e9/INPUT.json",
+      "input_sha256": "560e70b185c239f090b6c706d938d712eeb77a3a8917b8aed61676708013a0b6",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/265f42e077574d35b44efd5750efb6e9/OUTPUT.json",
+      "output_sha256": "d1d02b8ad8e4960dda538e6c48cdedaf32bce3f141c83eca21eb8ad299c53475",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/265f42e077574d35b44efd5750efb6e9/RECEIPT.json",
+      "receipt_sha256": "5bff394d730a4ea5b9b85fd680605f89336a0cd14c0f3c4037ef45ddb6deed53"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3476fc608a0940bd9e91d22abe439941/INPUT.json",
+      "input_sha256": "ca25292a2c8bba34ba24d14277c2f625eaca08d4539c135dbfd8ea679bb94153",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3476fc608a0940bd9e91d22abe439941/OUTPUT.json",
+      "output_sha256": "58dc159d2b41ddda4524acd62ef26b5df9ac3fef74463adadee5a90774ffefd3",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3476fc608a0940bd9e91d22abe439941/RECEIPT.json",
+      "receipt_sha256": "3e7f0eb0278e1b38d3e39cee2959d26ab0e4d91fe54a5ff644abb64c466588cc"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/34f207c25b414409aeb898a5a4df3c37/INPUT.json",
+      "input_sha256": "eb49525f4e97c632691df60e400bc843d7e4ae6522a61f4e58ca4e7f62bfb42e",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/34f207c25b414409aeb898a5a4df3c37/OUTPUT.json",
+      "output_sha256": "783f4ef958e09b8c5c70db64b4ee070d0bef43fb7b48d790675927ce3e71373d",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/34f207c25b414409aeb898a5a4df3c37/RECEIPT.json",
+      "receipt_sha256": "42ac56d0abf36a27a69468ec0a96294e7416d43ac080b401f88e0d86c24d533b"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/392df1b2265e493d8aa22c42ad79c7f5/INPUT.json",
+      "input_sha256": "cf7ba6afdfe825cc765d327bdfea54e675c7815e061eef6a28f4b54feeb13355",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/392df1b2265e493d8aa22c42ad79c7f5/OUTPUT.json",
+      "output_sha256": "3a5ae47847fbafb78e5134a2da61447799ff398022a72456684fa94f11ecd10c",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/392df1b2265e493d8aa22c42ad79c7f5/RECEIPT.json",
+      "receipt_sha256": "df151d5ea21dd0d21cbeb5fc06011ad1de467ae5e7ada7dfc2fef1e083c9cbd6"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3ca0c2699d3b4824a8e133140e5e3e3b/INPUT.json",
+      "input_sha256": "9a4750147e02b067eedbbc55a00e5a1be3ec2bc22ed1a3e047f10c03f5e40dba",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3ca0c2699d3b4824a8e133140e5e3e3b/OUTPUT.json",
+      "output_sha256": "e4cb3f242a8c8dbd67948e28ab370bfcf40201cb42236dc0ca1c204198d852ec",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3ca0c2699d3b4824a8e133140e5e3e3b/RECEIPT.json",
+      "receipt_sha256": "1c1ab894c5b47cb45a85ef754a3682b49f347575a938fc35167c9a42004622eb"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3ea99ef692fc4fe493f9e05be9909859/INPUT.json",
+      "input_sha256": "b3d2fbd8497911edab8508878a33516a62da8b01bf782bb8b05d0dd947780e08",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3ea99ef692fc4fe493f9e05be9909859/OUTPUT.json",
+      "output_sha256": "424c48960a89ed4dddc95ebd1bcf56c91dcf7f90c27becb3f0a9fec86e3beee4",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/3ea99ef692fc4fe493f9e05be9909859/RECEIPT.json",
+      "receipt_sha256": "c9eacd20dea8eddbc97a2320b4a20576d44d0043b0ce0e8bc310a336c85184dc"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/40065c02d7bc41bd8462fa9a65c83b6d/INPUT.json",
+      "input_sha256": "59f10c3378dceb68bfad1bf5c2a505016f78a58951648b1a23dfa17ceb14c509",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/40065c02d7bc41bd8462fa9a65c83b6d/OUTPUT.json",
+      "output_sha256": "cb3bc15f337083a91296168e316c2e12e467ad13696dd5bad274d02d07eb09ef",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/40065c02d7bc41bd8462fa9a65c83b6d/RECEIPT.json",
+      "receipt_sha256": "68ea30974b4341bb1873a4897d6a92c8223c82f9b59fdbd6a74a0246d7eda2ef"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/457434d5917c4307b1999b623cebbd69/INPUT.json",
+      "input_sha256": "6ac1441f9c623e5a67289e22a217b6e0ac7fba452882309e22a23c273ef612cc",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/457434d5917c4307b1999b623cebbd69/OUTPUT.json",
+      "output_sha256": "70aa57b1b7828decf953607ffa0b67b09ac7790d50a678b7a6b862071a6bf5c3",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/457434d5917c4307b1999b623cebbd69/RECEIPT.json",
+      "receipt_sha256": "d8f20e2cb86d60268922f2562e7360592db3b087f19264937f7b05995331d5f5"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/462f4df73f1946ba9a6abcb34a2dfbaf/INPUT.json",
+      "input_sha256": "8e352851fe4e7931692250b25fb07aca9dff5d7d917f67323dfeb7bb39a7b24c",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/462f4df73f1946ba9a6abcb34a2dfbaf/OUTPUT.json",
+      "output_sha256": "3e98e4d90244827168628987cf864155656eac5bc6719d7be43d60c382188f41",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/462f4df73f1946ba9a6abcb34a2dfbaf/RECEIPT.json",
+      "receipt_sha256": "38d95c7e0ccf703d52ebcb1133aa8d8824a66583299cefab23764ba4b8d474da"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/46ef7d1531a741ceb1aad1622f9c2bd5/INPUT.json",
+      "input_sha256": "30d2d4574bfcbeb066e3df5d5a177e39667c987052fb694715dfb40adf21cdd7",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/46ef7d1531a741ceb1aad1622f9c2bd5/OUTPUT.json",
+      "output_sha256": "7ab1b5a8b0479288ee80aae93e921da0b5c080bc6188bb788a80f51006ab54b8",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/46ef7d1531a741ceb1aad1622f9c2bd5/RECEIPT.json",
+      "receipt_sha256": "c6fded9d07eb24f510ea91dcba01be989f9e781436de474428233e40315c30a9"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/4774421ff6904680bd2a9cb0a192eecf/INPUT.json",
+      "input_sha256": "4b63d9802ba10b5d3e68d842011992454f7d917204340627e489376d150bbcd7",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/4774421ff6904680bd2a9cb0a192eecf/OUTPUT.json",
+      "output_sha256": "6f12cf5aa057b45d58029a2ce9907c14a0dfc587cb1f1707152bf0cd52eb7d74",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/4774421ff6904680bd2a9cb0a192eecf/RECEIPT.json",
+      "receipt_sha256": "f5e008915e3489b168ebfc6900b5a6a0999c171b2ab20c0b9a32c2c1720abb6f"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/4a8fcacd988746f5bed8bd4fee99d28e/INPUT.json",
+      "input_sha256": "14126c4a5cc956ed4a5291036266fd3ce97396a8b40bb5da207024061e6a2f2c",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/4a8fcacd988746f5bed8bd4fee99d28e/OUTPUT.json",
+      "output_sha256": "71816b60700892686df966e40e3ac8d829e889b9e51c77472e1d5fd0d758f76e",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/4a8fcacd988746f5bed8bd4fee99d28e/RECEIPT.json",
+      "receipt_sha256": "ec8591dc93c9580a1d2cf2b877a2bde79ef6ea8e2744e20c42c985038aefb427"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5433e1e8b2bf419f90477164743e8bb1/INPUT.json",
+      "input_sha256": "936706c87cb6750d6f073e86778fe91de4718c9b9877937bbce60240843a9069",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5433e1e8b2bf419f90477164743e8bb1/OUTPUT.json",
+      "output_sha256": "c45703cddfd2b682a469f919d516f7b46ab2544a64b9a447be26c11b2c703f3f",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5433e1e8b2bf419f90477164743e8bb1/RECEIPT.json",
+      "receipt_sha256": "e871b1676c9225c50d37297ba436a99be96ea5d5ac21de66535cc5fecc4cfd94"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/566cf66c950c417a9e90a73caab52ff1/INPUT.json",
+      "input_sha256": "7af0e7d960f49d3143312ab7eef5732bf5326c4b1105aa530e7b32d97a0c6ad1",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/566cf66c950c417a9e90a73caab52ff1/OUTPUT.json",
+      "output_sha256": "9f1b3da627040614afcff8765c7b92fba79ea4c609bc7368689a69a5c5142a0f",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/566cf66c950c417a9e90a73caab52ff1/RECEIPT.json",
+      "receipt_sha256": "5682e444e5251d5e6d7a0adcc560b2901a275e253c25fec5b48e2bbd35a09a7e"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5ad2a9b3e33a40139d7ec51f78ef5c3b/INPUT.json",
+      "input_sha256": "3638c1afcd4ca1a87ec4d3626b1983f971a249df99dcc20241cf864b6faaccb8",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5ad2a9b3e33a40139d7ec51f78ef5c3b/OUTPUT.json",
+      "output_sha256": "75ef867308f05e80ee452b632d8d194cf23fabc8236ed2240f1fbe1743edf13b",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5ad2a9b3e33a40139d7ec51f78ef5c3b/RECEIPT.json",
+      "receipt_sha256": "9c745216979718eab7b39296b3b43a6a558ea63b0f6726116d50139bef159825"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5cfed561bc274172ad50566705effee7/INPUT.json",
+      "input_sha256": "945df41900bb69d1efef4e0003a74f6d7298243b27f934cb7808450290f235d5",
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5cfed561bc274172ad50566705effee7/OUTPUT.json",
+      "output_sha256": "c7f865c1378402e890a3452a499331a073cc146406ad0fb36125aa8e0fce7ad8",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/5cfed561bc274172ad50566705effee7/RECEIPT.json",
+      "receipt_sha256": "01514f77f414b475c5bc80e8864c7a44b86665176a9f0cc0dd4ddc77412b74e8"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6146a529b6724265b80acc35ef39da6e/INPUT.json",
+      "input_sha256": "949dfd26d3e6693abc29c31bf4e27d1151ee73b82fd0452f68bdb6f82fa515bb",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6146a529b6724265b80acc35ef39da6e/OUTPUT.json",
+      "output_sha256": "0ad07e8d5c7d6f7373cd06dcdb680d692947e91a3e9d7c177b022ccf520bb490",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6146a529b6724265b80acc35ef39da6e/RECEIPT.json",
+      "receipt_sha256": "1de0a4837aa5fe726467d47bf8abf97046a05b7f72456cbe7f19318072f23c9d"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/618cafb5e3794eaf8b801cb11af71d44/INPUT.json",
+      "input_sha256": "e4e57208ed48c15cdc506b3315718300b900855b88e846b2c3a569d37dcb6b8c",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/618cafb5e3794eaf8b801cb11af71d44/OUTPUT.json",
+      "output_sha256": "b91e88ee73aa1c2415b4ea3bb3f38e19cbe5a7f36840bee7fdd5125d175f8a2d",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/618cafb5e3794eaf8b801cb11af71d44/RECEIPT.json",
+      "receipt_sha256": "6771e3d3fd701aa518d3c11661e67944dde59be1570fb95cc17e3a0a2943c3f9"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6640d76e5b12404f8e1d3b5fd04168a8/INPUT.json",
+      "input_sha256": "9f008634a64cec5edfd6b6fe9bd771656ec991d1f6ab7b082735551de0770730",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6640d76e5b12404f8e1d3b5fd04168a8/OUTPUT.json",
+      "output_sha256": "4906acc5d4ca638dad186f1d428580a6c9c30480c8477e6b3e7f7a771cbd2c47",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6640d76e5b12404f8e1d3b5fd04168a8/RECEIPT.json",
+      "receipt_sha256": "67c32fef3ab489cca01c511ef39a2f7515efa366a06bae7d694b1e599975e89e"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/66cce014692941a69db713cb2f712599/INPUT.json",
+      "input_sha256": "a5a1fd3da3f19dd2e09c4c3632ab1bc14dbe5613c34fabbc5ac2a7d9798f752f",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/66cce014692941a69db713cb2f712599/OUTPUT.json",
+      "output_sha256": "e1a56c389da7c7e7fab091d21cfce4349154edd581590dc97b64e7190c6f6ee8",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/66cce014692941a69db713cb2f712599/RECEIPT.json",
+      "receipt_sha256": "415a3da742fd71bee5bcc91f825ee7275733188f4479fc364248d2261ee79711"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6dd272c90190432da9984951f1d24009/INPUT.json",
+      "input_sha256": "ef9312dda5149120ca84d5e4114051972b6dc186791519ad0fb1ad3ec6f70a9a",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6dd272c90190432da9984951f1d24009/OUTPUT.json",
+      "output_sha256": "af9e43d98394c1610bca367d9eb51f16fe761377770c06433345252e41a7ab2b",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/6dd272c90190432da9984951f1d24009/RECEIPT.json",
+      "receipt_sha256": "ce6eaa57ab73dc8db83f847429f3e8988f2f600e3f3e5b993a69b6f0a35ffb21"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/79e7322b76074faca909926457676424/INPUT.json",
+      "input_sha256": "be5dab9d0e331591b5a8c278b161c86941004cc4479200152d515d8fa9b6d0fd",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/79e7322b76074faca909926457676424/OUTPUT.json",
+      "output_sha256": "3ee635feade7a8d62fb24fe12572055278896b6a549fb917045c760b1ea01ab8",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/79e7322b76074faca909926457676424/RECEIPT.json",
+      "receipt_sha256": "009e6dde418f2591673b1f582d647512017cbe8dd49ec5d92a5f284f13d77ae2"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7c1ed3867d854b40a2b88e14ba8ff535/INPUT.json",
+      "input_sha256": "5c7288fc9e264707a7287a110098c635dc856047496f6c2a904c67f51be54120",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7c1ed3867d854b40a2b88e14ba8ff535/OUTPUT.json",
+      "output_sha256": "1146c485ec8bd4842c2e35547ed1689855a1abee06b274fe1998f35ecaccd7fd",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7c1ed3867d854b40a2b88e14ba8ff535/RECEIPT.json",
+      "receipt_sha256": "4baf073a9c87f768bf7e17b473374240204bd3619c66c2d1001038558f855669"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7d11953a10f7412d884f39fc16f86355/INPUT.json",
+      "input_sha256": "96042da123446bd0297966f694072ff1f61ff36ed3c9c83aa86c1d8e48605475",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7d11953a10f7412d884f39fc16f86355/OUTPUT.json",
+      "output_sha256": "5cf73f6a13d0baeae00e1464290d0bb76568a840b272f1aa3c1a805fcae63a0a",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7d11953a10f7412d884f39fc16f86355/RECEIPT.json",
+      "receipt_sha256": "753899fde4f57abe08b420d0bc6e36aaa8fec40cecf6f211cb92ad197f2cdfe4"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7e54f6e62283477db8b8ade8f8d2a041/INPUT.json",
+      "input_sha256": "9c325afb25cd12976c10de5916996f97005fd9b0748f8b71c49e09e50f170fa9",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7e54f6e62283477db8b8ade8f8d2a041/OUTPUT.json",
+      "output_sha256": "c4b9b6e14032448b9a7e606cdf5cc0d8ce26a3373d1dbac899571ba5c71dbb09",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/7e54f6e62283477db8b8ade8f8d2a041/RECEIPT.json",
+      "receipt_sha256": "d50e63f32a53d53e826f0cf8f47147e5ff30434a74497bf8becd1d9bee6eea69"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/81d397a0033c405ab093f7a4c7985767/INPUT.json",
+      "input_sha256": "42e669d21ecf9b610ed38fb63f7a6645e0b099f8352a434edc64e6055dca0569",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/81d397a0033c405ab093f7a4c7985767/OUTPUT.json",
+      "output_sha256": "4f0f1071a1b53e15470323b9239bc49002dd87c44f2c93cbcd9a3a463fcff710",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/81d397a0033c405ab093f7a4c7985767/RECEIPT.json",
+      "receipt_sha256": "24b6f0f43d921856cf05d0c7376948f28ca8a4fbbcb3a72c7bbba30798cce73b"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8365b38c037d4ea1975652ff668092cc/INPUT.json",
+      "input_sha256": "d883d2b2cf206a596b22a54f2df95bc5000a9bc18cb974be1834307c7b78b594",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8365b38c037d4ea1975652ff668092cc/OUTPUT.json",
+      "output_sha256": "ac1c89023c3e03a80dd1ebd959f45e6cc957dff97d7e3c182245773952686247",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8365b38c037d4ea1975652ff668092cc/RECEIPT.json",
+      "receipt_sha256": "0bfdc5e596ace14a77aa347c8089664ca9e59a3650655c015434709cc20bf911"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/84803d0e53a34bbd9c38cd99b03cfac8/INPUT.json",
+      "input_sha256": "6adc6cf9fae0ba7a43db1cd21cc250e7b4d9b2c9bb90f50eb70cf3b0585f3cae",
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/84803d0e53a34bbd9c38cd99b03cfac8/OUTPUT.json",
+      "output_sha256": "57672268080adb7d42974528a382458e02309a13c8ba17b82b40d2f9b71c7c41",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/84803d0e53a34bbd9c38cd99b03cfac8/RECEIPT.json",
+      "receipt_sha256": "a276ec9e8fe5d09424b3f33d23616594c60f39a5427b3dfb2498c6b2dfe50802"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8d7222c74d734189bd451b0090a9f7bd/INPUT.json",
+      "input_sha256": "492a958b302043079034c52f308ded6f6c1041858cb865dd59c4a487a6a74bef",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8d7222c74d734189bd451b0090a9f7bd/OUTPUT.json",
+      "output_sha256": "c9fc7ec3c8b81dc056fd6d6a795bebe79c7d43ebc165756293f4bd2295f0a3dd",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8d7222c74d734189bd451b0090a9f7bd/RECEIPT.json",
+      "receipt_sha256": "9cca98e9ebc179ef10972704970bcdd46aeee5a94d7c68c1ad6e7ef6ce7caf8c"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8ea2d15fe90747939cbe1fcb617b02fc/INPUT.json",
+      "input_sha256": "e1730c7f442325f7d585f2446ddaa6cf9b899e4f7a2343f4ea9264d078f37779",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8ea2d15fe90747939cbe1fcb617b02fc/OUTPUT.json",
+      "output_sha256": "c1aa5585da3d8382682bdfb16035b6797a4ca2d040fb34befcda5e37f6d2431b",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/8ea2d15fe90747939cbe1fcb617b02fc/RECEIPT.json",
+      "receipt_sha256": "6d8eb0e385dd56b6718874af0458507804f24cd34843d9dd4baef3f73f068ecc"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/901405251e6e4f1497c98ee4cb09d2fb/INPUT.json",
+      "input_sha256": "1500f8595ae5aa7d28afb18f16c982c4c74e9fd19cc1173027c2e9d62b2b4943",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/901405251e6e4f1497c98ee4cb09d2fb/OUTPUT.json",
+      "output_sha256": "2e4366fb3bd55cae23c5183f9300337cc71e4d69f8fdae70bb88737dacbf55ae",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/901405251e6e4f1497c98ee4cb09d2fb/RECEIPT.json",
+      "receipt_sha256": "d886cd42404d48ec6e5b42546e5dd00d1b0b93136ffdd77d1b6001026e29c33a"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/935a9ef9035f45b6935a3d70c0edcc30/INPUT.json",
+      "input_sha256": "e2418743c6a7a15883f2783c92061cb8f2a8ac90df16920f1249f21a7bea8600",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/935a9ef9035f45b6935a3d70c0edcc30/OUTPUT.json",
+      "output_sha256": "c475684a7811662578cc49320a6a148c62a4fc3aefe620061a70d9073c60032a",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/935a9ef9035f45b6935a3d70c0edcc30/RECEIPT.json",
+      "receipt_sha256": "96f4fc8ee0d0e5cff4aef183e375881246e117b27b4a21bc57467f2cbd73309a"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/9c1c7ba67ea64faf857aafecd0f53ad9/INPUT.json",
+      "input_sha256": "7b9afd8543d0c7378cfc314d64d58eef7bcbf65407091ed923fec6444834b6e0",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/9c1c7ba67ea64faf857aafecd0f53ad9/OUTPUT.json",
+      "output_sha256": "c25552027f5f1f381fc433415514cc94353b0025c2806e5d48a3212a2f33cb44",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/9c1c7ba67ea64faf857aafecd0f53ad9/RECEIPT.json",
+      "receipt_sha256": "449791ec3a089c367fcd5971ed3c008095603996e27cdacb78ad7955e28040c5"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/a251f001f44c444e9c075361036105dc/INPUT.json",
+      "input_sha256": "d0665cbd790702d9a51092d0a372ecad3c836dd77ce67e5b9fb0f19bffa4a266",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/a251f001f44c444e9c075361036105dc/OUTPUT.json",
+      "output_sha256": "508509d9cef39a91e265bd37c3986f1ebad741dfc6c840047a7ff92d86bee417",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/a251f001f44c444e9c075361036105dc/RECEIPT.json",
+      "receipt_sha256": "2f269073237ea12d5d07cbd3167e3bf6120d9231705cf22a17a5e87078dd25e8"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/a2e2d3b367b94c6f815964c1be2f467d/INPUT.json",
+      "input_sha256": "45c79660fa53ed22bdacff7ce83e9e9a3ac466ea99b6f0d506c67504cba9960d",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/a2e2d3b367b94c6f815964c1be2f467d/OUTPUT.json",
+      "output_sha256": "5838e587460ced5fc028527ee215e7c4bb83119e765082ae5a81bda46f6b202a",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/a2e2d3b367b94c6f815964c1be2f467d/RECEIPT.json",
+      "receipt_sha256": "e90ea6ad3c228baf32f9b55d26491c88bc5174dfd55a698f0da5f7a4e8314840"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ab4204758dad4d2787dc34b6c59ea6ab/INPUT.json",
+      "input_sha256": "7dff0cd922081edb06144799b6b17c66d18f62970c69b8f1635abe6808f8d546",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ab4204758dad4d2787dc34b6c59ea6ab/OUTPUT.json",
+      "output_sha256": "a2b9e5152a56751df4ddbd382d1a950eb05a9c0f471101d5943a7277f1ed4a6d",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ab4204758dad4d2787dc34b6c59ea6ab/RECEIPT.json",
+      "receipt_sha256": "b2c2594b413c940ed62d0af1d1ffd687bcd0c22a6dc8d201fea357deee7a7861"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/abc9079de9c34e26b2cb43750357c026/INPUT.json",
+      "input_sha256": "52a4abcd47288c20d457b3104253a0c41257e4042fe7a4f4e3602864c878d729",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/abc9079de9c34e26b2cb43750357c026/OUTPUT.json",
+      "output_sha256": "c4caf08741aa5e11da7418d1e25387a4a8943e14b91727dd026a39f03cb7b5be",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/abc9079de9c34e26b2cb43750357c026/RECEIPT.json",
+      "receipt_sha256": "75eb3f64b6972c323c03f11a6cabee80d376a9909c3caf039c1fa4f2e57483f3"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ac5fbb088e514b8e98862da28ab8a04c/INPUT.json",
+      "input_sha256": "8cab8ea2f237f36b2815e29aea97fbeeaf8c30119e7669620d88dfb2e8bd98e4",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ac5fbb088e514b8e98862da28ab8a04c/OUTPUT.json",
+      "output_sha256": "055e3ad6155f76e4761e269b6a23ed15018efbc0b2e6525572e9735e7771ef41",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ac5fbb088e514b8e98862da28ab8a04c/RECEIPT.json",
+      "receipt_sha256": "ebf021481050de3363d3dd455023deaf03efc60dbb849af8dc0a3415a551046e"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/bb347033e73c4a2da82037110299eb45/INPUT.json",
+      "input_sha256": "433a16eb14109a3b914bf0035a559e5c7c7880a3f8e26a20417df6009a21823c",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/bb347033e73c4a2da82037110299eb45/OUTPUT.json",
+      "output_sha256": "7b5726fa740a963448273f56d82a1f9714f5cf3b34f914bb2f536c267353bb08",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/bb347033e73c4a2da82037110299eb45/RECEIPT.json",
+      "receipt_sha256": "59731c7f2298f778249438ba4840c589174aff9b96da96a7d5976c6a55ccf16c"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/c187a846f88e41f1b3d8aac886b6f716/INPUT.json",
+      "input_sha256": "3ae1019f7450af38468d727973b0f8c032167f3a59259a86730a191d847aaf6f",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/c187a846f88e41f1b3d8aac886b6f716/OUTPUT.json",
+      "output_sha256": "e24e7be7df7230ef6e68c0d0d537d8750fe3b4755a2b3f4cd3f72498d293eef7",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/c187a846f88e41f1b3d8aac886b6f716/RECEIPT.json",
+      "receipt_sha256": "3daa23ec472b8736fb5bf96dc03fe4d4e2301d940e3a043ae0c5f557e522e7ec"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/cc49ee04cb6e48e79bc162ed4a373b55/INPUT.json",
+      "input_sha256": "ea02705488c261ef5e83a0829970f52dd1b2ae2d006caa246f879e47f2a22ea8",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/cc49ee04cb6e48e79bc162ed4a373b55/OUTPUT.json",
+      "output_sha256": "b492ab635cbbebef61711c1af9ec461bb74f713a8f8f3980c1a981dc8bac5975",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/cc49ee04cb6e48e79bc162ed4a373b55/RECEIPT.json",
+      "receipt_sha256": "15106077931fa9d87fc60a77b1319ae7457bc6b0b165922e8e6459b190def1c7"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/d5844387c54346a98e191b590839c682/INPUT.json",
+      "input_sha256": "8242f439b4c42c0c82517e6d422cbc37c15c2241bee3d1565e8bc37a1a468476",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/d5844387c54346a98e191b590839c682/OUTPUT.json",
+      "output_sha256": "408605a754fce597ca7293c69f70280391784f801a1e6bd6e8c44558f6d480dd",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/d5844387c54346a98e191b590839c682/RECEIPT.json",
+      "receipt_sha256": "32763380801c83476db4a325f18f4205ee3302c84acf399749205a963a3e5333"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/eca0bc08cab54e78b60e22a8a2035261/INPUT.json",
+      "input_sha256": "83522681035b542e6d6eacb1f83beceb09b5d0254268852535a26ed5073f4d74",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/eca0bc08cab54e78b60e22a8a2035261/OUTPUT.json",
+      "output_sha256": "754df8097743e398549c4455adb27fe713e1200abb4304cd3d349cf746861e5c",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/eca0bc08cab54e78b60e22a8a2035261/RECEIPT.json",
+      "receipt_sha256": "a2f706c4eb871435062255932ad682f8f0794b74088d3fdd7b7296c13c719941"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ee89cc0feb3e4d2bb6fb0b125b67bbf8/INPUT.json",
+      "input_sha256": "057cf70d1eab7ba8f72ebe154f60d60346ba97c00b1eddbd7b63efc73f2fdf54",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ee89cc0feb3e4d2bb6fb0b125b67bbf8/OUTPUT.json",
+      "output_sha256": "d65d7e7dd2be42c22631ae18e8c106001408b22d0404dcb5df60ba7768c70197",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/ee89cc0feb3e4d2bb6fb0b125b67bbf8/RECEIPT.json",
+      "receipt_sha256": "a75f735d6cb6ee521c1449f8167006726e6a2220688d7dbc46b54cda82d824f5"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f01fe2bd2a9d4aa5b9326502896b2ab3/INPUT.json",
+      "input_sha256": "99edad310a1ba05298e3d62f666a0efbe192a616bf5d51dd890a22e76a60b2a9",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f01fe2bd2a9d4aa5b9326502896b2ab3/OUTPUT.json",
+      "output_sha256": "5d0029ebc6e465b507e69db0333755c3c53649c3edf9a3f0affb77c3ab53c54d",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f01fe2bd2a9d4aa5b9326502896b2ab3/RECEIPT.json",
+      "receipt_sha256": "8f3c8a569ec4a108cabfcc2eb3425b3d6b2f533d047c64feddc2fc8e008a771c"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f0415587cf4f45ad84ccea745775bcc9/INPUT.json",
+      "input_sha256": "31e94946ca5458fcb8cc424dad3ad385bb8141d9e5ae64ecef40629a8d442894",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f0415587cf4f45ad84ccea745775bcc9/OUTPUT.json",
+      "output_sha256": "2c4533d53fceb18d30c1715ff4fe92460ca435dfb6624184a113be0a4c3668a4",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f0415587cf4f45ad84ccea745775bcc9/RECEIPT.json",
+      "receipt_sha256": "c8c69375268f3c84f21f06af2c903fb6ece001f83c24979fcf694850dd34328d"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f1a9ede76d31411f8baf517efd785e27/INPUT.json",
+      "input_sha256": "3db57eae20f7a27d1b3dc95a3291dc5eb945c65d618ffb49421d6642808bcd75",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f1a9ede76d31411f8baf517efd785e27/OUTPUT.json",
+      "output_sha256": "e0f1d23129e0828067c5955decb2ffdeec88c5a77c7c3db4c361fe835a9874cd",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f1a9ede76d31411f8baf517efd785e27/RECEIPT.json",
+      "receipt_sha256": "62452ce484b33dcf1b58c47f73f8acde0fe11f47a3c051c1751ab081ef5fe0ff"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f73435e8224449769ed15cbb08ace431/INPUT.json",
+      "input_sha256": "b3fb1e1b3369a498c5c99cbda2f3308e9c7c08d932f3e4d4235de5033e85b30a",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f73435e8224449769ed15cbb08ace431/OUTPUT.json",
+      "output_sha256": "7053c0baa5003b4491a4101d983fd3a6d7e1b1ce43c84da6b265861ec914225d",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_batch_p4b/sessions/STARBREAKER_76d5a093da1c4d0e9d0c592083a09f3d/calls/f73435e8224449769ed15cbb08ace431/RECEIPT.json",
+      "receipt_sha256": "a67674df79db00771f0734c72651278448db7cb0786871d0505e84e3c64da619"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/sessions/STARBREAKER_b338a516749a4a90bd0222e206ba889a/calls/77774512ee3e4cb496b84179745f70be/INPUT.json",
+      "input_sha256": "d171e030a20d92e1e760f72f23bb907b33168e77db33f12ee1fe562735b1d238",
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/sessions/STARBREAKER_b338a516749a4a90bd0222e206ba889a/calls/77774512ee3e4cb496b84179745f70be/OUTPUT.json",
+      "output_sha256": "e6fdc0b2ccfa601038c692350d6e5a13ce6864863b6cdac3a2f31132b5c5b9b9",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/sessions/STARBREAKER_b338a516749a4a90bd0222e206ba889a/calls/77774512ee3e4cb496b84179745f70be/RECEIPT.json",
+      "receipt_sha256": "34154f716106cae726698f2032ef26f9fe4ac6dc8ddd2ec220012f4db8703f50"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/sessions/STARBREAKER_b338a516749a4a90bd0222e206ba889a/calls/a44dc9a28e734654982c6c96ab9abaa5/INPUT.json",
+      "input_sha256": "4adc985376fe3497a54001882ef5cbf7652b659441f5db63a23ce0130e738138",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/sessions/STARBREAKER_b338a516749a4a90bd0222e206ba889a/calls/a44dc9a28e734654982c6c96ab9abaa5/OUTPUT.json",
+      "output_sha256": "f6924f1167d538957f82163b94add5b068e0a926a60a092e1fe45dfbdf264cec",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p3c/sessions/STARBREAKER_b338a516749a4a90bd0222e206ba889a/calls/a44dc9a28e734654982c6c96ab9abaa5/RECEIPT.json",
+      "receipt_sha256": "e2133361aa94274912b0e32f30bce54702c85ef5e0544794819ee547b3023f9d"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/sessions/STARBREAKER_72f3fc3364da4fe89267d541e5e42c92/calls/6b9b735ec6c543a889a61dd900ca7498/INPUT.json",
+      "input_sha256": "2163df7ea657265b7cbbb5448302943aacad59a73ed949967a267644269ba151",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/sessions/STARBREAKER_72f3fc3364da4fe89267d541e5e42c92/calls/6b9b735ec6c543a889a61dd900ca7498/OUTPUT.json",
+      "output_sha256": "dadba592f355d1a50d4931ef675f3d934b3bb30cfd53649b9f4bbf0ab73e273d",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/sessions/STARBREAKER_72f3fc3364da4fe89267d541e5e42c92/calls/6b9b735ec6c543a889a61dd900ca7498/RECEIPT.json",
+      "receipt_sha256": "979f9a3a6f0fa5ae5640e9ff131b29037ae37efb67bbffe914238aaf64a0fe66"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/sessions/STARBREAKER_72f3fc3364da4fe89267d541e5e42c92/calls/eab806d63eb2439c8307d60b441d4e4d/INPUT.json",
+      "input_sha256": "caabc3da196022c571853836513689c9c8366cb9fb48793cae6b6d5ef384c264",
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/sessions/STARBREAKER_72f3fc3364da4fe89267d541e5e42c92/calls/eab806d63eb2439c8307d60b441d4e4d/OUTPUT.json",
+      "output_sha256": "1ee144364ac313313e19800bbceb9a821cc15fcfacfcfbab68cb7a409edd203b",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/sessions/STARBREAKER_72f3fc3364da4fe89267d541e5e42c92/calls/eab806d63eb2439c8307d60b441d4e4d/RECEIPT.json",
+      "receipt_sha256": "4ca4cb97e79a1fab2211079c960a541ec22920ed6c3a6bc5b523226daa97092e"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/sessions/STARBREAKER_08420e699c2e4e1ba318414a87902fa4/calls/1211b0b9ee644823a45be052801cac27/INPUT.json",
+      "input_sha256": "b4c1f4a7bb206c4ca2064f7ac7f51c35cdcecf32a5dd2a25540db8fc47fcbf1d",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/sessions/STARBREAKER_08420e699c2e4e1ba318414a87902fa4/calls/1211b0b9ee644823a45be052801cac27/OUTPUT.json",
+      "output_sha256": "ba8969601dda1d6c8668406f3ed1a14c11944769eb55888918e029657c1635f8",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/sessions/STARBREAKER_08420e699c2e4e1ba318414a87902fa4/calls/1211b0b9ee644823a45be052801cac27/RECEIPT.json",
+      "receipt_sha256": "357b8fb902fe9da5192624e94e18c14a5d8d21aad14fb0ce72b990462d3164e0"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/sessions/STARBREAKER_08420e699c2e4e1ba318414a87902fa4/calls/23ad0e9268af438fbbef189b02a7bbf1/INPUT.json",
+      "input_sha256": "a9231e910ccddc6b46ae6b22d3dddd3963e8a7dbecebdba4dfa0d29fa0abcf0f",
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/sessions/STARBREAKER_08420e699c2e4e1ba318414a87902fa4/calls/23ad0e9268af438fbbef189b02a7bbf1/OUTPUT.json",
+      "output_sha256": "ce865ea7a8697b3fe684fadf8182bf5e64a5f894328f918925e4cd1d2196ae13",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p5b/sessions/STARBREAKER_08420e699c2e4e1ba318414a87902fa4/calls/23ad0e9268af438fbbef189b02a7bbf1/RECEIPT.json",
+      "receipt_sha256": "f52e66b7fb55db435763c55ba280d5434a2ea481ad6d3f03185a10c870569786"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/sessions/STARBREAKER_e9bd6d14f26448ada86efe0d3794d25c/calls/358bc2eddb5c4977bae1ce7d2f68c4c5/INPUT.json",
+      "input_sha256": "c9e23466a7f5f5f1d0feb1be26603af5562bd59f7700cb2aaf71e17fca695962",
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/sessions/STARBREAKER_e9bd6d14f26448ada86efe0d3794d25c/calls/358bc2eddb5c4977bae1ce7d2f68c4c5/OUTPUT.json",
+      "output_sha256": "a54b2ea539d9b3ff5b433d202c70e5eae4802aa13643b60d630b0c94f3d818cb",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/sessions/STARBREAKER_e9bd6d14f26448ada86efe0d3794d25c/calls/358bc2eddb5c4977bae1ce7d2f68c4c5/RECEIPT.json",
+      "receipt_sha256": "ea198d22148a4240819106d732fcb721ac338ad3bbc074d9058b0fc0a8f6a45d"
+    },
+    {
+      "input_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/sessions/STARBREAKER_e9bd6d14f26448ada86efe0d3794d25c/calls/eff9cf9cb59b4abba3f27b2f55f5b6c6/INPUT.json",
+      "input_sha256": "44a791e7afbe569581fbda0c10cd46ac2a3aff90033510c38f4e59bc569efe3a",
+      "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+      "output_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/sessions/STARBREAKER_e9bd6d14f26448ada86efe0d3794d25c/calls/eff9cf9cb59b4abba3f27b2f55f5b6c6/OUTPUT.json",
+      "output_sha256": "5477c04332765ecda17cc15215487897c7fde911cc608bbceed5bd582ee461ee",
+      "receipt_path": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001_p6/sessions/STARBREAKER_e9bd6d14f26448ada86efe0d3794d25c/calls/eff9cf9cb59b4abba3f27b2f55f5b6c6/RECEIPT.json",
+      "receipt_sha256": "d3f25f64ed7b510a076d482f8ee8843a6a5bc4d1565ec102bf70ba677ac9418d"
+    }
+  ],
+  "returned_calls": 64,
+  "returned_source_evaluations": 58,
+  "schema": "SAM_CH2_ACTUAL_SOURCE_DOMAIN_PROVENANCE_V1",
+  "scientific_return_scope": "Incomplete attempts are preserved without assigning a source return; all recorded successful outputs are hash-authenticated.",
+  "status": "PASS"
+}

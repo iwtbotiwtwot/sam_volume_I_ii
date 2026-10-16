@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "date": "2026-10-16",
+  "python": "3.12.3",
+  "unit_tests": 46,
+  "compact_reference_checks": 102,
+  "scientific_assertions": 42961,
+  "native_readback_checks": 32304,
+  "retained_native_outputs": 22,
+  "source_domain_calls": 64,
+  "research_receipts": 8,
+  "evidence_manifest_sha256": "b3c5760b3f4fa0685abc831a76e5ed788a18173856594980941d9f542f9fd814",
+  "pdf": {
+    "pages": 24,
+    "sections": 48,
+    "sha256": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929",
+    "two_byte_identical_rebuilds": true,
+    "embedded_font_checks": 96,
+    "reviewed_pages": [
+      1,
+      24
+    ],
+    "inherited_visual_qa": "manuscript/provenance/VISUAL_QA.json"
+  },
+  "package_install": "PASS",
+  "outside_checkout_wheel_import": "PASS",
+  "native_executions": 0,
+  "network_requests_from_scientific_commands": 0,
+  "omitted_index_bytes_rehashed": false,
+  "portable_cycle_ast_predicates_adapted": 1,
+  "relocated_clean_tree": "PASS: fresh Git-index checkout outside original directory",
+  "asset_manifest": "PASS"
+}

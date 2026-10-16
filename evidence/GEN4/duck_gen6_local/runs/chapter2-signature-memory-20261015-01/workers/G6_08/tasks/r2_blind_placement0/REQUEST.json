@@ -1,0 +1,115 @@
+{
+  "key": "r2_blind_placement0",
+  "kind": "TASK",
+  "task": {
+    "because": [
+      31,
+      34,
+      37
+    ],
+    "consumes": {
+      "r1_cyclic_g0": "r1_cyclic_g0",
+      "r1_cyclic_g1": "r1_cyclic_g1",
+      "r1_cyclic_g2": "r1_cyclic_g2"
+    },
+    "controller": "G6_08",
+    "estimated_memory_bytes": 402653184,
+    "key": "r2_blind_placement0",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_SUBSPACE",
+    "payload": {
+      "context": {
+        "basis": [
+          "p0",
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "g_H": "1/164",
+          "origin": "R1 cyclicity breadcrumb",
+          "placement": 0
+        },
+        "spectral_coordinate": "q",
+        "units": {
+          "Q": "original dimensionless source"
+        }
+      },
+      "data": {
+        "H": [
+          [
+            "3612/41",
+            "352/41",
+            "336/41",
+            "0"
+          ],
+          [
+            "352/41",
+            "3948/41",
+            "0",
+            "0"
+          ],
+          [
+            "336/41",
+            "0",
+            "3612/41",
+            "336/41"
+          ],
+          [
+            "0",
+            "0",
+            "336/41",
+            "3612/41"
+          ]
+        ],
+        "mode": "CLOSURE",
+        "seeds": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ]
+      },
+      "name": "r2_blind_placement0",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "law_namespace": "SAM_land",
+        "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+        "question": "Inspect original placement0 at the newly derived exceptional coupling g_H=1/164",
+        "source_files": {
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+          "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        }
+      }
+    },
+    "purpose": "Inspect original placement0 at the newly derived exceptional coupling g_H=1/164",
+    "source_binding": {
+      "campaign": "voli_chapter2_continuation2_20261015",
+      "law_namespace": "SAM_land",
+      "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+      "question": "Inspect original placement0 at the newly derived exceptional coupling g_H=1/164",
+      "source_files": {
+        "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+        "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+        "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+        "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+        "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+      }
+    },
+    "target_id": "PARENT"
+  }
+}

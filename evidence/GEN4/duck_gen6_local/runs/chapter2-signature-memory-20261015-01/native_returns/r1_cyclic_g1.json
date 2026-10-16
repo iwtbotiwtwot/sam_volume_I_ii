@@ -1,0 +1,304 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "7d9f2a582e62dc298ae33200e197603f02b71149097f05e8f982fd7b1d5a57a0",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T00:12:24.937784+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_02",
+  "imports": [],
+  "key": "r1_cyclic_g1",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        "p0",
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "g_H": 1,
+        "source": "Original placement basis and signed response"
+      },
+      "spectral_coordinate": "q",
+      "units": {
+        "Q": "original dimensionless source; physical epsilon separate"
+      }
+    },
+    "data": {
+      "H": [
+        [
+          756,
+          104,
+          40,
+          0
+        ],
+        [
+          104,
+          2100,
+          0,
+          0
+        ],
+        [
+          40,
+          0,
+          756,
+          40
+        ],
+        [
+          0,
+          0,
+          40,
+          756
+        ]
+      ],
+      "mode": "CLOSURE",
+      "seeds": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    "name": "chapter2_endpoint_cyclic_g1",
+    "source_binding": {
+      "campaign": "voli_chapter2_continuation2_20261015",
+      "construction_author": "Codex; installed GEN6 Duck execution",
+      "diagnostic_g_H": 1,
+      "law_namespace": "SAM_land",
+      "original_law_and_clocks_preserved": true,
+      "parent": "H002634 Chapter II source-bound development",
+      "physical_calibration_claimed": false,
+      "physical_epsilon": "symbolic, not fitted",
+      "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=1",
+      "signed_response": "Original K_response in Q=T+g_H K_response",
+      "source_files": {
+        "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+        "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+        "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+        "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+        "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+        "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+        "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+      }
+    }
+  },
+  "operation": "GEN3_SOURCE_SUBSPACE",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_02/tasks/r1_cyclic_g1/RESULT.json",
+  "receipt_sha256": "d741690aa592a7d36e8e520dfcf3d7dfb6b010e4912687fd987c88e76a3dde6b",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 17465287013362,
+  "returned": {
+    "Gram": [
+      [
+        "1",
+        "2100",
+        "4420816",
+        "9314604096"
+      ],
+      [
+        "2100",
+        "4420816",
+        "9314604096",
+        "19631854668032"
+      ],
+      [
+        "4420816",
+        "9314604096",
+        "19631854668032",
+        "41381520734819328"
+      ],
+      [
+        "9314604096",
+        "19631854668032",
+        "41381520734819328",
+        "87230590069078446080"
+      ]
+    ],
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "basis": [
+      [
+        "0",
+        "104",
+        "297024",
+        "684481408"
+      ],
+      [
+        "1",
+        "2100",
+        "4420816",
+        "9314604096"
+      ],
+      [
+        "0",
+        "0",
+        "4160",
+        "15025920"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "166400"
+      ]
+    ],
+    "compressed_H": [
+      [
+        "0",
+        "0",
+        "0",
+        "-896125805824"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "4007265024"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "-6463392"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "4368"
+      ]
+    ],
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "growth": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "invariant": true,
+    "native_assertions": 86,
+    "nonleaking_coefficients": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "rank": 4,
+    "record_sha256": "5e1daff30115d425ef9d9e020a576f5d7cbb8fd2f05a151823cacfc4450fd56d",
+    "residual": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "voli_chapter2_continuation2_20261015",
+    "construction_author": "Codex; installed GEN6 Duck execution",
+    "diagnostic_g_H": 1,
+    "law_namespace": "SAM_land",
+    "original_law_and_clocks_preserved": true,
+    "parent": "H002634 Chapter II source-bound development",
+    "physical_calibration_claimed": false,
+    "physical_epsilon": "symbolic, not fitted",
+    "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=1",
+    "signed_response": "Original K_response in Q=T+g_H K_response",
+    "source_files": {
+      "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+      "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+      "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+      "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+      "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+      "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+      "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T00:12:24.312332+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 3,
+  "worker_pid": 135837
+}

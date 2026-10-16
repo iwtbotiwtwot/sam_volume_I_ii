@@ -1,0 +1,15 @@
+{
+  "application": null,
+  "application_binding": null,
+  "authority": "SAM_LIVE/03_STARBREAKER_GW_CURRENT.md",
+  "ce": "SLC-GEN5-CEV1-R1",
+  "created": "2026-10-16T00:44:48.330801+00:00",
+  "domain": "STARBREAKER",
+  "domain_engine": "SB-GEN3-ACCUMULATION-R1",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "global_slc": "SLC-GEN5-R1",
+  "objective": "Does the actual finite-N spin Krylov enlargement have another outgoing direction?",
+  "receipt_scope": "Only calls made through this session are recorded",
+  "schema": "SAM_PROJECT_DOMAIN_SESSION_V1",
+  "startup_state": "READY_NO_RESEARCH_EXECUTED"
+}

@@ -1,0 +1,17 @@
+{
+  "round_seconds": [
+    180,
+    180
+  ],
+  "mode": "connections",
+  "round_two_selector": "CODEX_CURRENT_SESSION",
+  "parent_retained": true,
+  "all_selected_targets_retained": true,
+  "automatic_third_round": false,
+  "automatic_repeat": false,
+  "completed_runs_preserved": true,
+  "mathematical_core_changes": false,
+  "new_data_host": "T500",
+  "authorization": "User approved recommended Chapter III source-to-field execution and companion Chapter II update",
+  "resource_policy": "Respect existing CPU leases; qualified installed Duck only"
+}

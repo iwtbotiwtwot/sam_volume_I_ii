@@ -1,0 +1,3316 @@
+{
+  "archives": {
+    "physical": {
+      "bytes": 55928538,
+      "manifest_sha256": "5529506cf8d8cd1ff4831371755c8b3701fa3def43b124be87a2abf6814ac25d",
+      "members_authenticated": 1146,
+      "name": "SAM_Volume_I_Chapter_II_Physical_Development_and_Verification_20261015.zip",
+      "sha256": "e90115a3e46288338baa079e434a2ddccf9d12edfec230b20b7d4bb631aa90ee"
+    },
+    "source_field": {
+      "bytes": 39027176,
+      "manifest_sha256": "71fe37e5bb1c15177470553f2384f2ed0cc38156b5d84925ccb83aecda5ec1ee",
+      "members_authenticated": 773,
+      "name": "SAM_Volume_I_Chapters_II_III_Source_to_Field_and_Verification_20261015.zip",
+      "sha256": "9c0015da9913d0056f62611bd9cf99a3583f477802fc8b6ecc2bf746cd7a9670"
+    }
+  },
+  "omitted_files": [
+    {
+      "archive": "physical",
+      "bytes": 22423265,
+      "path": "GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/MONITOR.jsonl",
+      "reason": "Repeated operational monitoring, not a scientific operand or receipt",
+      "sha256": "02bdf3222cde944d8171aea6f251f6b17906a8182da3be1386e48a769191dc32"
+    },
+    {
+      "archive": "physical",
+      "bytes": 27157396,
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/MONITOR.jsonl",
+      "reason": "Repeated operational monitoring, not a scientific operand or receipt",
+      "sha256": "853bfbbd21553d749d5313e2bd4b1858fb826a14cbe0b887e62d587915d4464f"
+    },
+    {
+      "archive": "physical",
+      "bytes": 63193088,
+      "path": "GEN4/voli_chapter2_continuation2_20261015/inputs/RESEARCH_WEB.sqlite",
+      "reason": "Global research-index corpus; launch digest and used receipts retained",
+      "sha256": "21e05f0cfba881ba33e7decc70c09942250cc71ef4c14eb445d2e6f811942307"
+    },
+    {
+      "archive": "physical",
+      "bytes": 536149,
+      "path": "GEN4/voli_chapter2_continuation2_20261015/inputs/RESEARCH_WEB.sqlite.manifest.json",
+      "reason": "Global research-index corpus; launch digest and used receipts retained",
+      "sha256": "a43260e9c2198d50dead3cf7c92da81061864e75de95fc311280bd06d9fc0b8f"
+    },
+    {
+      "archive": "physical",
+      "bytes": 63152128,
+      "path": "GEN4/voli_chapter2_physical3_20261015/inputs/RESEARCH_WEB.sqlite",
+      "reason": "Global research-index corpus; launch digest and used receipts retained",
+      "sha256": "c249f3e8e78174655f12397f6ac3693cd0680a9ffe1db9fb796858cfac51f180"
+    },
+    {
+      "archive": "physical",
+      "bytes": 534669,
+      "path": "GEN4/voli_chapter2_physical3_20261015/inputs/RESEARCH_WEB.sqlite.manifest.json",
+      "reason": "Global research-index corpus; launch digest and used receipts retained",
+      "sha256": "fc6ce9c1b4a99514ccce6c08f23fb8d0d9c92dc28d1f478028f4180bcf0b5e4f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2283,
+      "path": "GEN4/duck_dual_session_topology1_20261015/ADAPTER_MAINTENANCE_HANDOFF.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "af617a56f5e91a11dbc67a4eb8f13b57b5238cfca4bc46d68b0dae6c0d58146a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1494,
+      "path": "GEN4/duck_dual_session_topology1_20261015/AUTHORITY_BEFORE.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "ac68a58af7681f4c9dc3b810dbefc982bf4389f1eb17b8ecaa9ff944dc58caef"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3823,
+      "path": "GEN4/duck_dual_session_topology1_20261015/AUTHORITY_INSTALLATION.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "2e832abc710b9eb171282a21dc0cd00dddef5b0d7204d30761c4310245680e52"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2243,
+      "path": "GEN4/duck_dual_session_topology1_20261015/BEFORE.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "eea0ca40ae39469b15ddf5d1df2afe5fdf0e17a3f1860957d4e93f9f101eed5e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3975,
+      "path": "GEN4/duck_dual_session_topology1_20261015/COORDINATION.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "791bb1f27b834ad9712fdd7c12c08d76a19bfa9dddc549e38d13326ad45ec957"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 4535,
+      "path": "GEN4/duck_dual_session_topology1_20261015/EXISTING_TESTS.log",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "017c85af408b26889448d0230a80e97e6bb1f9738e5f56aa73b7a47487ed708b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1103,
+      "path": "GEN4/duck_dual_session_topology1_20261015/FOLLOW_UP.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "7e7da99436f425a1b5fadc017b065efe6f0cd2770172eb1f21dd6aaa5fcf7845"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 9304,
+      "path": "GEN4/duck_dual_session_topology1_20261015/GREETING_VERIFICATION.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "56e48f581f0ff05b2ca97e7f5747061c5bab5980eb5dde88ec665c9da7a082c7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 309,
+      "path": "GEN4/duck_dual_session_topology1_20261015/HISTORY_VALIDATION.log",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "6887cba3fa1841ea17b32a2d1604abac08fb79615e4834822bb92502ee3f0ebb"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 4958,
+      "path": "GEN4/duck_dual_session_topology1_20261015/IMPLEMENTATION_REPORT.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "08a9346a83ad469de54ea5f679153198c6aeceb1c84d0b9d69717702332d521b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 178016,
+      "path": "GEN4/duck_dual_session_topology1_20261015/MEMORY_SAMPLES.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "d77895c37e9dbad2e4d9ca8db1b17cafda4ea3e1010cc27c4210977f0a595f3e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3104,
+      "path": "GEN4/duck_dual_session_topology1_20261015/OTHER_SESSION_COORDINATION.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "de43bf87cc70e1d6ba6bcec94203824ad1db5ef9e9d595e05a729edc4446efa4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2699,
+      "path": "GEN4/duck_dual_session_topology1_20261015/PHYSICAL_SESSION_HANDOFF.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "b1d9c8d8621b9f342a5104977f1e8d2480fec3aaabbd0bfc45817bd7e3f00e1a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 529163,
+      "path": "GEN4/duck_dual_session_topology1_20261015/QUALIFICATION_VERIFICATION.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "f4a44e67f8d9b2e86b37904837f7ac141ee112a2220163da338a5948c5c286c3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2435,
+      "path": "GEN4/duck_dual_session_topology1_20261015/RECOVERY_READBACK.txt",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "26df74a5e8f06cf4c9cbe747b83a3404350b743838f6ca2bf6d64e057d583339"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 4596,
+      "path": "GEN4/duck_dual_session_topology1_20261015/REPORT.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "ff351c0f10906a7644b600a7423def02ce09daab3de54b316295ae34fb530299"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3612,
+      "path": "GEN4/duck_dual_session_topology1_20261015/REVIEW.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "94a4e2ed068fab45a0fed8e9b5a35cac83ada2823ac9ea71fd833d47cd6ff4d5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3022,
+      "path": "GEN4/duck_dual_session_topology1_20261015/REVIEW.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "444873c38cee203987811d0e81bdc557a4aebe0d6cb4f18591b515935d851918"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 556,
+      "path": "GEN4/duck_dual_session_topology1_20261015/RUN_POLICY.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "b7b4179b14072519d5c8a49274ec777a20f8553bb68c091c124d96ea8e5e80ef"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 753,
+      "path": "GEN4/duck_dual_session_topology1_20261015/TARGET.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "f0a1eb37c20180b66318160eb63fd4a8b90759d7a1c1dda10596af4c57ef6a18"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2001,
+      "path": "GEN4/duck_dual_session_topology1_20261015/UNIT_TESTS.log",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "0adc6dc0d95acb0a80c7429e4fa6fc1416ba7edd509a6fa5033f9d8a6a357375"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 4339,
+      "path": "GEN4/duck_dual_session_topology1_20261015/UNIT_VERIFICATION.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "54a6ffdd9ecc601c326c992da96c3751622b5e2b1967ed58fb1a26e49ae268e5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1701,
+      "path": "GEN4/duck_dual_session_topology1_20261015/a/ORGANIZATION.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "65b8679c57e00d89b8a066818b871259926b115568f883e18a6058c138d1021f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16423,
+      "path": "GEN4/duck_dual_session_topology1_20261015/a/PLAN.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "aef7ed340bca192232a1e85bf7599bc41ba4b2f42e732782396b368b5b1f0297"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3919,
+      "path": "GEN4/duck_dual_session_topology1_20261015/a/RAW_OUTCOMES.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "080d39e4d6dcd6ff044abd803423fc5de6c3a79bd9a9d25f0a3dc0b9fd5e1230"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 944,
+      "path": "GEN4/duck_dual_session_topology1_20261015/a/REPORT.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "f65fb75ecbfc2d7b4b8f363056a01ce9343860b376d2e282523a55f063ac1296"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 21450,
+      "path": "GEN4/duck_dual_session_topology1_20261015/a/REVIEW.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "e206419126c45a35ae3aa1bc4ca428a0ca928dba8d67f26043a5718291739980"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 287,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/__init__.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "3c682a8674d07fef0b094353e98f16604b1375956d8abef5444d1ba337b1423d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 17374,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/archive_engine.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "7bea20cf5ca8fc6a8e6a22c2a43a89fdf7fe83818406edeb34fd3db4432ca21f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 18183,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/cli.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "83d443b292b94dddb1b448e0d00d6d9a653c0f06a16ebd7d0e3cb07716c9e1e8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8245,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/code_identity.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "1e7e8642b6b4c8a8605b778f4aaaa889845649d4e9bacf10cb9afd19f9af3227"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3836,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/common.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "e5bcea7153b7b79167e89012ab68f7ea3388636ca09b08f60eead9c3aebad37f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7483,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/custody.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "ee81d4298ee8645b4d626c6e98f5ca1f2ac5a70287d9127a38d9eab8ce00ef4a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6645,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/helper.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "58ec7a8a92e70778825f15e0f30715c31d2fa68339395bcb2618781aec3d849b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7081,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/native_contracts.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "472d63054eb67b5bde2cf7969b4e01cba016e95ba80f3314a7477c046f8fd4ac"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8007,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/research.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "b43b11693bb201cd7f31e02d7ba9d810eccdf4cfe054af9ac00e22b92a6a4bb2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6646,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/resources.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "723fc7752ce694c4cdaea62929ca6273882e95b943172ccbd37fd74f83995c4f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 27287,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/runtime.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "1d71d2cac30c7fcc6a71d221ed4dcbfc0ce6151bf649a2021b0df70e7be5404e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3935,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/topology.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "e6431875d47fec6388f2a237088bff1a8ceffd8befbb1a9257a5aa40a53dc175"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2418,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/transport.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "6553f9243a547a532b8719a8f3bb773bca9e707dbe9fca37bcb84d701aa18bcc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16929,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/web_search.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "4e026e439c91ba653ec31d55e23eb42242c98e6a636acee6d324eaf20052565f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11610,
+      "path": "GEN4/duck_dual_session_topology1_20261015/after/worker.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "afcac53ca91bcfcdfcc1f44ecf30767fb6f6e1a4b21a4da61c1bf49cb89933ed"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1701,
+      "path": "GEN4/duck_dual_session_topology1_20261015/b/ORGANIZATION.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "1ae3035cf6ad6dd8f2db3f1f22f29fc69f237bfae515c385feb9284b55800978"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16423,
+      "path": "GEN4/duck_dual_session_topology1_20261015/b/PLAN.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "da3d10d23afa99c46fec1fb3acf81bbe989cdc05ac73bf7f7fb215adad3f632f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3923,
+      "path": "GEN4/duck_dual_session_topology1_20261015/b/RAW_OUTCOMES.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "23bb80cb5fdada77d9da902dcbd2f23e94f36df1d22a43c5135adfba2b5809d2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 944,
+      "path": "GEN4/duck_dual_session_topology1_20261015/b/REPORT.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "e4c1ad2f5ab572944a882d4e3c0fc5039923d523e67210b572a8f42a4d662fe3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 21451,
+      "path": "GEN4/duck_dual_session_topology1_20261015/b/REVIEW.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "064609300112d4b8e0f882f90239a63aa2431e2f7eff2acec2269c2a9d7d269e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 287,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/__init__.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "67c9161113c99b96aef72b27ef1ecb5df6f1af5a9d610e8d9b5e33ad56eedf21"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 17374,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/archive_engine.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "7bea20cf5ca8fc6a8e6a22c2a43a89fdf7fe83818406edeb34fd3db4432ca21f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 17016,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/cli.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "5d7f4a896902f54f965711730f2ee800050ecbd6c5dd4c2ac0cdb089f50d5e12"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8234,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/code_identity.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "200967bf6df22b9ac3ad7867197c4821adbe6e33824983f38adb2f422dcb9294"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3836,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/common.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "e5bcea7153b7b79167e89012ab68f7ea3388636ca09b08f60eead9c3aebad37f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7483,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/custody.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "ee81d4298ee8645b4d626c6e98f5ca1f2ac5a70287d9127a38d9eab8ce00ef4a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6380,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/helper.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "c0fa83f25b5ab3ddf7032b7ba49e91e74a06116512714422acaf060f080f0a60"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7081,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/native_contracts.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "472d63054eb67b5bde2cf7969b4e01cba016e95ba80f3314a7477c046f8fd4ac"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7550,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/research.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "66847383a45b30eed3270b80c9163c5fcbf1bbe41296e57d8caca5c28bb06c81"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5976,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/resources.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "71404ff7f7be176d9c98cfd1fe6635470837520f5c38b1bca72625cf597d3f9c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 27322,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/runtime.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "fdabc27770a1e1db2fffaf139c1711d4e25cd1e128b09663761436f5821fa692"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2418,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/transport.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "6553f9243a547a532b8719a8f3bb773bca9e707dbe9fca37bcb84d701aa18bcc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16929,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/web_search.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "4e026e439c91ba653ec31d55e23eb42242c98e6a636acee6d324eaf20052565f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11610,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before/worker.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "afcac53ca91bcfcdfcc1f44ecf30767fb6f6e1a4b21a4da61c1bf49cb89933ed"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 26441,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/AGENTS.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "4a0a012efdfc7ce1f5aa8a6ab27d95eb45e853a11cce4309755d762a67ba3ff2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 71738,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/GEN4/DUCK_CURRENT.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "d77c705c6fde0709d546fd0e3dfb3eb01584b6b9fe67fa0586e8551f1cf69d65"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16364,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_LIVE/00_CURRENT.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "5cc9b07f4b2abd8823ecf8b1555a07cb1c59e7da2efaed5dfc8466cafb7c2b43"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 30372,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_LIVE/13_GEN4_RESEARCH_WEB_CURRENT.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "f3431a31168d5e4a71df6afd58a638d8a9fb05bf58c3e116656dc86d6b094dd1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8688,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_PROJECT/CONTINUITY.json",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "a15974c15c08b547220f96478ae38791c80c4a9fbc489c5214e2936be4be9110"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 901,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_PROJECT/DUCK_TIMING.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "4166af96e3b0ab886c96586334adeea228e5de08fb9c6b7a9ae315ac32b390c4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 715,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_PROJECT/gen6_duck_t500/README.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "ba2aecf6e25447340be71f364ff77a4966845485e6f7591233f59f2724e46365"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7904,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_PROJECT/gen6_duck_t500/RESEARCH_MODES.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "b92d1cce60dabc11eaa1cbc2c1191350a52200e30e06d406c2fc34be9fee62fc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6083,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_PROJECT/skills/sam-research/references/capabilities.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "d30cb38aa0b4f0f31dcebbeb7d5a98887a09e4099a3fd10c8b55a08166e025cf"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 9915,
+      "path": "GEN4/duck_dual_session_topology1_20261015/before_authority/SAM_PROJECT/skills/sam-research/references/duck.md",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "aa1cbc5425e76453696e1c9e95b293d5df37eda4e8b1f1c9ccd414a7497608d3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2936,
+      "path": "GEN4/duck_dual_session_topology1_20261015/build_fixtures.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "8aad3d05f041cd98618899bfe6fbeb734335cd3f6c472a23f1928437c6c90c00"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2951,
+      "path": "GEN4/duck_dual_session_topology1_20261015/build_reviews.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "5f39eef8de0a55663c186443f77b452fcf4a6385e28eaac24b56fbd01747b6ea"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1128,
+      "path": "GEN4/duck_dual_session_topology1_20261015/monitor.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "959f1d3576bb9df48a6056fed4d4586b197baaed9722babd2fdc6a2a65897645"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2549,
+      "path": "GEN4/duck_dual_session_topology1_20261015/organize.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "d0581cfb684a89e73fe26cdaabf7b9e5d4faf84424b21bdaa8560848f6d08ef8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 13773,
+      "path": "GEN4/duck_dual_session_topology1_20261015/test_topology.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "a43a92fe9188220662a734436553081c440bd2c18b627703d9c7b087ebbf0032"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 9819,
+      "path": "GEN4/duck_dual_session_topology1_20261015/verify_qualification.py",
+      "reason": "Separate runtime engineering qualification, outside Chapter II science",
+      "sha256": "4538df65a19300aa475cb3154c4f485bddedb2e74866dec43306c654eb739f5d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 13950434,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/MONITOR.jsonl",
+      "reason": "Repeated operational monitoring, not a scientific operand or receipt",
+      "sha256": "3c1d0ea771a4c2717a3e9b95b97b23147e9fd1628988780ef235da10d09d3d6a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3201,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/CORE.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "76b1738967a891997a91cd14ab4ec5e81e57de24c54496bc35dafa50c7cac8b7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2398,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/INTEGRATION_SUCCESSOR.md",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "151acf9f8c3317a206c26ade7b9fa689733c316dd66ae89a4958aab642b30636"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1097,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/README.md",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "009042a0a71772ce3b5f9e7b6ae8a0017a78d24fa0c4e3ebf9ec0a3e91be9f21"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8371,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/RESEARCH_MODES.md",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6f1c4745c1977f40e59dd85a77eb18c95a729b5ff00bb0bdaea38398fb3b4ea5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 287,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/__init__.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3c682a8674d07fef0b094353e98f16604b1375956d8abef5444d1ba337b1423d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 103,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/__init__.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4f98f663fa14b079bdd0fa34a3d73eecdbf68f7e44ac327fbe087ccff62e60c5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 29840,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/action_state.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d3b9418c3aaa53d1ef2c952d8d3d89be7eb249cabfb2623b7dc0f54e5f7390ed"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 25579,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/adapter.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "26298dc22e6d4809c6754d9b8930be1ee817e3573d2fb9438cc1780f4efe23c0"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7246,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/catalog.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "02693945d1b9e08e6adce4339e7b991382888e2b70707b6141bac172b07d4344"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15134,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/cli.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e8202ce585ae7011e7ae77f9fee95406b34c05dd0356ff6d1bf9824ba55848aa"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 13183,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/clock_protocol.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e6725f51686278ca068ee8b1b976c2353f489fcb5cc63b2af404ead965731d67"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8907,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/common_action.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f32773e355d6fa35e6433237cec479fe8c8bc9c3eb7d88ca176e42845d533ff0"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 9501,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/coupled.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a6ce3c81a2425bc8a9db1f66c056d044484b329f3b3c2e1218b42b901a731f80"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11063,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/dynamical_reservoir.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f6c812200eb503a81429d82bb3e7ceca668c8095c08e628db265ba517da5889"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 10623,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/events.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "bfff3114c8922f0d6ec90a0cb187d8fbfafdb5190e8fa6a7152c7d5a0ee04070"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12217,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/feedback.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "37c37339f640997527cf76a53ac4d4a2738eca1b2e565f340c7d27962ee73cce"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 20175,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/full_carrier.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "dd6c67c3541fe10b5c44bdb8fc6fa46ea4f1b85f746fc70ce47f76639accc19d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 33628,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/joint_field.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "44746c8f3ccb8bca77586fa851fad22fe46b4bd31869fd9bd2e9655c2b4cb762"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 40643,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/joint_history.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "79a8baa14e8d4113e7c594254a6226be019eb4b8ad3a96ce513e085e1b0df198"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 21081,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/joint_resume.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c4bdba7bfdb782edd2647351429db250285cae24062e89e473304076635ee162"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16523,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/joint_terminal.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "85210f15a4146da53f1d2df5376fed87d369bc9dee3852cf248ecf6053f7b3a1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 23697,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/paid_events.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8d6ff0eae613f38f746fdfead57bfac749833ec442cca7c68a754d8715659a17"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 26969,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/portable.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1bef11a7835a018d0abf095d71dacc2f66361a5dccea14fb716208cca3360f38"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 26213,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/reception.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f5c037f74173a78abea0bb37e830d02f82784bb8c0e64d4b1f0391b8842f4ae"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6465,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/recovery.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e35f929822fdb4acba091b5f5b5a52a234109a7613df1762d10c6888006387b2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16919,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/resumable.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8d9475cdf2f8da250ce3f771dc4748dab2476e47e3175cc72d9da35a8b6950a6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16315,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/returning_field.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b63873cbe4a275ab1e0550da1d9a90b36cc472279494e9fa9c1add560e5a4773"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 31743,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/source_clock.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7a77fc7c4261650351200b3c9568c83466135dee24dcb6548e8d86fa11b4ed7d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 29275,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/active_core/sam_one_principle/source_clock_legacy.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8be34b46bb8d150538087b2b0f608cc504c1f3164ca92e0aeff841d3febfb755"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 17374,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/archive_engine.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7bea20cf5ca8fc6a8e6a22c2a43a89fdf7fe83818406edeb34fd3db4432ca21f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 18183,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/cli.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "83d443b292b94dddb1b448e0d00d6d9a653c0f06a16ebd7d0e3cb07716c9e1e8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8245,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/code_identity.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1e7e8642b6b4c8a8605b778f4aaaa889845649d4e9bacf10cb9afd19f9af3227"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3836,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/common.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e5bcea7153b7b79167e89012ab68f7ea3388636ca09b08f60eead9c3aebad37f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7483,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/custody.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "ee81d4298ee8645b4d626c6e98f5ca1f2ac5a70287d9127a38d9eab8ce00ef4a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6645,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/helper.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "58ec7a8a92e70778825f15e0f30715c31d2fa68339395bcb2618781aec3d849b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7081,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/native_contracts.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "472d63054eb67b5bde2cf7969b4e01cba016e95ba80f3314a7477c046f8fd4ac"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 617,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/RESULT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "97c5b6ed8cd097547fe235b46ac5963e57ba0c13574abfc23af5005689f4c63b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1466,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/TESTS.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a501ea7202b7d16a110cb470c8ae90acae02e0608c7d21c7f232e2fd4311fc4e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 660,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/000_twice_eta.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "409be01542e9cd889eb5f87221cad528e226106b6d2d1b55c0c3ce429c2cd1ea"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5508,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/000_twice_eta.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "40ed52c478df8feea8439e7939c63e60734d1ab6575d3b5da5c3f14cedbd57db"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15103,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/000_twice_eta.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f6137ab309d6a0c5ef9b823c776fdb4ed7d5c86c48c039358b51e0107a330d9"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 678,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/001_initial_squares.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0bc62233f54ff43d1a8ccedcb28989b16b05791f527d795bf242e7be262295f9"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5586,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/001_initial_squares.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9187579f69de45cccfc45bcdd0e0557d0c7f45e91a647ec737630e3971edecdb"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15131,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/001_initial_squares.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "fafcb9fde958d387cf287d16ba4c162dcad48111e55476888ff248f82ad0493f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 681,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/002_energy_numerator.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b9bdba70049ea9b454eba34bb27314c976f2c060357c5f9d794223dea1e76797"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5957,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/002_energy_numerator.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "af0b55d6644e686259461a4a8331454509185b1d93a427262856d70b20d1b45e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/002_energy_numerator.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "71d9eb5f38a7905d9ee3280edce54b8dfa44a1236db31636fe63ef3a2ed8834e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/003_derived_H.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a1c17fbaba82154713c171418a9233ca4e8c269a5093968fb8e2eb63f1d78555"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5592,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/003_derived_H.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1fb15129d80cbed820ff2a367457518136788fed97b8b6ecdd23133fc95147fe"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15200,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/003_derived_H.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0e84e961be46ffdf3bdce11273c2d524cbe4b765812ebbfe0dfe8ae2f45220a7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 900,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/004_initial_H_residual.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "de50ac66c490dc227fb8c9d5ded8478019c3946f8fc162ebab3f71e14ddf7868"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5559,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/004_initial_H_residual.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2c86a2d4015801162746252fb1b7d7bf45dbd0a014dd4a89e3f20d653517dd61"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/004_initial_H_residual.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a3e487b87e6d997602bd5e14e0ff2824f27353e689266bde01d270189e3d9f1e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 678,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/005_frequency_squared.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1688448d46206f15e75f1e676572b3b3177b9c46fbfeed07fb12e7cf9df14ac8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5696,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/005_frequency_squared.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a1c00bae45df3e57c1ec3919ac7924e16303a14550b7aa5ec6fe14ed3ce06b85"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15200,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/005_frequency_squared.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3904cad1d9b66adb6ccf7955e8c02224228acc64f60adaf2e9a9ccafc50ca2c8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 675,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/006_generator_time.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c24148fa2be8658f3e1234ac30e1ae154750a30d9de8491fe396033a64df7b51"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5571,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/006_generator_time.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "5533abbf1355adbf399f83123a42369ee1f97aa29d85a806844c0e525cc91e74"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15591,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/006_generator_time.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6d79e4bbf890dd1afbc0fdc1d5f1a487f6ec9e6a97d07dda91c9cbd4f93f7b16"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 641,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/007_flow.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f08c6b34d43289987f6c9ca9e8a67496e71b83eca6e9238ecb196ea08a3fe826"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5923,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/007_flow.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "894dbfdc9a68cc1a7fce83feecc7e3b7ffa1a43bbcbace4ae3f8d02560808d89"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15587,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/007_flow.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "5f5b258bdeeeca97023b34c5048ecd6919c810f0b255280d65338a53a6230136"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 850,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/008_final_uv.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a97b72ab07d563f547ff0e497f2dc06021e4f89a374055b74eb209497e6e329c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6298,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/008_final_uv.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3debbbc335ef054b1f626b01fa2b8af4218b222786040f19cdd7fac02343ef03"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15129,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/008_final_uv.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "916448ff89170a0430674c780c0646e7e5888d821f9898965ed4ab7052de952c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/009_inverse_u.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "55ff1c138d75598c385930b4f392714f79892f52c7706ca404b71892d312b4cb"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5403,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/009_inverse_u.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "84ba8cc70791cf046ebad9ddd7a041cb056eb37d8dfcfc29f5dabf1fa63e14ae"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15208,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/009_inverse_u.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4380442893c24655904b4ea80bed78d5d510e1c6e49c6b5869f5ddf338b0a39c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 675,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/010_q_and_v_over_u.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "22628b541d8c2e84a3d6ced5a94ba08beb56a4ec2a8dca0df458047fae7d56bd"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5841,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/010_q_and_v_over_u.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d8f1bb658c1f314491c6973600528f254ec66ddd72a0843750d700099ab3ae15"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15140,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/010_q_and_v_over_u.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0ac3c3b237da0a18789e5626200831f0ef1e10ef2ef05094add2e1abd1c2a047"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/011_pLambda.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "687bfd77b65dcd22233c2e14f0202ab7163109fcc2591fb618f3d832c8ab953d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5826,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/011_pLambda.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "21cbe2715e58e397729ce4b44eec48b263c0191ab13b9407c01b339596d4809c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/011_pLambda.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "21273e632c1f6da9faaa16b366d72304894326df18cb652a84658ed2e46aaff6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 699,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/012_velocity_ratio_squared.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "84c04c33a201ea86804c3c365eb5a6471694f98399ceab194360b8767e1e96e7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5594,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/012_velocity_ratio_squared.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d9a5a7b1e638bc11fb4f954da5a794e12020be7db1b118a4730abcee00705d92"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/012_velocity_ratio_squared.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0c7416b1686d88f20d6fccbd7e6dfea136c4509596078e78315bab33381fe2c3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/013_E_reservoir.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2c6fc24d0c5df1bacd70b953484e4e89f2433dbb07bb5a9ee0dd43b2e9814b85"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5826,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/013_E_reservoir.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "21cbe2715e58e397729ce4b44eec48b263c0191ab13b9407c01b339596d4809c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14872,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/013_E_reservoir.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6010e784d8f4da12990bdcec0609b19529b6293284fc88457e52624a990440ad"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 657,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/014_E_source.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9b5ccc1d75d9c82bf6e4cef81d23a95ad7af836c8fa61971f5d100ab9d999711"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5470,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/014_E_source.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "31e0df05c7ff48766f0bc2ce5db426a8b8d70e1a89018cd55e92101a41f1f6d8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/014_E_source.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a53a8bd3e39ab3eef34344cc1378e8a9a8bd2a6da253012cd948ae9232468dfe"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 888,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/015_energy_account.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0b047a818bc20a4edacde89d55bd45e9566ae39589fec3e731d48fe39a932018"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6075,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/015_energy_account.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "5dac68b66446b4aa9a56949f8d80ab18b978714f13f3a8221dbdf14ed5b2a9f6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15677,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/015_energy_account.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "28aae1391da97075114f690df96bb9670e625f57b965c547184afe1fb65b310b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 645,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/016_log_u.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2dabcae2f8b978fef76a086cb335d768be3ab6a82f7d0ab73f157dfc8468dde4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5278,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/016_log_u.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "afb89aa50a8e295ec0e993148d8df54998e89bb7e8be357cd9a02af0c98c05a4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15652,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/016_log_u.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2bb408e3df9c480031547f716b7fb2d3d970d26076edf10de98a234b2fd3d99f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 651,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/017_Lambda.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "fcc7417a86b65a71e915fca8f7dab9fcee14e54e548896fcafafb95ebc14e035"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5637,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/017_Lambda.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d8ab0ec9e10d825f80989443ccc5d7147aa1313bcfb2106abba8947bd5603a94"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15101,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/017_Lambda.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "eae05b2acfe0041eaed5f12264c3af1edaf0034a580f05686eea1c47998f04ee"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 684,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/018_clock_denominator.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9aaa49a1789e0014c20a7c123e985fc1637634ee4da4a157bcead90a831f9e3b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5466,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/018_clock_denominator.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "46ff6882e0543bc9cecd1c4232c1d9450eec9b3e1b0f9b5b0817ba39a722e03e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/018_clock_denominator.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "79d936d0f7bf03386c35b1637b00cdb97457270a064485865f21f96b7c1fe0e7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/019_delta_tau.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6baaf5cbd7b00155aeb28683599a0596c7f8099d0a866e2e2931809839912766"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5596,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/019_delta_tau.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8d3c20ba4592562659f3c408be291786bf98bbcd6f36ec621021e4aebbe700f1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15212,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/019_delta_tau.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1f77827dc250c044806cc0b94a99abd4dbf380a0fcd176d8ef2501053a03a537"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 678,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/020_absolute_clocks.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "aa1a7e25379d0a546c0aa61352f846e28ed6d853942d8fae543b977ed944a3e7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5928,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/020_absolute_clocks.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "343bc44aa1e661ca9ca595df90a615eae6b689d28af0e99d4cd8fde1fdb91b80"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15142,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/020_absolute_clocks.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "396435fd76e9f12a2864bb1ac76845c430bb578e7acb45d5788fcc13063f1553"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 693,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/021_determinant_products.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "dc0a17e917f0c093c8bb6b9e533a43c90b44ac83c7b3a1295bb1e51a956f7263"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6126,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/021_determinant_products.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b6fa8426d65edf9915e261f0470f32f6a1066c13f29269642f16003946c68bcf"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15147,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/021_determinant_products.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e3e691a060e577ae2cf11ff1a8ef96dd49903e6f6df481ed7034311401b9b848"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 906,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/022_determinant_residual.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "025859834a0c208eaf46a8e8b0e3765548444b80160854749e2000c20b06abbd"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5778,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/022_determinant_residual.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "ebedbc738e1385bc0c7be514f7dc51109a596a78445b7109d95f29b7dc737fa8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/022_determinant_residual.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "43ed804de4f443eb3c3deda615f0de998a444f8eb46000e4c973b8626bcbcaa9"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 675,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/023_retained_state.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b585aee862e3777a1013aa1593de1499d24e6ea4b5d1705971b96a2769540b4b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 10845,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/023_retained_state.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0917fafe720d955ac5c9c7c9d06b3e6fb6eed629c70ba6d58425e1dada49b1af"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 18273,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/023_retained_state.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2348b78030ba0f21e2e1c735a8ce7eb2c5aed09f6eea9226f4cdf644f6774bc5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 21564,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/EXECUTION.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d74ce026020a09f678f671ab836dba75c47f445f0d49c97183de5956cc2ff0f6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 66845,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/JOB.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "586f9b799ba6c50b75bc17e1d5cb0203094fdb16edfd05937fe51b5c509feb69"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15876,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/READOUTS.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e446ddb1833c0c2597ccd8209b3900e0699c7c30121285d476d9303b6f0059d3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1393,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/RESUME_AUTHENTICATION.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "aee3fd0d5e78a15d67b4b05786ef32b467d82d2b60199f5b1c6edd61dd447533"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 26115,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/RESUME_retained_state.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "206ed05b2b7e24191777d9e5d1a16a1c52ff661bcbf5f8260a166b323e8d6d79"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 951,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/SESSION.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "90ccb3adce3d4215fb6e364108dd3ad09f37ab275a4922b51fdd1eb241ae3920"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 68909,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/continued/SESSION_STATUS.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8c872f11a910f0a2a0190604e05e89a70eac896fa3bb0afe04f0a0fdb069644a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 660,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/000_twice_eta.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "47da6616868dedcbec63b2203c8478bd1ebf810c6c09f581e62b6efa0d731041"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1825,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/000_twice_eta.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "cbd1c008daf141a315812d79d9d13e64eafe4ab864c4a57f656b893201083ecb"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11610,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/000_twice_eta.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "cf10e622fed9bc0422be575d99c52f8c4942fcd97ac6cdced19a8cbb0c6bef8e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 678,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/001_initial_squares.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "033f1b607c069b074cb3a50ede52eaee7d91f62605ef3c022b21d110310a25d4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1949,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/001_initial_squares.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "eb8c03fc7d49239380f82da238df6f030c360d09f5317b5c241aea0f45d23627"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11638,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/001_initial_squares.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "92d8e4cd85d8aa6e973d17d2f1caa44e50dc2dd619b500d135b54623c923aa5c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 681,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/002_energy_numerator.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f54d5b2ab885b08b2b78f2a411e90b788c43528e70575c6e4ae72ea54a01414"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2501,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/002_energy_numerator.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9db8c510a8c47d4e34958ebd0444bfa0cb7734f820ed6d96d9abcf07ee4948fb"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/002_energy_numerator.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c9d84a93d53197f213bf60790f7cd3f36b14af685c64e0aa4b3a54e716d33ee7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/003_derived_H.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "fb756fea647db9a27a75d36bb22c0c25e5bf70406e5e0d3912ac899fb5c0397c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2199,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/003_derived_H.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1142428e4472ea0d3e159c9768aaebf1e9e0176f6f58c2aa9ae9cd92b1593142"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11707,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/003_derived_H.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "77eee10c6131098fa9aa228601da903fd2580119e165cfd38fc576e0142a1b99"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 900,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/004_initial_H_residual.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "76d75dedc9026adec4b025264fdcdefdd4b210ed443ecaa1b8dc87b5bd11b8fa"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2294,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/004_initial_H_residual.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "77aebce45cf53d772a87b00e49953d8b748534feb2ef553f2f8d8efc04e9a02a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/004_initial_H_residual.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f55e4a059360d440445aafedfd92a4ba31c7a1cd4b86c5f14dddbe3b1ad37f5a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 678,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/005_frequency_squared.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "45fa70ea87774054fc79fe26dcbb053ee9e3e87c0e9eb5c2262a6a0d979deea1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2429,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/005_frequency_squared.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e1d6225a94ea9f5d8cbd9062c5401379380c781b26d42c3500b4e3c49df59ff9"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11707,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/005_frequency_squared.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c4ef52d07127b05d18cc5ddb71438591fb46c0b312fa5fab1e1a47495f660660"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 675,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/006_generator_time.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "bca697d06a69b30aa89fc2cdc551693907e27b414340c6fa7fd0178edaccd3c8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2178,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/006_generator_time.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "044c6697add89926e0d6588287d7b4c755873561122f849e86d3ff6b93af3df3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12098,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/006_generator_time.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0fa825cc1134af62993c2c4b736181b34dc45308c1c75edd75fcb6ca18aa0416"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 641,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/007_flow.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8a5ea19391b86f2cf348c341e65666d94c68289542df2bdec704edd406d53925"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2530,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/007_flow.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "52bbc11e63c9f2176b164fd798a720a5954f213ba9a77bca19242662facdd7b0"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12094,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/007_flow.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3d3582bb40d7e9e973f7be1349247d7897ed4e06b6f63e170c6a7f34df29e8df"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 850,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/008_final_uv.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "fcd1a127c5664760406b873e72247230b4624b001ac5508dd61d2d381d16941c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2783,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/008_final_uv.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4bb7dcf65815d2fe09e5c00ab3ef5633034828a66032672c9e14b8195e88cc8f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11636,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/008_final_uv.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7977e600a081fec4c3eb65d55ff8fe32626e6e38f049e8c6c0cb92f67b3dcf5e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/009_inverse_u.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f93ecb4d173604877c4d5568e6d9ef5bb99bbeaf4a8379d2c805836935a84bc8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2010,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/009_inverse_u.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "cafb59d2ee718b678a2326ba07273db45fb740b7a05a251c18b458a347079dcf"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11715,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/009_inverse_u.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9077ca263e1f190b1866f33b4da1c0df99acdac54e27a5a522bb7f97fea77eab"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 675,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/010_q_and_v_over_u.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "78e84ca473e68d3f66aec3cccdae099ef55c353e088e7ff69ca739ed0ff2a0dd"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2448,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/010_q_and_v_over_u.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "75889897daebce8e9a46e6975f995ec70fd82426ce2650c3c1090864594fcd2b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11647,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/010_q_and_v_over_u.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f56f1278d9205784a00d13ea217367661e7d22b4025bac22ae39d7507d0a46f3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/011_pLambda.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "5e7ea0302675b66d29e7386c97967a86c5675e0936e416e84eed578edc567378"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2431,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/011_pLambda.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0b851b5428f1d49b65e8f69dd51faebe208c661e4600883a52accb31b292edac"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/011_pLambda.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e4a8bf0c39a0d6ea61f16ae3aeaaa879c7289bcb5f65c0b40d1560120d7cddd2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 699,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/012_velocity_ratio_squared.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "416a13775432958948b66650117880c02b55b4c2efafa980fc83994a04aae445"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2201,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/012_velocity_ratio_squared.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "95525eb4e4fe6d331132a771a5d0796754651b4d50fed2c07ba70c5cd49bf308"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/012_velocity_ratio_squared.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "27d5870a95c6efc844798b42b6927c64f7ccc39c439f466ce600dcccd78d8936"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/013_E_reservoir.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "79188e5aa8777ea5575a5c9f0bbb63c881810c6d5db13feb20f8f4df3a6513d0"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2431,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/013_E_reservoir.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0b851b5428f1d49b65e8f69dd51faebe208c661e4600883a52accb31b292edac"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11379,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/013_E_reservoir.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "72638587052d87a864291078ea323e56b5df669334212fdd9b6a14a09f258306"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 657,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/014_E_source.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "fb92bb113fb3580e0ca7758372b2994caee336fd866173166b21eee080c9f791"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2016,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/014_E_source.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "50368052e30735bea8932c54f1c7b600bc5d888cd1a440c3bc69f258d755767a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/014_E_source.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "096f7f7a92890bb0b18c668c032c8e40f5a6674b0091864f93826a7c1acaf003"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 888,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/015_energy_account.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "339adb739234506671d81a9d8dac6234464580e194db97d7b80c0a05a8040a8d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2810,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/015_energy_account.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "94865bd8cc3a2df6b54cec9b2435fd2576cf0a12a2e5faca93586144034c6ee9"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12184,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/015_energy_account.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1e2980f5c6934e2381b26402f4af1accb436dc82328d761d6a75d17a84f35f4c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 645,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/016_log_u.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f19b8f4130387219618dc4e57ef29fdcfc7c8440ef5e3846f2ab24134adc2fbd"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 1885,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/016_log_u.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8a1b643adee8a7d23bc497c3f73f9dfb4eddb0b9fe90028b957c45eadc94d14f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8566,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/016_log_u.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e3d1176c91a33f4d4189e6af8870382f52a5def34e5756530c02557cfb6173b5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 651,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/017_Lambda.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b38a02ecf40a54db000da3fe98fe53271bcb93c5cba0d0601aad8c233b5af6aa"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2244,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/017_Lambda.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "006a74493c5a9cbf64a6adf3086c1f7af14b4af2fc6dde040620a79cd49c31c2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11608,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/017_Lambda.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a54867002134ee78da8389f4c28a27e24b2d3ee131697e87f68c98128dbf42d5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 684,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/018_clock_denominator.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d537b5862394724d0f0d84862e3cfd3acc30e621c61165a2642d172197927e5c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2012,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/018_clock_denominator.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1377e39662dd308bdee97b38b65bae71585148f570fe84b3e0dbcf980aaa4684"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/018_clock_denominator.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f2bdecfbcf84e2756776d268cf42e556b5b0c9a605b1af316f7f143d0377ac46"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/019_delta_tau.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9915b55e82ad53e9b4b32063920954d2eb5f217188152156768e1d88db76f397"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2203,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/019_delta_tau.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c4383fe65fdc43493b25b37756bc39c28c209a9767b7cb035faa629ba2bda708"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11719,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/019_delta_tau.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "72d8f82ce5e1d1f79b06831fb9a5590f4eb7165e3839a98df622a63c2a2ff50a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 678,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/020_absolute_clocks.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "902f9d5240c259856144d4a134315b6fd930cd7408ed4774f7950bfc01af7b66"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2403,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/020_absolute_clocks.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d9693b3e7eeda06889e0ee864a10e74aed096f77cea72d90b1d4047e6552cce3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11651,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/020_absolute_clocks.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7a3e2e079797b92e540e6c6ecd24d03117fd107ec354f272553b1e43cc106dc2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 693,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/021_determinant_products.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0cafa38cd8d004e4655dfdc0d9c105941176d7d49ae3276a650af23aeabb4f7b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2733,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/021_determinant_products.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "cf7befafd14776a456c984fa97a8b477e4b4ad0eb1c5b85bb270ab40769b6d0b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/021_determinant_products.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7020e7e08e71cb959c4290f883a8b25a0d6202bc790e61029e88f7a61cc462dd"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 906,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/022_determinant_residual.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8f80c4a0c75387c21db3dfea5ca3677af80d48a3428ef08c76584e5dfc5872c2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2385,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/022_determinant_residual.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "841634f4828a8ffde98184bcf1096d6ae738447ba0e6f34ead8406235db439e0"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/022_determinant_residual.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1b500df00ce2fd016e687a4bed8ee41c52ac276a97bc44f8d07c4cc0f90cd621"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 675,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/023_retained_state.checks.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4ec33b1e7599543c0e2bcf94f9074d29e67159f3fd4b6aa741a540c9c6f29931"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7231,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/023_retained_state.input.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "5431e394ff1e4daa1cdfd85b2620295b977f96ee6d244b19fe86aeb5efd9a5d8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14779,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/023_retained_state.output.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "092df409f61f3d3cf8418cb0598a9cfd093a00eff6f7bd36bbb8b9d8dc460966"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 20502,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/EXECUTION.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2bd1bc891d7e1848f7cb27d2936009e750dd6a04ff2dc08e3e0a733742709168"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 55231,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/JOB.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "5f25027960f59d40cff0ffb9b45b857b4e7be678c6c9b4088f80aaeb82b766bd"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14701,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/READOUTS.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "20cb6435e38cf850f257c1b80c2b4037d1470719ac51070e985c6607708225e1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 951,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/SESSION.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "90ccb3adce3d4215fb6e364108dd3ad09f37ab275a4922b51fdd1eb241ae3920"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 59370,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/SESSION_STATUS.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "25fb4699d22f513138155cbc03ab593c556a57e1a6198455cb80a883c1f898a8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 603,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/SESSION.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2645def6b5c3ef8df05b644b267469545cbf711d7a9dfe16427c1ff3ab61a61b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2693,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/08ee11e68497419d807fe3e10f9eb449/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e2a1902465cc04d3c3fbd64f2e8d15ea131b8b87d6e5ce87b154c9fc4b42a95c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/08ee11e68497419d807fe3e10f9eb449/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f55e4a059360d440445aafedfd92a4ba31c7a1cd4b86c5f14dddbe3b1ad37f5a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/08ee11e68497419d807fe3e10f9eb449/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "132f0e55a1af07235cd6fd7fb28dfe18d2dfe856b885442716da9eed43054fdc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3270,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/16e1b5ef51a944bfa4cdb31aecadc7c4/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "05a9d7aa2cd8c924aa12cfe83286c22beedb063c4349f54c18567bd66f0b1ff3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12184,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/16e1b5ef51a944bfa4cdb31aecadc7c4/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1e2980f5c6934e2381b26402f4af1accb436dc82328d761d6a75d17a84f35f4c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 661,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/16e1b5ef51a944bfa4cdb31aecadc7c4/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d49772187c1e48576d99b2c478821cd72d6a37ea7e7da6c86a52977d31797aa2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5916,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/21b8801fa0754bb78ae245d545e222c4/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d3b23218c28f7f74b66db44f608e3493f8050fbcd1e5afab4bbd0b2b41061794"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/21b8801fa0754bb78ae245d545e222c4/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a53a8bd3e39ab3eef34344cc1378e8a9a8bd2a6da253012cd948ae9232468dfe"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 637,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/21b8801fa0754bb78ae245d545e222c4/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a8cf7842f30b8b6f7beb77d2148cfe47c8cd26608aebefd3a257a13f07951650"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3160,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/253fc71f446b42f998923c65acb32a8c/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f9d2db57088fb8c87da3be0c7815cb332e7e9837c898836f1b90abfb63a8734d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11654,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/253fc71f446b42f998923c65acb32a8c/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7020e7e08e71cb959c4290f883a8b25a0d6202bc790e61029e88f7a61cc462dd"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 648,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/253fc71f446b42f998923c65acb32a8c/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0ae5ebf5b86233be8466d11e3371fed4ec589ba5b2c5676f12bd31f03412e087"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3217,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/2617004d3ebe48b3ad2a0dc6bab8b51d/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9d419259b31e1e90768137cf180722ee6fc9db437ef39877c0931cdb82ec626b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11636,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/2617004d3ebe48b3ad2a0dc6bab8b51d/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7977e600a081fec4c3eb65d55ff8fe32626e6e38f049e8c6c0cb92f67b3dcf5e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 651,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/2617004d3ebe48b3ad2a0dc6bab8b51d/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "16f485e9e8b235187e06f09e36a2b654f84e6825857c2ee7db49ae44d1459744"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2881,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/2eddbdcc554b49da8875be113e56fba8/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a6fe9deb82f2b917e14c4f29c05f2799a05c1c11092d92c42db9c43075886213"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/2eddbdcc554b49da8875be113e56fba8/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c9d84a93d53197f213bf60790f7cd3f36b14af685c64e0aa4b3a54e716d33ee7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 647,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/2eddbdcc554b49da8875be113e56fba8/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "03f1dc20e53e4c213558710d697f94fdb79649d7a3ee67c607edad96fa6ec810"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6293,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/30e1b7b2fb3a41ae83e67878b3df7fed/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "84eaee1747050acf012d049af95b0310e402d8818e60212182cff653b61434be"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14872,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/30e1b7b2fb3a41ae83e67878b3df7fed/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6010e784d8f4da12990bdcec0609b19529b6293284fc88457e52624a990440ad"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 646,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/30e1b7b2fb3a41ae83e67878b3df7fed/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "db71a7cbaf6482d788b64b49f9a5581b456c4d95504d3b211ace86fc36adcd75"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2798,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/31064b7c84fa4a8199993ff57ae52f9e/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "ecc9ab86605b38af98c8a8f199b73fb8148a54f984967bd73a7143dba57a4ba8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11379,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/31064b7c84fa4a8199993ff57ae52f9e/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "72638587052d87a864291078ea323e56b5df669334212fdd9b6a14a09f258306"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 646,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/31064b7c84fa4a8199993ff57ae52f9e/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8e50e5a41418d75775268465d2d2d5195ad4bb38437731df4cff41ecd98ca77b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6844,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3192150c5a4a4428adeda5076970f53c/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "32bc2e6b89ad19cd92083dea6e60ba9a043ebb6187312a1eb563acc3ba350fef"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15129,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3192150c5a4a4428adeda5076970f53c/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "916448ff89170a0430674c780c0646e7e5888d821f9898965ed4ab7052de952c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 651,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3192150c5a4a4428adeda5076970f53c/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e65719ac73a5d39210d18a178e94171be117020cc734dca491c35f4fd7152df7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2587,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3321bcb88d4a4f75857bc30f67f902c2/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2a2716cf797947eaf9f31df8b2ab2f0abc2866dff2ad31f3a17858113fb2fdc6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11608,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3321bcb88d4a4f75857bc30f67f902c2/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a54867002134ee78da8389f4c28a27e24b2d3ee131697e87f68c98128dbf42d5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 640,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3321bcb88d4a4f75857bc30f67f902c2/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7b61255916fe5fead6094a40c4afdd4d759db1fe72d9d0ce7fbd1c4873efa837"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2573,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3b1a0e6393174310afe5f5f34c71fdb6/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c31ee4310a7234bd3ad3e34eb91dcc1257cdffa4574296d7392a628ee7a29480"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12098,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3b1a0e6393174310afe5f5f34c71fdb6/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0fa825cc1134af62993c2c4b736181b34dc45308c1c75edd75fcb6ca18aa0416"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 664,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/3b1a0e6393174310afe5f5f34c71fdb6/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b0b555b683c756af222dae78233ebc20d756e9ff694d1920c912fb5b91010d3e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8242,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/43c48ab59a6149a2957c6b1b835391aa/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f8a60b228fb8bca056529adf7490ba53680bf51805609bd99fed8e0954356138"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14779,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/43c48ab59a6149a2957c6b1b835391aa/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "092df409f61f3d3cf8418cb0598a9cfd093a00eff6f7bd36bbb8b9d8dc460966"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 684,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/43c48ab59a6149a2957c6b1b835391aa/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6de60c6c2b9e15b3bf63f7700ff5b19e7c0e6b9cac2c7f2e111a895cef3f85db"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2169,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/4fd325efa5b5465bac01f1bf4d846bf1/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "505088e9dee7729a4bc6e0c8193360dc3c282bfa2b96fc31da1948331832e139"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11610,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/4fd325efa5b5465bac01f1bf4d846bf1/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "cf10e622fed9bc0422be575d99c52f8c4942fcd97ac6cdced19a8cbb0c6bef8e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 659,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/4fd325efa5b5465bac01f1bf4d846bf1/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b11b9a6551fa0217c95a9b28ec8be1058b0dd3f52d5fb31b38c98aa5729984fa"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2356,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/503edbee26014d2485a9b3bbf6764453/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "ebe7e733f8e12a0a8f5e1300cf46c5e13650e63d09ad1bc6c077c0ee0a733cb1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/503edbee26014d2485a9b3bbf6764453/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "096f7f7a92890bb0b18c668c032c8e40f5a6674b0091864f93826a7c1acaf003"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 637,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/503edbee26014d2485a9b3bbf6764453/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "ebc32fc8555c02bd43161b046ca55d740749422da92b11548a9895a7fb59ae2a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6066,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/51a2dbd60f05408fa5fda46fbd6c5b35/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "90719fe1a50a5891651863fb15bed83f89c5ee750ddd70c4b4c528a001a711c8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15591,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/51a2dbd60f05408fa5fda46fbd6c5b35/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6d79e4bbf890dd1afbc0fdc1d5f1a487f6ec9e6a97d07dda91c9cbd4f93f7b16"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 664,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/51a2dbd60f05408fa5fda46fbd6c5b35/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "dbf837c1d8f5cf7de6e332f948156afad80190a3999bb745595beec98a192fe3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5731,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/541410557c6f49d7afadd82164b37fe3/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6b80db0b12194deb6c7259c882b8128cf75203bbd83f79af050af56f21a1e1ad"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15652,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/541410557c6f49d7afadd82164b37fe3/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2bb408e3df9c480031547f716b7fb2d3d970d26076edf10de98a234b2fd3d99f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 668,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/541410557c6f49d7afadd82164b37fe3/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "29165df242f5f92a51140a6dc4be31b53e7c937538371640a994775089050a5b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6061,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/594f96072061475cb42f78f8e4f5341d/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "74d78259bc517ce701ec4214864fe87c7622089eee4ba4ad4b348d0b45798be5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15131,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/594f96072061475cb42f78f8e4f5341d/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "fafcb9fde958d387cf287d16ba4c162dcad48111e55476888ff248f82ad0493f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 644,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/594f96072061475cb42f78f8e4f5341d/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6a508f0e9b3ff7455085e5fd41ce75566c0a9e509b30734944378aee8648ac91"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6623,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/66da2142421a46f7a60bb49db2c30354/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4dbb7ee99fe7874a68be6662125d77c3086189d4c5ca5388a6e5d80118b5a541"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15677,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/66da2142421a46f7a60bb49db2c30354/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "28aae1391da97075114f690df96bb9670e625f57b965c547184afe1fb65b310b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 661,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/66da2142421a46f7a60bb49db2c30354/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1b7d0b121683ae1409a2d843dc3fb6c84fa4a982e81d80bee05b070480489fd7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2238,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/6e163b8f2f1640378578c812aa17fcfd/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "097487b2d9d6ff05c6ead13c57ea23580ac563de1e14bea94b62f35c0a7fab1a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8566,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/6e163b8f2f1640378578c812aa17fcfd/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e3d1176c91a33f4d4189e6af8870382f52a5def34e5756530c02557cfb6173b5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 668,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/6e163b8f2f1640378578c812aa17fcfd/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3f6988596b8d2cccd822ef1704bff74233b35a8f4f074c4ed053b30f6f638dcc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2784,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/7ea58d0ce72b4aad9adce9c1fac9cdc5/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7da73f7083d6a8f0852bde285d9e2f65fcc2c7e4e89e0b88aefc6fd252edda0a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/7ea58d0ce72b4aad9adce9c1fac9cdc5/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e4a8bf0c39a0d6ea61f16ae3aeaaa879c7289bcb5f65c0b40d1560120d7cddd2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 632,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/7ea58d0ce72b4aad9adce9c1fac9cdc5/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "13e9d16e1b5c1b458e3301621c6a5bd12af610de560ca991ce5c13afbd93a7c6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6080,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/8bd660181c8144f0bab82f57d21d3144/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f8bed671fb0fb2682d8a9169ea533058b3d805d26fd961fbff6c4e0ff8907c60"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/8bd660181c8144f0bab82f57d21d3144/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0c7416b1686d88f20d6fccbd7e6dfea136c4509596078e78315bab33381fe2c3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 665,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/8bd660181c8144f0bab82f57d21d3144/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "228f57188a502463852012cf8a6e6a5fe70bf39c319899e9ef58e2e4ffe12905"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6279,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/8d3523d30d0046c2ac5c6da5c6867b7d/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "368d9b2b9d21f93b011d73071b636c0c3e9644b7aba404027813ee5125497c79"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/8d3523d30d0046c2ac5c6da5c6867b7d/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "21273e632c1f6da9faaa16b366d72304894326df18cb652a84658ed2e46aaff6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 632,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/8d3523d30d0046c2ac5c6da5c6867b7d/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9406f121aeaab2d7e35a687a9a58884be4f9e72bf215493255e5844723bf38ab"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2837,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/95538bcbcee84dcf854ff0456b1e2ccb/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "cef47a740172b90a75cdc39395cdc6c0e239902862937247df379e56e962f2b0"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11647,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/95538bcbcee84dcf854ff0456b1e2ccb/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f56f1278d9205784a00d13ea217367661e7d22b4025bac22ae39d7507d0a46f3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 642,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/95538bcbcee84dcf854ff0456b1e2ccb/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "41d8c3fd06040e200a8f9b23e3b25f51b8b7dc67950956fdd326a010cf4f80af"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2937,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/95ada870f5dc4635abc85918be2998ff/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4ae73afe1ce5325185f96af219e1cd0f993721e4004e124d51e82d090109c28e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12094,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/95ada870f5dc4635abc85918be2998ff/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3d3582bb40d7e9e973f7be1349247d7897ed4e06b6f63e170c6a7f34df29e8df"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 660,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/95ada870f5dc4635abc85918be2998ff/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "74c8351764c63e6634b24e7eb21d1ae4e69f6e1bb50ac0e4a12f571ae2155cee"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6653,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/963a9da0f6504151a319e7ff5456c95d/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c14a8e2e0d0f677853d11fc5f514c71539e2571314d4404a005dd51dc53d7b6e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15147,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/963a9da0f6504151a319e7ff5456c95d/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e3e691a060e577ae2cf11ff1a8ef96dd49903e6f6df481ed7034311401b9b848"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 648,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/963a9da0f6504151a319e7ff5456c95d/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "fd4d492242bb0121ebb57e87cece6f999088b67368af5ed269cec25a0dc35ddc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6330,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a2ec137fbb61492bac7bd1ada3f9a1ea/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "44212717380d4ca70f63f640354567d57b4bc2d5d5c351a140d69fbd07215044"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15140,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a2ec137fbb61492bac7bd1ada3f9a1ea/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0ac3c3b237da0a18789e5626200831f0ef1e10ef2ef05094add2e1abd1c2a047"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 642,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a2ec137fbb61492bac7bd1ada3f9a1ea/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a0dbfb8b5ee44a643eda9e0fa46317e8c23377461e1f456b48825fa01043be57"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6046,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a63874b51b3b4378a58e36336c9d2d1b/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "00dc7a90f2cc59826d8402a0fe3769ce8c8c007934ac650fa33ac93b4587f88d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a63874b51b3b4378a58e36336c9d2d1b/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a3e487b87e6d997602bd5e14e0ff2824f27353e689266bde01d270189e3d9f1e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a63874b51b3b4378a58e36336c9d2d1b/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e90e0a020f5f532197e8e639a6c0f66fec100f5c8fea2142610d9c0e7e02376f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2360,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a6ec92c88ce347438489e362b7a3a3e2/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d01a83795f24197ac4260ff03879d9824e1e2aa05f8f69d018715f612f86b46b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11715,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a6ec92c88ce347438489e362b7a3a3e2/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9077ca263e1f190b1866f33b4da1c0df99acdac54e27a5a522bb7f97fea77eab"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 647,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a6ec92c88ce347438489e362b7a3a3e2/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a5124fa0d007e43d9dc88e0c325380e75fde285d733dd5232b1657d4e82feefc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5931,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a7c18ee571e7477fbfcf9368bda29148/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "ca20c14f7d33275768ebbbf05dfa44c12385bdbad75b338f92ebbfbdc67418d2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a7c18ee571e7477fbfcf9368bda29148/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "79d936d0f7bf03386c35b1637b00cdb97457270a064485865f21f96b7c1fe0e7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 656,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/a7c18ee571e7477fbfcf9368bda29148/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4c69abd58d39b2024c902ed721fb699f2e1102a57dd8c6245589190cf10ccc9f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2587,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b2db4351471d4d70bf884c89f24efa85/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1a734b3bfcb2ad40512788908f9287069ef8d220c7bfc49f371744ed056565f4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b2db4351471d4d70bf884c89f24efa85/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "27d5870a95c6efc844798b42b6927c64f7ccc39c439f466ce600dcccd78d8936"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 665,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b2db4351471d4d70bf884c89f24efa85/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "28bd49338f55e0019256d1ba4a09342f0721ef3c8b97186ac4cbd66589fc982a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2300,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b42d957fdf424108adb5d12c7c1f95f1/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f765bfee51dc09bfe0d86c3a04512cb095f90eede3220f9f698884297803a56f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11638,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b42d957fdf424108adb5d12c7c1f95f1/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "92d8e4cd85d8aa6e973d17d2f1caa44e50dc2dd619b500d135b54623c923aa5c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 644,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b42d957fdf424108adb5d12c7c1f95f1/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "07e16b92217ee43b8a6d4cadf19328da9bf1eb5e087964d474d434e1b5a82c3c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 322,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b4645a31a1794cdb8b163a40499bda01/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "29536b393999848b353016c48812f7d7a1616ea1d82d6f3bf37620a8f9731481"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 26115,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b4645a31a1794cdb8b163a40499bda01/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "206ed05b2b7e24191777d9e5d1a16a1c52ff661bcbf5f8260a166b323e8d6d79"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 668,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/b4645a31a1794cdb8b163a40499bda01/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "dac0c56ca1bb903551627113932c697a1a3358ea14d7f9271454670fdb27a934"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2586,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/ba454eed292b4c3e9c84e7054391a1bf/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "ad3b97b14dda03c5ae0ea8e9f9bbeb71e248db47222f8ca3008bde2a2904e546"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11707,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/ba454eed292b4c3e9c84e7054391a1bf/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "77eee10c6131098fa9aa228601da903fd2580119e165cfd38fc576e0142a1b99"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/ba454eed292b4c3e9c84e7054391a1bf/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8bbd561ed20cdaaf7f96b2580349253322fca9546afdc4a3544262cdea45fcba"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2796,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/bd04b828f4f84890a06b4c6bfe6bc2d9/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1eb4c3bb1b89d9cd41cedf59e7bf051555771d4d720f66bd1ab5ee55f4598f47"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/bd04b828f4f84890a06b4c6bfe6bc2d9/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1b500df00ce2fd016e687a4bed8ee41c52ac276a97bc44f8d07c4cc0f90cd621"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/bd04b828f4f84890a06b4c6bfe6bc2d9/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b9061100348385c725bb0141e6e82fc4236b229c54778961d002c036eef49a62"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6459,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/bd74398195fb48f79681a9f7915942ff/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b398e7c00d1f1326ab3a5b2ef88b9a0b08deaf3f623410e67f4dee22954b427b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15142,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/bd74398195fb48f79681a9f7915942ff/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "396435fd76e9f12a2864bb1ac76845c430bb578e7acb45d5788fcc13063f1553"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/bd74398195fb48f79681a9f7915942ff/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "393714a01bae8b7ebf8bb6d65168484eb78e0b2105afd2657a24951dfc17f1f8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6430,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/c2c950af80314030809ddfc6213a19d8/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c69c55db5ce39cecf57c49a114bd3a08b7bd344eb8842f066ac62471cf6a24c1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15587,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/c2c950af80314030809ddfc6213a19d8/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "5f5b258bdeeeca97023b34c5048ecd6919c810f0b255280d65338a53a6230136"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 660,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/c2c950af80314030809ddfc6213a19d8/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f0101a2f025adde09fc22b863ff3048a850adc5598ced54ac9283f04bb5dbc90"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6148,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/cc798dc7aed64d33a650310e4e310034/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "39be25d76f5e2aaf2e2f01b86ae259eeaafb146cb7983d4943997f53041f9d2c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15200,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/cc798dc7aed64d33a650310e4e310034/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3904cad1d9b66adb6ccf7955e8c02224228acc64f60adaf2e9a9ccafc50ca2c8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 643,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/cc798dc7aed64d33a650310e4e310034/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "55bcbf4b3e0f65b11f0dbe313d8cc389e06443c5231afb10c58541505ebe8c34"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6080,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d0429bb314804038a3401dd806a6ab97/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8c65cc59a8d1066881734e6fc8932b51f9b9dd518ab00179c4a5bd41e11002ca"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15212,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d0429bb314804038a3401dd806a6ab97/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1f77827dc250c044806cc0b94a99abd4dbf380a0fcd176d8ef2501053a03a537"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 663,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d0429bb314804038a3401dd806a6ab97/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "356f455ee24ed97c7146aec2a4fb2124e1a4c30cc21f51324ad5c743fe127ae4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11956,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d3d92e34b4ad41e2898238482770cd13/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "18d8e0fb3e34e787288c3a66d1cd5f8a410d52021215f03400d70817c087d0ee"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 18273,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d3d92e34b4ad41e2898238482770cd13/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "2348b78030ba0f21e2e1c735a8ce7eb2c5aed09f6eea9226f4cdf644f6774bc5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 684,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d3d92e34b4ad41e2898238482770cd13/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "27657152cc4999ada53c1d5704bdf0198a735adaa47071e5bee8da4b91b276f7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2587,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d65b469ce35044d98890b3ecfb88ef36/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "231f5d6b96da6ba078617ca56ebce530d7f6d5ca49eb197d424053e931684845"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11719,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d65b469ce35044d98890b3ecfb88ef36/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "72d8f82ce5e1d1f79b06831fb9a5590f4eb7165e3839a98df622a63c2a2ff50a"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 663,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d65b469ce35044d98890b3ecfb88ef36/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1fb517f124bb4362099790dc233c37f6ca75c84d35a708b23ce5a87c9a3e377e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5958,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d77763f21ec34e7eb6083ae38762ff0f/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1838e82d5a7e861e557a893a819b7b187b3c44223f20d9af29a9992eb7832a5f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15103,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d77763f21ec34e7eb6083ae38762ff0f/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f6137ab309d6a0c5ef9b823c776fdb4ed7d5c86c48c039358b51e0107a330d9"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 659,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d77763f21ec34e7eb6083ae38762ff0f/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "37824f442c22c1d7906baa4c6519e0c504ff73e53480b21d8d848689d683469b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6289,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d7c89ee03c38467b8522c29d57aaf76a/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "255d067ea803beaf39293671c1c513379f4df03e3f6f3dbf5ddeb0fda3f26fad"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d7c89ee03c38467b8522c29d57aaf76a/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "43ed804de4f443eb3c3deda615f0de998a444f8eb46000e4c973b8626bcbcaa9"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/d7c89ee03c38467b8522c29d57aaf76a/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "bd055fe341981c8abc90d9d88242b9527d42c119920a981bb0cd0fb27f6a6e34"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2822,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e0b6d314334d46968e1b5ef4f4752358/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7947f3049ddec836a9be121c3532157a5e7554c0858a22636e10f071f79cb600"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11651,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e0b6d314334d46968e1b5ef4f4752358/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7a3e2e079797b92e540e6c6ecd24d03117fd107ec354f272553b1e43cc106dc2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e0b6d314334d46968e1b5ef4f4752358/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8b6baa9d7b874b697cccb6267bce9613dcb7604636fb4b2e79f3c174f7bca18b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2793,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e2b6b4f274104b92a0c7bf0ea12c60b5/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f9999a421da088839ad81aef5948310116de8dd5d0d19809de5a4d61a7a4da1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11707,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e2b6b4f274104b92a0c7bf0ea12c60b5/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "c4ef52d07127b05d18cc5ddb71438591fb46c0b312fa5fab1e1a47495f660660"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 643,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e2b6b4f274104b92a0c7bf0ea12c60b5/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1fd907ba48fc8717e0342dc87aec401af5cb5ecbe028f9739d1abcc3fec459f1"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 5853,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e8bfe79b0bad40d1891adab50f8b75f0/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9bdb972f89a1c66ed0a37dfd7d14c89f7374476f86c6d284cb665336ca83672d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15208,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e8bfe79b0bad40d1891adab50f8b75f0/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4380442893c24655904b4ea80bed78d5d510e1c6e49c6b5869f5ddf338b0a39c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 647,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/e8bfe79b0bad40d1891adab50f8b75f0/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "274c7be1a20b14cd922a5d4fab041f0d7ad6a86d09c3b57180ed518a3df53fba"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6079,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/ee0913decf5a41a580d2125312110481/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "3231f7ed9b0f006379945a155b355b3c8cb262c8b8cec214586b3a46c10e4b74"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15200,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/ee0913decf5a41a580d2125312110481/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "0e84e961be46ffdf3bdce11273c2d524cbe4b765812ebbfe0dfe8ae2f45220a7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 666,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/ee0913decf5a41a580d2125312110481/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "bc2c5cff58507a8df790dd739238f75438ab3af3bfce5836bf47bede257e4069"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6080,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/f35518fe3fc34b2298f43313a0c31d1e/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "49fb77f0d50a272dd70e4537a66f16328e3127059335088a2d41c5ccc2ef21d7"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15101,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/f35518fe3fc34b2298f43313a0c31d1e/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "eae05b2acfe0041eaed5f12264c3af1edaf0034a580f05686eea1c47998f04ee"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 640,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/f35518fe3fc34b2298f43313a0c31d1e/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f4697ba7d0261400408ec16e0346e4199ac717a4a5a22a504980f1b34093c7d3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6443,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/f4559a140c1342adb11def46d0c8e001/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9d6be185137ad04cc54fcd84a8ec23618e6cf88e0f0a78ee59daa7d3096db8a5"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 14871,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/f4559a140c1342adb11def46d0c8e001/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "71d9eb5f38a7905d9ee3280edce54b8dfa44a1236db31636fe63ef3a2ed8834e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 647,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/f4559a140c1342adb11def46d0c8e001/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9fc1d064c4e4b10aa72cbd263bdc4226b37a501ccbb3faca15d75a45c502fe7e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2371,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/fe3bebd5df0248a9a727024aeec647c7/INPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "02bcf19de4cee6b4576b92b3123cb6954791192264cb13b828106840eec04448"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11378,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/fe3bebd5df0248a9a727024aeec647c7/OUTPUT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f2bdecfbcf84e2756776d268cf42e556b5b0c9a605b1af316f7f143d0377ac46"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 656,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/qualification_v0_10_1/first/sessions/MATTER_SEARCH_58df3febf6fe47728fa5f8b97fe4e2aa/calls/fe3bebd5df0248a9a727024aeec647c7/RECEIPT.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "aac649f5ccf7a9f66e95fefd0f943f3dee234532e17368cee8d197e4efa998a2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8007,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/research.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b43b11693bb201cd7f31e02d7ba9d810eccdf4cfe054af9ac00e22b92a6a4bb2"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6646,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/resources.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "723fc7752ce694c4cdaea62929ca6273882e95b943172ccbd37fd74f83995c4f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 27287,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/runtime.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "1d71d2cac30c7fcc6a71d221ed4dcbfc0ce6151bf649a2021b0df70e7be5404e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2797,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/tests/qualify_native_successor.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b528583edd530cb8554124bb541f4a3e9bf6917e180cc3f1155c5c35108f8318"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7584,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/tests/test_code_identity.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4dbac3f6ee31423fe0ced220c323a8661137353b041c1d93050e1e7d32f303d3"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3482,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/tests/test_integration_successor.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e2b4e1a9c40604b6da8cde85e0b2e07a3afde2bacff5d00ea5ad3648c9f55c8e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8867,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/tests/test_native_contracts.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "62e3e82dca63d04b83354c54ea0ea0ee3846bb5f574b22d117edaed4be9c451c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 3935,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/topology.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e6431875d47fec6388f2a237088bff1a8ceffd8befbb1a9257a5aa40a53dc175"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2418,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/transport.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "6553f9243a547a532b8719a8f3bb773bca9e707dbe9fca37bcb84d701aa18bcc"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 2564,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/CORE_0.10.0.json",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8d3cdd01951588392908e5c0267b32b27cd7d6f826c5d79aa6067d820f3d9627"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 103,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/__init__.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "90b222af7c3a51995cf3c53b5d8feb25e9700c69f516a8a513c7824fec510c43"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 29840,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/action_state.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "d3b9418c3aaa53d1ef2c952d8d3d89be7eb249cabfb2623b7dc0f54e5f7390ed"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 25824,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/adapter.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "297966332219dcbf0591e8177efd63fded8ad2d8c8d63800b9c93803699195d8"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 7275,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/catalog.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "314a74c1d23c773d6204d66ce256051efb655ee877168371402adc95742ac84b"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 15134,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/cli.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "e8202ce585ae7011e7ae77f9fee95406b34c05dd0356ff6d1bf9824ba55848aa"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 13116,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/clock_protocol.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7cfa82166aa2bc072d17d9f5455b8e01086589c676b583965fb58d071bbbd758"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 8907,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/common_action.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "f32773e355d6fa35e6433237cec479fe8c8bc9c3eb7d88ca176e42845d533ff0"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 9501,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/coupled.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a6ce3c81a2425bc8a9db1f66c056d044484b329f3b3c2e1218b42b901a731f80"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11063,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/dynamical_reservoir.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f6c812200eb503a81429d82bb3e7ceca668c8095c08e628db265ba517da5889"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 10623,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/events.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "bfff3114c8922f0d6ec90a0cb187d8fbfafdb5190e8fa6a7152c7d5a0ee04070"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 12217,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/feedback.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "37c37339f640997527cf76a53ac4d4a2738eca1b2e565f340c7d27962ee73cce"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 20175,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/full_carrier.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "dd6c67c3541fe10b5c44bdb8fc6fa46ea4f1b85f746fc70ce47f76639accc19d"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 33676,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/joint_field.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "9890520aaad021fe71266bf58de99b08991433f75b57a831684829e9c6894a48"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 40951,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/joint_history.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "750ed112346d46ae06170683bd8eed2e59f20f44da32548f3a1402eddbd17d1f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 21108,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/joint_resume.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "a83250b0e3dec410d345b57121b549920a83a97558287409728535d761b48fe4"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16550,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/joint_terminal.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4195e26cadbe0a47755381349e3d157d021dd1f3e0c9cc98e39f4e8094f91d11"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 23697,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/paid_events.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8d6ff0eae613f38f746fdfead57bfac749833ec442cca7c68a754d8715659a17"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 27276,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/portable.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "db6ba7a7032fbbd0bac050fbb92239e2ebecab47caf3aae97cc716fbf643caea"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 26213,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/reception.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "7f5c037f74173a78abea0bb37e830d02f82784bb8c0e64d4b1f0391b8842f4ae"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 6493,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/recovery.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "dfd0205640d7d93ca5b68a1cb0412b503fa9ddaff6996b63ee14c9ad99ede4ec"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16919,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/resumable.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8d9475cdf2f8da250ce3f771dc4748dab2476e47e3175cc72d9da35a8b6950a6"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16315,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/returning_field.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "b63873cbe4a275ab1e0550da1d9a90b36cc472279494e9fa9c1add560e5a4773"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 29275,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/vendor/sam_one_principle/source_clock.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "8be34b46bb8d150538087b2b0f608cc504c1f3164ca92e0aeff841d3febfb755"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16929,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/web_search.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "4e026e439c91ba653ec31d55e23eb42242c98e6a636acee6d324eaf20052565f"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 11610,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code/worker.py",
+      "reason": "Installed runtime/core implementation snapshot; no replacement runtime published",
+      "sha256": "afcac53ca91bcfcdfcc1f44ecf30767fb6f6e1a4b21a4da61c1bf49cb89933ed"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 63258624,
+      "path": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/research_web.sqlite",
+      "reason": "Global research-index corpus; launch digest and used receipts retained",
+      "sha256": "8a33ac7c75d7c64e4b80aad5e0d0fb02960e80ac446d7488224446402d080b02"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 63258624,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/inputs/RESEARCH_WEB.sqlite",
+      "reason": "Global research-index corpus; launch digest and used receipts retained",
+      "sha256": "8a33ac7c75d7c64e4b80aad5e0d0fb02960e80ac446d7488224446402d080b02"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 544717,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/inputs/RESEARCH_WEB.sqlite.manifest.json",
+      "reason": "Global research-index corpus; launch digest and used receipts retained",
+      "sha256": "7c352324bb2fe7b2495a0b41ea7d95adc4af2ebb2100d3f7947011a60a83b4eb"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 73575,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/ops/authority_preimages/GEN4/DUCK_CURRENT.json",
+      "reason": "Unrelated mutable authority preimages",
+      "sha256": "aa9fe05b228db04be83e37e407ea8392191e8dfb87655e8da6ffdb51d187447c"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 908262,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/ops/authority_preimages/SAM_HISTORY/HISTORY_INDEX.md",
+      "reason": "Unrelated mutable authority preimages",
+      "sha256": "9ffbab958eb1a6db04240917e5b4225210ad03dd0dd8e5edbb66909d578c3bcb"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 16354,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/ops/authority_preimages/SAM_LIVE/00_CURRENT.md",
+      "reason": "Unrelated mutable authority preimages",
+      "sha256": "f7ef4af0e1d6d58c0d29b659c249f57d68c3288260debb650601d004d78c7d08"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 30313,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/ops/authority_preimages/SAM_LIVE/13_GEN4_RESEARCH_WEB_CURRENT.md",
+      "reason": "Unrelated mutable authority preimages",
+      "sha256": "7d42377aa42836d96c7f43e9d6a753b49c0ceea554a17d8885935d244fe08d80"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 32753,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/ops/authority_preimages/SAM_LIVE/15_VOLI_EXPANSION_CURRENT.md",
+      "reason": "Unrelated mutable authority preimages",
+      "sha256": "53306fcd66010d68a8229b2a3b22745bfd7877010db43673ec6153e83110eb4e"
+    },
+    {
+      "archive": "source_field",
+      "bytes": 9834,
+      "path": "GEN4/voli_chapter3_source_field1_20261015/ops/authority_preimages/SAM_PROJECT/CONTINUITY.json",
+      "reason": "Unrelated mutable authority preimages",
+      "sha256": "4ed719f7d9c208d75ee10a28ed45fc22f49a8cb6e07d88c4b287ef4e08c41e63"
+    }
+  ],
+  "schema": "SAM_CH2_SELECTED_EXPORT_V1",
+  "scope": "Selected original scientific operands, derivations, manuscript sources and receipt evidence; no global corpus or installed runtime",
+  "selected_original_bytes": 157962912,
+  "selected_original_files": 1449,
+  "source_bytes_modified": false,
+  "status": "PASS"
+}

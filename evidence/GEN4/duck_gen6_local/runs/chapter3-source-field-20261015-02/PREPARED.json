@@ -1,0 +1,10 @@
+{
+  "Codex_agents_launched": 0,
+  "controller_count": 12,
+  "core_version": "0.10.2",
+  "duck_version": "1.2.2",
+  "native_helper_count": 6,
+  "status": "PREPARED_NO_NATIVE_SCIENCE",
+  "target_sha256": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+  "time_utc": "2026-10-16T01:49:18.138922+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "ce": "SLC-GEN5-CEV1-R1",
+  "domain": "STARBREAKER",
+  "domain_engine": "SB-GEN3-ACCUMULATION-R1",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "global_slc": "SLC-GEN5-R1",
+  "input_sha256": "52a4abcd47288c20d457b3104253a0c41257e4042fe7a4f4e3602864c878d729",
+  "meaning": "Runtime call returned; scientific outcome is in OUTPUT.json",
+  "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+  "output_sha256": "c4caf08741aa5e11da7418d1e25387a4a8943e14b91727dd026a39f03cb7b5be",
+  "purpose": "Literal full-source Krylov evaluation with exact exchangeable-background multiplicities",
+  "route": "CURRENT_REVISION.open_domain",
+  "status": "RETURNED",
+  "time": "2026-10-16T00:57:17.618376+00:00"
+}

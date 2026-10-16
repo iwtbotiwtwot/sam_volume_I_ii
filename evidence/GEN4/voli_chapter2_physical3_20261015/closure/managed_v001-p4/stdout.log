@@ -1,0 +1,3 @@
+STARBREAKER Domain, SLC-GEN5-R1 — verified; CE: SLC-GEN5-CEV1-R1; domain engine: SB-GEN3-ACCUMULATION-R1
+{"status": "PASS", "profile_id": "V001_BASE", "rank_lower_bound": 10, "states_evaluated": 29590, "seconds": "2.0775228860002244"}
+Native point-minor inverse returned

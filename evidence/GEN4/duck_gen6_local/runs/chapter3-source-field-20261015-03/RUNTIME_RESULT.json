@@ -1,0 +1,383 @@
+{
+  "Codex_agents_launched": 0,
+  "actual_ready": 9,
+  "directed_actual_controller_ACKs": 30,
+  "failure": null,
+  "failures": 0,
+  "global_host_lock_acquired": false,
+  "helper_custody": {
+    "RAM_released": true,
+    "custody": {
+      "complete_file_readback": true,
+      "destination": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-03/retained_ram",
+      "files": 108,
+      "status": "PASS"
+    },
+    "id": "HELPER_NODE",
+    "kind": "HELPER_STOPPED",
+    "worker_exits": {
+      "LH_01": 0,
+      "LH_02": 0,
+      "LH_03": 0
+    }
+  },
+  "native_controllers": 6,
+  "native_helpers": 3,
+  "native_returns": 11,
+  "outcomes": [
+    {
+      "controller": "LH_02",
+      "id": "web_r1_000",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r1_000.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "LH_03",
+      "id": "web_r1_001",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r1_001.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "LH_02",
+      "id": "web_r1_002",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r1_002.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "G6_02",
+      "id": "r1_si29_incoming_flatness",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_si29_incoming_flatness.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_01",
+      "id": "r1_si29_outgoing_flatness",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_si29_outgoing_flatness.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_03",
+      "id": "r1_radial_green_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_radial_green_inverse.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_04",
+      "id": "chapter3_full_source_clock_energy_commutators",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/chapter3_full_source_clock_energy_commutators.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_05",
+      "id": "chapter3_full_scaling_epsilon_only_residual",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/chapter3_full_scaling_epsilon_only_residual.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_06",
+      "id": "r1_si29_uniform_coupling_response",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_si29_uniform_coupling_response.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_01",
+      "id": "r2_radial_flux_energy_word",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_radial_flux_energy_word.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_05",
+      "id": "r2_cube_zero_mode",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_cube_zero_mode.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_03",
+      "id": "r2_clock_phase_ratios",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_clock_phase_ratios.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_02",
+      "id": "r2_quadrupole_matching",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_quadrupole_matching.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_04",
+      "id": "r2_cube_rank7_minor_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_cube_rank7_minor_inverse.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "LH_03",
+      "id": "web_r2_003",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r2_003.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    }
+  ],
+  "own_cpu_leases_released": true,
+  "phase": "ORGANIZE",
+  "research": {
+    "automatic_crawl": true,
+    "available_workers": [
+      "G6_01",
+      "G6_02",
+      "G6_03",
+      "G6_04",
+      "G6_05",
+      "G6_06",
+      "LH_01",
+      "LH_02",
+      "LH_03"
+    ],
+    "depth": 2,
+    "index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/research_web.sqlite",
+    "index_sha256": "8a33ac7c75d7c64e4b80aad5e0d0fb02960e80ac446d7488224446402d080b02",
+    "max_nodes": 48,
+    "max_results": 6,
+    "mode": "connections",
+    "queries": [
+      {
+        "query": "positive source energy spatial shell density",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/volii_duck_expansion2/REPORT.md",
+          "GEN4/native_energy_source1/RESULT.md"
+        ]
+      },
+      {
+        "query": "radial Laplacian conductance source continuum",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/native_energy_source1/RESULT.md",
+          "manuscripts/volume_I/02_spherical_sources/DERIVATIONS.md"
+        ]
+      },
+      {
+        "query": "interacting source clock common energy coupling",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_physical3_20261015/REPORT.md",
+          "GEN4/native_coupling_scale1/REPORT.md"
+        ]
+      },
+      {
+        "query": "source spatial response memory clock road",
+        "rounds": [
+          2
+        ],
+        "seeds": [
+          "GEN4/source_spatial_response1/REPORT.md",
+          "GEN4/joint_source_clock_road1/REPORT.md"
+        ]
+      }
+    ],
+    "search_workers": [
+      "LH_02",
+      "LH_03"
+    ],
+    "source_index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter3_source_field1_20261015/inputs/RESEARCH_WEB.sqlite"
+  },
+  "research_returns": 4,
+  "round1_accounting": [
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_000",
+      "known_work": "All actual retrieved source/energy excerpts inspected; source location and phase/reference semantics feed finite graph and localized density constructions.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_001",
+      "known_work": "All six radial/continuum excerpts inspected; retained conductance and finite-boundary account feed exact field/energy identities. The positive-field receiving sector is recorded as the next localization lead.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_002",
+      "known_work": "All actual clock/coupling excerpts inspected; complete generator, time reference and source memory feed the six-lane operational response/precision test.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_si29_incoming_flatness",
+      "known_work": "Actual all-eight incoming occupation sums return zero residual; together these establish E_x=H0/8 in the orthonormal source.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_si29_outgoing_flatness",
+      "known_work": "Actual all-eight outgoing Gram sums return zero residual, fixing each scalar outgoing energy share without discarding species/coherence.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_radial_green_inverse",
+      "known_work": "Installed inverse receives the retained finite c_i=i(i+1) source operator; analytic Green, flux and boundary correction are independently derived.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "chapter3_full_source_clock_energy_commutators",
+      "known_work": "Complete sixteen-state source certifies bare current commutator and invisible even/counterterm energy, preserving full-source roles.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "chapter3_full_scaling_epsilon_only_residual",
+      "known_work": "Exact four-term coefficient residual is (0,1/2,0,-1/2), distinguishing complete-H scaling from epsilon-only coupling.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_si29_uniform_coupling_response",
+      "known_work": "Actual eight-coordinate source and physical Gram distinguish positive excitation energy from signed generator; the declared uniform H0 coupling leaves sector-contrast history unchanged.",
+      "status": "COMPLETED"
+    }
+  ],
+  "round_starts": [
+    {
+      "deadline_monotonic_ns": 25570457290303,
+      "round": 1,
+      "seconds": 180,
+      "start_monotonic_ns": 25390457290303,
+      "time_utc": "2026-10-16T02:24:30.112502+00:00"
+    },
+    {
+      "deadline_monotonic_ns": 25852820882702,
+      "round": 2,
+      "seconds": 180,
+      "start_monotonic_ns": 25672820882702,
+      "time_utc": "2026-10-16T02:29:12.476094+00:00"
+    }
+  ],
+  "selected_targets": [
+    {
+      "from_outcome_ids": [
+        "r1_si29_outgoing_flatness",
+        "r1_si29_incoming_flatness",
+        "r1_si29_uniform_coupling_response",
+        "web_r1_000"
+      ],
+      "id": "SOURCE_DENSITY",
+      "known_work": "Actual scalar energy fractions are fixed at1/8; explicit finite cube embedding, smoothing and physical coupling retain their assignments.",
+      "next_question": "Determine exact finite-graph receiving constraint and preserve source-shape and mass/reference information.",
+      "selection_reason": "First recommended physical source-to-density interface."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_radial_green_inverse",
+        "web_r1_001"
+      ],
+      "id": "FINITE_FIELD",
+      "known_work": "Retained radial source operator has exact analytic inverse and source flux, including finite outer reference.",
+      "next_question": "Receive its incidence/energy identities and place the full finite example and continuum/boundary bounds in the chapter.",
+      "selection_reason": "Complete source\u2192field\u2192flux chain."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_radial_green_inverse",
+        "web_r1_000"
+      ],
+      "id": "FIELD_ENERGY",
+      "known_work": "Static source functional and pair force proofs are explicit; actual Chapter I positive free-field sector gives an extended density/tail. The returned positive-field receiving modes remain an explicit additional localization lead.",
+      "next_question": "Receive exact source-Poisson matching for that sector and preserve its interaction/counterterm completion.",
+      "selection_reason": "One shared energy/force account and a concrete Chapter I continuation."
+    },
+    {
+      "from_outcome_ids": [
+        "chapter3_full_source_clock_energy_commutators",
+        "chapter3_full_scaling_epsilon_only_residual",
+        "r1_si29_uniform_coupling_response",
+        "web_r1_002"
+      ],
+      "id": "CLOCK_RESPONSE",
+      "known_work": "Complete-H and epsilon-only couplings have distinct exact responses; actual Si29 population clock provides an additional source-bound control.",
+      "next_question": "Receive actual six-lane phase precision ratios and state a common perturbation/measurement specification.",
+      "selection_reason": "Evaluate the proposed coupling and preserve actual phase/energy roles."
+    }
+  ],
+  "source_packet_sha256": "1afbd5508a94e0a15165fdd46249b0275e8302d2139a48e4acf80874b27e2743",
+  "status": "SCIENCE_COMPLETE_AWAITING_OPERATOR_ORGANIZATION",
+  "time_utc": "2026-10-16T02:32:12.747106+00:00",
+  "topology": {
+    "controller_cpus": [
+      2,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "controller_ids": [
+      "G6_01",
+      "G6_02",
+      "G6_03",
+      "G6_04",
+      "G6_05",
+      "G6_06"
+    ],
+    "coordinator_cpu": 0,
+    "helper_coordinator_cpu": 1,
+    "helper_cpus": [
+      8,
+      9,
+      10
+    ],
+    "helper_ids": [
+      "LH_01",
+      "LH_02",
+      "LH_03"
+    ],
+    "profile": "a",
+    "schema": "GEN6_DUCK_RUN_TOPOLOGY_V1",
+    "worker_memory_floor_bytes": 134217728
+  },
+  "total_returns": 15,
+  "worker_exits": {
+    "G6_01": 0,
+    "G6_02": 0,
+    "G6_03": 0,
+    "G6_04": 0,
+    "G6_05": 0,
+    "G6_06": 0,
+    "HELPER_NODE": 0
+  }
+}

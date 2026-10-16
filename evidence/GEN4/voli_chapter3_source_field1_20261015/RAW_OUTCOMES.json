@@ -1,0 +1,172 @@
+{
+  "failures": 0,
+  "native": 11,
+  "outcomes": [
+    {
+      "cpu": 3,
+      "key": "chapter3_full_scaling_epsilon_only_residual",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_05/tasks/chapter3_full_scaling_epsilon_only_residual/RESULT.json",
+      "receipt_sha256": "8eff6cff904eb6387e7e3f7dc73982e882d900c891dfe68f53c1aaf848a08393",
+      "sha256": "bf2a5ba73d52ea26f07a6d191b0990af9cd7c9110eaf72205decda1a009f5c5b",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_05",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/chapter3_full_scaling_epsilon_only_residual.json"
+    },
+    {
+      "cpu": 2,
+      "key": "chapter3_full_source_clock_energy_commutators",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_04/tasks/chapter3_full_source_clock_energy_commutators/RESULT.json",
+      "receipt_sha256": "45fd501656cdc22312e5ce99be59286c2a52e61dc9622d8bbb41638ad0c0e0f3",
+      "sha256": "803cd07b8c3f60b7520f96abd095650641ef6f266f6ba4a89dfe47950aa909dd",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_04",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/chapter3_full_source_clock_energy_commutators.json"
+    },
+    {
+      "cpu": 4,
+      "key": "r1_radial_green_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_03/tasks/r1_radial_green_inverse/RESULT.json",
+      "receipt_sha256": "e9f9d1c3375934862c15000eb625a9b946acbdf16766cd23761006c620f36ea4",
+      "sha256": "728ddc4dd23c7f4fa1e70832d5ca7fa6189bc5779777785b46c0bb58ecdc8cc2",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_03",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_radial_green_inverse.json"
+    },
+    {
+      "cpu": 3,
+      "key": "r1_si29_incoming_flatness",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_02/tasks/r1_si29_incoming_flatness/RESULT.json",
+      "receipt_sha256": "e9feaca835890263ad65077328ce9ce196e4c0f9313a9a7233cedd373c8c7e1f",
+      "sha256": "b99f8c79bb5d807c17b3177e6992f7f6698d999d8ff76ac8590365f514d8cf6a",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_02",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_si29_incoming_flatness.json"
+    },
+    {
+      "cpu": 2,
+      "key": "r1_si29_outgoing_flatness",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_01/tasks/r1_si29_outgoing_flatness/RESULT.json",
+      "receipt_sha256": "5c2d57c64ae61a935d70934d3da68c286b275ec51f2f1dbd04cb3d354cc514ec",
+      "sha256": "850559655fff37b51b9a140214c2f5f8a62852c459a9157ca8d837ef39790008",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_01",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_si29_outgoing_flatness.json"
+    },
+    {
+      "cpu": 4,
+      "key": "r1_si29_uniform_coupling_response",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_06/tasks/r1_si29_uniform_coupling_response/RESULT.json",
+      "receipt_sha256": "2d182623ef525854b2d82ee101d53709e13b7418c10cc699467ba7872292c949",
+      "sha256": "e2ed5e5585589b6d4f5643636cd94f7f8a117a5078ee076164feb26a504afac5",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_06",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r1_si29_uniform_coupling_response.json"
+    },
+    {
+      "cpu": 4,
+      "key": "r2_clock_phase_ratios",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_03/tasks/r2_clock_phase_ratios/RESULT.json",
+      "receipt_sha256": "30c8826a3ca97e27045504b1be899f53c561b823fde5f5e83db79e3b216d7d37",
+      "sha256": "5fbd78024ce53d35f02d1cabfd2706e716ee2f864a274ca70485b57e094c2a77",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_03",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_clock_phase_ratios.json"
+    },
+    {
+      "cpu": 2,
+      "key": "r2_cube_rank7_minor_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_04/tasks/r2_cube_rank7_minor_inverse/RESULT.json",
+      "receipt_sha256": "4b079c873cc1146c0edfb44fa27707f2eaa98ff1bbd4d84702625c4a237023d4",
+      "sha256": "13d845779bef38e468eac076704f5d7466b87b402bbd62da55ab131de099e17c",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_04",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_cube_rank7_minor_inverse.json"
+    },
+    {
+      "cpu": 3,
+      "key": "r2_cube_zero_mode",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_05/tasks/r2_cube_zero_mode/RESULT.json",
+      "receipt_sha256": "71e2e7f1871e7a49731178dc106ff481868a74357506ad1c247cb0203e04d4d5",
+      "sha256": "14d6107fd3fc98792a2e62f0a6b080b6d27b9e57b705be46fbc09e5b5ab63182",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_05",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_cube_zero_mode.json"
+    },
+    {
+      "cpu": 3,
+      "key": "r2_quadrupole_matching",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_02/tasks/r2_quadrupole_matching/RESULT.json",
+      "receipt_sha256": "f49bbf13997d1267d31cc221f45c1be6ee7c18e86437ea0874196623eac36076",
+      "sha256": "94ce9bd12ff2cf334341b07b7a25be285a672fc1c0fe66f3bf1b47c73937aa7c",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_02",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_quadrupole_matching.json"
+    },
+    {
+      "cpu": 2,
+      "key": "r2_radial_flux_energy_word",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_01/tasks/r2_radial_flux_energy_word/RESULT.json",
+      "receipt_sha256": "3332babcafab268270128738e362e68acf4df72697e97a83a7b844d820e2a505",
+      "sha256": "8b8747fb35baba40cf5b61dbe770816f75fa8d49140c6cc765dc21e768b7db71",
+      "status": "COMPLETED",
+      "task_kind": "native",
+      "worker": "G6_01",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/r2_radial_flux_energy_word.json"
+    },
+    {
+      "cpu": 9,
+      "key": "web_r1_000",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-03/t500-scratch-chapter3-source-field-20261015-03/LH_02/tasks/web_r1_000/RESULT.json",
+      "receipt_sha256": "1c890fce7ee77802949acd4a03d0118bd141cc0b0f92089a9132ef1d9a757f84",
+      "sha256": "688fc89b37bc99cd0ed049c244b7a5d34a1213fafb8967ed10485e721d1f6867",
+      "status": "COMPLETED",
+      "task_kind": "research_web",
+      "worker": "LH_02",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r1_000.json"
+    },
+    {
+      "cpu": 10,
+      "key": "web_r1_001",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-03/t500-scratch-chapter3-source-field-20261015-03/LH_03/tasks/web_r1_001/RESULT.json",
+      "receipt_sha256": "141642e549b3f72ff45a4f13d9d3eea610d21ed69ddf7d1400aa3b1dd1bc9c27",
+      "sha256": "8f52704d1cf176631e49dc99a079c2e34f0968d7aae7b84916ec567ab08d192c",
+      "status": "COMPLETED",
+      "task_kind": "research_web",
+      "worker": "LH_03",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r1_001.json"
+    },
+    {
+      "cpu": 9,
+      "key": "web_r1_002",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-03/t500-scratch-chapter3-source-field-20261015-03/LH_02/tasks/web_r1_002/RESULT.json",
+      "receipt_sha256": "23f95c6e3c528955fa01d66dd740c513c451c3e3eebd91c8ba29c9666731b044",
+      "sha256": "10557082e59a3775886af76c9e14abad1fe4ef4e33a8a433e6072a38c0100954",
+      "status": "COMPLETED",
+      "task_kind": "research_web",
+      "worker": "LH_02",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r1_002.json"
+    },
+    {
+      "cpu": 10,
+      "key": "web_r2_003",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-03/t500-scratch-chapter3-source-field-20261015-03/LH_03/tasks/web_r2_003/RESULT.json",
+      "receipt_sha256": "a7bfa971c9ac590523d7aa7d3c81370434f1578b44a2762beb56eb70f2d6a1d1",
+      "sha256": "46cb2f798cfa251fb5cbf8b36931ac8520f8628afa05cb2dd8c1b3316e439f9a",
+      "status": "COMPLETED",
+      "task_kind": "research_web",
+      "worker": "LH_03",
+      "wrapper": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/native_returns/web_r2_003.json"
+    }
+  ],
+  "research": 4
+}

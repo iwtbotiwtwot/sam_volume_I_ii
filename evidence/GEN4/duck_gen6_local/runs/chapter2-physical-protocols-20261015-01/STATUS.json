@@ -1,0 +1,329 @@
+{
+  "Codex_agents_launched": 0,
+  "actual_ready": 18,
+  "directed_actual_controller_ACKs": 132,
+  "failure": null,
+  "failures": 0,
+  "global_host_lock_acquired": false,
+  "helper_custody": {
+    "RAM_released": true,
+    "custody": {
+      "complete_file_readback": true,
+      "destination": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-physical-protocols-20261015-01/retained_ram",
+      "files": 231,
+      "status": "PASS"
+    },
+    "id": "HELPER_NODE",
+    "kind": "HELPER_STOPPED",
+    "worker_exits": {
+      "LH_01": 0,
+      "LH_02": 0,
+      "LH_03": 0,
+      "LH_04": 0,
+      "LH_05": 0,
+      "LH_06": 0
+    }
+  },
+  "native_controllers": 12,
+  "native_returns": 11,
+  "outcomes": [
+    {
+      "controller": "LH_05",
+      "id": "web_r1_000",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/web_r1_000.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "LH_06",
+      "id": "web_r1_001",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/web_r1_001.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "LH_05",
+      "id": "web_r1_002",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/web_r1_002.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "G6_01",
+      "id": "r1_forward_duration",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r1_forward_duration.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_02",
+      "id": "r1_reverse_duration",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r1_reverse_duration.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_03",
+      "id": "r1_actual_source_rank10",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r1_actual_source_rank10.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_04",
+      "id": "r1_observable_cube",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r1_observable_cube.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "LH_06",
+      "id": "web_r2_003",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/web_r2_003.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "G6_05",
+      "id": "r2_improved_H3_word",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r2_improved_H3_word.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_06",
+      "id": "r2_improved_H3_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r2_improved_H3_inverse.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_07",
+      "id": "r2_paid_work_coefficients",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r2_paid_work_coefficients.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_08",
+      "id": "r2_deep_source_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r2_deep_source_inverse.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_09",
+      "id": "r2_largest_N_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r2_largest_N_inverse.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_10",
+      "id": "r2_zero_readout_projector",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r2_zero_readout_projector.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_11",
+      "id": "r2_min_counter_rank",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/native_returns/r2_min_counter_rank.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    }
+  ],
+  "own_cpu_leases_released": true,
+  "phase": "ORGANIZE",
+  "pid": 162345,
+  "research": {
+    "automatic_crawl": true,
+    "depth": 2,
+    "index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/research_web.sqlite",
+    "index_sha256": "c249f3e8e78174655f12397f6ac3693cd0680a9ffe1db9fb796858cfac51f180",
+    "max_nodes": 64,
+    "max_results": 8,
+    "mode": "connections",
+    "queries": [
+      {
+        "query": "source residual invariant memory",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_continuation2_20261015/memory/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "source clock signed Write reference phase",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/gen6_spin_clock_successor1_20261014/SOURCE_ACTION.md"
+        ]
+      },
+      {
+        "query": "measurement preparation timing coherence",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_physical3_20261015/measurement/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "history counter apparatus work",
+        "rounds": [
+          2
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_continuation2_20261015/records/DERIVATION.md"
+        ]
+      }
+    ],
+    "search_workers": [
+      "LH_05",
+      "LH_06"
+    ],
+    "source_index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/inputs/RESEARCH_WEB.sqlite"
+  },
+  "research_returns": 4,
+  "round1_accounting": [
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_000",
+      "known_work": "All retrieved source-memory records inspected; hidden returns, full fields and preserved backgrounds direct the actual closure calculation.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_001",
+      "known_work": "All retrieved source-clock records inspected; signed Write, common phase, waiting and work accounts direct the complete reference protocol.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_002",
+      "known_work": "All retrieved receiving records inspected; apparatus and calibration remain distinct from source algebra and source-cyclicity access.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_forward_duration",
+      "known_work": "Original forward signed Write admitted and both coordinate integrals certified; complete positive source duration retained.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_reverse_duration",
+      "known_work": "Original reverse signed Write admitted with positive duration and reversed path; this is not negative elapsed time.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_actual_source_rank10",
+      "known_work": "Actual full-N point minor certifies the seven-coordinate residual has two outgoing directions; all54 source evaluation certificates retained separately.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_observable_cube",
+      "known_work": "Exact receiver algebra returns O^3=2O, fixing the physical outcome range used in repeated-shot accounting.",
+      "status": "COMPLETED"
+    }
+  ],
+  "round_starts": [
+    {
+      "deadline_monotonic_ns": 20549516875670,
+      "round": 1,
+      "seconds": 180,
+      "start_monotonic_ns": 20369516875670,
+      "time_utc": "2026-10-16T01:00:49.172087+00:00"
+    },
+    {
+      "deadline_monotonic_ns": 20742802323907,
+      "round": 2,
+      "seconds": 180,
+      "start_monotonic_ns": 20562802323907,
+      "time_utc": "2026-10-16T01:04:02.457538+00:00"
+    }
+  ],
+  "selected_targets": [
+    {
+      "from_outcome_ids": [
+        "r1_actual_source_rank10",
+        "web_r1_000"
+      ],
+      "id": "ACTUAL_CLOSURE",
+      "known_work": "Actual seven-coordinate residual rank two on54 original profiles; deeper full-source certificate retained.",
+      "next_question": "Certify the reached higher rank and its precise nonstabilization boundary.",
+      "selection_reason": "First user mathematical target."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_forward_duration",
+        "r1_reverse_duration",
+        "web_r1_001"
+      ],
+      "id": "PAID_REFERENCE",
+      "known_work": "Original forward/reverse durations and source energy bound retained; external entry/release and nonzero wait Hamiltonian explicit.",
+      "next_question": "Receive every reference-work coefficient alongside phase unwrapping and gross exchanged work.",
+      "selection_reason": "Complete physical protocol requested."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_observable_cube",
+        "web_r1_002"
+      ],
+      "id": "MEASUREMENT",
+      "known_work": "Fresh-copy destructive observable and explicit apparatus budget; improved source-selected cadence lowers sufficient shots.",
+      "next_question": "Receive the stronger finite-record minor and zero-outcome projector algebra.",
+      "selection_reason": "Turn expectations into a finite-shot measurement protocol."
+    },
+    {
+      "from_outcome_ids": [
+        "web_r1_000",
+        "web_r1_001"
+      ],
+      "id": "COMPACT_CERTIFICATES",
+      "known_work": "Short block/memory/Gram, event-offset, counter and endpoint certificates independently derived.",
+      "next_question": "Receive the actual rank-two counter contrast and place all short proofs in the chapter.",
+      "selection_reason": "Make Chapter II reader-complete for the requested certificates."
+    }
+  ],
+  "source_packet_sha256": "97dac5e8f44d0d241e6bdb610bfc1cee6dd50be0d4568f9d840b877e753cb0de",
+  "status": "SCIENCE_COMPLETE_AWAITING_OPERATOR_ORGANIZATION",
+  "time_utc": "2026-10-16T01:07:02.790344+00:00",
+  "total_returns": 15,
+  "worker_exits": {
+    "G6_01": 0,
+    "G6_02": 0,
+    "G6_03": 0,
+    "G6_04": 0,
+    "G6_05": 0,
+    "G6_06": 0,
+    "G6_07": 0,
+    "G6_08": 0,
+    "G6_09": 0,
+    "G6_10": 0,
+    "G6_11": 0,
+    "G6_12": 0,
+    "HELPER_NODE": 0
+  }
+}

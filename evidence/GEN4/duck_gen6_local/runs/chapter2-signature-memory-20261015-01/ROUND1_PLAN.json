@@ -1,0 +1,579 @@
+{
+  "tasks": [
+    {
+      "controller": "G6_01",
+      "estimated_memory_bytes": 402653184,
+      "key": "r1_cyclic_g0",
+      "kind": "native",
+      "operation": "GEN3_SOURCE_SUBSPACE",
+      "payload": {
+        "context": {
+          "basis": [
+            "p0",
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "field": {
+            "radicand": 0
+          },
+          "history": {
+            "g_H": 0,
+            "source": "Original placement basis and signed response"
+          },
+          "spectral_coordinate": "q",
+          "units": {
+            "Q": "original dimensionless source; physical epsilon separate"
+          }
+        },
+        "data": {
+          "H": [
+            [
+              84,
+              8,
+              8,
+              0
+            ],
+            [
+              8,
+              84,
+              0,
+              0
+            ],
+            [
+              8,
+              0,
+              84,
+              8
+            ],
+            [
+              0,
+              0,
+              8,
+              84
+            ]
+          ],
+          "mode": "CLOSURE",
+          "seeds": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ]
+        },
+        "name": "chapter2_endpoint_cyclic_g0",
+        "source_binding": {
+          "campaign": "voli_chapter2_continuation2_20261015",
+          "construction_author": "Codex; installed GEN6 Duck execution",
+          "diagnostic_g_H": 0,
+          "law_namespace": "SAM_land",
+          "original_law_and_clocks_preserved": true,
+          "parent": "H002634 Chapter II source-bound development",
+          "physical_calibration_claimed": false,
+          "physical_epsilon": "symbolic, not fitted",
+          "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=0",
+          "signed_response": "Original K_response in Q=T+g_H K_response",
+          "source_files": {
+            "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+            "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+            "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+            "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+            "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+            "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+            "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+          }
+        }
+      },
+      "purpose": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=0",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "construction_author": "Codex; installed GEN6 Duck execution",
+        "diagnostic_g_H": 0,
+        "law_namespace": "SAM_land",
+        "original_law_and_clocks_preserved": true,
+        "parent": "H002634 Chapter II source-bound development",
+        "physical_calibration_claimed": false,
+        "physical_epsilon": "symbolic, not fitted",
+        "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=0",
+        "signed_response": "Original K_response in Q=T+g_H K_response",
+        "source_files": {
+          "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+          "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        }
+      },
+      "target_id": "PARENT"
+    },
+    {
+      "controller": "G6_02",
+      "estimated_memory_bytes": 402653184,
+      "key": "r1_cyclic_g1",
+      "kind": "native",
+      "operation": "GEN3_SOURCE_SUBSPACE",
+      "payload": {
+        "context": {
+          "basis": [
+            "p0",
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "field": {
+            "radicand": 0
+          },
+          "history": {
+            "g_H": 1,
+            "source": "Original placement basis and signed response"
+          },
+          "spectral_coordinate": "q",
+          "units": {
+            "Q": "original dimensionless source; physical epsilon separate"
+          }
+        },
+        "data": {
+          "H": [
+            [
+              756,
+              104,
+              40,
+              0
+            ],
+            [
+              104,
+              2100,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              756,
+              40
+            ],
+            [
+              0,
+              0,
+              40,
+              756
+            ]
+          ],
+          "mode": "CLOSURE",
+          "seeds": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ]
+        },
+        "name": "chapter2_endpoint_cyclic_g1",
+        "source_binding": {
+          "campaign": "voli_chapter2_continuation2_20261015",
+          "construction_author": "Codex; installed GEN6 Duck execution",
+          "diagnostic_g_H": 1,
+          "law_namespace": "SAM_land",
+          "original_law_and_clocks_preserved": true,
+          "parent": "H002634 Chapter II source-bound development",
+          "physical_calibration_claimed": false,
+          "physical_epsilon": "symbolic, not fitted",
+          "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=1",
+          "signed_response": "Original K_response in Q=T+g_H K_response",
+          "source_files": {
+            "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+            "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+            "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+            "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+            "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+            "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+            "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+          }
+        }
+      },
+      "purpose": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=1",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "construction_author": "Codex; installed GEN6 Duck execution",
+        "diagnostic_g_H": 1,
+        "law_namespace": "SAM_land",
+        "original_law_and_clocks_preserved": true,
+        "parent": "H002634 Chapter II source-bound development",
+        "physical_calibration_claimed": false,
+        "physical_epsilon": "symbolic, not fitted",
+        "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=1",
+        "signed_response": "Original K_response in Q=T+g_H K_response",
+        "source_files": {
+          "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+          "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        }
+      },
+      "target_id": "PARENT"
+    },
+    {
+      "controller": "G6_03",
+      "estimated_memory_bytes": 402653184,
+      "key": "r1_cyclic_g2",
+      "kind": "native",
+      "operation": "GEN3_SOURCE_SUBSPACE",
+      "payload": {
+        "context": {
+          "basis": [
+            "p0",
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "field": {
+            "radicand": 0
+          },
+          "history": {
+            "g_H": 2,
+            "source": "Original placement basis and signed response"
+          },
+          "spectral_coordinate": "q",
+          "units": {
+            "Q": "original dimensionless source; physical epsilon separate"
+          }
+        },
+        "data": {
+          "H": [
+            [
+              1428,
+              200,
+              72,
+              0
+            ],
+            [
+              200,
+              4116,
+              0,
+              0
+            ],
+            [
+              72,
+              0,
+              1428,
+              72
+            ],
+            [
+              0,
+              0,
+              72,
+              1428
+            ]
+          ],
+          "mode": "CLOSURE",
+          "seeds": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ]
+        },
+        "name": "chapter2_endpoint_cyclic_g2",
+        "source_binding": {
+          "campaign": "voli_chapter2_continuation2_20261015",
+          "construction_author": "Codex; installed GEN6 Duck execution",
+          "diagnostic_g_H": 2,
+          "law_namespace": "SAM_land",
+          "original_law_and_clocks_preserved": true,
+          "parent": "H002634 Chapter II source-bound development",
+          "physical_calibration_claimed": false,
+          "physical_epsilon": "symbolic, not fitted",
+          "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=2",
+          "signed_response": "Original K_response in Q=T+g_H K_response",
+          "source_files": {
+            "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+            "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+            "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+            "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+            "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+            "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+            "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+          }
+        }
+      },
+      "purpose": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=2",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "construction_author": "Codex; installed GEN6 Duck execution",
+        "diagnostic_g_H": 2,
+        "law_namespace": "SAM_land",
+        "original_law_and_clocks_preserved": true,
+        "parent": "H002634 Chapter II source-bound development",
+        "physical_calibration_claimed": false,
+        "physical_epsilon": "symbolic, not fitted",
+        "question": "Determine the exact source modes reached from endpoint placement p1 at diagnostic g_H=2",
+        "signed_response": "Original K_response in Q=T+g_H K_response",
+        "source_files": {
+          "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+          "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        }
+      },
+      "target_id": "PARENT"
+    },
+    {
+      "controller": "G6_04",
+      "estimated_memory_bytes": 402653184,
+      "key": "r1_memory_Usolve",
+      "kind": "native",
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "payload": {
+        "data": {
+          "matrix": {
+            "column_basis": [
+              "0",
+              "1"
+            ],
+            "entries": [
+              [
+                {
+                  "im": {
+                    "lower": "0",
+                    "upper": "0"
+                  },
+                  "re": {
+                    "lower": "24382515114501767222933075760230886374654698159354451644479332916107758252877877815087379/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168",
+                    "upper": "24382515114501767222933075760230886374654698159354451644479332916107758252877893998687619/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+                  }
+                },
+                {
+                  "im": {
+                    "lower": "0",
+                    "upper": "0"
+                  },
+                  "re": {
+                    "lower": "814611515604894284184141783923173970773803117808733137323941454486495841165/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+                    "upper": "814611515604894284184141783923173970773803117808733137323941455592084468621/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+                  }
+                }
+              ],
+              [
+                {
+                  "im": {
+                    "lower": "0",
+                    "upper": "0"
+                  },
+                  "re": {
+                    "lower": "814611515604894284184141783923173970773803117808733137323941454486495841165/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+                    "upper": "814611515604894284184141783923173970773803117808733137323941455592084468621/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+                  }
+                },
+                {
+                  "im": {
+                    "lower": "0",
+                    "upper": "0"
+                  },
+                  "re": {
+                    "lower": "27742641594291068835659460323986874967899610695361086949932702859581816357881179095333681/15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792",
+                    "upper": "27742641594291068835659460323986874967899610695361086949932702859581816357881231964655857/15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792"
+                  }
+                }
+              ]
+            ],
+            "row_basis": [
+              "0",
+              "1"
+            ],
+            "structure": "GENERAL"
+          },
+          "rhs": {
+            "column_basis": [
+              "0"
+            ],
+            "entries": [
+              [
+                {
+                  "im": {
+                    "lower": "0",
+                    "upper": "0"
+                  },
+                  "re": {
+                    "lower": "82131003626811659917745643836320673027972980147771906572869034354408435929488502673157912724335744492518210259097331190692048097124858386865117660228139409791680201206844930031479606627217326375814781745680546270990403486623344897174454391153830002481087429407508616413245432510737442125831689692023508638135/359538626972463181545861038157804946723595395788461314546860162315465351611001926265416954644815072042240227759742786715317579537628833244985694861278948248755535786849730970552604439202492188238906165904170011537676301364684925762947826221081654474326701021369172596479894491876959432609670712659248448274432",
+                    "upper": "82131003892020347898240626463484754585414382970401620183262362707489569545369574732837260304199265749924333670824090997617355101588170150797406958659626005836595560957442631507277804146340722752543106153410793406934646438432774469896269327076981142611747748798641259331319594888417576271600921186690442402231/359538626972463181545861038157804946723595395788461314546860162315465351611001926265416954644815072042240227759742786715317579537628833244985694861278948248755535786849730970552604439202492188238906165904170011537676301364684925762947826221081654474326701021369172596479894491876959432609670712659248448274432"
+                  }
+                }
+              ],
+              [
+                {
+                  "im": {
+                    "lower": "0",
+                    "upper": "0"
+                  },
+                  "re": {
+                    "lower": "-74230313652341591873261208824633579455365213188033189750152953151706588726695128169958409191352916720487084462537521047211066854593308975893139187180312190003438306783423893680915059271578996624349728493154622511870652289899965605064144542191419164068050460429658603376762990356766722345496297184195267346357/193025830561934107162947985381047541665608072055952185017491682078771915023799273387871154500424503798663213600460826789274033295999330021731389427128542432710187362934652673115221889249890533772697227171395058697282798274445240687006095271729621464100656563293799180557568945517759802372156455525060659659679134121984",
+                    "upper": "148461026991052384054661322340999910957019590025761294056217310082035256656947867495845154120108622807345898156470883075401736843068724633964858599707069897854735390052774550912879102631957588372511548507347697842513672120463906574524847812877729774332282409894000967573768602152089280476981343377613324124311/386051661123868214325895970762095083331216144111904370034983364157543830047598546775742309000849007597326427200921653578548066591998660043462778854257084865420374725869305346230443778499781067545394454342790117394565596548890481374012190543459242928201313126587598361115137891035519604744312911050121319319358268243968"
+                  }
+                }
+              ]
+            ],
+            "row_basis": [
+              "0",
+              "1"
+            ],
+            "structure": "GENERAL"
+          }
+        },
+        "precision_bits": 1024,
+        "source_binding": {
+          "campaign": "voli_chapter2_continuation2_20261015",
+          "construction_author": "Codex; installed GEN6 Duck execution",
+          "law_namespace": "SAM_land",
+          "original_law_and_clocks_preserved": true,
+          "parent": "H002634 Chapter II source-bound development",
+          "physical_epsilon": "symbolic, not fitted",
+          "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+          "signed_response": "Original K_response in Q=T+g_H K_response",
+          "source_files": {
+            "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+            "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+            "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+            "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+            "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+            "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+            "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+          },
+          "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+          "spin_profile": null
+        }
+      },
+      "purpose": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "construction_author": "Codex; installed GEN6 Duck execution",
+        "law_namespace": "SAM_land",
+        "original_law_and_clocks_preserved": true,
+        "parent": "H002634 Chapter II source-bound development",
+        "physical_epsilon": "symbolic, not fitted",
+        "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+        "signed_response": "Original K_response in Q=T+g_H K_response",
+        "source_files": {
+          "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+          "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        },
+        "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+        "spin_profile": null
+      },
+      "target_id": "PARENT"
+    },
+    {
+      "controller": "LH_05",
+      "estimated_memory_bytes": 268435456,
+      "key": "web_r1_000",
+      "kind": "research_web",
+      "operation": "RESEARCH_WEB_SEARCH",
+      "purpose": "Find source-linked candidate connections: coherence source clock",
+      "request": {
+        "depth": 2,
+        "max_nodes": 64,
+        "max_results": 8,
+        "query": "coherence source clock",
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md"
+        ]
+      },
+      "source_binding": {
+        "core_wheel_sha256": null,
+        "law_namespace": "SAM_land",
+        "native_core_version": "0.10.2",
+        "original_target": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_continuation2_20261015/TARGET.md",
+        "scope": "Chapter II signature -> memory -> paid Write clock; active breadcrumb exploration",
+        "target_sha256": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230"
+      },
+      "target_id": "PARENT"
+    },
+    {
+      "controller": "LH_06",
+      "estimated_memory_bytes": 268435456,
+      "key": "web_r1_001",
+      "kind": "research_web",
+      "operation": "RESEARCH_WEB_SEARCH",
+      "purpose": "Find source-linked candidate connections: source action residual",
+      "request": {
+        "depth": 2,
+        "max_nodes": 64,
+        "max_results": 8,
+        "query": "source action residual",
+        "seeds": [
+          "GEN4/duck_spin_upper1_20261014/REPORT.md"
+        ]
+      },
+      "source_binding": {
+        "core_wheel_sha256": null,
+        "law_namespace": "SAM_land",
+        "native_core_version": "0.10.2",
+        "original_target": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_continuation2_20261015/TARGET.md",
+        "scope": "Chapter II signature -> memory -> paid Write clock; active breadcrumb exploration",
+        "target_sha256": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230"
+      },
+      "target_id": "PARENT"
+    },
+    {
+      "controller": "LH_05",
+      "estimated_memory_bytes": 268435456,
+      "key": "web_r1_002",
+      "kind": "research_web",
+      "operation": "RESEARCH_WEB_SEARCH",
+      "purpose": "Find source-linked candidate connections: phase history reference",
+      "request": {
+        "depth": 2,
+        "max_nodes": 64,
+        "max_results": 8,
+        "query": "phase history reference",
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/bridge/DERIVATION.md"
+        ]
+      },
+      "source_binding": {
+        "core_wheel_sha256": null,
+        "law_namespace": "SAM_land",
+        "native_core_version": "0.10.2",
+        "original_target": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_continuation2_20261015/TARGET.md",
+        "scope": "Chapter II signature -> memory -> paid Write clock; active breadcrumb exploration",
+        "target_sha256": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230"
+      },
+      "target_id": "PARENT"
+    }
+  ]
+}

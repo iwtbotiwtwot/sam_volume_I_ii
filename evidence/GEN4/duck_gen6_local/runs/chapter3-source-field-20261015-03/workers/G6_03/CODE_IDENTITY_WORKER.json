@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-16T02:24:26.217638+00:00",
+  "core_manifest_sha256": "76b1738967a891997a91cd14ab4ec5e81e57de24c54496bc35dafa50c7cac8b7",
+  "core_version": "0.10.2",
+  "file_count": 717,
+  "ignored_entries": [
+    "*.pyc",
+    "**/__pycache__/**"
+  ],
+  "inventory_sha256": "fbdfce7cf423a2cd100a6f0324f5134497590cc5f14400f57d838215ead70bde",
+  "live_matches_manifest": true,
+  "live_package": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_PROJECT/gen6_duck_t500",
+  "manifest_sha256": "8b6acdc34a78f30a108a9241e9668acce388b9b2b4354d1c8cf5a5411d184c58",
+  "mutation_performed": false,
+  "native_execution_files": 743,
+  "run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03",
+  "runtime_version": "1.2.3",
+  "schema": "GEN6_DUCK_CODE_IDENTITY_V1",
+  "snapshot": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code",
+  "snapshot_matches_manifest": true,
+  "status": "PASS"
+}

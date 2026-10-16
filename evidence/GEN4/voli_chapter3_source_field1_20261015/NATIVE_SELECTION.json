@@ -1,0 +1,16 @@
+{
+  "core": "0.10.2",
+  "duck_version": "1.2.3",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "no_new_runtime": true,
+  "operations": [
+    "GEN3_COMPLEX_SOLVE",
+    "GEN3_SOURCE_OPERATOR_WORD"
+  ],
+  "round_seconds": [
+    180,
+    180
+  ],
+  "route": "Installed GEN6 Duck Connections; analytic derivations and explicitly independent Fraction readback accompany source-bound native execution",
+  "source_semantics_preserved": true
+}

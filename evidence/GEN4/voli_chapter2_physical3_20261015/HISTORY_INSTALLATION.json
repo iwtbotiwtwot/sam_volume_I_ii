@@ -1,0 +1,48 @@
+{
+  "history": "H002636",
+  "history_entries": [
+    "SAM_HISTORY/entries/H002636_2026-10-15_CHAPTER_II_PHYSICAL_PROTOCOLS_AND_ACTUAL_CLOSURE.md"
+  ],
+  "history_sha256": "efacfa80be2e72828a13c86dfc9e5f619cd173fb591e2baaa87e6525699b0bc3",
+  "live_files": [
+    {
+      "after_sha256": "1d1ef9a90e83bbb4760771a2dcff844038d0871461797a9ce2ae7271a55c709e",
+      "before_sha256": "5853c56d34b9ff02d2f5c02047c216e4d8f52b4e11ad80cf4b0dfe155cc2610a",
+      "bytes": 16364,
+      "path": "SAM_LIVE/00_CURRENT.md"
+    },
+    {
+      "after_sha256": "53306fcd66010d68a8229b2a3b22745bfd7877010db43673ec6153e83110eb4e",
+      "before_sha256": "7675d9542e2efc275b04a5b90e4ddc83fd6e30dfcd044ea66c4a3897beafaf55",
+      "bytes": 32753,
+      "path": "SAM_LIVE/15_VOLI_EXPANSION_CURRENT.md"
+    },
+    {
+      "after_sha256": "359ff6237c7da66ffa1de15e27ba1c3a7f679dec447b13c2ba36fd9731e4bb20",
+      "before_sha256": "5de62a78086bdc8a2654fbc3ec9b3669970e48e249867e5b72753b325431a500",
+      "bytes": 34521,
+      "path": "SAM_LIVE/03_STARBREAKER_GW_CURRENT.md"
+    },
+    {
+      "after_sha256": "91ee0cbacc00a89971de12996f6fb7639e9bbad905add8ea88e82eee820db8ab",
+      "before_sha256": "cdcf4c230292629ca334028aacc0ab14b18bb26250e27b0b7191c190468332ce",
+      "bytes": 68824,
+      "path": "GEN4/DUCK_CURRENT.json"
+    },
+    {
+      "after_sha256": "69636bf27a0b67182fd2338b4e1d6071cb26450c96688f24d87da0fb494edeb0",
+      "before_sha256": "aa9f494e6cf5e91f0213f67f9ffd086151eb53e29505b5005ce22be08896bffe",
+      "bytes": 7320,
+      "path": "SAM_PROJECT/CONTINUITY.json"
+    },
+    {
+      "after_sha256": "ccfcb3d9b97d509a04348f0d5d62d82ed4c879628f8ca885df6fd6d15897e1a9",
+      "before_sha256": "25df29d5ac99ac6b9630d7363b6ba63506739e22e4ec160eb774c95b0c9a355c",
+      "bytes": 906994,
+      "path": "SAM_HISTORY/HISTORY_INDEX.md"
+    }
+  ],
+  "scientific_execution": false,
+  "status": "INSTALLED",
+  "unrelated_scopes_preserved": true
+}

@@ -1,0 +1,23 @@
+{
+  "global_host_lock_acquired": false,
+  "helper_RAM_released": true,
+  "helper_cpu_release": {
+    "global_host_lock_acquired": false,
+    "own_cpu_leases_released": true,
+    "own_cpus": [
+      1,
+      8,
+      9,
+      10
+    ],
+    "returncode": 0,
+    "time_utc": "2026-10-16T02:32:12.594987+00:00"
+  },
+  "local_service": {
+    "ActiveState": "inactive",
+    "MainPID": "0"
+  },
+  "own_local_cpu_leases_free": true,
+  "status": "PASS",
+  "time_utc": "2026-10-16T02:35:27.381126+00:00"
+}

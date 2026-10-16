@@ -1,0 +1,76 @@
+{
+  "automatic_third_round": false,
+  "controller_count": 12,
+  "duck_version": "1.2.2",
+  "helper_count": 6,
+  "helper_host": "LOCAL_PROCESS_NO_SSH",
+  "helper_memory_bytes": 3221225472,
+  "helper_python": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/.venv-r3/bin/python",
+  "helper_root": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project",
+  "helper_run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-physical-protocols-20261015-01",
+  "helper_unit": "sam-r3-gen6-duck-helper-chapter2-physical-protocols-20261015-01",
+  "id": "chapter2-physical-protocols-20261015-01",
+  "local_memory_bytes": 4294967296,
+  "operator_profile": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "role": "OUTSIDE_OPERATOR"
+  },
+  "prepared_run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01",
+  "research": {
+    "automatic_crawl": true,
+    "depth": 2,
+    "index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/research_web.sqlite",
+    "index_sha256": "c249f3e8e78174655f12397f6ac3693cd0680a9ffe1db9fb796858cfac51f180",
+    "max_nodes": 64,
+    "max_results": 8,
+    "mode": "connections",
+    "queries": [
+      {
+        "query": "source residual invariant memory",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_continuation2_20261015/memory/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "source clock signed Write reference phase",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/gen6_spin_clock_successor1_20261014/SOURCE_ACTION.md"
+        ]
+      },
+      {
+        "query": "measurement preparation timing coherence",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_physical3_20261015/measurement/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "history counter apparatus work",
+        "rounds": [
+          2
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_continuation2_20261015/records/DERIVATION.md"
+        ]
+      }
+    ],
+    "search_workers": [
+      "LH_05",
+      "LH_06"
+    ],
+    "source_index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/inputs/RESEARCH_WEB.sqlite"
+  },
+  "round_seconds": 180,
+  "science_scope": "Actual spin closure and physically paid/read records",
+  "unit": "sam-r3-gen6-duck-chapter2-physical-protocols-20261015-01",
+  "wire_inline_bytes": 1048576
+}

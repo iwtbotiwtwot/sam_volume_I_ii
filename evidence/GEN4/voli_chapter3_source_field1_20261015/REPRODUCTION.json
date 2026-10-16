@@ -1,0 +1,127 @@
+{
+  "schema": "SAM_CH2_CH3_OFFLINE_REPRODUCTION_V1",
+  "status": "PASS",
+  "scope": "COMPLETE_RETAINED_EVIDENCE_REPLAY",
+  "native_executions": 0,
+  "network_requests": 0,
+  "runtime_installations": 0,
+  "scripts": [
+    {
+      "script": "source/verify.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"independent_exact_checks\": 2040}\n",
+      "stderr": ""
+    },
+    {
+      "script": "source/verify_uniform_coupling.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"independent_exact_checks\": 23, \"e0_B_curvature\": -512, \"noncommuting_species_site\": [0, 5]}\n",
+      "stderr": ""
+    },
+    {
+      "script": "radial/verify.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 312, \"U_L\": \"-9427/252000\", \"U_infinity\": \"-2603/28000\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "energy/verify.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 52, \"Ugrav\": \"-421/990\", \"native_task\": \"CH3_QUADRUPOLE_FIELD_SOURCE_MATCHING\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "clock/verify.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 822, \"lanes\": 6, \"native_tasks\": 2, \"source_dimensions\": 16}\n",
+      "stderr": ""
+    },
+    {
+      "script": "core/verify_core.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 45, \"rows\": [{\"name\": \"Earth\", \"source_length_m\": \"0.00887005607823534143106431189002726505011153441179099107001237\", \"lift\": \"1.39225491731837096704823605242933056821716126381902229948397E-9\", \"acceleration_m_s2\": \"9.82025048706392845406048306758859976120508185820120951550175\", \"escape_m_s\": \"11186.1356913890766713786010425306080014366749350289397895570\"}, {\"name\": \"Moon\", \"source_length_m\": \"0.000109148066482213668252170251176781526870620836162339829283340\", \"lift\": \"6.28226467607998551008232135241058632845751330507308790625878E-11\", \"acceleration_m_s2\": \"1.62490442955630918379074389792564448869632075673093738284558\", \"escape_m_s\": \"2376.17716339128702430909007122701797992780871319161191629968\"}, {\"name\": \"Sun\", \"source_length_m\": \"2953.25007650080347943526231587254508995758663214495918888314\", \"lift\": \"0.00000424500514086647043184600016655533288767800292100755956429947\", \"acceleration_m_s2\": \"274.200111694563344608781734009128830133333680441854271074275\", \"escape_m_s\": \"617674.700317096877683437960842265871313631140997104826898897\"}]}\n",
+      "stderr": ""
+    },
+    {
+      "script": "clock/verify_correlated_phase.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 47, \"lanes\": 6, \"Earth_a\": \"199300220900/143149231093306629611\", \"lane01_cycle_nanoradians\": {\"lower\": \"-4.373897816\", \"upper\": \"-4.373897806\"}, \"protected_RESULTS_sha256\": \"ebb9ee3234fa57fe1c54f37fabecbfe985e8d3bc1f2eea4f3185571cf1dea1ab\", \"native_executions\": 0}\n",
+      "stderr": ""
+    },
+    {
+      "script": "source/build_cube_graph.py",
+      "returncode": 0,
+      "stdout": "Cube closed-graph exact rank7 and positive-source incompatibility\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_native.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"native_outputs_verified\": 11, \"research_receipts_authenticated\": 4, \"matrix_entries_checked\": 28528, \"independent_checks\": 29585}\n",
+      "stderr": ""
+    },
+    {
+      "script": "chapter2/verify_pdf.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 170, \"pages\": 24, \"sections\": 48, \"sha256\": \"c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "chapter3/verify_pdf.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 161, \"pages\": 14, \"sha256\": \"4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973\"}\n",
+      "stderr": ""
+    }
+  ],
+  "initial_manifest": {
+    "status": "NOT_A_PORTABLE_BUNDLE",
+    "files": 0
+  },
+  "pdf_packages": {
+    "mpmath": "1.3.0",
+    "reportlab": "5.0.1",
+    "matplotlib": "3.11.2",
+    "svglib": "2.3.0",
+    "pypdf": "6.10.0",
+    "charset-normalizer": "3.5.2",
+    "contourpy": "1.4.0",
+    "cssselect2": "0.10.1",
+    "cycler": "0.12.1",
+    "fonttools": "4.67.0",
+    "kiwisolver": "1.5.1",
+    "lxml": "6.1.3",
+    "numpy": "2.5.4",
+    "packaging": "26.3",
+    "pillow": "12.3.0",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0",
+    "tinycss2": "1.5.1",
+    "webencodings": "0.5.1"
+  },
+  "pdf_sha256_before": {
+    "SAM_Volume_I_Chapter_II_Source_to_Field_Update_20261015.pdf": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929",
+    "SAM_Volume_I_Chapter_III_Source_to_Field_Development_20261015.pdf": "4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973"
+  },
+  "independent_science_assertions_by_report": {
+    "source/CHECKS.json": 2040,
+    "source/UNIFORM_COUPLING_RESPONSE.json": 23,
+    "radial/VERIFICATION.json": 312,
+    "energy/FIELD_SOURCE_RESULTS.json": 52,
+    "clock/RESULTS.json": 822,
+    "clock/CORRELATED_PHASE_RESULTS.json": 47,
+    "core/RESULTS.json": 45
+  },
+  "independent_science_assertions": 3341,
+  "retained_native_readback": {
+    "native_outputs_verified": 11,
+    "research_receipts_authenticated": 4,
+    "matrix_entries_checked": 28528,
+    "independent_checks": 29585
+  },
+  "pdf_sha256_after": {
+    "SAM_Volume_I_Chapter_II_Source_to_Field_Update_20261015.pdf": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929",
+    "SAM_Volume_I_Chapter_III_Source_to_Field_Development_20261015.pdf": "4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973"
+  },
+  "pdf_rebuilds": "RELOCATED_FRESH_CACHE_BYTE_IDENTICAL"
+}

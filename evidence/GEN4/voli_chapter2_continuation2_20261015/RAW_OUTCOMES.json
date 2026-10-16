@@ -1,0 +1,154 @@
+[
+  {
+    "controller": "LH_05",
+    "id": "web_r1_000",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_000.json",
+    "round": "ROUND1",
+    "status": "COMPLETED",
+    "task_kind": "research_web"
+  },
+  {
+    "controller": "LH_06",
+    "id": "web_r1_001",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_001.json",
+    "round": "ROUND1",
+    "status": "COMPLETED",
+    "task_kind": "research_web"
+  },
+  {
+    "controller": "LH_05",
+    "id": "web_r1_002",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_002.json",
+    "round": "ROUND1",
+    "status": "COMPLETED",
+    "task_kind": "research_web"
+  },
+  {
+    "controller": "G6_01",
+    "id": "r1_cyclic_g0",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g0.json",
+    "round": "ROUND1",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_02",
+    "id": "r1_cyclic_g1",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g1.json",
+    "round": "ROUND1",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_03",
+    "id": "r1_cyclic_g2",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g2.json",
+    "round": "ROUND1",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_04",
+    "id": "r1_memory_Usolve",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_memory_Usolve.json",
+    "round": "ROUND1",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "LH_06",
+    "id": "web_r2_003",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r2_003.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "research_web"
+  },
+  {
+    "controller": "G6_05",
+    "id": "r2_finite_record_rank",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_finite_record_rank.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_06",
+    "id": "r2_TLS_control_rank",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_TLS_control_rank.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_07",
+    "id": "r2_H3_inverse",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_H3_inverse.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_08",
+    "id": "r2_blind_placement0",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_blind_placement0.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_09",
+    "id": "r2_blind_placement1",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_blind_placement1.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_10",
+    "id": "r2_all54_memory_Usolve",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_all54_memory_Usolve.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_11",
+    "id": "r2_reference_paid_inverse",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_reference_paid_inverse.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_12",
+    "id": "r2_record_BD",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_record_BD.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_10",
+    "id": "r2_all54_memory_payment",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_all54_memory_payment.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "G6_12",
+    "id": "r2_record_contact_Gram",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_record_contact_Gram.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "native"
+  },
+  {
+    "controller": "LH_05",
+    "id": "web_c30ee6765afa48d2a38a606a473a884f",
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_c30ee6765afa48d2a38a606a473a884f.json",
+    "round": "ROUND2",
+    "status": "COMPLETED",
+    "task_kind": "research_web"
+  }
+]

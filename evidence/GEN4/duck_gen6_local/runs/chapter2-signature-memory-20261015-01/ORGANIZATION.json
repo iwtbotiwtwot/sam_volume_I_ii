@@ -1,0 +1,97 @@
+{
+  "coverage": [
+    {
+      "evidence": [
+        "r2_finite_record_rank",
+        "r2_TLS_control_rank",
+        "r2_H3_inverse",
+        "signature/DERIVATION.md"
+      ],
+      "id": "FINITE_RECORD",
+      "next_work": "Selected physical continuation retained in FOLLOW_UP.md; no automatic next run",
+      "status": "COMPLETED"
+    },
+    {
+      "evidence": [
+        "r1_cyclic_g0",
+        "r1_cyclic_g1",
+        "r1_cyclic_g2",
+        "r2_blind_placement0",
+        "r2_blind_placement1",
+        "signature/DERIVATION.md"
+      ],
+      "id": "SOURCE_ACCESS",
+      "next_work": "Selected physical continuation retained in FOLLOW_UP.md; no automatic next run",
+      "status": "COMPLETED"
+    },
+    {
+      "evidence": [
+        "r1_memory_Usolve",
+        "r2_all54_memory_Usolve",
+        "r2_all54_memory_payment",
+        "memory/DERIVATION.md"
+      ],
+      "id": "MEMORY_RANK_TWO",
+      "next_work": "Selected physical continuation retained in FOLLOW_UP.md; no automatic next run",
+      "status": "COMPLETED"
+    },
+    {
+      "evidence": [
+        "web_r1_000",
+        "web_r1_002",
+        "r2_reference_paid_inverse",
+        "instrument/DERIVATION.md"
+      ],
+      "id": "PAID_WRITE_CLOCK",
+      "next_work": "Selected physical continuation retained in FOLLOW_UP.md; no automatic next run",
+      "status": "COMPLETED"
+    },
+    {
+      "evidence": [
+        "web_r1_002",
+        "r2_record_BD",
+        "r2_record_contact_Gram",
+        "records/DERIVATION.md"
+      ],
+      "id": "RECORD_ENERGY",
+      "next_work": "Selected physical continuation retained in FOLLOW_UP.md; no automatic next run",
+      "status": "COMPLETED"
+    }
+  ],
+  "deferred": [
+    "Physical preparation/readout and source incidence",
+    "Autonomous controller",
+    "New seven-coordinate spin action contractions",
+    "Chapter III spatial accumulation law"
+  ],
+  "parent_retained": true,
+  "ranking": [
+    {
+      "id": "FINITE_RECORD",
+      "priority": 1,
+      "reason": "General source signature and finite calibrated receiving comparison"
+    },
+    {
+      "id": "MEMORY_RANK_TWO",
+      "priority": 2,
+      "reason": "Actual54 source residuals yield exact closure obstruction and minimum dimension"
+    },
+    {
+      "id": "PAID_WRITE_CLOCK",
+      "priority": 3,
+      "reason": "Explicit paid apparatus preserves source-paced original timing and actual clock"
+    },
+    {
+      "id": "SOURCE_ACCESS",
+      "priority": 4,
+      "reason": "Exact exceptional preparation directs complementary receiver"
+    },
+    {
+      "id": "RECORD_ENERGY",
+      "priority": 5,
+      "reason": "Realizable source cost and full signed contact account"
+    }
+  ],
+  "raw_ledger": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_continuation2_20261015/RAW_OUTCOMES.json",
+  "report_markdown": "# Chapter II continuation: linked signatures, rank-two memory and a paid clock\n\nThe requested order is complete: shared-source signature/calibration, exact\nretained-memory closure, then an explicit Write/actual-clock receiving\ninstrument, followed by the specified timed-record and feasible-energy work.\nThis successor preserves H002634 and its completed development packet.\n\n**The test result suggests strong contact with the concept.**\n\nSean Brady is originator and conceptual director. OpenAI ChatGPT and Codex are\nAI research collaborators. The mathematical extensions, receiving instrument,\ncontrols and independent checks in this successor are new Codex constructions\nusing the exact retained original source and completed clock/spin data.\n\n## Shared-source signature and calibration\n\nThe original Q=T+g_H K_response is positive with simple roots for all g_H>=0.\nJacobi reordering, diagonal dominance and principal interlacing give the\nstrict all-parameter comparison\n\n    R_pair(g_H)/R_add(g_H)>1+1/132.\n\nThis compares the complete pair and additive control at the SAME g_H.\nIt does not assert one universal sampling cadence or distinct protected\nadjacent frequencies for all g_H. A single exactly matched driven source lane\nretains the same full-field dynamics as its matched TLS.\n\nXi(g_H)=384+5120g_H+1377280g_H^2 is strictly increasing on the nonnegative\nfamily. Its model-specific inverse supports common calibration without\nindependent adjustment of six lanes. Coupling differences plus complementary\ncoherence supply an algebraic reconstruction of the source-root offset.\n\nAt the retained diagnostic g_H=1, eight source-calibrated samples and their\ndifference Hankel minor remain separated from a closed autonomous TLS with a\nfixed linear receiver. The certificate includes Xi uncertainty +/-1, relative\nalpha uncertainty +/-1e-6, and per-expectation error1e-4. The bounded minor\ndeterminant lies in [-0.106706900,-0.085302278]; the two-record perturbation\nallowance is below0.051216. These are declared model tolerances, not observed\nmeasurement precision or a physical assignment of epsilon/g_H.\n\nA useful newly found exception is placement0 at g_H=1/164: its exact source\nclosure has rank3. Endpoint placement1 has rank4 there, as it does throughout\nthe nonnegative family. The native successor receives the exceptional pair\nexplicitly rather than extrapolating from g_H=0,1,2.\n\n## Retained memory and the completed original spin source\n\nFor finite self-adjoint A>=0, exact autonomous closure on the retained span\nfor every preparation is equivalent to its A-invariance and C=(I-Pi)A Pi=0.\nThe memory kernel is M(t)=C* exp[-(I-Pi)A(I-Pi)t]C and M(0)=C*C. A retained\nprojection residual therefore gives its initial memory strength. The first\ncompressed-semigroup discrepancy on V=range(Pi) is t^2 M(0)/2.\n\nThe completed original U,W,J11,J21,F11 values supply the b5 residual Gram\n[[delta,s],[s,R5]]. All54 preparations have positive determinant and rank2.\nConsequently every exact invariant enlargement of b5 has at least7 dimensions.\nIts FIRST Krylov enlargement is span(b5,w_e,r_next), not an asserted closed\nseven-dimensional model. The completed b6 floor and a different six-coordinate\nextension through r_next each omit another independent direction.\n\nThe correctly normalized source memory norm is below7.524585. Positive-gap\nkernel/propagator bounds act on the invariant exchange-odd sector; the even\nstationary mode is not included in that gamma lower bound. Original source\nN, gamma, Gibbs preparations and attempt clocks remain unchanged.\n\n## Original Writes with an unchanged actual quantum clock\n\nThe explicit driven reference uses model-frequency Hamiltonian\n\n    h_R(t)=2[gamma_dot+3chi_dot-E_total] P_R.\n\nIts balanced-qubit relative phase receives the full actual joint-state\nconnection. The composite canonical form is the original signed Write form,\nwhile the source-field marginal remains the inherited actual clock. The full\neven source energy, both field polarizations, both counterterms, reference\nvariance and signed switching work stay in the account. Physical energy is\nhbar H/t_u. A nonnegative baseline adds an explicitly payable reference term.\nThe complete on-shell variational action remains separately identified.\n\nDuck's actual source retrieval changed the construction usefully: the older\nACTION_LEARNING/SOURCE_ACTION records supply the original positive role-path\nduration law. A source-paced construction preserves that law and its reversal\nsymmetry. A prescribed equal-phase receiving schedule agrees with it only\nunder the stated compatibility v_j=(M/3)nu. The radius/time calibration,\nsource actuator and autonomous controller are explicit physical continuation,\nnot inferred hardware or a newly executed preparation. The finite qubit native\ncheck is separately labelled as an apparatus-algebra fixture.\n\n## Timed histories and realizable record payment\n\nSpecified phase-polynomial receivers have exact segment moment updates; the\nrank of the receiver weights on admissible occupation measures gives the\nminimum additive linear counter family. These statistics remain distinct\nfrom an unrestricted retrospective history and from event-atomic moments.\n\nThe original closed blocks A=W1+^4, B=W7+^4 give ABBA versus BAAB: same\nendpoint, point counts and first physical-time atomic moments, but on each\nA-only point the second-moment difference is 2 T_B(T_A+T_B)>0. This remains\ntrue for arbitrary fixed positive original block durations and internal event\noffsets. The phase-scheduled Prouhet extension has its own stated incidence;\nnonlinear clock transport does not equate the two moment families.\n\nThe actual original finite source also supplies a realizable-energy example.\nFor the declared diagnostic record(-1,0), ambient cost/kappa_E=0.987626515,\nactual source minimum=1085537/573049=1.894317938, and realizability correction\n=0.906691423. Port flips2 and8 attain the source minimum. All15 endpoint\ndisplacements and their full signed B18 contact Gram are retained. This\nreceiver is distinct from the original complete receiver and from universalA0.\n\n## What actually ran\n\nThe installed GEN6 Duck adapter attached to deployment1.2.2/core0.10.2,\ngeneration GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK. Connections mode used\n12 native controllers and6 native helpers, with2 helpers reading the immutable\nLOCAL research index. This indexed source search is not public web browsing.\nNative sessions announced STARBREAKER / SLC-GEN5-R1 / SLC-GEN5-CEV1-R1,\nengine SB-GEN3-ACCUMULATION-R1.\n\nRun: GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01.\nBy the user's explicit instruction, both admission windows were180seconds.\nAll7 R1 outcomes were reviewed; all5 selected targets and the parent were\nretained. R2 admitted native follow-ons using actual R1/R2 dependency receipts.\nThe cycle returns14 native mathematical outputs and5 source retrievals,\n19 total, with zero failed mathematical returns. All54 source memory payments\nare computed in native block solve/product form without new source integration.\nNo third round, runtime replacement, installation, commit or sync occurred.\n\nThe first R1 memory metadata used a null profile label due to an id/profile\nlookup. Its literal payload is exactly R015_BASE; the explicit clarification\npreserves its record. R2 binds all54 profile_id values correctly. This is a\nmetadata correction, not an altered scientific result or repeated source run.\nBounded cross-reviews also clarified the positive-gap sector, nominal-gap\napproximation wording and compressed-space domains. Rendering syntax/layout\niterations are delivery work, separate from native mathematics.\n\n## Reproducibility and continuation\n\nFour analytic check scripts and three native readback scripts use independent\nstandard-library rational arithmetic. Their source hashes, exact operands,\nall actual returns, scope distinctions and retained error allowances accompany\nthe expanded15-page reader draft. Root reproduce.py performs offline replay\nonly. Native resource release and helper custody have their own run receipts.\n\nSelected follow-up and useful discovery paths are in FOLLOW_UP.md and\nBREADCRUMBS.md. The physical source actuator/preparation/readout, g_H/epsilon\ncalibration and autonomous controller remain identified next constructions.\n"
+}

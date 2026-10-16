@@ -1,0 +1,14 @@
+{
+  "beginning": "CLEAR",
+  "completion": "CLEAR",
+  "physical_source_preserved": true,
+  "signed_terms_and_common_phase_preserved": true,
+  "nonzero_wait_Hamiltonian_preserved": true,
+  "apparatus_cost_not_assigned_zero": true,
+  "eight_expectations_not_eight_shots": true,
+  "minimal_closure_not_claimed": true,
+  "generic_multilevel_uniqueness_not_claimed": true,
+  "new_native_or_runtime_installation": false,
+  "I9_access_sync_commit": false,
+  "automatic_third_round": false
+}

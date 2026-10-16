@@ -1,0 +1,15 @@
+{
+  "ce": "SLC-GEN5-CEV1-R1",
+  "domain": "STARBREAKER",
+  "domain_engine": "SB-GEN3-ACCUMULATION-R1",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "global_slc": "SLC-GEN5-R1",
+  "input_sha256": "2163df7ea657265b7cbbb5448302943aacad59a73ed949967a267644269ba151",
+  "meaning": "Runtime call returned; scientific outcome is in OUTPUT.json",
+  "operation": "CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1",
+  "output_sha256": "dadba592f355d1a50d4931ef675f3d934b3bb30cfd53649b9f4bbf0ab73e273d",
+  "purpose": "Evaluate original full-N generator on literal configurations with every background multiplicity retained",
+  "route": "CURRENT_REVISION.open_domain",
+  "status": "RETURNED",
+  "time": "2026-10-16T00:46:06.699743+00:00"
+}

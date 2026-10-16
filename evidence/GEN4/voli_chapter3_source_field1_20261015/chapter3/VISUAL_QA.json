@@ -1,0 +1,309 @@
+{
+  "all_pages_visually_reviewed": true,
+  "correlated_phase_supplement": {
+    "frozen_native_inputs_changed_by_revision": false,
+    "independent_checks": 47,
+    "native_executions": 0,
+    "path": "clock/CORRELATED_PHASE_RESULTS.json",
+    "sha256": "dc3c33fe8a4f7f8f0af4366e185f8c7f0f40804de74db528e503a43fab9a0b59"
+  },
+  "display_optimization_note": "Repeated image-tool displays can omit common fragments. The underlying reviewed PNGs contain full headers and footers, independently verified by raster pixels.",
+  "final_corrections_re_rendered_and_reviewed": [
+    3,
+    6,
+    13,
+    14
+  ],
+  "full_review_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+  "last_revision_re_rendered_and_reviewed": [
+    13,
+    14
+  ],
+  "observed_defects_remaining": [],
+  "page_reviews": [
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 245,
+      "notes": "Title, authorship, abstract and opening columns clear.",
+      "page": 1,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-01.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "256f4511fe40257156adab2ba85343ddbcea077b7617b5e3302f89fa8ed169f8",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 251,
+      "notes": "Poisson, Green representation and flux equations clear; consistent columns.",
+      "page": 2,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-02.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "19ff2022e01ed4d6a3b69e05bae9b5823437ed02fd327f15c2d40e9581df370f",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 251,
+      "notes": "Displayed enclosed-mass integral correction re-rendered and inspected; sphere and tidal equations clear.",
+      "page": 3,
+      "render_path": "tmp/pdfs/final-visual-afa625e58530/page-03.png",
+      "render_pdf_sha256": "afa625e5853031370f46334a90478da1b9460b906b247050a5d2dc4997025480",
+      "render_sha256": "64a624f6c7a8f944fd7f0fbca23883e5f44221134414dff01ef7ca10539425a9",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 250,
+      "notes": "Radial controls and variational-domain equations clear.",
+      "page": 4,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-04.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "2b53b8f04c0c717893be5b94c288a65bbae0ed633c1ff540b5abb5272217a40d",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 250,
+      "notes": "Energy minimum, binding sign and two-source interaction clear.",
+      "page": 5,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-05.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "983fd5488ddb366824303ef6bed1dbc0e0667b286b2db5f40b3fc8f7e20a5dc0",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 250,
+      "notes": "Sensitivity paragraph correction re-rendered and inspected; orphan punctuation removed; lapse and metric equations clear.",
+      "page": 6,
+      "render_path": "tmp/pdfs/final-visual-afa625e58530/page-06.png",
+      "render_pdf_sha256": "afa625e5853031370f46334a90478da1b9460b906b247050a5d2dc4997025480",
+      "render_sha256": "1e135fae7331f80f1897b6a74d6e4db690f77954cabc86b891fe2233122254d0",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 246,
+      "notes": "Actual source effects, exact flatness proof and energy table clear.",
+      "page": 7,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-07.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "5e485e2799e03b1acc9118f397861505a911f04d6c1f46d58950ec0261bcaad6",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 255,
+      "notes": "Finite cube, multipole bound and actual Si29 contrast-coupling paragraph clear.",
+      "page": 8,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-08.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "0b3fb2b5594d7f08912cd14cc1255d8add8b5036a339bd3dd57bc4fa7a4a9899",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 253,
+      "notes": "Finite self/pair energy and radial stiffness definition clear.",
+      "page": 9,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-09.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "5579a9a479b656766015541b2973ead969c438c0a3053d1a74bf59853ccc7523",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 261,
+      "notes": "Exact Green proof, complete eight-row rational table and energy/force equations clear.",
+      "page": 10,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-10.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "640a501167decfb4dbaa24b4c23625bb0537fa1bcf9cf838f95aeaf88c238c1d",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 253,
+      "notes": "Continuum bounds, Chapter I sourced profile and static cancellation clear.",
+      "page": 11,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-11.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "f1c344b6f1a9f8353cc3bd28378b3001eb0862e042182f48806019e8986e763c",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 259,
+      "notes": "Energy-invisible clock terms, Duhamel response and full scaling clear.",
+      "page": 12,
+      "render_path": "tmp/pdfs/final-visual-df9bee00d873/page-12.png",
+      "render_pdf_sha256": "df9bee00d87355fbdcd7d028dd0c1d4b9818d5436da1fd281146fe769e5e20ff",
+      "render_sha256": "5008e8487b0dad0fc02f851a29b552dfa1ed777666032fa2febdc00b11daa3cf",
+      "review_basis": "Unchanged page content from the documented complete review and earlier page3/page6 corrections; only pages13and14 changed in the correlated-phase revision.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 259,
+      "notes": "Shared-history signed integral and rational bounds, independent-band comparison table, Earth phase enclosure, operational error margin and calibration clear.",
+      "page": 13,
+      "render_path": "tmp/pdfs/final-visual-4211310c51ca/page-13.png",
+      "render_pdf_sha256": "4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973",
+      "render_sha256": "6db50a15f395bbd4a4f5fb02e33d3d5ae93e6f5cc65217f1b0729fb36824bf5a",
+      "review_basis": "Correlated-phase revision re-rendered and visually inspected in the final PDF.",
+      "reviewed": true,
+      "status": "PASS"
+    },
+    {
+      "common_header_dark_pixels": 962,
+      "dimensions": [
+        850,
+        1100
+      ],
+      "footer_dark_pixels": 258,
+      "notes": "Frozen anchors, updated47-check correlated-phase count, physical next steps and references fit.",
+      "page": 14,
+      "render_path": "tmp/pdfs/final-visual-4211310c51ca/page-14.png",
+      "render_pdf_sha256": "4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973",
+      "render_sha256": "21da24d67694ffbfc49e49496e962bacde22c649f9a7b14a1dfb489161f0ca39",
+      "review_basis": "Correlated-phase revision re-rendered and visually inspected in the final PDF.",
+      "reviewed": true,
+      "status": "PASS"
+    }
+  ],
+  "pages": 14,
+  "pdf": {
+    "bytes": 400740,
+    "path": "output/pdf/SAM_Volume_I_Chapter_III_Source_to_Field_Development_20261015.pdf",
+    "sha256": "4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973"
+  },
+  "rendering_tool": "pdftoppm version 24.02.0",
+  "resolved_formatting_issues": [
+    {
+      "issue": "Raw integral_0^r text replaced with a displayed enclosed-mass integral.",
+      "page": 3,
+      "verified": "Current raster inspected."
+    },
+    {
+      "issue": "Trailing ellipsis plus isolated period replaced with a complete approximately-valued sentence.",
+      "page": 6,
+      "verified": "Current raster inspected."
+    }
+  ],
+  "review_method": "All14pages visually inspected in a full Poppler850x1100review; pages3and6re-reviewed after initial formatting corrections; final correlated-phase changes on pages13and14re-rendered and visually inspected. Other12pages unchanged in this final revision.",
+  "revision_history": [
+    {
+      "pdf_sha256": "afa625e5853031370f46334a90478da1b9460b906b247050a5d2dc4997025480",
+      "re_reviewed_pages": [
+        13,
+        14
+      ],
+      "visual_receipt_sha256": "b2aaf49b75238b3ae58fd881366389e252df3c72e785314e5c6a735d4d0861b5"
+    }
+  ],
+  "schema": "SAM_CH3_VISUAL_REVIEW_V1",
+  "source_files_sha256": {
+    "chapter3/LAYOUT.json": "31d65e96760c4ead6cf3250ea63b97af71b6b7e18e7923e92385fa07bc3884f3",
+    "chapter3/base_content.py": "61abfb6acf3dfb122eac822f7b23bc211d852a5911e80b5b145db99b1eede1d3",
+    "chapter3/build_pdf.py": "f4fcb8e2e8926f0ab0a9367a9f528d0e1a90e996ee9108c2557cd2521fdff70d",
+    "chapter3/content.py": "be069052a3480abbbad0c29f08007bc8fee436abe000a88e0b8fd893c0c9ba8e",
+    "chapter3/renderer.py": "4478aded60d77090b0d120167d64bd64686cc6d6cad4d4f608ee23911cbf2a2c",
+    "chapter3/verify_pdf.py": "d4bf3590cda44e8d88b6d339cc08fe993794b4e85e45475a0515f0d502087e4d"
+  },
+  "status": "PASS",
+  "structural_verification": {
+    "checks": 161,
+    "path": "chapter3/PDF_VERIFICATION.json",
+    "relocated_rebuild": "BYTE_IDENTICAL",
+    "sha256": "ca776c2db00948324cdc48e0d65a18766ed11ae4377b669d25c4bd5a809fe5e7"
+  },
+  "unchanged_pages_review_carried_forward": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ]
+}

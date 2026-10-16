@@ -1,0 +1,31 @@
+{
+  "key": "web_r1_000",
+  "kind": "TASK",
+  "task": {
+    "because": [],
+    "controller": "LH_05",
+    "estimated_memory_bytes": 268435456,
+    "key": "web_r1_000",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "purpose": "Find source-linked candidate connections: source residual invariant memory",
+    "request": {
+      "depth": 2,
+      "max_nodes": 64,
+      "max_results": 8,
+      "query": "source residual invariant memory",
+      "seeds": [
+        "GEN4/voli_chapter2_continuation2_20261015/memory/DERIVATION.md"
+      ]
+    },
+    "source_binding": {
+      "core_wheel_sha256": null,
+      "law_namespace": "SAM_land",
+      "native_core_version": "0.10.2",
+      "original_target": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/TARGET.md",
+      "scope": "Actual spin closure and physically paid/read records",
+      "target_sha256": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446"
+    },
+    "target_id": "PARENT"
+  }
+}

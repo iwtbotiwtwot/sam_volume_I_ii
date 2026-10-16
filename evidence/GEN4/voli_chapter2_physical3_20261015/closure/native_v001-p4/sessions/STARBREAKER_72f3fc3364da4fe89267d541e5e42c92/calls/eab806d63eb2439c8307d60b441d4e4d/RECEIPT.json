@@ -1,0 +1,15 @@
+{
+  "ce": "SLC-GEN5-CEV1-R1",
+  "domain": "STARBREAKER",
+  "domain_engine": "SB-GEN3-ACCUMULATION-R1",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "global_slc": "SLC-GEN5-R1",
+  "input_sha256": "caabc3da196022c571853836513689c9c8366cb9fb48793cae6b6d5ef384c264",
+  "meaning": "Runtime call returned; scientific outcome is in OUTPUT.json",
+  "operation": "GEN3_COMPLEX_SOLVE",
+  "output_sha256": "1ee144364ac313313e19800bbceb9a821cc15fcfacfcfbab68cb7a409edd203b",
+  "purpose": "Certify actual full-source point-minor invertibility in the installed native matrix kernel",
+  "route": "CURRENT_REVISION.open_domain",
+  "status": "RETURNED",
+  "time": "2026-10-16T00:46:07.448631+00:00"
+}

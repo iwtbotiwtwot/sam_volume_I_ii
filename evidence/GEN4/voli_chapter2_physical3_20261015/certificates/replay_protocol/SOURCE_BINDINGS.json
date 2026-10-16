@@ -1,0 +1,52 @@
+{
+  "schema": "SAM_CH2_PAID_PROTOCOL_SOURCE_BINDINGS_V1",
+  "sources": [
+    {
+      "path": "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json",
+      "sha256": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+      "bytes": 2759132
+    },
+    {
+      "path": "GEN4/duck_chapter1_lane1_20261015/RESULTS.json",
+      "sha256": "4a441e4c5e3c81fa3d562fdad0b2822490f777e3978d9e4f54bf0c8e0710204d",
+      "bytes": 22163
+    },
+    {
+      "path": "GEN4/gen6_spin_clock_successor1_20261014/ACTION_LEARNING.md",
+      "sha256": "37212e905ec778383ffd6b1d0216e91157064452211f7e1105f0217b53ba46a3",
+      "bytes": 30532
+    },
+    {
+      "path": "GEN4/gen6_spin_clock_successor1_20261014/native.py",
+      "sha256": "369854a485d33273c207f271b80c53b2b031ec97e02ba4bd930278796b19ef1a",
+      "bytes": 7597
+    },
+    {
+      "path": "GEN4/gen6_spin_clock_successor1_20261014/runs/H02_1/CLOCK_REFINEMENT.json",
+      "sha256": "8d8e078b6bf6154e4dd8818fedd8246c79d73ea8a0437ed90587b01be04c8a88",
+      "bytes": 6300
+    },
+    {
+      "path": "GEN4/gen6_spin_clock_successor1_20261014/runs/H05_1/CLOCK_REFINEMENT.json",
+      "sha256": "dcdddf5e4b539bf4571eb3d6c41c1436cce8b399ed3609281d2c037c28f8a498",
+      "bytes": 6302
+    },
+    {
+      "path": "GEN4/duck_chapter1_lane1_20261015/derivation/DOMAIN_SUPPLEMENT.md",
+      "sha256": "73ce2383c6e4e773a320c7da9ac01aeddf9dd7603b710a0dd51425ceff7acc95",
+      "bytes": 14269
+    },
+    {
+      "path": "GEN4/duck_chapter1_lane1_20261015/derivation/REFERENCE_SUPPLEMENT.md",
+      "sha256": "8038709e8c9567f6fc2645bf649788ecce0fc5cda56008fc739bd947a9212d0f",
+      "bytes": 11988
+    },
+    {
+      "path": "GEN4/voli_chapter2_continuation2_20261015/instrument/DERIVATION.md",
+      "sha256": "24714bf14139580eedd19bfb8229e1fa3344fbd46fb172f6b1e35d98acbd5cb8",
+      "bytes": 12045
+    }
+  ],
+  "retained_native_execution_unchanged": true,
+  "new_native_calls_in_this_script": 0
+}

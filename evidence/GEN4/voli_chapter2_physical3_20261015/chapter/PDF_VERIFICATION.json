@@ -1,0 +1,459 @@
+{
+  "schema": "SAM_CH2_PHYSICAL_READER_PDF_VERIFICATION_V1",
+  "status": "PASS",
+  "pdf": {
+    "path": "output/pdf/SAM_Volume_I_Chapter_II_Physical_Development_Draft_20261015.pdf",
+    "sha256": "ce8c0165678bfd9e1953c1f81c19dd34db14608725a5b553467847b66b4ecdfb",
+    "bytes": 375631,
+    "pages": 20
+  },
+  "sections": 40,
+  "checks_passed": 133,
+  "checks": [
+    "twenty rendered pages",
+    "first14 sections preserved verbatim",
+    "section 1",
+    "section 2",
+    "section 3",
+    "section 4",
+    "section 5",
+    "section 6",
+    "section 7",
+    "section 8",
+    "section 9",
+    "section 10",
+    "section 11",
+    "section 12",
+    "section 13",
+    "section 14",
+    "section 15",
+    "section 16",
+    "section 17",
+    "section 18",
+    "section 19",
+    "section 20",
+    "section 21",
+    "section 22",
+    "section 23",
+    "section 24",
+    "section 25",
+    "section 26",
+    "section 27",
+    "section 28",
+    "section 29",
+    "section 30",
+    "section 31",
+    "section 32",
+    "section 33",
+    "section 34",
+    "section 35",
+    "section 36",
+    "section 37",
+    "section 38",
+    "section 39",
+    "section 40",
+    "current result 23,482,368",
+    "current result 6,558,008",
+    "current result 1085537",
+    "current result rank 14",
+    "current result rank two",
+    "current result atan2",
+    "current result V13",
+    "forty frames",
+    "all frames fit",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "relocated fresh-cache build exits0",
+    "fresh-cache byte-identical rebuild"
+  ],
+  "layout": [
+    {
+      "frame": "1 left",
+      "bottom_y": 194.0,
+      "unused_height": 143.0
+    },
+    {
+      "frame": "1 right",
+      "bottom_y": 106.9,
+      "unused_height": 55.9
+    },
+    {
+      "frame": "2 left",
+      "bottom_y": 317.0,
+      "unused_height": 266.0
+    },
+    {
+      "frame": "2 right",
+      "bottom_y": 274.9,
+      "unused_height": 223.9
+    },
+    {
+      "frame": "3 left",
+      "bottom_y": 322.3,
+      "unused_height": 271.3
+    },
+    {
+      "frame": "3 right",
+      "bottom_y": 319.3,
+      "unused_height": 268.3
+    },
+    {
+      "frame": "4 left",
+      "bottom_y": 262.3,
+      "unused_height": 211.3
+    },
+    {
+      "frame": "4 right",
+      "bottom_y": 282.9,
+      "unused_height": 231.9
+    },
+    {
+      "frame": "5 left",
+      "bottom_y": 328.4,
+      "unused_height": 277.4
+    },
+    {
+      "frame": "5 right",
+      "bottom_y": 312.9,
+      "unused_height": 261.9
+    },
+    {
+      "frame": "6 left",
+      "bottom_y": 304.9,
+      "unused_height": 253.9
+    },
+    {
+      "frame": "6 right",
+      "bottom_y": 287.3,
+      "unused_height": 236.3
+    },
+    {
+      "frame": "7 left",
+      "bottom_y": 297.9,
+      "unused_height": 246.9
+    },
+    {
+      "frame": "7 right",
+      "bottom_y": 276.8,
+      "unused_height": 225.8
+    },
+    {
+      "frame": "8 left",
+      "bottom_y": 330.9,
+      "unused_height": 279.9
+    },
+    {
+      "frame": "8 right",
+      "bottom_y": 296.3,
+      "unused_height": 245.3
+    },
+    {
+      "frame": "9 left",
+      "bottom_y": 288.4,
+      "unused_height": 237.4
+    },
+    {
+      "frame": "9 right",
+      "bottom_y": 372.0,
+      "unused_height": 321.0
+    },
+    {
+      "frame": "10 left",
+      "bottom_y": 341.9,
+      "unused_height": 290.9
+    },
+    {
+      "frame": "10 right",
+      "bottom_y": 299.4,
+      "unused_height": 248.4
+    },
+    {
+      "frame": "11 left",
+      "bottom_y": 100.2,
+      "unused_height": 49.2
+    },
+    {
+      "frame": "11 right",
+      "bottom_y": 223.2,
+      "unused_height": 172.2
+    },
+    {
+      "frame": "12 left",
+      "bottom_y": 352.9,
+      "unused_height": 301.9
+    },
+    {
+      "frame": "12 right",
+      "bottom_y": 340.5,
+      "unused_height": 289.5
+    },
+    {
+      "frame": "13 left",
+      "bottom_y": 305.9,
+      "unused_height": 254.9
+    },
+    {
+      "frame": "13 right",
+      "bottom_y": 333.5,
+      "unused_height": 282.5
+    },
+    {
+      "frame": "14 left",
+      "bottom_y": 285.5,
+      "unused_height": 234.5
+    },
+    {
+      "frame": "14 right",
+      "bottom_y": 312.9,
+      "unused_height": 261.9
+    },
+    {
+      "frame": "15 left",
+      "bottom_y": 335.8,
+      "unused_height": 284.8
+    },
+    {
+      "frame": "15 right",
+      "bottom_y": 328.3,
+      "unused_height": 277.3
+    },
+    {
+      "frame": "16 left",
+      "bottom_y": 310.4,
+      "unused_height": 259.4
+    },
+    {
+      "frame": "16 right",
+      "bottom_y": 327.4,
+      "unused_height": 276.4
+    },
+    {
+      "frame": "17 left",
+      "bottom_y": 291.4,
+      "unused_height": 240.4
+    },
+    {
+      "frame": "17 right",
+      "bottom_y": 303.5,
+      "unused_height": 252.5
+    },
+    {
+      "frame": "18 left",
+      "bottom_y": 308.6,
+      "unused_height": 257.6
+    },
+    {
+      "frame": "18 right",
+      "bottom_y": 141.8,
+      "unused_height": 90.8
+    },
+    {
+      "frame": "19 left",
+      "bottom_y": 365.5,
+      "unused_height": 314.5
+    },
+    {
+      "frame": "19 right",
+      "bottom_y": 183.4,
+      "unused_height": 132.4
+    },
+    {
+      "frame": "20 left",
+      "bottom_y": 337.4,
+      "unused_height": 286.4
+    },
+    {
+      "frame": "20 right",
+      "bottom_y": 269.6,
+      "unused_height": 218.6
+    }
+  ],
+  "embedded_fonts": {
+    "/AAAAAA+NotoSans-Bold": "/TrueType",
+    "/AAAAAA+NotoSans-Regular": "/TrueType",
+    "/AAAAAA+NotoSerif-Bold": "/TrueType",
+    "/AAAAAA+NotoSerif-Regular": "/TrueType"
+  },
+  "relocated_fresh_cache_rebuild_sha256": "ce8c0165678bfd9e1953c1f81c19dd34db14608725a5b553467847b66b4ecdfb",
+  "source_files": [
+    {
+      "path": "chapter/INHERITED_RENDERER.json",
+      "sha256": "48c28fb0485f8bd6caea0f611cab18103322cf8374c5a15df982027b0cbd69c2"
+    },
+    {
+      "path": "chapter/LAYOUT.json",
+      "sha256": "7a45819253e2fe9e8e86c45a1097280eee7b55877cd2717648bf08f3b08cf1bc"
+    },
+    {
+      "path": "chapter/README.md",
+      "sha256": "a2a99501af6bdbef8c111c7eddf484ee705ef954e8584f2011433c4e6464a26e"
+    },
+    {
+      "path": "chapter/build_pdf.py",
+      "sha256": "3b6235515a78424980a446ea3131c45057b769c336bc32db659f2944ac720ac4"
+    },
+    {
+      "path": "chapter/content.py",
+      "sha256": "37a9004704dd494f839c26425242ba15f43738476ea829b4296b7fc67db3d2fe"
+    },
+    {
+      "path": "chapter/continuation_content.py",
+      "sha256": "847f6e5883ae7a5b765b63ec26a4e0ca1c3c6504176c1bdfdbf5316bc16acdef"
+    },
+    {
+      "path": "chapter/fonts/COPYRIGHT.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "chapter/fonts/NotoSans-Bold.ttf",
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5"
+    },
+    {
+      "path": "chapter/fonts/NotoSans-Regular.ttf",
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d"
+    },
+    {
+      "path": "chapter/fonts/NotoSansMath-Regular.ttf",
+      "sha256": "8242bd1e55368b27e32455260754cf9aa58f3ad7ea80664b66c21f1b09910d6c"
+    },
+    {
+      "path": "chapter/fonts/NotoSerif-Bold.ttf",
+      "sha256": "0af0ff2be8f84910fb21ec5fe1b6b7395e3073250502a334baf6ca2f860c88fe"
+    },
+    {
+      "path": "chapter/fonts/NotoSerif-Italic.ttf",
+      "sha256": "bc25600aa27cd409e1e5b3d86340df3a329bb860fcfbe57a03a95070b229e1b0"
+    },
+    {
+      "path": "chapter/fonts/NotoSerif-Regular.ttf",
+      "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f"
+    },
+    {
+      "path": "chapter/previous_content.py",
+      "sha256": "ada50cd9bb641e5a736a7fab90497b7ad38d0254c5601031bd5238ac8b47d11d"
+    },
+    {
+      "path": "chapter/renderer.py",
+      "sha256": "4478aded60d77090b0d120167d64bd64686cc6d6cad4d4f608ee23911cbf2a2c"
+    },
+    {
+      "path": "chapter/requirements-pdf.lock",
+      "sha256": "e7055a143a235c3c10fc179893169f454fae0f4d6732f47443acce5d2dc27c79"
+    },
+    {
+      "path": "chapter/verify_pdf.py",
+      "sha256": "d724cbdc4ae83cc4f509ccc39ec099c3686127cb29a26f131b4dafe20d6d2729"
+    }
+  ],
+  "closure_summary": "All 54 evaluated original finite-N preparations have a paired Krylov rank of at least 10. The seven-dimensional enlargement has exact residual rank two in every evaluated preparation. Selected deeper certificates reach rank 14. The retained rank has not stabilized: these are exact full-source closure lower bounds, with strict positive Gibbs residual bounds and an explicit finite invariant count-space upper closure. No exact minimum or uncomputed global residual moment is assigned.",
+  "closure_summary_sha256": "5fa9c70d18e4bc7a402813cdced25d5c7450104879ed0fc5309ed038f5644d5c",
+  "rendering_packages": {
+    "reportlab": "5.0.1",
+    "matplotlib": "3.11.2",
+    "svglib": "2.3.0",
+    "pypdf": "6.10.0",
+    "fonttools": "4.67.0",
+    "pillow": "12.3.0"
+  },
+  "visual_review": {
+    "status": "COMPLETE",
+    "tool": "Poppler100dpi and native image inspection",
+    "current_pages_reviewed": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "unchanged_body_pages_2_to_7": "Retained prior visual QA; first14 sections unchanged",
+    "findings": "No overflow, clipping, missing equation glyphs or table collisions. Final spin page and all new instrument/proof/endpoint pages inspected."
+  },
+  "native_executions": 0
+}

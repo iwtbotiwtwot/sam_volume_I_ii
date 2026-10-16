@@ -1,0 +1,2643 @@
+{
+  "status": "PASS",
+  "states": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      3
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      3
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      3,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      2
+    ],
+    [
+      3,
+      0,
+      3
+    ]
+  ],
+  "alphabet": [
+    "W1+",
+    "W7+"
+  ],
+  "initial_partition_classes": 8,
+  "refinement_sizes": [
+    8,
+    14,
+    16
+  ],
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "quotient_transitions": [
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      11,
+      4
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      13,
+      10
+    ],
+    [
+      14,
+      11
+    ],
+    [
+      15,
+      8
+    ],
+    [
+      0,
+      13
+    ],
+    [
+      1,
+      14
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      3,
+      12
+    ]
+  ],
+  "quotient_outputs": [
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      "6",
+      0
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      "6",
+      0
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      "6",
+      0
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      "6",
+      0
+    ],
+    [
+      [
+        "0",
+        "24/25",
+        "-7/25"
+      ],
+      "8",
+      1
+    ],
+    [
+      [
+        "0",
+        "12/13",
+        "5/13"
+      ],
+      "4",
+      1
+    ],
+    [
+      [
+        "0",
+        "12/13",
+        "5/13"
+      ],
+      "4",
+      1
+    ],
+    [
+      [
+        "0",
+        "24/25",
+        "-7/25"
+      ],
+      "8",
+      1
+    ],
+    [
+      [
+        "-15/17",
+        "0",
+        "-8/17"
+      ],
+      "10",
+      2
+    ],
+    [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      "6",
+      2
+    ],
+    [
+      [
+        "-3/5",
+        "0",
+        "4/5"
+      ],
+      "2",
+      2
+    ],
+    [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      "6",
+      2
+    ],
+    [
+      [
+        "0",
+        "-24/25",
+        "-7/25"
+      ],
+      "8",
+      3
+    ],
+    [
+      [
+        "0",
+        "-24/25",
+        "-7/25"
+      ],
+      "8",
+      3
+    ],
+    [
+      [
+        "0",
+        "-12/13",
+        "5/13"
+      ],
+      "4",
+      3
+    ],
+    [
+      [
+        "0",
+        "-12/13",
+        "5/13"
+      ],
+      "4",
+      3
+    ]
+  ],
+  "points": [
+    [
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "-15/17",
+      "0",
+      "-8/17"
+    ],
+    [
+      "-3/5",
+      "0",
+      "4/5"
+    ],
+    [
+      "0",
+      "-12/13",
+      "5/13"
+    ],
+    [
+      "0",
+      "-24/25",
+      "-7/25"
+    ],
+    [
+      "0",
+      "12/13",
+      "5/13"
+    ],
+    [
+      "0",
+      "24/25",
+      "-7/25"
+    ],
+    [
+      "1",
+      "0",
+      "0"
+    ]
+  ],
+  "distinguishing_words": [
+    {
+      "left": 0,
+      "right": 1,
+      "word": [
+        "W1+"
+      ]
+    },
+    {
+      "left": 0,
+      "right": 2,
+      "word": [
+        "W1+"
+      ]
+    },
+    {
+      "left": 0,
+      "right": 3,
+      "word": [
+        "W1+",
+        "W1+"
+      ]
+    },
+    {
+      "left": 0,
+      "right": 4,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 5,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 6,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 7,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 0,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "word": [
+        "W1+",
+        "W1+"
+      ]
+    },
+    {
+      "left": 1,
+      "right": 3,
+      "word": [
+        "W1+"
+      ]
+    },
+    {
+      "left": 1,
+      "right": 4,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 5,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 6,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 7,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 1,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 3,
+      "word": [
+        "W1+"
+      ]
+    },
+    {
+      "left": 2,
+      "right": 4,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 5,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 6,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 7,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 2,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 5,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 6,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 7,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 3,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 5,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 6,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 7,
+      "word": [
+        "W1+"
+      ]
+    },
+    {
+      "left": 4,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 4,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 6,
+      "word": [
+        "W1+"
+      ]
+    },
+    {
+      "left": 5,
+      "right": 7,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 5,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 7,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 6,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 8,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 7,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 8,
+      "right": 9,
+      "word": []
+    },
+    {
+      "left": 8,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 8,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 8,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 8,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 8,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 8,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 9,
+      "right": 10,
+      "word": []
+    },
+    {
+      "left": 9,
+      "right": 11,
+      "word": [
+        "W1+"
+      ]
+    },
+    {
+      "left": 9,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 9,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 9,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 9,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 10,
+      "right": 11,
+      "word": []
+    },
+    {
+      "left": 10,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 10,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 10,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 10,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 11,
+      "right": 12,
+      "word": []
+    },
+    {
+      "left": 11,
+      "right": 13,
+      "word": []
+    },
+    {
+      "left": 11,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 11,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 12,
+      "right": 13,
+      "word": [
+        "W7+"
+      ]
+    },
+    {
+      "left": 12,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 12,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 13,
+      "right": 14,
+      "word": []
+    },
+    {
+      "left": 13,
+      "right": 15,
+      "word": []
+    },
+    {
+      "left": 14,
+      "right": 15,
+      "word": [
+        "W7+"
+      ]
+    }
+  ],
+  "immediate_output_collisions": [
+    {
+      "left_state": [
+        0,
+        0,
+        0
+      ],
+      "right_state": [
+        0,
+        0,
+        1
+      ],
+      "shared_output": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        "6",
+        0
+      ],
+      "separating_word": [
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        0,
+        0,
+        0
+      ],
+      "right_state": [
+        0,
+        0,
+        2
+      ],
+      "shared_output": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        "6",
+        0
+      ],
+      "separating_word": [
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        0,
+        0,
+        0
+      ],
+      "right_state": [
+        0,
+        0,
+        3
+      ],
+      "shared_output": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        "6",
+        0
+      ],
+      "separating_word": [
+        "W1+",
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        0,
+        0,
+        1
+      ],
+      "right_state": [
+        0,
+        0,
+        2
+      ],
+      "shared_output": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        "6",
+        0
+      ],
+      "separating_word": [
+        "W1+",
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        0,
+        0,
+        1
+      ],
+      "right_state": [
+        0,
+        0,
+        3
+      ],
+      "shared_output": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        "6",
+        0
+      ],
+      "separating_word": [
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        0,
+        0,
+        2
+      ],
+      "right_state": [
+        0,
+        0,
+        3
+      ],
+      "shared_output": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        "6",
+        0
+      ],
+      "separating_word": [
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        1,
+        0,
+        0
+      ],
+      "right_state": [
+        1,
+        0,
+        3
+      ],
+      "shared_output": [
+        [
+          "0",
+          "24/25",
+          "-7/25"
+        ],
+        "8",
+        1
+      ],
+      "separating_word": [
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        1,
+        0,
+        1
+      ],
+      "right_state": [
+        1,
+        0,
+        2
+      ],
+      "shared_output": [
+        [
+          "0",
+          "12/13",
+          "5/13"
+        ],
+        "4",
+        1
+      ],
+      "separating_word": [
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        2,
+        0,
+        1
+      ],
+      "right_state": [
+        2,
+        0,
+        3
+      ],
+      "shared_output": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        "6",
+        2
+      ],
+      "separating_word": [
+        "W1+"
+      ]
+    },
+    {
+      "left_state": [
+        3,
+        0,
+        0
+      ],
+      "right_state": [
+        3,
+        0,
+        1
+      ],
+      "shared_output": [
+        [
+          "0",
+          "-24/25",
+          "-7/25"
+        ],
+        "8",
+        3
+      ],
+      "separating_word": [
+        "W7+"
+      ]
+    },
+    {
+      "left_state": [
+        3,
+        0,
+        2
+      ],
+      "right_state": [
+        3,
+        0,
+        3
+      ],
+      "shared_output": [
+        [
+          "0",
+          "-12/13",
+          "5/13"
+        ],
+        "4",
+        3
+      ],
+      "separating_word": [
+        "W7+"
+      ]
+    }
+  ],
+  "arms": [
+    {
+      "name": "golden",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        40,
+        21,
+        20,
+        41,
+        40,
+        39,
+        42,
+        81
+      ],
+      "time_moment": [
+        6366,
+        3162,
+        3584,
+        6582,
+        6631,
+        6238,
+        6813,
+        13274
+      ],
+      "first_half": [
+        21,
+        11,
+        9,
+        20,
+        20,
+        19,
+        22,
+        40
+      ],
+      "phase_counts": {
+        "1": 81,
+        "2": 81,
+        "3": 81,
+        "0": 81
+      },
+      "native_log": {
+        "first_point": "execution:2:p0",
+        "last_point": "execution:2:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "274877906944000000000000000000000000000000000000000000/9",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:2:p2",
+          "execution:2:p10",
+          "execution:2:p22",
+          "execution:2:p30",
+          "execution:2:p42",
+          "execution:2:p62",
+          "execution:2:p82",
+          "execution:2:p102",
+          "execution:2:p122",
+          "execution:2:p142",
+          "execution:2:p162",
+          "execution:2:p182",
+          "execution:2:p194",
+          "execution:2:p202",
+          "execution:2:p214",
+          "execution:2:p222",
+          "execution:2:p234",
+          "execution:2:p254",
+          "execution:2:p274",
+          "execution:2:p294",
+          "execution:2:p314"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "grouped",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        0,
+        49,
+        0,
+        0,
+        49,
+        0,
+        49,
+        177
+      ],
+      "time_moment": [
+        0,
+        4802,
+        0,
+        0,
+        4851,
+        0,
+        4753,
+        38244
+      ],
+      "first_half": [
+        0,
+        41,
+        0,
+        0,
+        40,
+        0,
+        41,
+        40
+      ],
+      "phase_counts": {
+        "1": 49,
+        "2": 49,
+        "3": 49,
+        "0": 177
+      },
+      "native_log": {
+        "first_point": "execution:3:p0",
+        "last_point": "execution:3:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "315544362088404722164691426113114491869282574043609201908111572265625/57264168970223481226273458862846808078011946889",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:3:p2",
+          "execution:3:p6",
+          "execution:3:p10",
+          "execution:3:p14",
+          "execution:3:p18",
+          "execution:3:p22",
+          "execution:3:p26",
+          "execution:3:p30",
+          "execution:3:p34",
+          "execution:3:p38",
+          "execution:3:p42",
+          "execution:3:p46",
+          "execution:3:p50",
+          "execution:3:p54",
+          "execution:3:p58",
+          "execution:3:p62",
+          "execution:3:p66",
+          "execution:3:p70",
+          "execution:3:p74",
+          "execution:3:p78",
+          "execution:3:p82",
+          "execution:3:p86",
+          "execution:3:p90",
+          "execution:3:p94",
+          "execution:3:p98",
+          "execution:3:p102",
+          "execution:3:p106",
+          "execution:3:p110",
+          "execution:3:p114",
+          "execution:3:p118",
+          "execution:3:p122",
+          "execution:3:p126",
+          "execution:3:p130",
+          "execution:3:p134",
+          "execution:3:p138",
+          "execution:3:p142",
+          "execution:3:p146",
+          "execution:3:p150",
+          "execution:3:p154",
+          "execution:3:p158",
+          "execution:3:p162",
+          "execution:3:p166",
+          "execution:3:p170",
+          "execution:3:p174",
+          "execution:3:p178",
+          "execution:3:p182",
+          "execution:3:p186",
+          "execution:3:p190",
+          "execution:3:p194"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "reverse_grouped",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        0,
+        49,
+        0,
+        0,
+        49,
+        0,
+        49,
+        177
+      ],
+      "time_moment": [
+        0,
+        11074,
+        0,
+        0,
+        11123,
+        0,
+        11025,
+        19428
+      ],
+      "first_half": [
+        0,
+        9,
+        0,
+        0,
+        8,
+        0,
+        9,
+        136
+      ],
+      "phase_counts": {
+        "0": 177,
+        "1": 49,
+        "2": 49,
+        "3": 49
+      },
+      "native_log": {
+        "first_point": "execution:33:p0",
+        "last_point": "execution:33:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "315544362088404722164691426113114491869282574043609201908111572265625/57264168970223481226273458862846808078011946889",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:33:p130",
+          "execution:33:p134",
+          "execution:33:p138",
+          "execution:33:p142",
+          "execution:33:p146",
+          "execution:33:p150",
+          "execution:33:p154",
+          "execution:33:p158",
+          "execution:33:p162",
+          "execution:33:p166",
+          "execution:33:p170",
+          "execution:33:p174",
+          "execution:33:p178",
+          "execution:33:p182",
+          "execution:33:p186",
+          "execution:33:p190",
+          "execution:33:p194",
+          "execution:33:p198",
+          "execution:33:p202",
+          "execution:33:p206",
+          "execution:33:p210",
+          "execution:33:p214",
+          "execution:33:p218",
+          "execution:33:p222",
+          "execution:33:p226",
+          "execution:33:p230",
+          "execution:33:p234",
+          "execution:33:p238",
+          "execution:33:p242",
+          "execution:33:p246",
+          "execution:33:p250",
+          "execution:33:p254",
+          "execution:33:p258",
+          "execution:33:p262",
+          "execution:33:p266",
+          "execution:33:p270",
+          "execution:33:p274",
+          "execution:33:p278",
+          "execution:33:p282",
+          "execution:33:p286",
+          "execution:33:p290",
+          "execution:33:p294",
+          "execution:33:p298",
+          "execution:33:p302",
+          "execution:33:p306",
+          "execution:33:p310",
+          "execution:33:p314",
+          "execution:33:p318",
+          "execution:33:p322"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "reverse_golden",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        40,
+        21,
+        20,
+        39,
+        42,
+        41,
+        40,
+        81
+      ],
+      "time_moment": [
+        6594,
+        3642,
+        2896,
+        6398,
+        6795,
+        6702,
+        6329,
+        13294
+      ],
+      "first_half": [
+        19,
+        11,
+        11,
+        20,
+        20,
+        21,
+        20,
+        40
+      ],
+      "phase_counts": {
+        "0": 81,
+        "1": 81,
+        "2": 81,
+        "3": 81
+      },
+      "native_log": {
+        "first_point": "execution:34:p0",
+        "last_point": "execution:34:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "274877906944000000000000000000000000000000000000000000/9",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:34:p10",
+          "execution:34:p30",
+          "execution:34:p50",
+          "execution:34:p70",
+          "execution:34:p90",
+          "execution:34:p102",
+          "execution:34:p110",
+          "execution:34:p122",
+          "execution:34:p130",
+          "execution:34:p142",
+          "execution:34:p162",
+          "execution:34:p182",
+          "execution:34:p202",
+          "execution:34:p222",
+          "execution:34:p242",
+          "execution:34:p262",
+          "execution:34:p282",
+          "execution:34:p294",
+          "execution:34:p302",
+          "execution:34:p314",
+          "execution:34:p322"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "golden_rotate_1",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        40,
+        21,
+        20,
+        39,
+        42,
+        41,
+        40,
+        81
+      ],
+      "time_moment": [
+        6498,
+        3594,
+        3040,
+        6494,
+        6699,
+        6798,
+        6233,
+        13294
+      ],
+      "first_half": [
+        20,
+        11,
+        10,
+        20,
+        20,
+        20,
+        21,
+        40
+      ],
+      "phase_counts": {
+        "1": 81,
+        "2": 81,
+        "3": 81,
+        "0": 81
+      },
+      "native_log": {
+        "first_point": "execution:35:p0",
+        "last_point": "execution:35:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "274877906944000000000000000000000000000000000000000000/9",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:35:p10",
+          "execution:35:p30",
+          "execution:35:p50",
+          "execution:35:p70",
+          "execution:35:p90",
+          "execution:35:p102",
+          "execution:35:p110",
+          "execution:35:p122",
+          "execution:35:p130",
+          "execution:35:p142",
+          "execution:35:p162",
+          "execution:35:p182",
+          "execution:35:p202",
+          "execution:35:p222",
+          "execution:35:p242",
+          "execution:35:p262",
+          "execution:35:p274",
+          "execution:35:p282",
+          "execution:35:p294",
+          "execution:35:p302",
+          "execution:35:p314"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "golden_rotate_17",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        40,
+        20,
+        21,
+        42,
+        39,
+        40,
+        41,
+        81
+      ],
+      "time_moment": [
+        6526,
+        3348,
+        3420,
+        6675,
+        6680,
+        6261,
+        6608,
+        13132
+      ],
+      "first_half": [
+        20,
+        9,
+        11,
+        20,
+        19,
+        21,
+        21,
+        41
+      ],
+      "phase_counts": {
+        "0": 81,
+        "1": 81,
+        "2": 81,
+        "3": 81
+      },
+      "native_log": {
+        "first_point": "execution:36:p0",
+        "last_point": "execution:36:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 314572800000000000000000000,
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 314572800000000000000000000,
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 98956046499840000000000000000000000000000000000000000,
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:36:p10",
+          "execution:36:p18",
+          "execution:36:p30",
+          "execution:36:p50",
+          "execution:36:p70",
+          "execution:36:p90",
+          "execution:36:p110",
+          "execution:36:p130",
+          "execution:36:p150",
+          "execution:36:p170",
+          "execution:36:p182",
+          "execution:36:p190",
+          "execution:36:p202",
+          "execution:36:p222",
+          "execution:36:p242",
+          "execution:36:p262",
+          "execution:36:p282",
+          "execution:36:p302",
+          "execution:36:p314",
+          "execution:36:p322"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "golden_rotate_81",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        40,
+        21,
+        20,
+        39,
+        42,
+        41,
+        40,
+        81
+      ],
+      "time_moment": [
+        6538,
+        3210,
+        3384,
+        5966,
+        7227,
+        6758,
+        6273,
+        13294
+      ],
+      "first_half": [
+        20,
+        11,
+        10,
+        21,
+        19,
+        19,
+        22,
+        40
+      ],
+      "phase_counts": {
+        "1": 81,
+        "2": 81,
+        "3": 81,
+        "0": 81
+      },
+      "native_log": {
+        "first_point": "execution:37:p0",
+        "last_point": "execution:37:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "524288000000000000000000000/3",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "274877906944000000000000000000000000000000000000000000/9",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:37:p10",
+          "execution:37:p22",
+          "execution:37:p30",
+          "execution:37:p42",
+          "execution:37:p50",
+          "execution:37:p62",
+          "execution:37:p82",
+          "execution:37:p102",
+          "execution:37:p122",
+          "execution:37:p142",
+          "execution:37:p162",
+          "execution:37:p182",
+          "execution:37:p194",
+          "execution:37:p202",
+          "execution:37:p214",
+          "execution:37:p222",
+          "execution:37:p234",
+          "execution:37:p254",
+          "execution:37:p274",
+          "execution:37:p294",
+          "execution:37:p314"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "loop_shuffle_31",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        0,
+        49,
+        0,
+        0,
+        49,
+        0,
+        49,
+        177
+      ],
+      "time_moment": [
+        0,
+        7326,
+        0,
+        0,
+        7375,
+        0,
+        7277,
+        30672
+      ],
+      "first_half": [
+        0,
+        29,
+        0,
+        0,
+        28,
+        0,
+        29,
+        76
+      ],
+      "phase_counts": {
+        "1": 49,
+        "2": 49,
+        "3": 49,
+        "0": 177
+      },
+      "native_log": {
+        "first_point": "execution:38:p0",
+        "last_point": "execution:38:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "315544362088404722164691426113114491869282574043609201908111572265625/57264168970223481226273458862846808078011946889",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:38:p2",
+          "execution:38:p10",
+          "execution:38:p18",
+          "execution:38:p22",
+          "execution:38:p30",
+          "execution:38:p42",
+          "execution:38:p46",
+          "execution:38:p50",
+          "execution:38:p58",
+          "execution:38:p62",
+          "execution:38:p66",
+          "execution:38:p70",
+          "execution:38:p78",
+          "execution:38:p82",
+          "execution:38:p86",
+          "execution:38:p90",
+          "execution:38:p94",
+          "execution:38:p98",
+          "execution:38:p106",
+          "execution:38:p114",
+          "execution:38:p118",
+          "execution:38:p134",
+          "execution:38:p138",
+          "execution:38:p142",
+          "execution:38:p146",
+          "execution:38:p150",
+          "execution:38:p154",
+          "execution:38:p158",
+          "execution:38:p162",
+          "execution:38:p166",
+          "execution:38:p170",
+          "execution:38:p178",
+          "execution:38:p182",
+          "execution:38:p190",
+          "execution:38:p194",
+          "execution:38:p198",
+          "execution:38:p214",
+          "execution:38:p218",
+          "execution:38:p222",
+          "execution:38:p246",
+          "execution:38:p250",
+          "execution:38:p270",
+          "execution:38:p274",
+          "execution:38:p286",
+          "execution:38:p298",
+          "execution:38:p302",
+          "execution:38:p306",
+          "execution:38:p314",
+          "execution:38:p322"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "loop_shuffle_73",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        0,
+        49,
+        0,
+        0,
+        49,
+        0,
+        49,
+        177
+      ],
+      "time_moment": [
+        0,
+        7454,
+        0,
+        0,
+        7503,
+        0,
+        7405,
+        30288
+      ],
+      "first_half": [
+        0,
+        26,
+        0,
+        0,
+        25,
+        0,
+        26,
+        85
+      ],
+      "phase_counts": {
+        "1": 49,
+        "2": 49,
+        "3": 49,
+        "0": 177
+      },
+      "native_log": {
+        "first_point": "execution:39:p0",
+        "last_point": "execution:39:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "17763568394002504646778106689453125/239299329230617529590083",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "315544362088404722164691426113114491869282574043609201908111572265625/57264168970223481226273458862846808078011946889",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:39:p2",
+          "execution:39:p18",
+          "execution:39:p22",
+          "execution:39:p26",
+          "execution:39:p30",
+          "execution:39:p38",
+          "execution:39:p42",
+          "execution:39:p46",
+          "execution:39:p50",
+          "execution:39:p58",
+          "execution:39:p62",
+          "execution:39:p66",
+          "execution:39:p70",
+          "execution:39:p74",
+          "execution:39:p82",
+          "execution:39:p86",
+          "execution:39:p90",
+          "execution:39:p98",
+          "execution:39:p114",
+          "execution:39:p118",
+          "execution:39:p122",
+          "execution:39:p126",
+          "execution:39:p142",
+          "execution:39:p146",
+          "execution:39:p150",
+          "execution:39:p162",
+          "execution:39:p166",
+          "execution:39:p174",
+          "execution:39:p178",
+          "execution:39:p182",
+          "execution:39:p186",
+          "execution:39:p194",
+          "execution:39:p198",
+          "execution:39:p202",
+          "execution:39:p206",
+          "execution:39:p218",
+          "execution:39:p222",
+          "execution:39:p230",
+          "execution:39:p238",
+          "execution:39:p250",
+          "execution:39:p254",
+          "execution:39:p258",
+          "execution:39:p262",
+          "execution:39:p270",
+          "execution:39:p290",
+          "execution:39:p294",
+          "execution:39:p302",
+          "execution:39:p318",
+          "execution:39:p322"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "event_shuffle_19",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        36,
+        16,
+        16,
+        37,
+        34,
+        41,
+        43,
+        101
+      ],
+      "time_moment": [
+        6080,
+        2080,
+        3140,
+        6283,
+        4995,
+        7440,
+        6067,
+        16565
+      ],
+      "first_half": [
+        17,
+        10,
+        5,
+        16,
+        19,
+        19,
+        25,
+        51
+      ],
+      "phase_counts": {
+        "1": 84,
+        "2": 68,
+        "3": 71,
+        "0": 101
+      },
+      "native_log": {
+        "first_point": "execution:40:p0",
+        "last_point": "execution:40:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 358318080000000000000000,
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 358318080000000000000000,
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 128391846454886400000000000000000000000000000000,
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:40:p2",
+          "execution:40:p18",
+          "execution:40:p26",
+          "execution:40:p34",
+          "execution:40:p50",
+          "execution:40:p62",
+          "execution:40:p78",
+          "execution:40:p94",
+          "execution:40:p134",
+          "execution:40:p138",
+          "execution:40:p198",
+          "execution:40:p210",
+          "execution:40:p226",
+          "execution:40:p230",
+          "execution:40:p274",
+          "execution:40:p306"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "event_shuffle_41",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        36,
+        20,
+        16,
+        41,
+        46,
+        38,
+        38,
+        89
+      ],
+      "time_moment": [
+        6124,
+        2756,
+        2424,
+        7338,
+        6957,
+        6179,
+        6399,
+        14473
+      ],
+      "first_half": [
+        16,
+        14,
+        9,
+        18,
+        27,
+        15,
+        19,
+        44
+      ],
+      "phase_counts": {
+        "0": 89,
+        "1": 76,
+        "2": 72,
+        "3": 87
+      },
+      "native_log": {
+        "first_point": "execution:41:p0",
+        "last_point": "execution:41:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "419430400000000000000000000/243",
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "419430400000000000000000000/243",
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "175921860444160000000000000000000000000000000000000000/59049",
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:41:p14",
+          "execution:41:p34",
+          "execution:41:p42",
+          "execution:41:p46",
+          "execution:41:p54",
+          "execution:41:p58",
+          "execution:41:p82",
+          "execution:41:p90",
+          "execution:41:p98",
+          "execution:41:p102",
+          "execution:41:p106",
+          "execution:41:p122",
+          "execution:41:p130",
+          "execution:41:p158",
+          "execution:41:p198",
+          "execution:41:p238",
+          "execution:41:p246",
+          "execution:41:p302",
+          "execution:41:p314",
+          "execution:41:p322"
+        ],
+        "edge_count": 324
+      }
+    },
+    {
+      "name": "event_shuffle_97",
+      "writes": 324,
+      "endpoint": [
+        0,
+        0,
+        0
+      ],
+      "quotient_endpoint": 0,
+      "occupancy": [
+        49,
+        21,
+        23,
+        43,
+        42,
+        33,
+        33,
+        80
+      ],
+      "time_moment": [
+        7969,
+        3398,
+        3240,
+        6731,
+        6983,
+        5180,
+        5334,
+        13815
+      ],
+      "first_half": [
+        25,
+        9,
+        13,
+        23,
+        21,
+        18,
+        15,
+        38
+      ],
+      "phase_counts": {
+        "0": 80,
+        "1": 66,
+        "2": 93,
+        "3": 85
+      },
+      "native_log": {
+        "first_point": "execution:42:p0",
+        "last_point": "execution:42:p324",
+        "initial_action": 6,
+        "final_action": 6,
+        "U": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 8388608000000000000000000000,
+          "sign": 1
+        },
+        "D": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 8388608000000000000000000000,
+          "sign": 1
+        },
+        "V": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 70368744177664000000000000000000000000000000000000000000,
+          "sign": 1
+        },
+        "L": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "net": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": 1,
+          "sign": 0
+        },
+        "M": {
+          "type": "EXACT_LOG_POSITIVE_RATIONAL",
+          "argument": "5/3",
+          "sign": 1
+        },
+        "maximizing_points": [
+          "execution:42:p6",
+          "execution:42:p14",
+          "execution:42:p42",
+          "execution:42:p46",
+          "execution:42:p110",
+          "execution:42:p126",
+          "execution:42:p146",
+          "execution:42:p154",
+          "execution:42:p158",
+          "execution:42:p166",
+          "execution:42:p170",
+          "execution:42:p174",
+          "execution:42:p178",
+          "execution:42:p182",
+          "execution:42:p190",
+          "execution:42:p202",
+          "execution:42:p234",
+          "execution:42:p246",
+          "execution:42:p262",
+          "execution:42:p282",
+          "execution:42:p310"
+        ],
+        "edge_count": 324
+      }
+    }
+  ],
+  "checked_native_steps": 3888,
+  "update_rule": "q=T_event(q); n=n+1; h[point(q)]+=1; m[point(q)]+=n",
+  "minimality_scope": "Deterministic finite-state source output for admitted W1+/W7+ alphabet; counters and full histories retain separate roles"
+}

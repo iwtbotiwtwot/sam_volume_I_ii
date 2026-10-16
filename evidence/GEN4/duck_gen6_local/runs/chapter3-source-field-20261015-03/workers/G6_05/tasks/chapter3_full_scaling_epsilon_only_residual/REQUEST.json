@@ -1,0 +1,134 @@
+{
+  "key": "chapter3_full_scaling_epsilon_only_residual",
+  "kind": "TASK",
+  "task": {
+    "because": [],
+    "controller": "G6_05",
+    "estimated_memory_bytes": 402653184,
+    "key": "chapter3_full_scaling_epsilon_only_residual",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "payload": {
+      "context": {
+        "basis": [
+          "Hs",
+          "Hf",
+          "Hint",
+          "Hct"
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "semantic_class": "Original Hamiltonian formal coefficient response; not a finite replacement continuum"
+        },
+        "spectral_coordinate": "original placement pair basis; no source eigenvalue fit",
+        "units": {
+          "coordinate": "dimensionless original model source coefficients"
+        }
+      },
+      "data": {
+        "operators": {
+          "NEG_FULL": [
+            [
+              "1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1/2"
+            ]
+          ],
+          "PARTIAL": [
+            [
+              "-1/2",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "-1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-1"
+            ]
+          ]
+        },
+        "output": "residual",
+        "program": [
+          {
+            "inputs": [
+              "PARTIAL",
+              "NEG_FULL"
+            ],
+            "name": "residual",
+            "op": "add"
+          }
+        ]
+      },
+      "name": "chapter3_full_scaling_epsilon_only_residual",
+      "source_binding": {
+        "campaign": "voli_chapter3_source_field1_20261015",
+        "derivation_sha256": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+        "derivation_source_path": "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md",
+        "frozen_source_sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+        "law_namespace": "SAM_land",
+        "parent": "Chapter III localized source and finite receiving field",
+        "physical_scope": "Exact algebra and declared perturbation controls; no microscopic gravity map or measured SI redshift",
+        "source": "Chapter I exact finite source and complete continuum receiving law",
+        "source_files": {
+          "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+          "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+          "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+          "GEN4/voli_chapter3_source_field1_20261015/clock/chapter1_certificate.json": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f"
+        }
+      }
+    },
+    "purpose": "Exact interacting source clock coupling certificate",
+    "source_binding": {
+      "campaign": "voli_chapter3_source_field1_20261015",
+      "derivation_sha256": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+      "derivation_source_path": "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md",
+      "frozen_source_sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+      "law_namespace": "SAM_land",
+      "parent": "Chapter III localized source and finite receiving field",
+      "physical_scope": "Exact algebra and declared perturbation controls; no microscopic gravity map or measured SI redshift",
+      "source": "Chapter I exact finite source and complete continuum receiving law",
+      "source_files": {
+        "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+        "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+        "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+        "GEN4/voli_chapter3_source_field1_20261015/clock/chapter1_certificate.json": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f"
+      }
+    },
+    "target_id": "PARENT"
+  }
+}

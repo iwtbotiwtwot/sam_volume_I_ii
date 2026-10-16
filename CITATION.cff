@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this repository and its accompanying Chapter II manuscript."
+title: "SAM Volume I, Chapter II: Retention, accumulation, and the finite ledger"
+type: software
+version: 0.1.0
+date-released: 2026-10-16
+authors:
+  - family-names: Brady
+    given-names: Sean
+  - name: "OpenAI ChatGPT and Codex"
+repository-code: "https://github.com/iwtbotiwtwot/sam_volume_I_ii"
+url: "https://github.com/iwtbotiwtwot/sam_volume_I_ii"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Manuscript, source-bound derivations, exact certificates, independent code,
+  retained native evidence and reproducibility tests for SAM Volume I,
+  Chapter II. The 24-page, 48-section edition preserves the prior physical
+  development and adds source-to-field and interacting-clock interfaces.
+  Sean Brady is the originator and conceptual director. OpenAI ChatGPT and
+  Codex are AI research collaborators and co-authors. Software uses MIT;
+  manuscript, documentation and original research material use CC BY 4.0.
+  See docs/LICENSING.md for component scope and third-party exceptions.

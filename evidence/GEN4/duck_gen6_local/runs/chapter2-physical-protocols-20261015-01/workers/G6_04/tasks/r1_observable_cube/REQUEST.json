@@ -1,0 +1,102 @@
+{
+  "key": "r1_observable_cube",
+  "kind": "TASK",
+  "task": {
+    "because": [],
+    "controller": "G6_04",
+    "estimated_memory_bytes": 402653184,
+    "key": "r1_observable_cube",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "payload": {
+      "context": {
+        "basis": [
+          "protected0",
+          "protected1",
+          "protected2"
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "preparation": "Fresh protected-sector source preparations; destructive terminal readout"
+        },
+        "spectral_coordinate": "declared receiving observable",
+        "units": {
+          "observable": "dimensionless outcomes -sqrt(2),0,sqrt(2)"
+        }
+      },
+      "data": {
+        "operators": {
+          "O": [
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        },
+        "output": "O3",
+        "program": [
+          {
+            "inputs": [
+              "O",
+              "O"
+            ],
+            "name": "O2",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "O2",
+              "O"
+            ],
+            "name": "O3",
+            "op": "multiply"
+          }
+        ]
+      },
+      "name": "r1_observable_cube",
+      "source_binding": {
+        "campaign": "voli_chapter2_physical3_20261015",
+        "law_namespace": "SAM_land",
+        "parent": "H002635",
+        "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+        "question": "Check the complete physical readout observable algebra used for bounded-outcome shot accounting",
+        "source_files": {
+          "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+          "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+          "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+          "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+          "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+        }
+      }
+    },
+    "purpose": "Check the complete physical readout observable algebra used for bounded-outcome shot accounting",
+    "source_binding": {
+      "campaign": "voli_chapter2_physical3_20261015",
+      "law_namespace": "SAM_land",
+      "parent": "H002635",
+      "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+      "question": "Check the complete physical readout observable algebra used for bounded-outcome shot accounting",
+      "source_files": {
+        "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+        "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+        "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+        "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+        "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+      }
+    },
+    "target_id": "PARENT"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "automatic_third_round": false,
+  "controller_count": 12,
+  "duck_version": "1.2.2",
+  "helper_count": 6,
+  "helper_host": "LOCAL_PROCESS_NO_SSH",
+  "helper_memory_bytes": 6442450944,
+  "helper_python": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/.venv-r3/bin/python",
+  "helper_root": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project",
+  "helper_run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-01",
+  "helper_unit": "sam-r3-gen6-duck-helper-chapter3-source-field-20261015-01",
+  "id": "chapter3-source-field-20261015-01",
+  "local_memory_bytes": 10737418240,
+  "operator_profile": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "role": "OUTSIDE_OPERATOR"
+  },
+  "prepared_run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-01",
+  "research": {
+    "automatic_crawl": true,
+    "depth": 2,
+    "index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-01/research_web.sqlite",
+    "index_sha256": "8a33ac7c75d7c64e4b80aad5e0d0fb02960e80ac446d7488224446402d080b02",
+    "max_nodes": 48,
+    "max_results": 6,
+    "mode": "connections",
+    "queries": [
+      {
+        "query": "positive source energy spatial shell density",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/volii_duck_expansion2/REPORT.md",
+          "GEN4/native_energy_source1/RESULT.md"
+        ]
+      },
+      {
+        "query": "radial Laplacian conductance source continuum",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/native_energy_source1/RESULT.md",
+          "manuscripts/volume_I/02_spherical_sources/DERIVATIONS.md"
+        ]
+      },
+      {
+        "query": "interacting source clock common energy coupling",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_physical3_20261015/REPORT.md",
+          "GEN4/native_coupling_scale1/REPORT.md"
+        ]
+      },
+      {
+        "query": "source spatial response memory clock road",
+        "rounds": [
+          2
+        ],
+        "seeds": [
+          "GEN4/source_spatial_response1/REPORT.md",
+          "GEN4/joint_source_clock_road1/REPORT.md"
+        ]
+      }
+    ],
+    "search_workers": [
+      "LH_05",
+      "LH_06"
+    ],
+    "source_index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter3_source_field1_20261015/inputs/RESEARCH_WEB.sqlite"
+  },
+  "round_seconds": 180,
+  "science_scope": "Chapter III retained source-energy map, finite static receiving field and actual clock response",
+  "unit": "sam-r3-gen6-duck-chapter3-source-field-20261015-01",
+  "wire_inline_bytes": 1048576
+}

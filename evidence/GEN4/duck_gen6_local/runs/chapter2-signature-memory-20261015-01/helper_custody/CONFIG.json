@@ -1,0 +1,76 @@
+{
+  "automatic_third_round": false,
+  "controller_count": 12,
+  "duck_version": "1.2.2",
+  "helper_count": 6,
+  "helper_host": "LOCAL_PROCESS_NO_SSH",
+  "helper_memory_bytes": 3221225472,
+  "helper_python": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/.venv-r3/bin/python",
+  "helper_root": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project",
+  "helper_run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-signature-memory-20261015-01",
+  "helper_unit": "sam-r3-gen6-duck-helper-chapter2-signature-memory-20261015-01",
+  "id": "chapter2-signature-memory-20261015-01",
+  "local_memory_bytes": 4294967296,
+  "operator_profile": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "role": "OUTSIDE_OPERATOR"
+  },
+  "prepared_run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01",
+  "research": {
+    "automatic_crawl": true,
+    "depth": 2,
+    "index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/research_web.sqlite",
+    "index_sha256": "21e05f0cfba881ba33e7decc70c09942250cc71ef4c14eb445d2e6f811942307",
+    "max_nodes": 64,
+    "max_results": 8,
+    "mode": "connections",
+    "queries": [
+      {
+        "query": "coherence source clock",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "source action residual",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/duck_spin_upper1_20261014/REPORT.md"
+        ]
+      },
+      {
+        "query": "phase history reference",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/bridge/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "memory retained source",
+        "rounds": [
+          2
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md"
+        ]
+      }
+    ],
+    "search_workers": [
+      "LH_05",
+      "LH_06"
+    ],
+    "source_index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_continuation2_20261015/inputs/RESEARCH_WEB.sqlite"
+  },
+  "round_seconds": 180,
+  "science_scope": "Chapter II signature -> memory -> paid Write clock; active breadcrumb exploration",
+  "unit": "sam-r3-gen6-duck-chapter2-signature-memory-20261015-01",
+  "wire_inline_bytes": 1048576
+}

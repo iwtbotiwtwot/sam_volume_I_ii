@@ -1,0 +1,499 @@
+# Courtroom Provenance Brief: Duodecimal `R = 12` With Priority-Record and Operational-Memory Trace
+
+## Purpose
+
+This brief traces the strongest courtroom case for the SAM switch to the native duodecimal register:
+
+```text
+R = 12_dec = 10_doz
+```
+
+It incorporates:
+
+```text
+- PRIORITY_RECORD.md
+- OPERATIONAL_MEMORY.md
+- PASS_LOG.md
+- FAILURE_LOG.md
+- V4.1 master/action roots
+- DS discovery campaign records
+- G-test provenance
+```
+
+The question is not whether base-12 is generally convenient.
+
+The courtroom question is:
+
+```text
+Did SAM itself already generate a native R = 12 write/accounting register,
+and did the priority/operational records promote that register in a controlled way?
+```
+
+## Short Answer
+
+Yes.
+
+Inside SAM, the duodecimal switch is best supported as a **native framework register / write-accounting layer**.
+
+The strongest case is a convergence of foundation, arithmetic, ledger conservation, partition algebra, executable coherence, and explicit priority-record / operational-memory promotion:
+
+```text
+1. α_h = 2 is derived from the loop/worldsheet pair structure.
+2. D = 3 is derived from displacement-response matter identity.
+3. A0 = 1/[(2π)·α_h·D] = 1/(12π).
+4. πA0 = 1/12, giving A_share = 1/R.
+5. A = 1 closure becomes 12/12 in the native share register.
+6. A_side = 1/(2R) = 1/24 gives the half-side ledger.
+7. G535 verifies 12-share / 24-side ledger conservation.
+8. V4.1 roots and G583c verify executable coherence under the radix-route kernel.
+9. PRIORITY_RECORD §2.4 promotes the duodecimal register framework-wide.
+10. OPERATIONAL_RULES §1 adds a preflight gate requiring the radix/partition algebra before any test.
+11. DS009/DS013 convert R from a number into a WRITE partition algebra.
+```
+
+## Courtroom Finding
+
+```text
+R = 12_dec = 10_doz is not a late decoration.
+It is the SAM-native write/accounting register.
+
+The switch to duodecimal is a framework-conserving move:
+it makes the notation match the machinery already present.
+```
+
+---
+
+# 1. Priority-Record Foundation
+
+## 1.1 Vocabulary Discipline
+
+`PRIORITY_RECORD.md §1` defines four claim words:
+
+```text
+Input
+Composed
+Derived
+Predicted
+```
+
+The priority record explicitly rejects the headline phrase “one free parameter” and replaces it with the more disciplined statement:
+
+```text
+π is an input.
+α_H = 2 is derived from the loop-substrate commitment.
+D = 3 is derived at structural-theorem grade from displacement-response matter identity.
+A0 = 1/(12π) is composed from π, α_H, and D.
+```
+
+This matters for `R = 12` because the radix is not introduced as a tunable parameter. It is downstream of the foundation stack.
+
+## 1.2 `α_H = 2`
+
+Priority-record status:
+
+```text
+α_H = 2. Derived at structural-argument grade.
+```
+
+Source logic:
+
+```text
+closed 1-D loop substrate
+-> 2-D Lorentzian worldsheet
+-> d'Alembertian factorization
+-> two null directions
+-> α_H = 2
+```
+
+Primary test / record references:
+
+```text
+G229B — α_H multiroute derivation.
+G230  — joint holographic-emergence route tying α_H = 2 and D = 3.
+G238  — matter-side inheritance of α_H = 2.
+U-002 — later symbolic audit verifying the Lorentzian factorization gap.
+```
+
+Operational-memory upgrade:
+
+```text
+U-002 sympy audit:
+Box Φ = -L_+ L_- Φ symbolically;
+L_+ and L_- commute;
+2 real null branches under Lorentzian (-,+);
+0 under Euclidean or negative-definite controls.
+```
+
+Courtroom reading:
+
+```text
+G229B Route A's "assigns 2 rather than computes" gap is later closed by U-002.
+```
+
+## 1.3 `D = 3`
+
+Priority-record status:
+
+```text
+D = 3. Derived at structural-theorem grade inside SAM.
+```
+
+Source logic:
+
+```text
+matter identity = invariant substrate displacement response
+-> self-contained stable loop/twist/holonomy sector
+-> obstruction_dim = 3 − D = 0
+-> D = 3
+```
+
+Primary test chain:
+
+```text
+G347 — D=3 theorem-route audit; loop/topology route identified, conditional only.
+G348 — loop topology identity premise audit; D=3-only stable topology, necessity not closed.
+G349 — worldsheet identity reduction.
+G350 — identity deformation quotient.
+G352 — self-contained holonomy/topology audit.
+G354 — displacement-response identity principle.
+G355 — D=3 displacement-response theorem; promotes D=3 to derived structural-theorem grade.
+```
+
+Operational-memory strengthening:
+
+```text
+F-002 / T-002d D3 deep dive:
+- enumerated candidate invariants against intrinsic/topological/nontrivial/self-contained criteria;
+- knot/link survives;
+- Alexander polynomial checks distinguish unknot, trefoil, figure-eight;
+- codim-2 dimensional count identifies D=3 as the unique nontrivial 1-knot case;
+- D=3 grade firms from conditional theorem to derived under loop substrate + matter identity.
+```
+
+## 1.4 `A0 = 1/(12π)`
+
+Priority-record status:
+
+```text
+A0 = 1/(2π · α_H · D) = 1/(4π · D) = 1/(12π).
+```
+
+Source logic:
+
+```text
+2π phase cycle
+× α_H worldsheet pair
+× D matter identity
+```
+
+Strict composition:
+
+```text
+A0 = 1 / [(2π phase cycle) · (α_H worldsheet pair) · (D matter identity)]
+A0 = 1 / [(2π) · 2 · 3]
+A0 = 1 / (12π)
+```
+
+Primary test / record references:
+
+```text
+G277 — A0 compact cycle forced to Hamiltonian/unitary phase branch.
+G324 — primitive full cycle 2π from unitary phase periodicity.
+G356 — A0 foundation status after D theorem.
+G357 — A0 compact-cycle phase provenance locked.
+```
+
+Priority-record distinction:
+
+```text
+The "2" in 2π is the U(1) phase-cycle integer.
+It is structurally distinct from α_H = 2's worldsheet pair/null-branch origin.
+Therefore A0 does not double-count the same "2."
+```
+
+---
+
+# 2. First Radix Convergence: `A0` Implies `A_share`
+
+From the foundation:
+
+```text
+A0 = 1/(12π)
+```
+
+Therefore:
+
+```text
+πA0 = 1/12
+```
+
+SAM reads:
+
+```text
+A_share = πA0 = 1/R = 1/12_dec = 1/10_doz
+```
+
+So:
+
+```text
+R = 1/A_share = 12
+```
+
+## Key audit correction
+
+Operational memory records a typo correction from T-008a:
+
+```text
+Output text typo: stated A_share = 2πA0.
+Correct relation: A_share = πA0.
+Reason: A0 = 1/(12π), so πA0 = 1/12 = A_share.
+Derivation itself correct.
+```
+
+## Reorganization-threshold support
+
+The operational memory records that the V4.1 push was not just notation; it was motivated by a live mathematical improvement:
+
+```text
+G528B A_proxy ≈ 0.085 ≈ 1/12 reorganization threshold
++ A0 = 1/(12π) layered hint.
+```
+
+Relevant tests / audits:
+
+```text
+G526  — non-A reorganization covariate factoring.
+G528B — corrected raw A_proxy split at 0.085.
+G531  — raw A_proxy target-bin scan around 0.085.
+G533  — component context around the raw A ≈ 1/12 band.
+G534  — exact A = 1/12 anchor audit.
+```
+
+G534 checks the exact anchor:
+
+```text
+A_star = 1/12
+A_star = πA0
+A_star / A0 = π
+Σ = 3A = 1/4
+r/Rs = 12
+Φ/c² = -1/24
+```
+
+Courtroom role:
+
+```text
+G533/G534 are not the proof of the radix.
+They record that the live A-reorganization neighborhood sat directly on the exact one-share anchor πA0 = 1/12.
+```
+
+---
+
+# 3. Priority-Record §2.4: Duodecimal Radix-Native Commitment
+
+`PRIORITY_RECORD.md §2.4` explicitly promotes the duodecimal reading on 2026-05-30 under Sean directive.
+
+The record states:
+
+```text
+V4.1 operates in a duodecimal radix natively:
+R = 12_dec = 10_doz is the framework's count of one.
+```
+
+It also states that the decimal fractions in V4.1's earlier:
+
+```text
+1/2 + 1/2 = 1
+```
+
+are notational. The native reading is:
+
+```text
+6 + 6 = 10_doz
+```
+
+sub-units per WRITE.
+
+## Three structural commitments recorded in PR §2.4
+
+### 3.1 Layered factorization of `R`
+
+Priority-record formula:
+
+```text
+R = 2 · α_H · D
+R = 2 · 2 · 3
+R = 12_dec = 10_doz
+```
+
+with three distinct axes:
+
+```text
+outer 2       = phase-cycle / substrate-matter outer binary
+α_H = 2       = worldsheet null pair per spatial axis
+D = 3         = spatial dimensionality / support count
+```
+
+Each half-write:
+
+```text
+6_doz = α_H · D = 2 + 2 + 2
+```
+
+The outer binary:
+
+```text
+(6, 6)
+```
+
+doubles to one complete WRITE:
+
+```text
+12 sub-units = 10_doz
+```
+
+### 3.2 `A` is quantized at `A_share = 1/R`
+
+Priority-record formula:
+
+```text
+A_share = 1/R = 1/12
+A_side  = A_share/2 = 1/24
+```
+
+Any sub-channel carries:
+
+```text
+A = k · A_share
+k ∈ {1, 2, ..., R}
+```
+
+The previous `A = 1/2` reading becomes:
+
+```text
+A = 1/2 = 6 · A_share
+```
+
+or:
+
+```text
+k = 6 = α_H · D
+```
+
+### 3.3 WRITE is a positive-integer partition of `R`
+
+Priority-record rule:
+
+```text
+A complete WRITE is any partition of R = 12 into positive radix-integer
+sub-channel sizes (k_1, k_2, ...)
+with Σ k_i = R.
+```
+
+The V4.1 freeze uses:
+
+```text
+(6, 6)
+```
+
+The layered reading also reveals:
+
+```text
+(2, 2, 2, 2, 2, 2) = α_H per axis × 2 sides
+```
+
+Courtroom interpretation:
+
+```text
+SAM is no longer locked to only a binary half-write.
+The binary half-write is one partition of the full R = 12 WRITE.
+```
+
+---
+
+# 4. Priority-Record §2.4: Partition Algebra Refinement
+
+The fourth-pass Sean directive sharpened `R` again:
+
+```text
+R is not only 12.
+R has a native partition algebra generated by α_H and D.
+```
+
+Formal object:
+
+```text
+{ α_H^i · D^j : i, j ≥ 0, α_H^i · D^j ≤ R }
+```
+
+with:
+
+```text
+R = α_H² · D = 12
+```
+
+The admissible WRITE partition parts are exactly:
+
+| Element | Bigrade `(i,j)` | Decimal | Duodecimal |
+|---|---:|---:|---:|
+| `1` | `(0,0)` | `1` | `1_doz` |
+| `α_H` | `(1,0)` | `2` | `2_doz` |
+| `D` | `(0,1)` | `3` | `3_doz` |
+| `α_H²` | `(2,0)` | `4` | `4_doz` |
+| `α_H · D` | `(1,1)` | `6` | `6_doz` |
+| `α_H³` | `(3,0)` | `8` | `8_doz` |
+| `D²` | `(0,2)` | `9` | `9_doz` |
+| `α_H² · D = R` | `(2,1)` | `12` | `10_doz` |
+
+Excluded by truncation:
+
+```text
+α_H⁴ = 16
+α_H³D = 24
+α_HD² = 18
+D³ = 27
+...
+```
+
+Radix walls:
+
+```text
+5, 7, 10, 11
+```
+
+These are not in the partition algebra.
+
+## DS009
+
+`DS009` enumerated the 77 integer partitions of `R = 12`.
+
+Result:
+
+```text
+53 admissible under the layered / partition-algebra restriction
+24 boundary because they contain parts in {5, 7, 10, 11}
+```
+
+## DS013
+
+`DS013` ran the partition-axis selector audit.
+
+Of the 53 layered-admissible partitions:
+
+```text
+TRIVIAL                  1   (12,)
+EXISTS                   1   (6, 6)
+EXISTS_COMBINED          1   (2, 2, 2, 2, 2, 2)
+EXISTS_COMBINED_FULL     1   (1, 1, ..., 1) ×12
+NEEDS_NEW               24
+NEEDS_NEW_MULTIPLE      25
+```
+
+Headline:
+
+```text
+4 of 53 partitions become V4.1-realized if only two selectors are promoted:
+S_D_axis and S_alpha_H_pair.
+```
+
+Both selectors trace to existing priority-record primitives:

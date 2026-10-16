@@ -1,0 +1,1630 @@
+{
+  "kind": "REVIEW",
+  "review": {
+    "accounting": [
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "web_r1_000",
+        "known_work": "All actual retrieved source/energy excerpts inspected; source location and phase/reference semantics feed finite graph and localized density constructions.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "web_r1_001",
+        "known_work": "All six radial/continuum excerpts inspected; retained conductance and finite-boundary account feed exact field/energy identities. The positive-field receiving sector is recorded as the next localization lead.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "web_r1_002",
+        "known_work": "All actual clock/coupling excerpts inspected; complete generator, time reference and source memory feed the six-lane operational response/precision test.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "r1_si29_incoming_flatness",
+        "known_work": "Actual all-eight incoming occupation sums return zero residual; together these establish E_x=H0/8 in the orthonormal source.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "r1_si29_outgoing_flatness",
+        "known_work": "Actual all-eight outgoing Gram sums return zero residual, fixing each scalar outgoing energy share without discarding species/coherence.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "r1_radial_green_inverse",
+        "known_work": "Installed inverse receives the retained finite c_i=i(i+1) source operator; analytic Green, flux and boundary correction are independently derived.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "chapter3_full_source_clock_energy_commutators",
+        "known_work": "Complete sixteen-state source certifies bare current commutator and invisible even/counterterm energy, preserving full-source roles.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "chapter3_full_scaling_epsilon_only_residual",
+        "known_work": "Exact four-term coefficient residual is (0,1/2,0,-1/2), distinguishing complete-H scaling from epsilon-only coupling.",
+        "status": "COMPLETED"
+      },
+      {
+        "disposition": "RETAIN_AND_EXTEND",
+        "id": "r1_si29_uniform_coupling_response",
+        "known_work": "Actual eight-coordinate source and physical Gram distinguish positive excitation energy from signed generator; the declared uniform H0 coupling leaves sector-contrast history unchanged.",
+        "status": "COMPLETED"
+      }
+    ],
+    "deferred_targets": [],
+    "parent_retained": true,
+    "review_packet_sha256": "53cbea0331229bf1c397c21e61e8d1270025c881228fae52dd78da8e8f2d9461",
+    "round2": [
+      {
+        "consumes": {
+          "r1_radial_green_inverse": {
+            "$result": "r1_radial_green_inverse",
+            "path": [
+              "key"
+            ]
+          },
+          "web_r1_001": {
+            "$result": "web_r1_001",
+            "path": [
+              "key"
+            ]
+          }
+        },
+        "controller": "G6_01",
+        "estimated_memory_bytes": 268435456,
+        "key": "r2_radial_flux_energy_word",
+        "kind": "native",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "payload": {
+          "context": {
+            "basis": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ],
+            "field": {
+              "radicand": 0
+            },
+            "history": {
+              "mapping": "finite radial shell Poisson source, explicit absorbing outer boundary"
+            },
+            "spectral_coordinate": "dimensionless static radial source lift",
+            "units": {
+              "a": "dimensionless source lift",
+              "energy": "U_L/energy_unit = -sum_ij m_i H_ij m_j/2",
+              "energy_unit": "G*M_unit^2/h",
+              "kappa": "2*G*M_unit/(c^2*h); masses are in M_unit",
+              "outer_radius": "L*h",
+              "r_i": "i*h"
+            }
+          },
+          "data": {
+            "operators": {
+              "B": [
+                [
+                  "1",
+                  "-1",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1",
+                  "-1",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "1",
+                  "-1",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "-1",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "-1",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "-1"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              ],
+              "C": [
+                [
+                  "2",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "6",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "12",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "20",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "30",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "42",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "56",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "72"
+                ]
+              ],
+              "H": [
+                [
+                  "8/9",
+                  "7/18",
+                  "2/9",
+                  "5/36",
+                  "4/45",
+                  "1/18",
+                  "2/63",
+                  "1/72"
+                ],
+                [
+                  "7/18",
+                  "7/18",
+                  "2/9",
+                  "5/36",
+                  "4/45",
+                  "1/18",
+                  "2/63",
+                  "1/72"
+                ],
+                [
+                  "2/9",
+                  "2/9",
+                  "2/9",
+                  "5/36",
+                  "4/45",
+                  "1/18",
+                  "2/63",
+                  "1/72"
+                ],
+                [
+                  "5/36",
+                  "5/36",
+                  "5/36",
+                  "5/36",
+                  "4/45",
+                  "1/18",
+                  "2/63",
+                  "1/72"
+                ],
+                [
+                  "4/45",
+                  "4/45",
+                  "4/45",
+                  "4/45",
+                  "4/45",
+                  "1/18",
+                  "2/63",
+                  "1/72"
+                ],
+                [
+                  "1/18",
+                  "1/18",
+                  "1/18",
+                  "1/18",
+                  "1/18",
+                  "1/18",
+                  "2/63",
+                  "1/72"
+                ],
+                [
+                  "2/63",
+                  "2/63",
+                  "2/63",
+                  "2/63",
+                  "2/63",
+                  "2/63",
+                  "2/63",
+                  "1/72"
+                ],
+                [
+                  "1/72",
+                  "1/72",
+                  "1/72",
+                  "1/72",
+                  "1/72",
+                  "1/72",
+                  "1/72",
+                  "1/72"
+                ]
+              ],
+              "I": [
+                [
+                  "1",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "1",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              ],
+              "K": [
+                [
+                  "2",
+                  "-2",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "-2",
+                  "8",
+                  "-6",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-6",
+                  "18",
+                  "-12",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-12",
+                  "32",
+                  "-20",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "-20",
+                  "50",
+                  "-30",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "-30",
+                  "72",
+                  "-42",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "-42",
+                  "98",
+                  "-56"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "-56",
+                  "128"
+                ]
+              ],
+              "S0": [
+                [
+                  "1",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0"
+                ]
+              ],
+              "S1": [
+                [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0"
+                ]
+              ],
+              "S2": [
+                [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "1"
+                ]
+              ]
+            },
+            "output": "answer",
+            "program": [
+              {
+                "inputs": [
+                  "B"
+                ],
+                "name": "Bt",
+                "op": "transpose"
+              },
+              {
+                "inputs": [
+                  "Bt",
+                  "C"
+                ],
+                "name": "BtC",
+                "op": "multiply"
+              },
+              {
+                "inputs": [
+                  "BtC",
+                  "B"
+                ],
+                "name": "BtCB",
+                "op": "multiply"
+              },
+              {
+                "inputs": [
+                  "BtCB",
+                  "K"
+                ],
+                "name": "incidence_residual",
+                "op": "subtract"
+              },
+              {
+                "inputs": [
+                  "K",
+                  "H"
+                ],
+                "name": "KH",
+                "op": "multiply"
+              },
+              {
+                "inputs": [
+                  "KH",
+                  "I"
+                ],
+                "name": "green_residual",
+                "op": "subtract"
+              },
+              {
+                "inputs": [
+                  "H",
+                  "K"
+                ],
+                "name": "HK",
+                "op": "multiply"
+              },
+              {
+                "inputs": [
+                  "HK",
+                  "H"
+                ],
+                "name": "HKH",
+                "op": "multiply"
+              },
+              {
+                "inputs": [
+                  "HKH",
+                  "H"
+                ],
+                "name": "energy_residual",
+                "op": "subtract"
+              },
+              {
+                "inputs": [
+                  "S0",
+                  "incidence_residual"
+                ],
+                "name": "o0",
+                "op": "tensor"
+              },
+              {
+                "inputs": [
+                  "S1",
+                  "green_residual"
+                ],
+                "name": "o1",
+                "op": "tensor"
+              },
+              {
+                "inputs": [
+                  "S2",
+                  "energy_residual"
+                ],
+                "name": "o2",
+                "op": "tensor"
+              },
+              {
+                "inputs": [
+                  "o0",
+                  "o1"
+                ],
+                "name": "o01",
+                "op": "add"
+              },
+              {
+                "inputs": [
+                  "o01",
+                  "o2"
+                ],
+                "name": "answer",
+                "op": "add"
+              }
+            ]
+          },
+          "name": "CH3_RADIAL_FLUX_ENERGY_IDENTITIES",
+          "source_binding": {
+            "builder_sha256": "e63a4a0374ad605a7b8d8b63abfe004ea34db3609b2a57ecf66f63f0917100d6",
+            "campaign": "voli_chapter3_source_field1_20261015",
+            "law_namespace": "SAM_land",
+            "model": "retained c_i=i(i+1) isotropic-monopole receiver; explicit thin-shell density extension",
+            "question": "Certify incidence/Green/energy identities B^TCB=K, KH=I, HKH=H for the original finite radial receiving law",
+            "scope": "static conditional shell receiving law; physical source-to-mass map and angular isotropy are not inferred",
+            "source_files": {
+              "GEN4/native_energy_source1/RADIAL_ANALYSIS.md": "c0863586c88106f9f538bd84baf8d4843004b0dfff1d4f5d05a41bb78ebffbea",
+              "GEN4/native_energy_source1/RADIAL_METHOD.md": "3702351798b47e7c121f5233d0dd9835a241d1bfb342ee2a8af8a3ffaf3893d7",
+              "GEN4/vol_i_activation_selection1/NETWORK_METHOD.md": "52bbb30b33bc7ba7f4841ac255871911ad6e8bc2d899e8d5e562f06b428a8ffe",
+              "GEN4/vol_i_activation_selection1/network.py": "a65e1ece5bc29d25666a4ccb81de91194fb8212f05129e50e9ef13e5477b97ab",
+              "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+              "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+              "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+              "GEN4/voli_chapter3_source_field1_20261015/radial/DUCK_R2_TASKS.json": "e263fe1d0b893ae8b4ce9c81500992427f6ddf559a27c4b9b1e82e1d34669b19",
+              "GEN4/voli_chapter3_source_field1_20261015/radial/FIXTURE.json": "35e750eefd0a48b6ab4e631ed03b5f7782f39a069ad0c4622aa82fa8ee19cd6b"
+            }
+          }
+        },
+        "purpose": "Certify incidence/Green/energy identities B^TCB=K, KH=I, HKH=H for the original finite radial receiving law",
+        "source_binding": {
+          "builder_sha256": "e63a4a0374ad605a7b8d8b63abfe004ea34db3609b2a57ecf66f63f0917100d6",
+          "campaign": "voli_chapter3_source_field1_20261015",
+          "law_namespace": "SAM_land",
+          "model": "retained c_i=i(i+1) isotropic-monopole receiver; explicit thin-shell density extension",
+          "question": "Certify incidence/Green/energy identities B^TCB=K, KH=I, HKH=H for the original finite radial receiving law",
+          "scope": "static conditional shell receiving law; physical source-to-mass map and angular isotropy are not inferred",
+          "source_files": {
+            "GEN4/native_energy_source1/RADIAL_ANALYSIS.md": "c0863586c88106f9f538bd84baf8d4843004b0dfff1d4f5d05a41bb78ebffbea",
+            "GEN4/native_energy_source1/RADIAL_METHOD.md": "3702351798b47e7c121f5233d0dd9835a241d1bfb342ee2a8af8a3ffaf3893d7",
+            "GEN4/vol_i_activation_selection1/NETWORK_METHOD.md": "52bbb30b33bc7ba7f4841ac255871911ad6e8bc2d899e8d5e562f06b428a8ffe",
+            "GEN4/vol_i_activation_selection1/network.py": "a65e1ece5bc29d25666a4ccb81de91194fb8212f05129e50e9ef13e5477b97ab",
+            "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+            "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+            "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+            "GEN4/voli_chapter3_source_field1_20261015/radial/DUCK_R2_TASKS.json": "e263fe1d0b893ae8b4ce9c81500992427f6ddf559a27c4b9b1e82e1d34669b19",
+            "GEN4/voli_chapter3_source_field1_20261015/radial/FIXTURE.json": "35e750eefd0a48b6ab4e631ed03b5f7782f39a069ad0c4622aa82fa8ee19cd6b"
+          }
+        },
+        "target_id": "FINITE_FIELD"
+      },
+      {
+        "consumes": {
+          "r1_radial_green_inverse": {
+            "$result": "r1_radial_green_inverse",
+            "path": [
+              "key"
+            ]
+          },
+          "web_r1_000": {
+            "$result": "web_r1_000",
+            "path": [
+              "key"
+            ]
+          },
+          "web_r1_001": {
+            "$result": "web_r1_001",
+            "path": [
+              "key"
+            ]
+          }
+        },
+        "controller": "G6_02",
+        "estimated_memory_bytes": 268435456,
+        "key": "r2_quadrupole_matching",
+        "kind": "native",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "payload": {
+          "data": {
+            "matrix": {
+              "column_basis": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "entries": [
+                [
+                  "0",
+                  "20",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "30"
+                ],
+                [
+                  "1",
+                  "1",
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "0",
+                  "4",
+                  "1",
+                  "6"
+                ]
+              ],
+              "row_basis": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "structure": "GENERAL"
+            },
+            "rhs": {
+              "column_basis": [
+                "0"
+              ],
+              "entries": [
+                [
+                  "-2"
+                ],
+                [
+                  "-3"
+                ],
+                [
+                  "0"
+                ],
+                [
+                  "0"
+                ]
+              ],
+              "row_basis": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "structure": "GENERAL"
+            }
+          },
+          "precision_bits": 384,
+          "source_binding": {
+            "campaign": "voli_chapter3_source_field1_20261015",
+            "law_namespace": "SAM_land",
+            "question": "Receive static positive quadrupole free-energy density into its exact Poisson/matching coefficients, retaining exterior source tail and full-account distinction",
+            "source_files": {
+              "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+              "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+              "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+              "GEN4/voli_chapter3_source_field1_20261015/energy/CHAPTER_I_MODEL_SOURCE.md": "92b4814d4f6bdd7580943ba7e2d0912cff1dd0510ead61a2ff7da7e811eb4a7e",
+              "GEN4/voli_chapter3_source_field1_20261015/energy/DUCK_R2_TASKS.json": "533dfaf95c403e87809c1cc202b2da6b857cd3b3a0a4030c44b11d5dd369bbe1",
+              "GEN4/voli_chapter3_source_field1_20261015/energy/FIELD_SOURCE_RESULTS.json": "20fcd47f2483dc6949b5cc2fec200484e2c073b5ad4bc11361044cc085f6005f"
+            }
+          }
+        },
+        "purpose": "Receive static positive quadrupole free-energy density into its exact Poisson/matching coefficients, retaining exterior source tail and full-account distinction",
+        "source_binding": {
+          "campaign": "voli_chapter3_source_field1_20261015",
+          "law_namespace": "SAM_land",
+          "question": "Receive static positive quadrupole free-energy density into its exact Poisson/matching coefficients, retaining exterior source tail and full-account distinction",
+          "source_files": {
+            "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+            "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+            "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+            "GEN4/voli_chapter3_source_field1_20261015/energy/CHAPTER_I_MODEL_SOURCE.md": "92b4814d4f6bdd7580943ba7e2d0912cff1dd0510ead61a2ff7da7e811eb4a7e",
+            "GEN4/voli_chapter3_source_field1_20261015/energy/DUCK_R2_TASKS.json": "533dfaf95c403e87809c1cc202b2da6b857cd3b3a0a4030c44b11d5dd369bbe1",
+            "GEN4/voli_chapter3_source_field1_20261015/energy/FIELD_SOURCE_RESULTS.json": "20fcd47f2483dc6949b5cc2fec200484e2c073b5ad4bc11361044cc085f6005f"
+          }
+        },
+        "target_id": "FIELD_ENERGY"
+      },
+      {
+        "consumes": {
+          "chapter3_full_scaling_epsilon_only_residual": {
+            "$result": "chapter3_full_scaling_epsilon_only_residual",
+            "path": [
+              "key"
+            ]
+          },
+          "chapter3_full_source_clock_energy_commutators": {
+            "$result": "chapter3_full_source_clock_energy_commutators",
+            "path": [
+              "key"
+            ]
+          },
+          "r1_si29_uniform_coupling_response": {
+            "$result": "r1_si29_uniform_coupling_response",
+            "path": [
+              "key"
+            ]
+          },
+          "web_r1_002": {
+            "$result": "web_r1_002",
+            "path": [
+              "key"
+            ]
+          }
+        },
+        "controller": "G6_03",
+        "estimated_memory_bytes": 268435456,
+        "key": "r2_clock_phase_ratios",
+        "kind": "native",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "payload": {
+          "data": {
+            "matrix": {
+              "column_basis": [
+                "lane01",
+                "lane02",
+                "lane03",
+                "lane12",
+                "lane13",
+                "lane23"
+              ],
+              "entries": [
+                [
+                  "10201582306463523266059398495440242432137595/2923003274661805836407369665432566039311865085952",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "318799445246201806051448530256553124146233/91343852333181432387730302044767688728495783936",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "38003811581392822290388761773610251/10889035741470030830827987437816582766592",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "10201582303789414319925568436376459081155383/2923003274661805836407369665432566039311865085952",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "4864488311321515992846360463193651975/1393796574908163946345982392040522594123776",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "4864488752512291599751197348450851535/1393796574908163946345982392040522594123776"
+                ]
+              ],
+              "row_basis": [
+                "lane01",
+                "lane02",
+                "lane03",
+                "lane12",
+                "lane13",
+                "lane23"
+              ],
+              "structure": "GENERAL"
+            },
+            "rhs": {
+              "column_basis": [
+                "lane01",
+                "lane02",
+                "lane03",
+                "lane12",
+                "lane13",
+                "lane23"
+              ],
+              "entries": [
+                [
+                  "10201582291956545986982117503825878614923643/2923003274661805836407369665432566039311865085952",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "318799443298827762759621157574628203932729/91343852333181432387730302044767688728495783936",
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "38003775607842990170441625643259147/10889035741470030830827987437816582766592",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "10201582287100201233327736896188818292474679/2923003274661805836407369665432566039311865085952",
+                  "0",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "4864484056747093968551381193857678087/1393796574908163946345982392040522594123776",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "4864484858003660391070321114336778959/1393796574908163946345982392040522594123776"
+                ]
+              ],
+              "row_basis": [
+                "lane01",
+                "lane02",
+                "lane03",
+                "lane12",
+                "lane13",
+                "lane23"
+              ],
+              "structure": "GENERAL"
+            }
+          },
+          "precision_bits": 512,
+          "source_binding": {
+            "actual_clock_input_sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+            "campaign": "voli_chapter3_source_field1_20261015",
+            "law_namespace": "SAM_land",
+            "original_preparation_and_finite_window_retained": true,
+            "physical_scope": "Conditional receiving and precision certificate; no external gravity coupling or material measurement",
+            "question": "Receive all six actual lower/upper phase-rate ratios used in the explicit source-only lift precision criterion",
+            "response_derivation_sha256": "5009afe68f39e3afb5e441c4e72358c93a3141cf998290ee1b8bb0c72a4c9e9a",
+            "source_files": {
+              "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+              "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+              "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+              "GEN4/voli_chapter3_source_field1_20261015/clock/DUCK_R2_TASKS.json": "d1e1dc7319929cc2e5ae52847867591f0908963d133ea3419172c188005fd720",
+              "GEN4/voli_chapter3_source_field1_20261015/clock/RESULTS.json": "ebb9ee3234fa57fe1c54f37fabecbfe985e8d3bc1f2eea4f3185571cf1dea1ab",
+              "GEN4/voli_chapter3_source_field1_20261015/clock/chapter1_certificate.json": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f"
+            },
+            "source_only_lapse_not_derived": true
+          }
+        },
+        "purpose": "Receive all six actual lower/upper phase-rate ratios used in the explicit source-only lift precision criterion",
+        "source_binding": {
+          "actual_clock_input_sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+          "campaign": "voli_chapter3_source_field1_20261015",
+          "law_namespace": "SAM_land",
+          "original_preparation_and_finite_window_retained": true,
+          "physical_scope": "Conditional receiving and precision certificate; no external gravity coupling or material measurement",
+          "question": "Receive all six actual lower/upper phase-rate ratios used in the explicit source-only lift precision criterion",
+          "response_derivation_sha256": "5009afe68f39e3afb5e441c4e72358c93a3141cf998290ee1b8bb0c72a4c9e9a",
+          "source_files": {
+            "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+            "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+            "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+            "GEN4/voli_chapter3_source_field1_20261015/clock/DUCK_R2_TASKS.json": "d1e1dc7319929cc2e5ae52847867591f0908963d133ea3419172c188005fd720",
+            "GEN4/voli_chapter3_source_field1_20261015/clock/RESULTS.json": "ebb9ee3234fa57fe1c54f37fabecbfe985e8d3bc1f2eea4f3185571cf1dea1ab",
+            "GEN4/voli_chapter3_source_field1_20261015/clock/chapter1_certificate.json": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f"
+          },
+          "source_only_lapse_not_derived": true
+        },
+        "target_id": "CLOCK_RESPONSE"
+      },
+      {
+        "consumes": {
+          "r1_si29_incoming_flatness": {
+            "$result": "r1_si29_incoming_flatness",
+            "path": [
+              "key"
+            ]
+          },
+          "r1_si29_outgoing_flatness": {
+            "$result": "r1_si29_outgoing_flatness",
+            "path": [
+              "key"
+            ]
+          },
+          "web_r1_000": {
+            "$result": "web_r1_000",
+            "path": [
+              "key"
+            ]
+          }
+        },
+        "controller": "G6_04",
+        "estimated_memory_bytes": 268435456,
+        "key": "r2_cube_rank7_minor_inverse",
+        "kind": "native",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "payload": {
+          "data": {
+            "matrix": {
+              "column_basis": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "entries": [
+                [
+                  "3",
+                  "-1",
+                  "-1",
+                  "0",
+                  "-1",
+                  "0",
+                  "0"
+                ],
+                [
+                  "-1",
+                  "3",
+                  "0",
+                  "-1",
+                  "0",
+                  "-1",
+                  "0"
+                ],
+                [
+                  "-1",
+                  "0",
+                  "3",
+                  "-1",
+                  "0",
+                  "0",
+                  "-1"
+                ],
+                [
+                  "0",
+                  "-1",
+                  "-1",
+                  "3",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "-1",
+                  "0",
+                  "0",
+                  "0",
+                  "3",
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "0",
+                  "-1",
+                  "0",
+                  "0",
+                  "-1",
+                  "3",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-1",
+                  "0",
+                  "-1",
+                  "0",
+                  "3"
+                ]
+              ],
+              "row_basis": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "structure": "GENERAL"
+            },
+            "rhs": {
+              "column_basis": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "entries": [
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "row_basis": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "structure": "GENERAL"
+            }
+          },
+          "precision_bits": 384,
+          "source_binding": {
+            "campaign": "voli_chapter3_source_field1_20261015",
+            "law_namespace": "SAM_land",
+            "question": "Certify rank seven of the declared closed cube Laplacian with the exact constant null mode retained",
+            "source_files": {
+              "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+              "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+              "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+              "GEN4/voli_chapter3_source_field1_20261015/source/CUBE_GRAPH.json": "73ff6564d0f6abea445d918097a875d0e19be2b944f5f98ec8cfb19553d659d9"
+            }
+          }
+        },
+        "purpose": "Certify rank seven of the declared closed cube Laplacian with the exact constant null mode retained",
+        "source_binding": {
+          "campaign": "voli_chapter3_source_field1_20261015",
+          "law_namespace": "SAM_land",
+          "question": "Certify rank seven of the declared closed cube Laplacian with the exact constant null mode retained",
+          "source_files": {
+            "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+            "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+            "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+            "GEN4/voli_chapter3_source_field1_20261015/source/CUBE_GRAPH.json": "73ff6564d0f6abea445d918097a875d0e19be2b944f5f98ec8cfb19553d659d9"
+          }
+        },
+        "target_id": "SOURCE_DENSITY"
+      },
+      {
+        "consumes": {
+          "r1_si29_incoming_flatness": {
+            "$result": "r1_si29_incoming_flatness",
+            "path": [
+              "key"
+            ]
+          },
+          "r1_si29_outgoing_flatness": {
+            "$result": "r1_si29_outgoing_flatness",
+            "path": [
+              "key"
+            ]
+          },
+          "r1_si29_uniform_coupling_response": {
+            "$result": "r1_si29_uniform_coupling_response",
+            "path": [
+              "key"
+            ]
+          },
+          "web_r1_000": {
+            "$result": "web_r1_000",
+            "path": [
+              "key"
+            ]
+          }
+        },
+        "controller": "G6_05",
+        "estimated_memory_bytes": 268435456,
+        "key": "r2_cube_zero_mode",
+        "kind": "native",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "payload": {
+          "context": {
+            "basis": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "field": {
+              "radicand": 0
+            },
+            "history": {
+              "source": "Explicit cube embedding; no exterior field discarded"
+            },
+            "spectral_coordinate": "constant energy-profile mode",
+            "units": {
+              "matrix": "declared closed graph conductance"
+            }
+          },
+          "data": {
+            "operators": {
+              "L": [
+                [
+                  "3",
+                  "-1",
+                  "-1",
+                  "0",
+                  "-1",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                [
+                  "-1",
+                  "3",
+                  "0",
+                  "-1",
+                  "0",
+                  "-1",
+                  "0",
+                  "0"
+                ],
+                [
+                  "-1",
+                  "0",
+                  "3",
+                  "-1",
+                  "0",
+                  "0",
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1",
+                  "-1",
+                  "3",
+                  "0",
+                  "0",
+                  "0",
+                  "-1"
+                ],
+                [
+                  "-1",
+                  "0",
+                  "0",
+                  "0",
+                  "3",
+                  "-1",
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1",
+                  "0",
+                  "0",
+                  "-1",
+                  "3",
+                  "0",
+                  "-1"
+                ],
+                [
+                  "0",
+                  "0",
+                  "-1",
+                  "0",
+                  "-1",
+                  "0",
+                  "3",
+                  "-1"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "-1",
+                  "0",
+                  "-1",
+                  "-1",
+                  "3"
+                ]
+              ],
+              "P": [
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ],
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ],
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ],
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ],
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ],
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ],
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ],
+                [
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8",
+                  "1/8"
+                ]
+              ]
+            },
+            "output": "LP",
+            "program": [
+              {
+                "inputs": [
+                  "L",
+                  "P"
+                ],
+                "name": "LP",
+                "op": "multiply"
+              }
+            ]
+          },
+          "name": "r2_cube_zero_mode",
+          "source_binding": {
+            "campaign": "voli_chapter3_source_field1_20261015",
+            "law_namespace": "SAM_land",
+            "question": "Certify that the actual flat source profile lies on the constant closed-graph mode, making an exterior flux account explicit",
+            "source_files": {
+              "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+              "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+              "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+              "GEN4/voli_chapter3_source_field1_20261015/source/CUBE_GRAPH.json": "73ff6564d0f6abea445d918097a875d0e19be2b944f5f98ec8cfb19553d659d9"
+            }
+          }
+        },
+        "purpose": "Certify that the actual flat source profile lies on the constant closed-graph mode, making an exterior flux account explicit",
+        "source_binding": {
+          "campaign": "voli_chapter3_source_field1_20261015",
+          "law_namespace": "SAM_land",
+          "question": "Certify that the actual flat source profile lies on the constant closed-graph mode, making an exterior flux account explicit",
+          "source_files": {
+            "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+            "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+            "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+            "GEN4/voli_chapter3_source_field1_20261015/source/CUBE_GRAPH.json": "73ff6564d0f6abea445d918097a875d0e19be2b944f5f98ec8cfb19553d659d9"
+          }
+        },
+        "target_id": "SOURCE_DENSITY"
+      }
+    ],
+    "round_one_packet_sha256": "53cbea0331229bf1c397c21e61e8d1270025c881228fae52dd78da8e8f2d9461",
+    "selected_by": "CODEX_CURRENT_SESSION",
+    "selected_targets": [
+      {
+        "from_outcome_ids": [
+          "r1_si29_outgoing_flatness",
+          "r1_si29_incoming_flatness",
+          "r1_si29_uniform_coupling_response",
+          "web_r1_000"
+        ],
+        "id": "SOURCE_DENSITY",
+        "known_work": "Actual scalar energy fractions are fixed at1/8; explicit finite cube embedding, smoothing and physical coupling retain their assignments.",
+        "next_question": "Determine exact finite-graph receiving constraint and preserve source-shape and mass/reference information.",
+        "selection_reason": "First recommended physical source-to-density interface."
+      },
+      {
+        "from_outcome_ids": [
+          "r1_radial_green_inverse",
+          "web_r1_001"
+        ],
+        "id": "FINITE_FIELD",
+        "known_work": "Retained radial source operator has exact analytic inverse and source flux, including finite outer reference.",
+        "next_question": "Receive its incidence/energy identities and place the full finite example and continuum/boundary bounds in the chapter.",
+        "selection_reason": "Complete source\u2192field\u2192flux chain."
+      },
+      {
+        "from_outcome_ids": [
+          "r1_radial_green_inverse",
+          "web_r1_000"
+        ],
+        "id": "FIELD_ENERGY",
+        "known_work": "Static source functional and pair force proofs are explicit; actual Chapter I positive free-field sector gives an extended density/tail. The returned positive-field receiving modes remain an explicit additional localization lead.",
+        "next_question": "Receive exact source-Poisson matching for that sector and preserve its interaction/counterterm completion.",
+        "selection_reason": "One shared energy/force account and a concrete Chapter I continuation."
+      },
+      {
+        "from_outcome_ids": [
+          "chapter3_full_source_clock_energy_commutators",
+          "chapter3_full_scaling_epsilon_only_residual",
+          "r1_si29_uniform_coupling_response",
+          "web_r1_002"
+        ],
+        "id": "CLOCK_RESPONSE",
+        "known_work": "Complete-H and epsilon-only couplings have distinct exact responses; actual Si29 population clock provides an additional source-bound control.",
+        "next_question": "Receive actual six-lane phase precision ratios and state a common perturbation/measurement specification.",
+        "selection_reason": "Evaluate the proposed coupling and preserve actual phase/energy roles."
+      }
+    ]
+  }
+}

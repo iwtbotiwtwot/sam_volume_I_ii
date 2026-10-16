@@ -1,0 +1,251 @@
+{
+  "key": "r2_cube_zero_mode",
+  "kind": "TASK",
+  "task": {
+    "because": [
+      22,
+      29,
+      32,
+      42
+    ],
+    "consumes": {
+      "r1_si29_incoming_flatness": "r1_si29_incoming_flatness",
+      "r1_si29_outgoing_flatness": "r1_si29_outgoing_flatness",
+      "r1_si29_uniform_coupling_response": "r1_si29_uniform_coupling_response",
+      "web_r1_000": "web_r1_000"
+    },
+    "controller": "G6_05",
+    "estimated_memory_bytes": 268435456,
+    "key": "r2_cube_zero_mode",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "payload": {
+      "context": {
+        "basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "source": "Explicit cube embedding; no exterior field discarded"
+        },
+        "spectral_coordinate": "constant energy-profile mode",
+        "units": {
+          "matrix": "declared closed graph conductance"
+        }
+      },
+      "data": {
+        "operators": {
+          "L": [
+            [
+              "3",
+              "-1",
+              "-1",
+              "0",
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "3",
+              "0",
+              "-1",
+              "0",
+              "-1",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "3",
+              "-1",
+              "0",
+              "0",
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "-1",
+              "-1",
+              "3",
+              "0",
+              "0",
+              "0",
+              "-1"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0",
+              "3",
+              "-1",
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "-1",
+              "0",
+              "0",
+              "-1",
+              "3",
+              "0",
+              "-1"
+            ],
+            [
+              "0",
+              "0",
+              "-1",
+              "0",
+              "-1",
+              "0",
+              "3",
+              "-1"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-1",
+              "0",
+              "-1",
+              "-1",
+              "3"
+            ]
+          ],
+          "P": [
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ],
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ],
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ],
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ],
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ],
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ],
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ],
+            [
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8",
+              "1/8"
+            ]
+          ]
+        },
+        "output": "LP",
+        "program": [
+          {
+            "inputs": [
+              "L",
+              "P"
+            ],
+            "name": "LP",
+            "op": "multiply"
+          }
+        ]
+      },
+      "name": "r2_cube_zero_mode",
+      "source_binding": {
+        "campaign": "voli_chapter3_source_field1_20261015",
+        "law_namespace": "SAM_land",
+        "question": "Certify that the actual flat source profile lies on the constant closed-graph mode, making an exterior flux account explicit",
+        "source_files": {
+          "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+          "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+          "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+          "GEN4/voli_chapter3_source_field1_20261015/source/CUBE_GRAPH.json": "73ff6564d0f6abea445d918097a875d0e19be2b944f5f98ec8cfb19553d659d9"
+        }
+      }
+    },
+    "purpose": "Certify that the actual flat source profile lies on the constant closed-graph mode, making an exterior flux account explicit",
+    "source_binding": {
+      "campaign": "voli_chapter3_source_field1_20261015",
+      "law_namespace": "SAM_land",
+      "question": "Certify that the actual flat source profile lies on the constant closed-graph mode, making an exterior flux account explicit",
+      "source_files": {
+        "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+        "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+        "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+        "GEN4/voli_chapter3_source_field1_20261015/source/CUBE_GRAPH.json": "73ff6564d0f6abea445d918097a875d0e19be2b944f5f98ec8cfb19553d659d9"
+      }
+    },
+    "target_id": "SOURCE_DENSITY"
+  }
+}

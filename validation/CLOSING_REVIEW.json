@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "date": "2026-10-16",
+  "scope": "Bounded closing manual review for Chapter II repository publication; no new spin campaign",
+  "sources": [
+    {
+      "project_path": "SAM_LIVE/03_STARBREAKER_GW_CURRENT.md",
+      "sha256": "359ff6237c7da66ffa1de15e27ba1c3a7f679dec447b13c2ba36fd9731e4bb20"
+    },
+    {
+      "project_path": "GEN4/duck_spin_upper1_20261014/REPORT.md",
+      "sha256": "d2b0e61b7f45ec6307926f80e915ea9faff4cf91f7cd8e1901b0e0de0b8c02b7"
+    },
+    {
+      "project_path": "GEN4/voli_chapter2_physical3_20261015/closure/DERIVATION.md",
+      "sha256": "9ee45c8ee71483a3423dc16a40ea9725cf2d5dbfdf5daed1ea73e23027266b8d"
+    }
+  ],
+  "disclosure": "Physical mixed-Gram normalization and retained complementary memory remain explicit in the reference implementation and its basis-rescaling tests. Current V7 residual rank2 and invariant lower bounds retain their original scope; minimum closure remains open.",
+  "no_new_science_after_this_review": true,
+  "new_native_executions": 0,
+  "negative_drift_check": "CLEAR"
+}

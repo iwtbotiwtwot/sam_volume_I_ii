@@ -1,0 +1,4 @@
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/ops/source_pilot.py", line 51
+    save(out/'DONE.json',dict(status=res['status'],profile_id=a.profile,power=a.power,rank_lower_bound=res['rank_lower_bound'],native_executions=2 if res['certificate']else1))
+                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected 'else' after 'if' expression

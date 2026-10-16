@@ -1,0 +1,125 @@
+[
+  {
+    "utc": "2026-10-16T01:08:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:08:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:09:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:09:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:09:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:10:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:10:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:10:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:11:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:11:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:11:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:12:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:12:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:12:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:13:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:13:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:13:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:14:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:14:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:14:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:15:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:15:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:15:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:16:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:16:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:16:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:17:04Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:17:24Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:17:44Z",
+    "status": "WAIT_UNRELATED_CPU_LEASE"
+  },
+  {
+    "utc": "2026-10-16T01:18:05Z",
+    "status": "FINALIZE",
+    "returncode": 0,
+    "stdout": "{\n  \"Codex_agents_launched\": 0,\n  \"actual_directed_controller_greeting_ACKs\": 132,\n  \"actual_native_controllers\": 12,\n  \"actual_native_helpers\": 6,\n  \"complete_helper_readback\": \"PASS\",\n  \"failed_returns\": 0,\n  \"native_returns\": 11,\n  \"research_mode\": \"connections\",\n  \"research_returns\": 4,\n  \"resource_release\": \"PASS\",\n  \"run\": \"/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01\",\n  \"selected_targets\": [\n    {\n      \"from_outcome_ids\": [\n        \"r1_actual_source_rank10\",\n        \"web_r1_000\"\n      ],\n      \"id\": \"ACTUAL_CLOSURE\",\n      \"known_work\": \"Actual seven-coordinate residual rank two on54 original profiles; deeper full-source certificate retained.\",\n      \"next_question\": \"Certify the reached higher rank and its precise nonstabilization boundary.\",\n      \"selection_reason\": \"First user mathematical target.\"\n    },\n    {\n      \"from_outcome_ids\": [\n        \"r1_forward_duration\",\n        \"r1_reverse_duration\",\n        \"web_r1_001\"\n      ],\n      \"id\": \"PAID_REFERENCE\",\n      \"known_work\": \"Original forward/reverse durations and source energy bound retained; external entry/release and nonzero wait Hamiltonian explicit.\",\n      \"next_question\": \"Receive every reference-work coefficient alongside phase unwrapping and gross exchanged work.\",\n      \"selection_reason\": \"Complete physical protocol requested.\"\n    },\n    {\n      \"from_outcome_ids\": [\n        \"r1_observable_cube\",\n        \"web_r1_002\"\n      ],\n      \"id\": \"MEASUREMENT\",\n      \"known_work\": \"Fresh-copy destructive observable and explicit apparatus budget; improved source-selected cadence lowers sufficient shots.\",\n      \"next_question\": \"Receive the stronger finite-record minor and zero-outcome projector algebra.\",\n      \"selection_reason\": \"Turn expectations into a finite-shot measurement protocol.\"\n    },\n    {\n      \"from_outcome_ids\": [\n        \"web_r1_000\",\n        \"web_r1_001\"\n      ],\n      \"id\": \"COMPACT_CERTIFICATES\",\n      \"known_work\": \"Short block/memory/Gram, event-offset, counter and endpoint certificates independently derived.\",\n      \"next_question\": \"Receive the actual rank-two counter contrast and place all short proofs in the chapter.\",\n      \"selection_reason\": \"Make Chapter II reader-complete for the requested certificates.\"\n    }\n  ],\n  \"status\": \"COMPLETE\",\n  \"time_utc\": \"2026-10-16T01:18:05.002767+00:00\",\n  \"total_returns\": 15,\n  \"two_rounds\": true\n}\n",
+    "stderr": ""
+  }
+]

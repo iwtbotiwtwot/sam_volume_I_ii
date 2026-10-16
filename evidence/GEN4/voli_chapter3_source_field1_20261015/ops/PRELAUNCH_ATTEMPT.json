@@ -1,0 +1,10 @@
+{
+  "run": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-01",
+  "status": "NOT_LAUNCHED_RESOURCE_PREFLIGHT",
+  "reason": "Default10GiB local request exceeded retained MemoryMax7873214054 bytes",
+  "launch_file_exists": false,
+  "successor": "chapter3-source-field-20261015-02",
+  "successor_local_gib": 4,
+  "successor_helper_gib": 2,
+  "host_configuration_changed": false
+}

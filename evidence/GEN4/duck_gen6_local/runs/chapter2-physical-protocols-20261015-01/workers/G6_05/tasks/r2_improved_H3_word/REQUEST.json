@@ -1,0 +1,120 @@
+{
+  "key": "r2_improved_H3_word",
+  "kind": "TASK",
+  "task": {
+    "because": [
+      29,
+      40
+    ],
+    "consumes": {
+      "r1_observable_cube": "r1_observable_cube",
+      "web_r1_002": "web_r1_002"
+    },
+    "controller": "G6_05",
+    "estimated_memory_bytes": 402653184,
+    "key": "r2_improved_H3_word",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "payload": {
+      "context": {
+        "basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "source": "Actual source, specified receiving observable or admitted signed event family; no continuum replacement"
+        },
+        "spectral_coordinate": "declared certificate basis",
+        "units": {
+          "matrix": "source-derived coefficient certificate; original physical units remain in derivation"
+        }
+      },
+      "data": {
+        "operators": {
+          "H": [
+            [
+              "-1961168421349/1000000000000",
+              "-192994881453/1000000000000",
+              "1142144603267/1000000000000"
+            ],
+            [
+              "-192994881453/1000000000000",
+              "-702570315073/1000000000000",
+              "-214903978499/200000000000"
+            ],
+            [
+              "1142144603267/1000000000000",
+              "-214903978499/200000000000",
+              "1470764012879/1000000000000"
+            ]
+          ],
+          "I": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "output": "HI",
+        "program": [
+          {
+            "inputs": [
+              "H",
+              "I"
+            ],
+            "name": "HI",
+            "op": "multiply"
+          }
+        ]
+      },
+      "name": "r2_improved_H3_word",
+      "source_binding": {
+        "campaign": "voli_chapter2_physical3_20261015",
+        "law_namespace": "SAM_land",
+        "original_law_and_clocks_preserved": true,
+        "question": "Certify the exact rational minor for the source-selected improved cadence and its finite-shot witness",
+        "source_files": {
+          "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+          "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+          "GEN4/voli_chapter2_physical3_20261015/build_review.py": "5fba61232b39f79b443b1f4c043840b627d5a1b2ae54d3c4af5796f0e60e00de",
+          "GEN4/voli_chapter2_physical3_20261015/inputs/DEEP_SOURCE_R2.json": "503bc1c9cef98528b3429b8e08cd95c3127d76dd90df0d48cf1e2793d8b888a1",
+          "GEN4/voli_chapter2_physical3_20261015/inputs/LARGEST_SOURCE_R2.json": "5844cf07616f179b86a1b924817cde80e45512e7809711eff3f93bdb91582cdc",
+          "GEN4/voli_chapter2_physical3_20261015/inputs/MEASUREMENT_R2.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49",
+          "GEN4/voli_chapter2_physical3_20261015/inputs/PROTOCOL_R2.json": "bee76943f72bb20189d187b4265f928d14792afa9a4b95bad39a447228c57b0c"
+        }
+      }
+    },
+    "purpose": "Certify the exact rational minor for the source-selected improved cadence and its finite-shot witness",
+    "source_binding": {
+      "campaign": "voli_chapter2_physical3_20261015",
+      "law_namespace": "SAM_land",
+      "original_law_and_clocks_preserved": true,
+      "question": "Certify the exact rational minor for the source-selected improved cadence and its finite-shot witness",
+      "source_files": {
+        "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+        "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+        "GEN4/voli_chapter2_physical3_20261015/build_review.py": "5fba61232b39f79b443b1f4c043840b627d5a1b2ae54d3c4af5796f0e60e00de",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/DEEP_SOURCE_R2.json": "503bc1c9cef98528b3429b8e08cd95c3127d76dd90df0d48cf1e2793d8b888a1",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/LARGEST_SOURCE_R2.json": "5844cf07616f179b86a1b924817cde80e45512e7809711eff3f93bdb91582cdc",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/MEASUREMENT_R2.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/PROTOCOL_R2.json": "bee76943f72bb20189d187b4265f928d14792afa9a4b95bad39a447228c57b0c"
+      }
+    },
+    "target_id": "MEASUREMENT"
+  }
+}

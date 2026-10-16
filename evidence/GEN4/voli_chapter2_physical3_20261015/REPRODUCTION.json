@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "native_executions": 0,
+  "scripts": [
+    {
+      "script": [
+        "verify_protocols.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks_passed\": 410,\n  \"measurement_replay_checks\": 30,\n  \"reference_replay_checks\": 1050,\n  \"counter_ranks\": [\n    0,\n    1,\n    2\n  ],\n  \"feasible_endpoints\": 14,\n  \"attaining_endpoints\": [\n    2,\n    8\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": [
+        "closure/verify_source_law.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"preparations\": 54, \"independent_exact_rational_checks\": 36936}\n",
+      "stderr": ""
+    },
+    {
+      "script": [
+        "closure/exact_lumped_upper_bound.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"preparations\": 54, \"dimension_digit_range\": [96, 342]}\n",
+      "stderr": ""
+    },
+    {
+      "script": [
+        "closure/finalize_closure.py",
+        "--require54"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"preparations\": 54, \"certified_Krylov_rank_lower_range\": [10, 14], \"independent_point_certificate_checks\": 978}\n",
+      "stderr": ""
+    },
+    {
+      "script": [
+        "closure/verify_cache_semantics.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"independent_exact_interval_overlap_checks\": 216}\n",
+      "stderr": ""
+    },
+    {
+      "script": [
+        "packaging/verify_domain_provenance.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 2234, \"returned_source_evaluations\": 58, \"native_source_minor_inverses\": 6, \"returned_calls\": 64}\n",
+      "stderr": ""
+    },
+    {
+      "script": [
+        "verify_native.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"native_outputs_verified\": 11,\n  \"matrix_entries_checked\": 1452,\n  \"independent_checks\": 2719\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": [
+        "verify_cycle.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"checks\": 203, \"native_returns\": 11, \"research_returns\": 4, \"round_seconds\": [180, 180], \"selected_targets\": 4, \"native_executions\": 0}\n",
+      "stderr": ""
+    }
+  ]
+}

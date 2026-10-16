@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "command": "sh SAM_HISTORY/validate_live_history.sh",
+  "live_documents": 21,
+  "history_entries": 2631,
+  "AGENTS_bytes": 26441,
+  "recovery_scope": "latest_chapter2_physical_cycle",
+  "recovery_issues": [],
+  "history": "H002636"
+}

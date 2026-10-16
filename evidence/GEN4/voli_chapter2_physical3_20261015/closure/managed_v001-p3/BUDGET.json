@@ -1,0 +1,29 @@
+{
+  "aggregate_properties_changed": false,
+  "allowed_cpus": [
+    6
+  ],
+  "controller_cpus": [
+    0
+  ],
+  "cpu_worker_order": [
+    6
+  ],
+  "created_utc": "2026-10-16T00:44:31.592606+00:00",
+  "global_host_lock_acquired": false,
+  "host": "lilhelper-T500-local",
+  "memory_high_bytes": 966365184,
+  "memory_max_bytes": 1073741824,
+  "memory_swap_max_bytes": 0,
+  "parent_limits": {
+    "ActiveState": "active",
+    "AllowedCPUs": "0-15",
+    "CPUQuotaPerSecUSec": "13.284000s",
+    "MemoryHigh": "7085892648",
+    "MemoryMax": "7873214054",
+    "MemorySwapMax": "0"
+  },
+  "prelaunch_available_memory_bytes": 15083073536,
+  "schema": "GEN6_DUCK_OWN_RESOURCE_BUDGET_V1",
+  "workers": 12
+}

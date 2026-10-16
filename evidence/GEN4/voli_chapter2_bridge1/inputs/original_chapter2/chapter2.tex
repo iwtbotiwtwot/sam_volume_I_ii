@@ -1,0 +1,357 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{mathptmx}
+\renewcommand{\ttdefault}{pcr}
+\usepackage[margin=0.68in,columnsep=0.26in,headheight=14pt,headsep=0.15in,footskip=0.28in]{geometry}
+\usepackage{graphicx,booktabs,array,tabularx,longtable}
+\usepackage{microtype,fancyhdr,caption,titlesec,enumitem,balance}
+\usepackage[hidelinks,bookmarksnumbered=true,pdftitle={The Physical Proposition, the Finite Ledger, and the Universal Floor},pdfauthor={Sean Brady},pdfsubject={SAM Volume I Chapter 2; expanded source-based manuscript}]{hyperref}
+\usepackage{xurl}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.10em}
+\setlength{\emergencystretch}{1.6em}
+\setlength{\abovedisplayskip}{6pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 2pt}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.45em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{11pt plus 2pt minus 2pt}{5pt}
+\titlespacing*{\subsection}{0pt}{8pt plus 2pt minus 2pt}{3pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize SAM Volume I | Chapter 2}
+\fancyhead[R]{\footnotesize Brady \;|\; 15 October 2026}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Span}{\operatorname{span}}
+\pdfmapfile{+cm.map}
+\pdfmapfile{+cmextra.map}
+\pdfmapfile{+symbols.map}
+\pdfmapfile{+psnfss.map}
+\pdfmapfile{+utm.map}
+\pdfmapfile{=ps2pk35.map}
+\pdfmapfile{+rsfs.map}
+\pdfgentounicode=0
+\renewcommand{\theequation}{2.\arabic{equation}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{2074}{\ensuremath{^4}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+\DeclareUnicodeCharacter{2264}{\ensuremath{\le}}
+\DeclareUnicodeCharacter{2265}{\ensuremath{\ge}}
+\DeclareUnicodeCharacter{2260}{\ensuremath{\ne}}
+\DeclareUnicodeCharacter{2212}{\ensuremath{-}}
+\begin{document}
+\raggedbottom
+\twocolumn[{
+\begin{center}
+{\small SAM VOLUME I --- SUBSTRATE AND ACCUMULATION\par}
+\vspace{0.4em}
+{\LARGE\bfseries The Physical Proposition, the Finite Ledger,\\ and the Universal Floor\par}
+\vspace{0.35em}
+{\large Chapter 2 --- From distinction to a typed accumulation account\par}
+\vspace{0.5em}
+{\large Sean Brady\par}
+{\small Originator and Conceptual Director, SAM Research Project\par}
+{\small Research collaboration: OpenAI ChatGPT and Codex\par}
+{\small Volume chapter draft 0.1 \textbullet\ 15 October 2026\par}
+\end{center}
+\begin{minipage}{0.97\textwidth}
+\noindent\textbf{Abstract.} Matter displaces substrate, and the displaced account is retained. This is the physical proposition from which SAM organizes its later field descriptions. The present chapter gives that proposition a finite accounting language before assigning it to acceleration, clock comparison, propagation, or inventory. A relational arity of two and a three-direction spatial support enter the stated radix construction, giving twelve. The associated bounded product set contains eight retained addresses. Explicit exponent bounds make eighteen the smallest admitted overflow; it supplies an exact one-eighth share of a square container of size 144. The universal floor follows from a declared inverse-product construction with separately typed compact-cycle, arity, and support factors, equivalent here to the inverse of the radix times \(\pi\). Throughout, the physical hypotheses, selected constructions, and algebraic consequences retain their separate roles. Chapter 1 supplies a concrete lesson about observable reduction and retained history; an additional bridge remains necessary to obtain macroscopic accumulation laws from its source--field action.
+
+\end{minipage}
+\vspace{0.9em}
+}]
+\section{What the physical proposition asks us to retain}\label{what-the-physical-proposition-asks-us-to-retain}
+
+SAM begins with a claim about the relation between matter and the substrate that supports physical occurrence: the presence of matter changes the available substrate account, and the displacement does not simply disappear from that account. The word ``accumulation'' expresses this retained consequence. Before asking whether it explains gravity or redshift, we must say what is displaced, what is retained, and how a later measurement can read it. {[}1, §1{]}
+
+The aquarium thought experiment gives this starting point a visible form. Imagine a sealed aquarium completely filled with water. Now imagine an object appearing at its center. Its presence requires a change in the surrounding arrangement. A second object moving through that arrangement encounters a situation different from the one before the first object appeared. The thought experiment makes displacement and its surrounding consequence easy to picture. It does not provide a fluid equation for the substrate. {[}1, Preface{]}
+
+The aquarium supplies an intuition, not a fluid model. Viscosity, pressure, compressibility, and a mechanism for source formation must not be imported from it. SAM requires its own physical variables and evolution laws.
+
+Retention need not mean that a local scalar grows forever. Sources can move and an account can be transported or redistributed. The relevant conservation, composition, and transport laws must therefore be specified.
+
+The first useful step is therefore to establish a vocabulary small enough to audit. What constitutes a distinction? What supports its record? Which combinations fit inside a retained account? Which values have a transport role? These questions lead to the finite ledger developed below. The ledger establishes the model's permitted objects and their types. A spatial field and a rule connecting that field to measurements come afterward.
+
+\section{The bridge from an interaction history}\label{the-bridge-from-an-interaction-history}
+
+Chapter 1 already provides a concrete reason to distinguish a physical process from an observable endpoint. Its lifted phase account can retain a completed turn even when a wrapped observation returns to its original address. The inverse phase map preserves distinctions available in the lifted coordinates; a reduced observation need not preserve them. The same chapter also distinguishes source energy, current rotations, field coordinates, and the actual interacting phase clock. Their relations have to be stated rather than inferred from a numerical resemblance. {[}2, §§1--3,5{]}
+
+The finite ledger continues that discipline at a different descriptive level. An address identifies an allowed retained value. A history describes what occurred, possibly through repeated use of addresses. Returning to an address therefore need not erase the history that led to it. Conversely, listing the available addresses does not provide a complete representation of every possible history. A finite alphabet can support records longer than one symbol; the alphabet alone does not determine their ordering or retention law.
+
+The counts on the two sides have distinct meanings. Chapter 1 has four source components, six driven pair lanes, and a sixteen-dimensional pair space. Here two is an arity, twelve is a radix, and eight is the number of retained product addresses. The later exclusion of sixteen from a bounded product lattice does not reject the sixteen-dimensional tensor product. An explicit map must say which operations and information connect these descriptions.
+
+The same care applies to dynamics. Chapter 1 presents a joint action for a specified source--field model, including its receiving assumptions, correlations, and normalization. It does not establish that the finite product ledger below follows from that action, or that the action yields every later macroscopic accumulation formula. This chapter states the structural account used in the unified synthesis. Subsequent work must show how a source is received into a spatial accumulation field and how that field produces an observable. {[}1, §1; 2, §§1,3{]}
+
+\section{A distinction and the support of its record}\label{a-distinction-and-the-support-of-its-record}
+
+The minimum relation used in the SAM account has two roles: an event and something that retains evidence of it. A mark and its supporting surface provide an everyday example. An event considered without any retained difference cannot yet supply the persistent distinction the ledger is intended to record. SAM assigns this relational arity the symbol \(\hat h\) and the value
+
+\begin{equation}
+\hat h=2.
+\end{equation}
+
+``Arity'' means the number of roles required in this stated elementary relation. It is not a count of all the components of a physical measuring apparatus, nor a claim that every interaction has only two participants. The event and retaining support are roles in the account. A physical system can realize those roles in a more complicated arrangement. {[}1, §1, Appendix A.1{]}
+
+A retained distinction must also have support. In the construction used here, that support has three independent spatial directions. SAM writes its spatial-support parameter as \(\hat d\) and takes
+
+\begin{equation}
+\hat d=3.
+\end{equation}
+
+The two parameters answer different questions. The first describes the relational organization of a write; the second describes the spatial support in which its record is arranged. Keeping these meanings separate prevents a count of roles from being mistaken for a distance, volume, or number of material particles. The earlier source notation is \(\alpha_H\) for \(\hat h\) and D for \(\hat d\). {[}1, Appendix A.1{]}
+
+The recovered foundation selector makes the arity condition more precise: it asks for the smallest nontrivial exchange that returns each element after two applications while fixing none. Such an exchange pairs its elements. Its size is therefore even, and the smallest nonempty possibility is two. This establishes the minimum for the stated exchange condition; applying that condition to a primitive physical distinction remains the model's premise. {[}5{]}
+
+The dimension route has a different basis. Its declared identity support needs closed-loop support, over--under twist freedom, and no additional direction that allows the retained structure to untie. The computational selector implements these conditions as \(\hat d\)≥2, \(\hat d\)≥3, and \(\hat d\)≤3, respectively, selecting three. The later CR115 account expressly separates its computed obstruction criterion, 3−\(\hat d\), from the SAM commitments that make a stable, self-contained source sector the necessary identity carrier. Its result is conditional on those commitments, rather than an empirical proof of spatial dimension from the arithmetic alone. {[}5,9{]}
+
+The reported closure relation becomes a transparent arithmetic statement once the values are supplied:
+
+\begin{equation}
+\hat d^{\hat d-1}=\hat h^{\hat d}+1,
+\qquad 3^2=2^3+1=9.
+\end{equation}
+
+With \(\hat h\)=2 fixed and \(\hat d\) restricted to integers at least two, this particular closure has a unique solution. At \(\hat d\)=2 its two sides are 2 and 5. At \(\hat d\)=3 they are both 9. For \(\hat d\)≥4,
+
+\begin{equation}
+\hat d^{\hat d-1}\ge4^{\hat d-1}
+=2^{2\hat d-2}\ge4\,2^{\hat d}>2^{\hat d}+1.
+\end{equation}
+
+Thus \(\hat d\)=3 uniquely satisfies the chosen closure in that domain. The proof establishes the conditional arithmetic claim. Choosing this equation as a physical closure and assigning meaning to its two sides remain upstream commitments. This is a distinct argument from the identity-support route, and the two should not be merged into one proof.
+
+\section{Constructing the route radix}\label{constructing-the-route-radix}
+
+The route radix combines two binary distinctions with the three-direction support. To keep this accounting quantity distinct from a physical radius, write it as \(\mathcal R\) throughout this chapter. The synthesis uses R for the same radix; Chapter 1 uses R as a field boundary radius. Here the structural definition is
+
+\begin{equation}
+\mathcal R\equiv\hat h^2\hat d
+=2^2\cdot3=12.
+\end{equation}
+
+The product has a straightforward counting interpretation under the stated construction. The native route kernel uses an outer binary split, a primitive two-role relation, and three support directions. Their product is 2·\(\hat h\)·\(\hat d\)=12, which equals \(\hat h\)²\(\hat d\) at the selected binary arity. The two binary factors have declared roles even though their numerical values agree. {[}3,6{]}
+
+CR002 checks this route kernel against the partition top and the declared divisibility, prime-axis, and write/exposure conditions. Twelve is the sole candidate satisfying its complete packet. The test includes eight, ten, sixteen, and twenty-four among its controls. The complete packet requires both the route-kernel value and the partition top to agree with the candidate radix. That agreement is what the selector tests. {[}6{]}
+
+The radix then performs a second, declared job: it bounds the retained product values. ``Radix'' here therefore names a containment parameter in the partition account. Writing familiar numbers in base twelve would not produce the construction, and changing numeral notation would not change its value. Its physical relevance must come from the way this bound governs allowed records and their later receiving maps.
+
+Two subordinate divisions are also recorded in the synthesis:
+
+\begin{equation}
+A_{\mathrm{share}}=\mathcal R^{-1}=\frac1{12},
+\qquad
+A_{\mathrm{side}}=(2\mathcal R)^{-1}=\frac1{24}.
+\end{equation}
+
+A completed share is one twelfth of the route account; resolving it into the two sides of the primitive relation gives one twenty-fourth per side. Two side shares therefore recover one completed share. These names preserve the distinction when later arguments discuss unresolved routes and local commitment. {[}1, §1.2; 3{]}
+
+\newpage
+\section{The eight retained addresses}\label{the-eight-retained-addresses}
+
+The structural factors two and three generate products with two independent exponents. The recovered partition construction supplies the bounds that the compressed synthesis leaves implicit. With a and b integer exponents, define
+
+\begin{equation}
+\mathcal B=\{\hat h^a\hat d^b:
+0\le a\le\hat d,\quad0\le b\le\hat d-1\}.
+\end{equation}
+
+\begin{table}[ht]
+\centering\small
+\caption{The complete bounded product grid. Bold entries exceed $\mathcal R=12$; the remaining eight entries form $\mathcal P$. The smallest overflow is 18. Source: CR005 [7].}
+\begin{tabular}{@{}crrr@{}}\toprule
+$a\backslash b$&0&1&2\\\midrule
+0&1&3&9\\
+1&2&6&\textbf{18}\\
+2&4&12&\textbf{36}\\
+3&8&\textbf{24}&\textbf{72}\\\bottomrule
+\end{tabular}
+\end{table}
+The bounds come from the typed kernel: its largest binary power is \(S=\hat h^{\hat d}\), and its support-power closure is \(\hat d^{\hat d-1}=S+1\). At (\(\hat h\),\(\hat d\))=(2,3), the exponent rectangle has four rows and three columns, giving twelve distinct products. ``Bigraded'' refers to the two exponents. Retaining only products no larger than the radix gives
+
+\begin{equation}
+\mathcal P=\{x\in\mathcal B:x\le\mathcal R\}
+=\{1,2,3,4,6,8,9,12\}.
+\end{equation}
+
+This explicit rectangle is the bounded enumeration in CR005. It reproduces the same eight-value alphabet as the native connector grammar. Its domain is essential when discussing overflow. {[}7{]}
+
+This list can be checked without an empirical input. For b=0, the allowed powers are 1, 2, 4, and 8. For b=1, multiplication by three leaves 3, 6, and 12. For b=2, only 9 remains within the bound. These cases exhaust the admitted exponent pairs and give eight distinct values. The unrestricted nonnegative lattice happens to give the same list below twelve, but it has a different first value above the bound. {[}1, Appendix A.2; 7{]}
+
+The term ``address'' identifies the role of a member of this finite set in the ledger. The value nine is one address, not nine addresses; twelve is one member, not the cardinality of the set. Accordingly, the three numbers that have now appeared carry different meanings: twelve is the route radix, eight is the number of retained product values, and nine is both a member of the set and the value in the closure check.
+
+Ordinary multiplication can take a pair of retained values outside the set: 3·6=18 is the immediate example. The bound therefore supplies a meaningful distinction between a value that has a retained address and a product beyond that register. The next step assigns the first such admitted overflow a carrier role. A full write algebra must also specify how an allowed operation records or transfers its result.
+
+Eight also equals 2³, the number of binary labels with three positions. A cube can therefore label the eight addresses, provided the chosen correspondence is given. To connect that labeling with the original Write construction, the map must preserve the required transitions as well as the number of labels.
+
+\section{The carrier and retained complement}\label{the-carrier-and-retained-complement}
+
+The unified synthesis assigns a transport role to the selected product
+
+\begin{equation}
+\Theta\equiv\hat h\hat d^2=2\cdot3^2=18.
+\end{equation}
+
+Uppercase \(\Theta\) denotes this carrier value. It should remain separate from any lowercase phase or history coordinate. Eighteen exceeds the retained bound and is consequently absent from the eight-member set. Its assignment as carrier transport gives it a different role from a retained address. {[}1, §1, Appendix A.2{]}
+
+The products above twelve in the declared rectangle are \{18,24,36,72\}. Eighteen is therefore its smallest overflow, at (a,b)=(1,2). This is a complete finite comparison. The tempting counterexample 16=2⁴ requires a=4, which violates a≤3; it belongs to the wider lattice, not the stated kernel. CR005 includes precisely this wider-grid alternative as a wrong control. The minimality statement is consequently sound with its domain attached. {[}7{]}
+
+Crossing the retained bound changes the assigned role: the carrier does not occupy one of the eight retained addresses. The source interprets this lack of a retained position as transport. The enumeration establishes where a retained position is unavailable; a propagation rate, wave equation, or energy law still needs the receiving dynamics. The carrier interpretation should not be asked to supply those laws by itself.
+
+The square-container construction then gives an exact consistency check of the stated share. Let N denote its size, and use \(N_{\rm ret}\) for its retained complement to avoid confusion with a physical source mass. The construction is
+
+\begin{equation}
+N\equiv\mathcal R^2=144,
+\qquad
+\Theta=2^{-\hat d}N=\frac18N=18,
+\end{equation}
+
+\begin{equation}
+N_{\mathrm{ret}}\equiv(1-2^{-\hat d})N
+=\frac78N=126,
+\qquad
+\Theta+N_{\mathrm{ret}}=N.
+\end{equation}
+
+The source calls the complement M. Here \(N_{\rm ret}\) makes clear that 126 is a count in the container account. Once the square container is assigned, the selected carrier occupies 18/144=1/8=\(2^{-\hat d}\) of it, leaving seven eighths. The complementary counts can therefore be expressed in carrier units: \(\Theta\) is one unit, \(N_{\rm ret}\) is seven units, and N is eight units. {[}1, Appendix A.2; 7{]}
+
+The wider source ledger supplies a useful closure check. Its face/tensor count is \(\hat d^{\hat d+1}=81\), and doubling that count gives \(\mathcal L=162=9\Theta\). Removing one carrier gives 162−18=144, while adding one carrier to the retained complement gives 126+18=144. Thus the same intermediate container is reached from either side:
+
+\begin{equation}
+N_{\mathrm{ret}}+\Theta=N=\mathcal L-\Theta.
+\end{equation}
+
+The unit counts seven, eight, and nine organize the retained, intermediate, and closed accounts. A later energy or radiation interpretation must preserve which count or fraction its operator consumes. {[}3,7{]}
+
+\section{The universal accumulation floor}\label{the-universal-accumulation-floor}
+
+With the finite account in place, SAM introduces a nonzero baseline for the substrate. Its present dependency order differs from its discovery history. The source records that the antecedent relation \(A_0\)=1/(h\(\pi\)hd), evaluated at h=2 and d=3, preceded the explicit naming of the primitive factors. The reconstruction below identifies those factors; it does not claim that this was the historical route by which the relation was first found. {[}3,4{]}
+
+Three separately typed inputs form the denominator. One complete primitive phase period contributes 2\(\pi\). The relational arity contributes \(\hat h\)=2. Spatial support contributes \(\hat d\)=3. The numeral two inside 2\(\pi\) expresses periodic completion; the separate \(\hat h\) expresses arity. Equal numerical contributions do not make them the same physical object.
+
+For the chosen complex phase \(\exp(i\varphi)\), return to 1 occurs exactly at \(\varphi\in2\pi\mathbb Z\). The smallest positive return is therefore 2\(\pi\). A half turn gives −1, and 4\(\pi\) repeats the full cycle. This analytic statement explains the primitive-period choice used in the source selector; the compact phase is a declared part of the construction. {[}4,5{]}
+
+The foundation construction takes the inverse product:
+
+\begin{equation}
+\begin{aligned}
+A_0&\equiv\frac1{(2\pi)\hat h\hat d}
+=\frac1{\pi\hat h^2\hat d}=\frac1{\pi\mathcal R},\\
+&=\frac1{12\pi}\approx0.026525823848649.
+\end{aligned}
+\end{equation}
+
+The middle equality holds because \(\hat h\)=2. It cannot be generalized to arbitrary \(\hat h\) by silently replacing 2\(\hat h\) with \(\hat h\)². The compact-cycle, arity, and support factors are thereby carried together into the floor rather than replaced by an unexplained numerical denominator. {[}4,5{]}
+
+The recovered source also supplies the previously compressed spherical projection. Let \(A_H=1\) denote a local unit-closure marker. The registered projection is
+
+\begin{equation}
+A_0=\frac{A_H}{4\pi\hat d}
+=\frac1{4\pi\cdot3}=\frac1{12\pi}.
+\end{equation}
+
+Here 4\(\pi\) is the full angular factor in three spatial dimensions, and division by \(\hat d\) is the declared dimensional allocation. This is a second route to the same value within the specified projection. CR003 records agreement of its three evaluation paths with zero reported relative deviation at tolerance \(10^{-12}\). The reverse multiplication, (4\(\pi\)\(\hat d\))\(A_0\)=1, recovers the unit-closure input and keeps its type separate from the projected floor. The angular factor is three-dimensional; a different geometry would require its own angular measure. {[}4,8{]}
+
+The floor is dimensionless, since every denominator factor is dimensionless. SAM assigns it as a positive baseline. In a nonnegative-lift regime admitting zero lift, it is also the minimum total account. A baseline is different from an increment: neither the finite ledger nor this floor requires A to occur only in integer multiples of \(A_0\). No amplitude quantization has been supplied here. Two equal nonzero accounts can also have a zero difference. A physical density, energy, or length readout needs a dimensional conversion.
+
+An immediate algebraic consequence is
+
+\begin{equation}
+\mathcal R A_0=\frac1\pi.
+\end{equation}
+
+The symbolic form keeps the dependency visible. If a later law contains this product, its numerical value follows from the same floor definition; it is not a new independently adjustable coefficient. This makes later reuse auditable: each appearance can be traced to the same upstream relation, and each application can be tested through its own measurement law.
+
+The sea-level analogy helps distinguish baseline and lift. The floor is the reference level of the account. A source raises a local contribution above that baseline. The analogy is only about accounting levels; it introduces no fluid dynamics. We can write the decomposition without yet choosing a source profile:
+
+\begin{equation}
+A_{\mathrm{total}}(\mathbf x)
+=A_0+A_{\mathrm{lift}}(\mathbf x).
+\end{equation}
+
+When source contributions add in a stated regime, \(A_{\mathrm{lift}}\) may be written as a sum of \(A_i\). This identifies the source-composition rule that a field chapter must supply alongside the individual source profile.
+
+\section{The observable includes the operation}\label{the-observable-includes-the-operation}
+
+An accumulation account does not identify what an instrument measures until the operation that connects them has been specified. This is the central typing rule of the chapter. A field value, a gradient, an endpoint difference, and an integrated path account are different objects, even when they are constructed from the same underlying field. Their dimensions, normalization, and physical interpretation belong in the statement of the observable. {[}1, §1.1{]}
+
+The simplest example is a spatial derivative. If \(A_0\) is uniform in space, then
+
+\begin{equation}
+\nabla A_{\mathrm{total}}
+=\nabla A_{\mathrm{lift}},
+\qquad \nabla A_0=0.
+\end{equation}
+
+This cancellation is exact under the uniform-floor assumption. The gradient has units of inverse length. To receive it as an acceleration, the later field law must supply a dimensional conversion and sign, while retaining this same elementary derivative.
+
+An endpoint difference likewise removes a common additive baseline:
+
+\begin{equation}
+A_{\mathrm{total}}(\mathbf x_2)
+-A_{\mathrm{total}}(\mathbf x_1)
+=A_{\mathrm{lift}}(\mathbf x_2)
+-A_{\mathrm{lift}}(\mathbf x_1).
+\end{equation}
+
+A clock comparison also needs its stated readout law. For clarity, suppose a raw lapse \(L(A)=\sqrt{1-A}\) consumed the total account. Writing \(a_1\) and \(a_2\) for source lifts at the endpoints, assume \(A_0<1\) and \(a_i<1-A_0\) for \(i=1,2\), so that both raw lapses are real and positive. Their ratio is
+
+\begin{equation}
+\frac{L(A_0+a_2)}{L(A_0+a_1)}
+=\sqrt{\frac{1-A_0-a_2}{1-A_0-a_1}}
+=\sqrt{\frac{1-a_2/(1-A_0)}{1-a_1/(1-A_0)}}.
+\end{equation}
+
+The background can be factored out, but the lifts are then rescaled. Dividing each raw lapse by its background value leaves this same rescaling. A source-normalized local lapse instead declares its input, with \(A_{\mathrm{lift}}<1\), through
+
+\begin{equation}
+\mathcal L_{\mathrm{loc}}[A_{\mathrm{total}};A_0]
+=\sqrt{1-(A_{\mathrm{total}}-A_0)}
+=\sqrt{1-A_{\mathrm{lift}}}.
+\end{equation}
+
+That is an explicit operator choice, consistent with the synthesis's source-normalized local description. It is not obtained merely by cancelling a constant inside a nonlinear ratio. The later clock chapter must justify and test its declared readout, including its domain. {[}1, §1.1; 4{]}
+
+A path operation illustrates another possibility. For a prescribed finite path \(\Gamma\), arclength element \(ds\), and integrable dimensionless weight \(w(s)\), a linear integral gives
+
+\begin{equation}
+\int_\Gamma w(s)A_{\mathrm{total}}(s)\,ds
+=A_0\int_\Gamma w(s)\,ds
++\int_\Gamma w(s)A_{\mathrm{lift}}(s)\,ds.
+\end{equation}
+
+The baseline generally survives. It vanishes only if the particular normalization, weight, or reference subtraction removes it. This formula is an illustration of operator dependence, not a proposed photon propagation law. A travel time or distance readout also needs a path prescription, physical factors, and an account of what the receiving observer compares.
+
+These examples explain how a uniform floor can be absent from one measurement and present in another without an algebraic inconsistency. They also impose a discipline: the theory must state the operation in advance, along with the regime and reference account. Choosing a different subtraction after inspecting each result would introduce an untracked freedom. A common ledger is useful only when its distinct readouts remain explicit and testable.
+
+\section{Source status and the transition to a field}\label{source-status-and-the-transition-to-a-field}
+
+The chapter has established a compact chain with identifiable inputs. The displacement-and-retention proposition motivates a physical account. Relational arity and spatial support enter a route construction with radix twelve. Its bounded product set has eight members. The bounded lattice selects eighteen as its first overflow, and the square-container rule yields the exact eighteen-plus-126 split. The floor definition then supplies \(A_0\) and the product \(\mathcal R\)\(A_0\)=1/\(\pi\).
+
+The source record distinguishes three levels of support. The physical account supplies commitments about persistent distinction, identity support, the bounded kernel, square capacity, and floor construction. Algebra then gives the consequences of those commitments. Source tests check whether their implementation reproduces the declared packet and rejects specified alternatives. CR001 and CR002 explicitly classify their results as BOUNDARY structural recertifications; their successful selectors are not downstream empirical measurements. CR003's projection check establishes agreement of the stated expressions. CR115 separately identifies the computational topology component and the assumptions that connect it to persistent identity. {[}5,6,8,9{]}
+
+This is an inside-SAM derivation with visible premises. Its established arithmetic includes the unique fixed-arity closure, the complete bounded enumeration, the first overflow, the container split, and the typed floor factorization. Its remaining bridges concern physical realization: why the declared identity and projection rules apply to the substrate, how writes compose and retain history, and how Chapter 1's source--field action yields a macroscopic accumulation field and readout. These questions are not resolved by another evaluation of the same integers.
+
+The next step is to give a source a spatial profile. That step must state the source quantity, boundary conditions, radial dependence, normalization, and observational operation. The present chapter prepares those questions without assuming their answers. What has been built is a finite vocabulary for retained and transported accounts, together with a nonzero baseline and rules for keeping their readouts distinct. The physical test begins when that vocabulary is required to describe something that can be measured.
+
+\section*{Source and verification statement}
+The companion package preserves the retrieved source snapshots, their Git blob and SHA-256 hashes, and independent exact-integer, rational and symbolic checks of this chapter. No original repository script or GEN6 campaign was rerun. These algebra checks are distinct from the source-reported structural verdicts and from observational evidence.
+\begingroup\footnotesize
+\begin{thebibliography}{9}
+\bibitem{u} S. Brady, OpenAI ChatGPT, and Codex, \emph{SAM Unified Technical Synthesis---Volume I: Substrate and Accumulation}, 1 September 2026, Preface, Sec.\ 1, and Appendix A.1--A.3. Owner-supplied manuscript.
+\bibitem{w} S. Brady, \emph{Original Write Histories and a Coupled Source--Field Action}, SAM Volume I, Chapter 1, draft 0.1, 15 October 2026.
+\bibitem{f} SAM Research Project, \emph{Foundation Primitives and Partition Algebra}, SAMA foundation chapter. Snapshot retrieved 15 October 2026. \href{https://github.com/iwtbotiwtwot/SAMA/blob/main/vol_i/01-foundations/foundation-primitives-and-partition-algebra.md}{Repository source}.
+\bibitem{floor} SAM Research Project, \emph{Universal Accumulation Floor $A_0$}, SAMA foundation chapter. Snapshot retrieved 15 October 2026. \href{https://github.com/iwtbotiwtwot/SAMA/blob/main/vol_i/01-foundations/universal-accumulation-floor-a0.md}{Repository source}.
+\bibitem{c1} SAM Research Project, \emph{CR001 Foundation Selector Recertification}. Result, declared premises, and selector source; reported structural BOUNDARY. \href{https://github.com/iwtbotiwtwot/The_Courtroom/blob/main/A0-a_h-D/CR001_foundation_selector_recertification/CR001_result.md}{Repository source}.
+\bibitem{c2} SAM Research Project, \emph{CR002 R12 Native Grammar Recertification}. Result, declared premises, and selector source; reported structural BOUNDARY. \href{https://github.com/iwtbotiwtwot/The_Courtroom/blob/main/R12_duodecimal_radix/CR002_R12_NATIVE_GRAMMAR_RECERTIFICATION/CR002_result.md}{Repository source}.
+\bibitem{c5} SAM Research Project, \emph{CR005: Carrier Overflow and Schwarzschild QNM Derivation}, sealed 29 June 2026. Bounded-domain and inventory blocks used here; no ringdown claim adopted in this chapter. \href{https://github.com/iwtbotiwtwot/The_Courtroom/blob/main/21_GRAVITATIONAL_WAVES/CR005_THETA_CARRIER_OVERFLOW_AND_QNM_DERIVATION/CR005_result.md}{Repository source}.
+\bibitem{c3} SAM Research Project, \emph{CR003@19: Horizon-to-Floor Angular--Dimensional Projection Identity}, sealed 26 June 2026. Projection identity and stated scope. \href{https://github.com/iwtbotiwtwot/The_Courtroom/blob/main/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY/CR003_result.md}{Repository source}.
+\bibitem{c115} SAM Research Project, \emph{CR115: D3 Invariant-Carrier Uniqueness Theorem Gate}. Source-type calibration and SAM-internal premises. \href{https://github.com/iwtbotiwtwot/The_Courtroom/blob/main/14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM/CR115_result.md}{Repository source}.
+\end{thebibliography}
+\endgroup
+\end{document}

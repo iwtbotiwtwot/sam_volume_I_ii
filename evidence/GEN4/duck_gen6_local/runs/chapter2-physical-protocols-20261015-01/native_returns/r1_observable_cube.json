@@ -1,0 +1,184 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "c6c7475576efd552a858b175ce34604d0b14093fa78e5593124fe78d6e31883f",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T01:00:52.288492+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "r1_observable_cube",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        "protected0",
+        "protected1",
+        "protected2"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "preparation": "Fresh protected-sector source preparations; destructive terminal readout"
+      },
+      "spectral_coordinate": "declared receiving observable",
+      "units": {
+        "observable": "dimensionless outcomes -sqrt(2),0,sqrt(2)"
+      }
+    },
+    "data": {
+      "operators": {
+        "O": [
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "output": "O3",
+      "program": [
+        {
+          "inputs": [
+            "O",
+            "O"
+          ],
+          "name": "O2",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "O2",
+            "O"
+          ],
+          "name": "O3",
+          "op": "multiply"
+        }
+      ]
+    },
+    "name": "r1_observable_cube",
+    "source_binding": {
+      "campaign": "voli_chapter2_physical3_20261015",
+      "law_namespace": "SAM_land",
+      "parent": "H002635",
+      "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+      "question": "Check the complete physical readout observable algebra used for bounded-outcome shot accounting",
+      "source_files": {
+        "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+        "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+        "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+        "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+        "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+      }
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_04/tasks/r1_observable_cube/RESULT.json",
+  "receipt_sha256": "a336b59d975ac42b86ace06e201d1dc9cc9896b3514b762c20670ac570ac03f7",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 20372634799187,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "0",
+        "2",
+        "0"
+      ],
+      [
+        "2",
+        "0",
+        "2"
+      ],
+      [
+        "0",
+        "2",
+        "0"
+      ]
+    ],
+    "native_assertions": 26,
+    "ordered_program": [
+      {
+        "inputs": [
+          "O",
+          "O"
+        ],
+        "name": "O2",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "O2",
+          "O"
+        ],
+        "name": "O3",
+        "op": "multiply"
+      }
+    ],
+    "output": "O3",
+    "rank": 2,
+    "record_sha256": "9d153de146c2682b048342487f13415556b2031ce9318709be68954bf3837bf6"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "voli_chapter2_physical3_20261015",
+    "law_namespace": "SAM_land",
+    "parent": "H002635",
+    "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+    "question": "Check the complete physical readout observable algebra used for bounded-outcome shot accounting",
+    "source_files": {
+      "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+      "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+      "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+      "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+      "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T01:00:51.586976+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 5,
+  "worker_pid": 162363
+}

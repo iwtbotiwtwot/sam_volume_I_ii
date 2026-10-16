@@ -1,0 +1,173 @@
+[
+  {
+    "key": "r1_cyclic_g0",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_SUBSPACE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g0.json",
+    "round": "ROUND1",
+    "sha256": "c3a18dfc08e357ed5d0a209f0d744b76943443752af3c0a9a20433956b4e1b26",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r1_cyclic_g1",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_SUBSPACE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g1.json",
+    "round": "ROUND1",
+    "sha256": "e44e0d950e8a7fe6723dad94280839bb6a94ce01bfe723ab443505f6cffb09ef",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r1_cyclic_g2",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_SUBSPACE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g2.json",
+    "round": "ROUND1",
+    "sha256": "a0d51a8cf435945ce806a1722659267aab39e01c794772de39d4c5d3ad17bc05",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r1_memory_Usolve",
+    "kind": "native",
+    "operation": "GEN3_COMPLEX_SOLVE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_memory_Usolve.json",
+    "round": "ROUND1",
+    "sha256": "a93195679a48dc6e3c824f073e9be00764b59aea34c3eb9c075e07718097712b",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_H3_inverse",
+    "kind": "native",
+    "operation": "GEN3_COMPLEX_SOLVE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_H3_inverse.json",
+    "round": "ROUND2",
+    "sha256": "84445670955fb150d5f47b09ec1d1ac1534ad129e9c4aac2737d8a939d5e8a16",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_TLS_control_rank",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_TLS_control_rank.json",
+    "round": "ROUND2",
+    "sha256": "d2c6bb8bc568a567904c8758fc89c4c881e68748729852125f93c71906de18fa",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_all54_memory_Usolve",
+    "kind": "native",
+    "operation": "GEN3_COMPLEX_SOLVE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_all54_memory_Usolve.json",
+    "round": "ROUND2",
+    "sha256": "613eead360aa5357a43a6f82525a0ad76529ee553671b04e51fc287976b96974",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_all54_memory_payment",
+    "kind": "native",
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_all54_memory_payment.json",
+    "round": "ROUND2",
+    "sha256": "de461649ca556e27e1001dd3c084577349835ddbc1ca0f43545a833434c645b2",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_blind_placement0",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_SUBSPACE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_blind_placement0.json",
+    "round": "ROUND2",
+    "sha256": "c4fa33918d6fe39cd5f364a68f10016d7a19344f9ea1392bfc5c69e2b2c35170",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_blind_placement1",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_SUBSPACE",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_blind_placement1.json",
+    "round": "ROUND2",
+    "sha256": "e0934205afe1cffa69f1ebe07053aee68289e0614a6f09251f29455e59cc878b",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_finite_record_rank",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_finite_record_rank.json",
+    "round": "ROUND2",
+    "sha256": "bb0a61321f4bcc54396d0619ac76c0296257f19c8f45418cc8fc8faaba88ca65",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_record_BD",
+    "kind": "native",
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_record_BD.json",
+    "round": "ROUND2",
+    "sha256": "a1acd964e8d0256cb66bb8bd65cb5ea3c8e8fbbd28be5c7c87a357e2308c2d2e",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_record_contact_Gram",
+    "kind": "native",
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_record_contact_Gram.json",
+    "round": "ROUND2",
+    "sha256": "8768afa89b88b5c24cc1a59d9328791137644f7295c19d5bd4e71709f064f408",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "r2_reference_paid_inverse",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_reference_paid_inverse.json",
+    "round": "ROUND2",
+    "sha256": "1a5bb2e64fed23ba8a799a81d9807d789485a320652e3af957f7772c623d3da0",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "web_c30ee6765afa48d2a38a606a473a884f",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_c30ee6765afa48d2a38a606a473a884f.json",
+    "round": "ROUND2",
+    "sha256": "0381e9b86df4807d7dd3dace7e1372281fce61ba6834b4626b0dd88eab289c89",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "web_r1_000",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_000.json",
+    "round": "ROUND1",
+    "sha256": "dfd267b590c548d56bfd4a424ba3c008e4a3913260b568bb38e41182c3671eb1",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "web_r1_001",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_001.json",
+    "round": "ROUND1",
+    "sha256": "71de2e8e720cdc0c7bbfc072a560bd4c119f074ebc871f57727d1e3583a6b9d4",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "web_r1_002",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_002.json",
+    "round": "ROUND1",
+    "sha256": "b681f3afeeee382ac1f9e304508fc9247da5ef43bb96a3bd6521be337a004e5e",
+    "status": "COMPLETED"
+  },
+  {
+    "key": "web_r2_003",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "receipt": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r2_003.json",
+    "round": "ROUND2",
+    "sha256": "3bee4efcae0e5e0f8c58a3d5727c9d7cdf97ec7434058205f8708c8f4b8e83a9",
+    "status": "COMPLETED"
+  }
+]

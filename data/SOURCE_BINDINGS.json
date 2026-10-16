@@ -1,0 +1,23 @@
+{
+  "schema": "SAM_CHAPTER_II_COMPACT_SOURCE_BINDINGS_V1",
+  "files": [
+    {
+      "path": "data/radial_fixture.json",
+      "evidence_path": "evidence/GEN4/voli_chapter3_source_field1_20261015/radial/FIXTURE.json",
+      "sha256": "35e750eefd0a48b6ab4e631ed03b5f7782f39a069ad0c4622aa82fa8ee19cd6b",
+      "bytes": 5065
+    },
+    {
+      "path": "data/clock_certificate.json",
+      "evidence_path": "evidence/GEN4/voli_chapter3_source_field1_20261015/clock/chapter1_certificate.json",
+      "sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+      "bytes": 72837
+    },
+    {
+      "path": "data/paid_reference_certificates.json",
+      "evidence_path": "evidence/GEN4/voli_chapter2_physical3_20261015/protocol/ORIGINAL_CERTIFICATES.json",
+      "sha256": "ebef4609f5bb745a9a600b91a2b7b8491124edb771e3dfcf61f1dd8162ff6f51",
+      "bytes": 11191
+    }
+  ]
+}

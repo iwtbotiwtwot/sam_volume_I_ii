@@ -1,0 +1,121 @@
+{
+  "key": "r2_quadrupole_matching",
+  "kind": "TASK",
+  "task": {
+    "because": [
+      22,
+      25,
+      35
+    ],
+    "consumes": {
+      "r1_radial_green_inverse": "r1_radial_green_inverse",
+      "web_r1_000": "web_r1_000",
+      "web_r1_001": "web_r1_001"
+    },
+    "controller": "G6_02",
+    "estimated_memory_bytes": 268435456,
+    "key": "r2_quadrupole_matching",
+    "kind": "native",
+    "operation": "GEN3_COMPLEX_SOLVE",
+    "payload": {
+      "data": {
+        "matrix": {
+          "column_basis": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "entries": [
+            [
+              "0",
+              "20",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "30"
+            ],
+            [
+              "1",
+              "1",
+              "-1",
+              "-1"
+            ],
+            [
+              "0",
+              "4",
+              "1",
+              "6"
+            ]
+          ],
+          "row_basis": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "structure": "GENERAL"
+        },
+        "rhs": {
+          "column_basis": [
+            "0"
+          ],
+          "entries": [
+            [
+              "-2"
+            ],
+            [
+              "-3"
+            ],
+            [
+              "0"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "row_basis": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "structure": "GENERAL"
+        }
+      },
+      "precision_bits": 384,
+      "source_binding": {
+        "campaign": "voli_chapter3_source_field1_20261015",
+        "law_namespace": "SAM_land",
+        "question": "Receive static positive quadrupole free-energy density into its exact Poisson/matching coefficients, retaining exterior source tail and full-account distinction",
+        "source_files": {
+          "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+          "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+          "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+          "GEN4/voli_chapter3_source_field1_20261015/energy/CHAPTER_I_MODEL_SOURCE.md": "92b4814d4f6bdd7580943ba7e2d0912cff1dd0510ead61a2ff7da7e811eb4a7e",
+          "GEN4/voli_chapter3_source_field1_20261015/energy/DUCK_R2_TASKS.json": "533dfaf95c403e87809c1cc202b2da6b857cd3b3a0a4030c44b11d5dd369bbe1",
+          "GEN4/voli_chapter3_source_field1_20261015/energy/FIELD_SOURCE_RESULTS.json": "20fcd47f2483dc6949b5cc2fec200484e2c073b5ad4bc11361044cc085f6005f"
+        }
+      }
+    },
+    "purpose": "Receive static positive quadrupole free-energy density into its exact Poisson/matching coefficients, retaining exterior source tail and full-account distinction",
+    "source_binding": {
+      "campaign": "voli_chapter3_source_field1_20261015",
+      "law_namespace": "SAM_land",
+      "question": "Receive static positive quadrupole free-energy density into its exact Poisson/matching coefficients, retaining exterior source tail and full-account distinction",
+      "source_files": {
+        "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+        "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+        "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+        "GEN4/voli_chapter3_source_field1_20261015/energy/CHAPTER_I_MODEL_SOURCE.md": "92b4814d4f6bdd7580943ba7e2d0912cff1dd0510ead61a2ff7da7e811eb4a7e",
+        "GEN4/voli_chapter3_source_field1_20261015/energy/DUCK_R2_TASKS.json": "533dfaf95c403e87809c1cc202b2da6b857cd3b3a0a4030c44b11d5dd369bbe1",
+        "GEN4/voli_chapter3_source_field1_20261015/energy/FIELD_SOURCE_RESULTS.json": "20fcd47f2483dc6949b5cc2fec200484e2c073b5ad4bc11361044cc085f6005f"
+      }
+    },
+    "target_id": "FIELD_ENERGY"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "actual_return_wrappers": 15,
+  "actual_science_run": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03",
+  "builder_sha256": "ddcfda84f93917fa7663185d6015e0e923364b556ee17d3759c7741ed8122f29",
+  "campaign": "GEN4/voli_chapter3_source_field1_20261015",
+  "evidence_scope": "Portable selected evidence subset; complete original manifests, used records only; full runtime retained at original project.",
+  "helper_record_relocations": 4,
+  "history_entries": [
+    "SAM_HISTORY/entries/H002641_2026-10-15_CHAPTER_III_SOURCE_FIELD_AND_CHAPTER_II_BRIDGE.md"
+  ],
+  "native_reexecutions": 0,
+  "schema": "SAM_CH2_CH3_SELECTED_EVIDENCE_BUNDLE_V1",
+  "source_dependencies": 768,
+  "source_only_preflight": false
+}

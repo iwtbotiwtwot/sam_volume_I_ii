@@ -1,0 +1,335 @@
+{
+  "schema": "SAM_CH3_READER_VERIFICATION_V1",
+  "status": "PASS",
+  "checks_passed": 161,
+  "checks": [
+    "fourteen pages",
+    "section 1",
+    "section 2",
+    "section 3",
+    "section 4",
+    "section 5",
+    "section 6",
+    "section 7",
+    "section 8",
+    "section 9",
+    "section 10",
+    "section 11",
+    "section 12",
+    "section 13",
+    "section 14",
+    "section 15",
+    "section 16",
+    "section 17",
+    "section 18",
+    "section 19",
+    "section 20",
+    "section 21",
+    "section 22",
+    "section 23",
+    "section 24",
+    "section 25",
+    "section 26",
+    "section 27",
+    "section 28",
+    "page header 1",
+    "author footer 1",
+    "page header 2",
+    "author footer 2",
+    "page header 3",
+    "author footer 3",
+    "page header 4",
+    "author footer 4",
+    "page header 5",
+    "author footer 5",
+    "page header 6",
+    "author footer 6",
+    "page header 7",
+    "author footer 7",
+    "page header 8",
+    "author footer 8",
+    "page header 9",
+    "author footer 9",
+    "page header 10",
+    "author footer 10",
+    "page header 11",
+    "author footer 11",
+    "page header 12",
+    "author footer 12",
+    "page header 13",
+    "author footer 13",
+    "page header 14",
+    "author footer 14",
+    "vector equation source 9427",
+    "vector equation source 2603",
+    "current content 2,040",
+    "current content 822",
+    "current content 52 assertions",
+    "current content 45",
+    "current content 36-coordinate",
+    "current content counterterm",
+    "current content matched internal",
+    "current content G224",
+    "correlated comparison content correlated-phase supplement 47",
+    "correlated comparison content independent enclosures",
+    "correlated comparison content not a minimum lift",
+    "shared-history phase integral retained",
+    "rational correlated bounds retained",
+    "old807 count removed",
+    "twentyeight frames",
+    "no overflow",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "font embedded /AAAAAA+NotoSans-Bold",
+    "font embedded /AAAAAA+NotoSans-Regular",
+    "font embedded /AAAAAA+NotoSerif-Bold",
+    "font embedded /AAAAAA+NotoSerif-Regular",
+    "font embedded /AAAAAA+NotoSansMath-Regular",
+    "font embedded /AAAAAA+NotoSerif-Italic",
+    "relocated fresh-cache build",
+    "byte-identical relocated rebuild"
+  ],
+  "pages": 14,
+  "sections": 28,
+  "pdf": {
+    "path": "output/pdf/SAM_Volume_I_Chapter_III_Source_to_Field_Development_20261015.pdf",
+    "sha256": "4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973",
+    "bytes": 400740
+  },
+  "layout": [
+    {
+      "frame": "1 left",
+      "bottom_y": 267.8,
+      "unused_height": 216.8
+    },
+    {
+      "frame": "1 right",
+      "bottom_y": 268.3,
+      "unused_height": 217.3
+    },
+    {
+      "frame": "2 left",
+      "bottom_y": 305.2,
+      "unused_height": 254.2
+    },
+    {
+      "frame": "2 right",
+      "bottom_y": 335.8,
+      "unused_height": 284.8
+    },
+    {
+      "frame": "3 left",
+      "bottom_y": 328.9,
+      "unused_height": 277.9
+    },
+    {
+      "frame": "3 right",
+      "bottom_y": 360.4,
+      "unused_height": 309.4
+    },
+    {
+      "frame": "4 left",
+      "bottom_y": 364.5,
+      "unused_height": 313.5
+    },
+    {
+      "frame": "4 right",
+      "bottom_y": 304.9,
+      "unused_height": 253.9
+    },
+    {
+      "frame": "5 left",
+      "bottom_y": 323.9,
+      "unused_height": 272.9
+    },
+    {
+      "frame": "5 right",
+      "bottom_y": 363.0,
+      "unused_height": 312.0
+    },
+    {
+      "frame": "6 left",
+      "bottom_y": 356.4,
+      "unused_height": 305.4
+    },
+    {
+      "frame": "6 right",
+      "bottom_y": 349.4,
+      "unused_height": 298.4
+    },
+    {
+      "frame": "7 left",
+      "bottom_y": 197.3,
+      "unused_height": 146.3
+    },
+    {
+      "frame": "7 right",
+      "bottom_y": 146.2,
+      "unused_height": 95.2
+    },
+    {
+      "frame": "8 left",
+      "bottom_y": 115.2,
+      "unused_height": 64.2
+    },
+    {
+      "frame": "8 right",
+      "bottom_y": 196.7,
+      "unused_height": 145.7
+    },
+    {
+      "frame": "9 left",
+      "bottom_y": 241.4,
+      "unused_height": 190.4
+    },
+    {
+      "frame": "9 right",
+      "bottom_y": 289.3,
+      "unused_height": 238.3
+    },
+    {
+      "frame": "10 left",
+      "bottom_y": 179.8,
+      "unused_height": 128.8
+    },
+    {
+      "frame": "10 right",
+      "bottom_y": 164.0,
+      "unused_height": 113.0
+    },
+    {
+      "frame": "11 left",
+      "bottom_y": 259.3,
+      "unused_height": 208.3
+    },
+    {
+      "frame": "11 right",
+      "bottom_y": 119.8,
+      "unused_height": 68.8
+    },
+    {
+      "frame": "12 left",
+      "bottom_y": 184.8,
+      "unused_height": 133.8
+    },
+    {
+      "frame": "12 right",
+      "bottom_y": 169.6,
+      "unused_height": 118.6
+    },
+    {
+      "frame": "13 left",
+      "bottom_y": 152.1,
+      "unused_height": 101.1
+    },
+    {
+      "frame": "13 right",
+      "bottom_y": 157.1,
+      "unused_height": 106.1
+    },
+    {
+      "frame": "14 left",
+      "bottom_y": 131.9,
+      "unused_height": 80.9
+    },
+    {
+      "frame": "14 right",
+      "bottom_y": 122.5,
+      "unused_height": 71.5
+    }
+  ],
+  "embedded_fonts": [
+    "/AAAAAA+NotoSans-Bold",
+    "/AAAAAA+NotoSans-Regular",
+    "/AAAAAA+NotoSansMath-Regular",
+    "/AAAAAA+NotoSerif-Bold",
+    "/AAAAAA+NotoSerif-Italic",
+    "/AAAAAA+NotoSerif-Regular"
+  ],
+  "relocated_rebuild": "BYTE_IDENTICAL",
+  "rendering_packages": {
+    "reportlab": "5.0.1",
+    "matplotlib": "3.11.2",
+    "svglib": "2.3.0",
+    "pypdf": "6.10.0",
+    "fonttools": "4.67.0",
+    "pillow": "12.3.0"
+  },
+  "visual_review": "See separate VISUAL_QA.json; this script reports structural/artifact checks only"
+}

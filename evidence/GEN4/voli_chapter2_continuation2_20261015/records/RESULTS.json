@@ -1,0 +1,744 @@
+{
+  "schema": "SAM_CH2_TIMED_RECORD_AND_SOURCE_FEASIBLE_ENERGY_V1",
+  "status": "PASS",
+  "independent_checks_passed": 94,
+  "checks": [
+    "A is native closed word",
+    "B is native closed word",
+    "actual A point sequence",
+    "actual B point sequence",
+    "quadratic witness same native endpoint",
+    "quadratic witness same Write counts",
+    "quadratic witness same point counts",
+    "quadratic witness same first phase moments",
+    "quadratic witness exact second phase difference",
+    "quadratic witness total second moment cancels",
+    "original source-time symbolic degree1 point0",
+    "original source-time symbolic degree1 point1",
+    "original source-time symbolic degree1 point2",
+    "original source-time symbolic degree1 point3",
+    "original source-time symbolic degree1 point4",
+    "original source-time symbolic degree1 point5",
+    "original source-time symbolic degree1 point6",
+    "original source-time symbolic degree1 point7",
+    "original source-time symbolic degree2 point0",
+    "original source-time symbolic degree2 point1",
+    "original source-time symbolic degree2 point2",
+    "original source-time symbolic degree2 point3",
+    "original source-time symbolic degree2 point4",
+    "original source-time symbolic degree2 point5",
+    "original source-time symbolic degree2 point6",
+    "original source-time symbolic degree2 point7",
+    "actual closed-word contrast rank degree0",
+    "actual closed-word contrast rank degree1",
+    "actual closed-word contrast rank degree2",
+    "Prouhet equal powers d0 k0",
+    "Prouhet exact next coefficient d0",
+    "actual hierarchy endpoint d0",
+    "actual hierarchy lower moments d0 k0",
+    "actual hierarchy next source moment d0",
+    "Prouhet equal powers d1 k0",
+    "Prouhet equal powers d1 k1",
+    "Prouhet exact next coefficient d1",
+    "actual hierarchy endpoint d1",
+    "actual hierarchy lower moments d1 k0",
+    "actual hierarchy lower moments d1 k1",
+    "actual hierarchy next source moment d1",
+    "Prouhet equal powers d2 k0",
+    "Prouhet equal powers d2 k1",
+    "Prouhet equal powers d2 k2",
+    "Prouhet exact next coefficient d2",
+    "actual hierarchy endpoint d2",
+    "actual hierarchy lower moments d2 k0",
+    "actual hierarchy lower moments d2 k1",
+    "actual hierarchy lower moments d2 k2",
+    "actual hierarchy next source moment d2",
+    "Prouhet equal powers d3 k0",
+    "Prouhet equal powers d3 k1",
+    "Prouhet equal powers d3 k2",
+    "Prouhet equal powers d3 k3",
+    "Prouhet exact next coefficient d3",
+    "actual hierarchy endpoint d3",
+    "actual hierarchy lower moments d3 k0",
+    "actual hierarchy lower moments d3 k1",
+    "actual hierarchy lower moments d3 k2",
+    "actual hierarchy lower moments d3 k3",
+    "actual hierarchy next source moment d3",
+    "Prouhet equal powers d4 k0",
+    "Prouhet equal powers d4 k1",
+    "Prouhet equal powers d4 k2",
+    "Prouhet equal powers d4 k3",
+    "Prouhet equal powers d4 k4",
+    "Prouhet exact next coefficient d4",
+    "actual hierarchy endpoint d4",
+    "actual hierarchy lower moments d4 k0",
+    "actual hierarchy lower moments d4 k1",
+    "actual hierarchy lower moments d4 k2",
+    "actual hierarchy lower moments d4 k3",
+    "actual hierarchy lower moments d4 k4",
+    "actual hierarchy next source moment d4",
+    "ambient receiver exact",
+    "exact feasibility residual z2",
+    "exact feasibility residual z3",
+    "exact feasibility residual z4",
+    "exact feasibility residual z5",
+    "exact feasibility residual z6",
+    "exact feasibility residual z7",
+    "exact feasibility residual z8",
+    "exact feasibility residual z9",
+    "exact feasibility residual z10",
+    "exact feasibility residual z11",
+    "exact feasibility residual z12",
+    "exact feasibility residual z13",
+    "exact feasibility residual z14",
+    "exact feasibility residual z15",
+    "source-fiber minimum",
+    "source-fiber minimizers are actual single flips",
+    "strict positive realizability correction",
+    "H and REST energy baselines exactly separate",
+    "source-fiber costs retain every original offdiagonal energy"
+  ],
+  "quadratic_witness": {
+    "left": "ABBA",
+    "right": "BAAB",
+    "A": "W1+^4",
+    "B": "W7+^4",
+    "native_point_order": [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "-15/17",
+        "0",
+        "-8/17"
+      ],
+      [
+        "-3/5",
+        "0",
+        "4/5"
+      ],
+      [
+        "0",
+        "-12/13",
+        "5/13"
+      ],
+      [
+        "0",
+        "-24/25",
+        "-7/25"
+      ],
+      [
+        "0",
+        "12/13",
+        "5/13"
+      ],
+      [
+        "0",
+        "24/25",
+        "-7/25"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "scaled_second_moment_difference": [
+      0,
+      64,
+      0,
+      0,
+      64,
+      0,
+      64,
+      -192
+    ],
+    "phase_step": "h=3*pi/32 under declared 16-event actual-clock schedule"
+  },
+  "original_source_time_symbolic_witness": [
+    {
+      "degree": 1,
+      "difference_by_native_point": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "degree": 2,
+      "difference_by_native_point": [
+        {},
+        {
+          "0,1": 2,
+          "1,1": 2
+        },
+        {},
+        {},
+        {
+          "0,1": 2,
+          "1,1": 2
+        },
+        {},
+        {
+          "0,1": 2,
+          "1,1": 2
+        },
+        {
+          "0,1": -6,
+          "0,0": -8,
+          "1,1": 2
+        }
+      ]
+    }
+  ],
+  "actual_six_word_family": [
+    {
+      "blocks": "AABB",
+      "endpoint": 0,
+      "moments": [
+        [
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          8,
+          0,
+          0,
+          10,
+          0,
+          6,
+          112
+        ],
+        [
+          0,
+          40,
+          0,
+          0,
+          58,
+          0,
+          26,
+          1372
+        ],
+        [
+          0,
+          224,
+          0,
+          0,
+          370,
+          0,
+          126,
+          17776
+        ]
+      ]
+    },
+    {
+      "blocks": "ABAB",
+      "endpoint": 0,
+      "moments": [
+        [
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          14,
+          0,
+          10,
+          100
+        ],
+        [
+          0,
+          104,
+          0,
+          0,
+          130,
+          0,
+          82,
+          1180
+        ],
+        [
+          0,
+          1008,
+          0,
+          0,
+          1358,
+          0,
+          730,
+          15400
+        ]
+      ]
+    },
+    {
+      "blocks": "ABBA",
+      "endpoint": 0,
+      "moments": [
+        [
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          18,
+          0,
+          14,
+          88
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          234,
+          0,
+          170,
+          892
+        ],
+        [
+          0,
+          2752,
+          0,
+          0,
+          3402,
+          0,
+          2198,
+          10144
+        ]
+      ]
+    },
+    {
+      "blocks": "BAAB",
+      "endpoint": 0,
+      "moments": [
+        [
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          18,
+          0,
+          14,
+          88
+        ],
+        [
+          0,
+          136,
+          0,
+          0,
+          170,
+          0,
+          106,
+          1084
+        ],
+        [
+          0,
+          1216,
+          0,
+          0,
+          1674,
+          0,
+          854,
+          14752
+        ]
+      ]
+    },
+    {
+      "blocks": "BABA",
+      "endpoint": 0,
+      "moments": [
+        [
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          22,
+          0,
+          18,
+          76
+        ],
+        [
+          0,
+          232,
+          0,
+          0,
+          274,
+          0,
+          194,
+          796
+        ],
+        [
+          0,
+          2960,
+          0,
+          0,
+          3718,
+          0,
+          2322,
+          9496
+        ]
+      ]
+    },
+    {
+      "blocks": "BBAA",
+      "endpoint": 0,
+      "moments": [
+        [
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          26,
+          0,
+          22,
+          64
+        ],
+        [
+          0,
+          296,
+          0,
+          0,
+          346,
+          0,
+          250,
+          604
+        ],
+        [
+          0,
+          3744,
+          0,
+          0,
+          4706,
+          0,
+          2926,
+          7120
+        ]
+      ]
+    }
+  ],
+  "linear_additive_contrast_ranks_degree_0_to_2": [
+    0,
+    1,
+    2
+  ],
+  "source_polynomial_hierarchy": [
+    {
+      "equal_degrees_through": 0,
+      "writes_per_word": 8,
+      "block_difference_at_next_power": -1,
+      "source_moment_difference_scaled_by_h_power": [
+        0,
+        -4,
+        0,
+        0,
+        -4,
+        0,
+        -4,
+        12
+      ]
+    },
+    {
+      "equal_degrees_through": 1,
+      "writes_per_word": 16,
+      "block_difference_at_next_power": 4,
+      "source_moment_difference_scaled_by_h_power": [
+        0,
+        64,
+        0,
+        0,
+        64,
+        0,
+        64,
+        -192
+      ]
+    },
+    {
+      "equal_degrees_through": 2,
+      "writes_per_word": 32,
+      "block_difference_at_next_power": -48,
+      "source_moment_difference_scaled_by_h_power": [
+        0,
+        -3072,
+        0,
+        0,
+        -3072,
+        0,
+        -3072,
+        9216
+      ]
+    },
+    {
+      "equal_degrees_through": 3,
+      "writes_per_word": 64,
+      "block_difference_at_next_power": 1536,
+      "source_moment_difference_scaled_by_h_power": [
+        0,
+        393216,
+        0,
+        0,
+        393216,
+        0,
+        393216,
+        -1179648
+      ]
+    },
+    {
+      "equal_degrees_through": 4,
+      "writes_per_word": 128,
+      "block_difference_at_next_power": -122880,
+      "source_moment_difference_scaled_by_h_power": [
+        0,
+        -125829120,
+        0,
+        0,
+        -125829120,
+        0,
+        -125829120,
+        377487360
+      ]
+    }
+  ],
+  "feasible_energy": {
+    "diagnostic_record_change": [
+      "-1",
+      "0"
+    ],
+    "ambient_minimum": "42501336933035701627930814262392445344792910341861083238426601209/43033815193883314503302726478882568119229792731663055360347355185",
+    "source_fiber_minimum": "1085537/573049",
+    "positive_feasibility_correction": "39018391125337162779775563017223689311134159616469387849919049696/43033815193883314503302726478882568119229792731663055360347355185",
+    "minimizing_port_labels": [
+      2,
+      8
+    ],
+    "all_endpoints": [
+      {
+        "z": 1,
+        "record_change": [
+          "-1",
+          "1"
+        ],
+        "displacement_cost": "2006049/573049",
+        "single_literal_flip_from_zero": true
+      },
+      {
+        "z": 2,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "1085537/573049",
+        "single_literal_flip_from_zero": true
+      },
+      {
+        "z": 3,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "1146097/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 4,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "2006049/573049",
+        "single_literal_flip_from_zero": true
+      },
+      {
+        "z": 5,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "4965618/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 6,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "2155185/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 7,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "2163505/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 8,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "1085537/573049",
+        "single_literal_flip_from_zero": true
+      },
+      {
+        "z": 9,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "2155185/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 10,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "1142898/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 11,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "1146097/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 12,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "1146097/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 13,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "2163505/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 14,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "1146097/573049",
+        "single_literal_flip_from_zero": false
+      },
+      {
+        "z": 15,
+        "record_change": [
+          "-1",
+          "0"
+        ],
+        "displacement_cost": "2",
+        "single_literal_flip_from_zero": false
+      }
+    ],
+    "ambient_minimizer": [
+      "0",
+      "0",
+      "-1",
+      "0",
+      "662861741237717762134386713653564341282777419272/12509632679129062361693138339542544816880680777337",
+      "-35025719635377602398253801460910088213738175040/12509632679129062361693138339542544816880680777337",
+      "5418070456901558561647187868257418307002299/109455372912797663148357406693707967087882565",
+      "-358729175929243942611692800360652400056/229965738489787890274698911463480438851641269065",
+      "-32811855575445603725508177422606818783851902912/12509632679129062361693138339542544816880680777337",
+      "157616795232868142634062925738601445005353280/1137239334466278396517558030867504074261880070667",
+      "662861735482087533918518196220626556085656208008/12509632679129062361693138339542544816880680777337",
+      "20888449765076172807692439893516645980168/12509632679129062361693138339542544816880680777337",
+      "-916878400/326553959601",
+      "1060578785954745643628439488865764542072236126016000/7148617084855623557527182210993247693061648149528451313",
+      "-35025719028812902016694938823063010722506666560/12509632679129062361693138339542544816880680777337",
+      "-2201353050829247592065282242036818150400/12509632679129062361693138339542544816880680777337",
+      "1060578776796942830056208366932940893717257677632000/7148617084855623557527182210993247693061648149528451313",
+      "-2560000/326553959601"
+    ],
+    "source_preparation_scope": "Pure original source configurations on fixed-outside fiber; actual selection/preparation and physical kappa_E not newly assigned"
+  },
+  "source_bindings": {
+    "transition_table": {
+      "path": "GEN4/native_history_reduction1/REDUCTION.json",
+      "sha256": "52777e8af32c41d755b8fc20fc862825525dfde7881a3656375415962854bf2f"
+    },
+    "literal_energy": {
+      "path": "GEN4/voli_chapter2_bridge1/energy/NATIVE_INPUTS.json",
+      "sha256": "4fdf7f3dd1018b6aff2fa5ba0aa7a4c3d031b6add4614db06a263c80ab64782e"
+    }
+  },
+  "native_launches": 0,
+  "generator_sha256": "45bfeacc2f2343a02cd107f0b4fa6f3e4ccf5f1bb362b43b23bdd981f3e13619"
+}

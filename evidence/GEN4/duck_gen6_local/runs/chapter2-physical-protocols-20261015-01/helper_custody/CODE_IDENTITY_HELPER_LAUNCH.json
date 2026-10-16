@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-16T01:00:42.080339+00:00",
+  "core_manifest_sha256": "76b1738967a891997a91cd14ab4ec5e81e57de24c54496bc35dafa50c7cac8b7",
+  "core_version": "0.10.2",
+  "file_count": 716,
+  "ignored_entries": [
+    "*.pyc",
+    "**/__pycache__/**"
+  ],
+  "inventory_sha256": "cbfb9a76245202ffab78278134c999abefda89b3f8441dbe1f1b58c9bc5f294e",
+  "live_matches_manifest": true,
+  "live_package": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_PROJECT/gen6_duck_t500",
+  "manifest_sha256": "ef42e2b1fe566392297c2b472977158a2ee105c1e195b2c905316d6e9e3e054e",
+  "mutation_performed": false,
+  "native_execution_files": 743,
+  "run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01",
+  "runtime_version": "1.2.2",
+  "schema": "GEN6_DUCK_CODE_IDENTITY_V1",
+  "snapshot": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/executed_code",
+  "snapshot_matches_manifest": true,
+  "status": "PASS"
+}

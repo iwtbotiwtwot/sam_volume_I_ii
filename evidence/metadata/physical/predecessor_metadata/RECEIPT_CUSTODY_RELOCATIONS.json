@@ -1,0 +1,47 @@
+[
+  {
+    "custody_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/RAM_CUSTODY.json",
+    "custody_manifest_sha256": "61354ae8903cacb109177cc62992f9027eb362ca8f5403817e07a781083fd831",
+    "original_receipt_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-signature-memory-20261015-01/t500-scratch-chapter2-signature-memory-20261015-01/LH_05/tasks/web_c30ee6765afa48d2a38a606a473a884f/RESULT.json",
+    "readback_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/HELPER_READBACK.json",
+    "readback_manifest_sha256": "6adce458a46854ffb4d48773cfdf65e5ac54ab270deee6639c00a80e684742c1",
+    "retained_path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_05/tasks/web_c30ee6765afa48d2a38a606a473a884f/RESULT.json",
+    "sha256": "e349c379794e7bece811827746e6ff874e74335991b11ce70590914e1eefb30f"
+  },
+  {
+    "custody_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/RAM_CUSTODY.json",
+    "custody_manifest_sha256": "61354ae8903cacb109177cc62992f9027eb362ca8f5403817e07a781083fd831",
+    "original_receipt_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-signature-memory-20261015-01/t500-scratch-chapter2-signature-memory-20261015-01/LH_05/tasks/web_r1_000/RESULT.json",
+    "readback_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/HELPER_READBACK.json",
+    "readback_manifest_sha256": "6adce458a46854ffb4d48773cfdf65e5ac54ab270deee6639c00a80e684742c1",
+    "retained_path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_05/tasks/web_r1_000/RESULT.json",
+    "sha256": "2ba6c39861a88734229b308e5be02f5fdb63e95af5cc0d78e21feea86423f0e9"
+  },
+  {
+    "custody_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/RAM_CUSTODY.json",
+    "custody_manifest_sha256": "61354ae8903cacb109177cc62992f9027eb362ca8f5403817e07a781083fd831",
+    "original_receipt_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-signature-memory-20261015-01/t500-scratch-chapter2-signature-memory-20261015-01/LH_06/tasks/web_r1_001/RESULT.json",
+    "readback_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/HELPER_READBACK.json",
+    "readback_manifest_sha256": "6adce458a46854ffb4d48773cfdf65e5ac54ab270deee6639c00a80e684742c1",
+    "retained_path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_06/tasks/web_r1_001/RESULT.json",
+    "sha256": "d0248d099e2d24c2102188aeea7eed1801ec5e682ceead4410be3f97f59fede5"
+  },
+  {
+    "custody_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/RAM_CUSTODY.json",
+    "custody_manifest_sha256": "61354ae8903cacb109177cc62992f9027eb362ca8f5403817e07a781083fd831",
+    "original_receipt_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-signature-memory-20261015-01/t500-scratch-chapter2-signature-memory-20261015-01/LH_05/tasks/web_r1_002/RESULT.json",
+    "readback_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/HELPER_READBACK.json",
+    "readback_manifest_sha256": "6adce458a46854ffb4d48773cfdf65e5ac54ab270deee6639c00a80e684742c1",
+    "retained_path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_05/tasks/web_r1_002/RESULT.json",
+    "sha256": "efd342da2be05a8a41076156d6bd27d068ece66831d7a18b919add7d247021de"
+  },
+  {
+    "custody_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/RAM_CUSTODY.json",
+    "custody_manifest_sha256": "61354ae8903cacb109177cc62992f9027eb362ca8f5403817e07a781083fd831",
+    "original_receipt_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-signature-memory-20261015-01/t500-scratch-chapter2-signature-memory-20261015-01/LH_06/tasks/web_r2_003/RESULT.json",
+    "readback_manifest": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/HELPER_READBACK.json",
+    "readback_manifest_sha256": "6adce458a46854ffb4d48773cfdf65e5ac54ab270deee6639c00a80e684742c1",
+    "retained_path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_06/tasks/web_r2_003/RESULT.json",
+    "sha256": "1b73100fd88ab0ed9d2154dc84953563edd26020197bf52cb407ec3cbd1c7503"
+  }
+]

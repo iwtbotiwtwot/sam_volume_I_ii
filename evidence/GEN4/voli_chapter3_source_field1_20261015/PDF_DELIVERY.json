@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "chapter": "chapter2",
+      "path": "/home/lilhelper/Downloads/SAM_Volume_I_Chapter_II_Source_to_Field_Update_20261015.pdf",
+      "sha256": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929",
+      "pages": 24,
+      "checks": 170
+    },
+    {
+      "chapter": "chapter3",
+      "path": "/home/lilhelper/Downloads/SAM_Volume_I_Chapter_III_Source_to_Field_Development_20261015.pdf",
+      "sha256": "4211310c51caa9ad22baaac54ed9599fc3797d73883174d920ce24abb05fc973",
+      "pages": 14,
+      "checks": 161
+    }
+  ]
+}

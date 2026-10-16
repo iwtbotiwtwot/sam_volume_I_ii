@@ -1,0 +1,572 @@
+{
+  "schema": "SAM_CH2_SOURCE_FIELD_PDF_VERIFICATION_V1",
+  "status": "PASS",
+  "checks_passed": 170,
+  "checks": [
+    "24 pages",
+    "all old40 sections retained verbatim",
+    "preserved source physical_content.py",
+    "original40 source differs only by portable closure path",
+    "preserved source continuation_content.py",
+    "original source bytes continuation_content.py",
+    "preserved source previous_content.py",
+    "original source bytes previous_content.py",
+    "preserved source FINAL_CLOSURE.json",
+    "original source bytes FINAL_CLOSURE.json",
+    "section 1",
+    "section 2",
+    "section 3",
+    "section 4",
+    "section 5",
+    "section 6",
+    "section 7",
+    "section 8",
+    "section 9",
+    "section 10",
+    "section 11",
+    "section 12",
+    "section 13",
+    "section 14",
+    "section 15",
+    "section 16",
+    "section 17",
+    "section 18",
+    "section 19",
+    "section 20",
+    "section 21",
+    "section 22",
+    "section 23",
+    "section 24",
+    "section 25",
+    "section 26",
+    "section 27",
+    "section 28",
+    "section 29",
+    "section 30",
+    "section 31",
+    "section 32",
+    "section 33",
+    "section 34",
+    "section 35",
+    "section 36",
+    "section 37",
+    "section 38",
+    "section 39",
+    "section 40",
+    "section 41",
+    "section 42",
+    "section 43",
+    "section 44",
+    "section 45",
+    "section 46",
+    "section 47",
+    "section 48",
+    "retained/new scope 23,482,368",
+    "retained/new scope 6,558,008",
+    "retained/new scope 1085537",
+    "retained/new scope V13",
+    "retained/new scope 2.84e-9",
+    "retained/new scope 1.39e-9",
+    "retained/new scope four",
+    "retained/new scope six",
+    "new exact receiving result sector-resolved effects",
+    "new exact receiving result Its entire population-transfer history is unchanged",
+    "new exact receiving result The counterterm part is invisible throughout",
+    "48 frames",
+    "all frames fit",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "embedded font /AAAAAA+NotoSans-Bold",
+    "embedded font /AAAAAA+NotoSans-Regular",
+    "embedded font /AAAAAA+NotoSerif-Bold",
+    "embedded font /AAAAAA+NotoSerif-Regular",
+    "relocated build",
+    "fresh-cache byte identical",
+    "visual review matches current PDF"
+  ],
+  "pages": 24,
+  "sections": 48,
+  "predecessor_sections_preserved": 40,
+  "pdf": {
+    "path": "output/pdf/SAM_Volume_I_Chapter_II_Source_to_Field_Update_20261015.pdf",
+    "sha256": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929",
+    "bytes": 447157
+  },
+  "layout": [
+    {
+      "frame": "1 left",
+      "bottom_y": 168.6,
+      "unused_height": 117.6
+    },
+    {
+      "frame": "1 right",
+      "bottom_y": 81.5,
+      "unused_height": 30.5
+    },
+    {
+      "frame": "2 left",
+      "bottom_y": 317.0,
+      "unused_height": 266.0
+    },
+    {
+      "frame": "2 right",
+      "bottom_y": 274.9,
+      "unused_height": 223.9
+    },
+    {
+      "frame": "3 left",
+      "bottom_y": 322.3,
+      "unused_height": 271.3
+    },
+    {
+      "frame": "3 right",
+      "bottom_y": 319.3,
+      "unused_height": 268.3
+    },
+    {
+      "frame": "4 left",
+      "bottom_y": 262.3,
+      "unused_height": 211.3
+    },
+    {
+      "frame": "4 right",
+      "bottom_y": 282.9,
+      "unused_height": 231.9
+    },
+    {
+      "frame": "5 left",
+      "bottom_y": 328.4,
+      "unused_height": 277.4
+    },
+    {
+      "frame": "5 right",
+      "bottom_y": 312.9,
+      "unused_height": 261.9
+    },
+    {
+      "frame": "6 left",
+      "bottom_y": 304.9,
+      "unused_height": 253.9
+    },
+    {
+      "frame": "6 right",
+      "bottom_y": 287.3,
+      "unused_height": 236.3
+    },
+    {
+      "frame": "7 left",
+      "bottom_y": 297.9,
+      "unused_height": 246.9
+    },
+    {
+      "frame": "7 right",
+      "bottom_y": 276.8,
+      "unused_height": 225.8
+    },
+    {
+      "frame": "8 left",
+      "bottom_y": 330.9,
+      "unused_height": 279.9
+    },
+    {
+      "frame": "8 right",
+      "bottom_y": 296.3,
+      "unused_height": 245.3
+    },
+    {
+      "frame": "9 left",
+      "bottom_y": 288.4,
+      "unused_height": 237.4
+    },
+    {
+      "frame": "9 right",
+      "bottom_y": 372.0,
+      "unused_height": 321.0
+    },
+    {
+      "frame": "10 left",
+      "bottom_y": 341.9,
+      "unused_height": 290.9
+    },
+    {
+      "frame": "10 right",
+      "bottom_y": 299.4,
+      "unused_height": 248.4
+    },
+    {
+      "frame": "11 left",
+      "bottom_y": 100.2,
+      "unused_height": 49.2
+    },
+    {
+      "frame": "11 right",
+      "bottom_y": 223.2,
+      "unused_height": 172.2
+    },
+    {
+      "frame": "12 left",
+      "bottom_y": 352.9,
+      "unused_height": 301.9
+    },
+    {
+      "frame": "12 right",
+      "bottom_y": 340.5,
+      "unused_height": 289.5
+    },
+    {
+      "frame": "13 left",
+      "bottom_y": 305.9,
+      "unused_height": 254.9
+    },
+    {
+      "frame": "13 right",
+      "bottom_y": 333.5,
+      "unused_height": 282.5
+    },
+    {
+      "frame": "14 left",
+      "bottom_y": 285.5,
+      "unused_height": 234.5
+    },
+    {
+      "frame": "14 right",
+      "bottom_y": 312.9,
+      "unused_height": 261.9
+    },
+    {
+      "frame": "15 left",
+      "bottom_y": 335.8,
+      "unused_height": 284.8
+    },
+    {
+      "frame": "15 right",
+      "bottom_y": 328.3,
+      "unused_height": 277.3
+    },
+    {
+      "frame": "16 left",
+      "bottom_y": 310.4,
+      "unused_height": 259.4
+    },
+    {
+      "frame": "16 right",
+      "bottom_y": 327.4,
+      "unused_height": 276.4
+    },
+    {
+      "frame": "17 left",
+      "bottom_y": 291.4,
+      "unused_height": 240.4
+    },
+    {
+      "frame": "17 right",
+      "bottom_y": 303.5,
+      "unused_height": 252.5
+    },
+    {
+      "frame": "18 left",
+      "bottom_y": 308.6,
+      "unused_height": 257.6
+    },
+    {
+      "frame": "18 right",
+      "bottom_y": 141.8,
+      "unused_height": 90.8
+    },
+    {
+      "frame": "19 left",
+      "bottom_y": 365.5,
+      "unused_height": 314.5
+    },
+    {
+      "frame": "19 right",
+      "bottom_y": 183.4,
+      "unused_height": 132.4
+    },
+    {
+      "frame": "20 left",
+      "bottom_y": 337.4,
+      "unused_height": 286.4
+    },
+    {
+      "frame": "20 right",
+      "bottom_y": 269.6,
+      "unused_height": 218.6
+    },
+    {
+      "frame": "21 left",
+      "bottom_y": 122.2,
+      "unused_height": 71.2
+    },
+    {
+      "frame": "21 right",
+      "bottom_y": 329.9,
+      "unused_height": 278.9
+    },
+    {
+      "frame": "22 left",
+      "bottom_y": 311.9,
+      "unused_height": 260.9
+    },
+    {
+      "frame": "22 right",
+      "bottom_y": 266.9,
+      "unused_height": 215.9
+    },
+    {
+      "frame": "23 left",
+      "bottom_y": 86.7,
+      "unused_height": 35.7
+    },
+    {
+      "frame": "23 right",
+      "bottom_y": 81.0,
+      "unused_height": 30.0
+    },
+    {
+      "frame": "24 left",
+      "bottom_y": 270.9,
+      "unused_height": 219.9
+    },
+    {
+      "frame": "24 right",
+      "bottom_y": 95.1,
+      "unused_height": 44.1
+    }
+  ],
+  "embedded_fonts": {
+    "/AAAAAA+NotoSans-Bold": "/TrueType",
+    "/AAAAAA+NotoSans-Regular": "/TrueType",
+    "/AAAAAA+NotoSerif-Bold": "/TrueType",
+    "/AAAAAA+NotoSerif-Regular": "/TrueType"
+  },
+  "rebuild": "RELOCATED_FRESH_CACHE_BYTE_IDENTICAL",
+  "sources": [
+    {
+      "path": "chapter2/FINAL_CLOSURE.json",
+      "sha256": "16189b99403c9af06fc91cbe6f74a576f365530ce5ec24003cd3ad20c63ca43b"
+    },
+    {
+      "path": "chapter2/INHERITED_SOURCES.json",
+      "sha256": "45a174a298bc17e7e685882102203cc6b19a9aa9ed04d65890fb893d219d52de"
+    },
+    {
+      "path": "chapter2/LAYOUT.json",
+      "sha256": "b94b47708eced25a78e33c663cb3cb8377be2a42ef0fa78199e56f5afb1edcca"
+    },
+    {
+      "path": "chapter2/README.md",
+      "sha256": "cea8df76c319e45575021bcfc1603977e391be22caa79135a75509b1559e388b"
+    },
+    {
+      "path": "chapter2/VISUAL_QA.json",
+      "sha256": "08e79c4e8ee7f0ea3905e01d06f447005a2afdc7db08621ded5e8bc84a8cbac2"
+    },
+    {
+      "path": "chapter2/build_pdf.py",
+      "sha256": "c02f4b9bf030d803d625b2aa64ac3b6fe2996c37a1238b7eefb9eab6c045718a"
+    },
+    {
+      "path": "chapter2/content.py",
+      "sha256": "f2c3adb7b8e5fb5a98aec1fdfab3cedbbb47c4e9a67363aa2a34af34eba4d2ec"
+    },
+    {
+      "path": "chapter2/continuation_content.py",
+      "sha256": "847f6e5883ae7a5b765b63ec26a4e0ca1c3c6504176c1bdfdbf5316bc16acdef"
+    },
+    {
+      "path": "chapter2/fonts/COPYRIGHT.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    },
+    {
+      "path": "chapter2/fonts/NotoSans-Bold.ttf",
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5"
+    },
+    {
+      "path": "chapter2/fonts/NotoSans-Regular.ttf",
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d"
+    },
+    {
+      "path": "chapter2/fonts/NotoSansMath-Regular.ttf",
+      "sha256": "8242bd1e55368b27e32455260754cf9aa58f3ad7ea80664b66c21f1b09910d6c"
+    },
+    {
+      "path": "chapter2/fonts/NotoSerif-Bold.ttf",
+      "sha256": "0af0ff2be8f84910fb21ec5fe1b6b7395e3073250502a334baf6ca2f860c88fe"
+    },
+    {
+      "path": "chapter2/fonts/NotoSerif-Italic.ttf",
+      "sha256": "bc25600aa27cd409e1e5b3d86340df3a329bb860fcfbe57a03a95070b229e1b0"
+    },
+    {
+      "path": "chapter2/fonts/NotoSerif-Regular.ttf",
+      "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f"
+    },
+    {
+      "path": "chapter2/physical_content.py",
+      "sha256": "6a986636df4459e307201ccd803f4ce923499fe4e331feabd841e6c47a8d58ef"
+    },
+    {
+      "path": "chapter2/previous_content.py",
+      "sha256": "ada50cd9bb641e5a736a7fab90497b7ad38d0254c5601031bd5238ac8b47d11d"
+    },
+    {
+      "path": "chapter2/renderer.py",
+      "sha256": "4478aded60d77090b0d120167d64bd64686cc6d6cad4d4f608ee23911cbf2a2c"
+    },
+    {
+      "path": "chapter2/requirements-pdf.lock",
+      "sha256": "e7055a143a235c3c10fc179893169f454fae0f4d6732f47443acce5d2dc27c79"
+    },
+    {
+      "path": "chapter2/verify_pdf.py",
+      "sha256": "5db13de0477388fdfdb4528b064b850104fefbd99c653cef6c2b34caa98ca7d1"
+    },
+    {
+      "path": "chapter2/visual/first-01.png",
+      "sha256": "12e390fe159ee3bb563484adcb030cbf01be5dca6963b7b84d1abeddbff306cf"
+    },
+    {
+      "path": "chapter2/visual/new-21.png",
+      "sha256": "7bd2ec59301f1e88807393c26cc6727d26fc4cdd6f0bc0dca3841190e28df11d"
+    },
+    {
+      "path": "chapter2/visual/new-22.png",
+      "sha256": "ae249524ace9a1804e6c6698ac30e85cc4e6042ed3b74a6585d152029301ca0b"
+    },
+    {
+      "path": "chapter2/visual/new-23.png",
+      "sha256": "62db683b85d327addd4e17864854577958b9b0641158d6e8df22b07f0e793100"
+    },
+    {
+      "path": "chapter2/visual/new-24.png",
+      "sha256": "9b5a4f9797d97f6505fe572ab7f56b08a910111a7dce225741444f7b0e62f6c5"
+    }
+  ],
+  "visual_review": {
+    "status": "COMPLETE",
+    "pdf_sha256": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929",
+    "method": "Poppler1300pixel first/21-23 images and1500pixel revised page24, direct image inspection",
+    "pages_reviewed": [
+      1,
+      21,
+      22,
+      23,
+      24
+    ],
+    "unchanged_pages_2_to_20": "Inherited verified predecessor body; frozen source integrity checks retained",
+    "findings": "No overflow, clipping, missing equation glyphs or table collisions. Pages23-24 previously reviewed for actual Si29 uniform-coupling invariance and full-history counterterm clarification. Revised page24 directly inspected after adding the common-history phase proof, rational signed bound, exact Earth example and distinction from independent-band comparison; all48sections and24pages retained.",
+    "images": [
+      {
+        "path": "visual/first-01.png",
+        "sha256": "12e390fe159ee3bb563484adcb030cbf01be5dca6963b7b84d1abeddbff306cf"
+      },
+      {
+        "path": "visual/new-21.png",
+        "sha256": "7bd2ec59301f1e88807393c26cc6727d26fc4cdd6f0bc0dca3841190e28df11d"
+      },
+      {
+        "path": "visual/new-22.png",
+        "sha256": "ae249524ace9a1804e6c6698ac30e85cc4e6042ed3b74a6585d152029301ca0b"
+      },
+      {
+        "path": "visual/new-23.png",
+        "sha256": "62db683b85d327addd4e17864854577958b9b0641158d6e8df22b07f0e793100"
+      },
+      {
+        "path": "visual/new-24.png",
+        "sha256": "9b5a4f9797d97f6505fe572ab7f56b08a910111a7dce225741444f7b0e62f6c5"
+      }
+    ]
+  }
+}

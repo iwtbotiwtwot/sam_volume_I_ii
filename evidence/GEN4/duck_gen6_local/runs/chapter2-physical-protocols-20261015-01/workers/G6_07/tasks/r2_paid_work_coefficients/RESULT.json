@@ -1,0 +1,469 @@
+{
+  "because": [
+    27,
+    31,
+    34
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "e4cd9fad62b4d22c96929bf587bbdc1ab0cc0849f075551de998509db4839995",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T01:04:04.555266+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_07",
+  "imports": [],
+  "key": "r2_paid_work_coefficients",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        "E",
+        "vL",
+        "vmin",
+        "1"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "semantic_class": "Source-derived formal coefficient identity; not a substitute continuum Hamiltonian"
+      },
+      "spectral_coordinate": "ordered coefficient space",
+      "units": {
+        "work": "coefficient space; physical unit hbar/t_u"
+      }
+    },
+    "data": {
+      "operators": {
+        "W0": [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "10"
+          ]
+        ],
+        "W1": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-10"
+          ]
+        ],
+        "W2": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "W3": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "W4": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "W5": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-10"
+          ]
+        ],
+        "W6": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "10"
+          ]
+        ],
+        "W7": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "output": "sum7",
+      "program": [
+        {
+          "inputs": [
+            "W0",
+            "W1"
+          ],
+          "name": "sum1",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum1",
+            "W2"
+          ],
+          "name": "sum2",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum2",
+            "W3"
+          ],
+          "name": "sum3",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum3",
+            "W4"
+          ],
+          "name": "sum4",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum4",
+            "W5"
+          ],
+          "name": "sum5",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum5",
+            "W6"
+          ],
+          "name": "sum6",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum6",
+            "W7"
+          ],
+          "name": "sum7",
+          "op": "add"
+        }
+      ]
+    },
+    "name": "paid_protocol_all_work_coefficients",
+    "source_binding": {
+      "actual_continuum_energy_replaced": false,
+      "campaign": "voli_chapter2_physical3_20261015",
+      "formal_work_coefficients_only": true,
+      "law_namespace": "SAM_land",
+      "original_law_and_clocks_preserved": true,
+      "question": "Receive every switch and continuous reference-drive coefficient, retaining gross positive and negative work separately in the protocol",
+      "source_files": {
+        "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+        "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+        "GEN4/voli_chapter2_physical3_20261015/build_review.py": "5fba61232b39f79b443b1f4c043840b627d5a1b2ae54d3c4af5796f0e60e00de",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/DEEP_SOURCE_R2.json": "503bc1c9cef98528b3429b8e08cd95c3127d76dd90df0d48cf1e2793d8b888a1",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/LARGEST_SOURCE_R2.json": "5844cf07616f179b86a1b924817cde80e45512e7809711eff3f93bdb91582cdc",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/MEASUREMENT_R2.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/PROTOCOL_R2.json": "bee76943f72bb20189d187b4265f928d14792afa9a4b95bad39a447228c57b0c"
+      }
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "native_assertions": 87,
+    "ordered_program": [
+      {
+        "inputs": [
+          "W0",
+          "W1"
+        ],
+        "name": "sum1",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum1",
+          "W2"
+        ],
+        "name": "sum2",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum2",
+          "W3"
+        ],
+        "name": "sum3",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum3",
+          "W4"
+        ],
+        "name": "sum4",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum4",
+          "W5"
+        ],
+        "name": "sum5",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum5",
+          "W6"
+        ],
+        "name": "sum6",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum6",
+          "W7"
+        ],
+        "name": "sum7",
+        "op": "add"
+      }
+    ],
+    "output": "sum7",
+    "rank": 0,
+    "record_sha256": "11b250ac0571a0043f727798b0b4fa809f63915071cc0c4b5d45c32903c292a5"
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "actual_continuum_energy_replaced": false,
+    "campaign": "voli_chapter2_physical3_20261015",
+    "formal_work_coefficients_only": true,
+    "law_namespace": "SAM_land",
+    "original_law_and_clocks_preserved": true,
+    "question": "Receive every switch and continuous reference-drive coefficient, retaining gross positive and negative work separately in the protocol",
+    "source_files": {
+      "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+      "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+      "GEN4/voli_chapter2_physical3_20261015/build_review.py": "5fba61232b39f79b443b1f4c043840b627d5a1b2ae54d3c4af5796f0e60e00de",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/DEEP_SOURCE_R2.json": "503bc1c9cef98528b3429b8e08cd95c3127d76dd90df0d48cf1e2793d8b888a1",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/LARGEST_SOURCE_R2.json": "5844cf07616f179b86a1b924817cde80e45512e7809711eff3f93bdb91582cdc",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/MEASUREMENT_R2.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/PROTOCOL_R2.json": "bee76943f72bb20189d187b4265f928d14792afa9a4b95bad39a447228c57b0c"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T01:04:03.931789+00:00",
+  "status": "COMPLETED",
+  "task_kind": "native",
+  "worker_cpu": 2,
+  "worker_pid": 162369
+}

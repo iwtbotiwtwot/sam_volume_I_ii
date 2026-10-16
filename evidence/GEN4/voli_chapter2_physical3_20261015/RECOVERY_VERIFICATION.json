@@ -1,0 +1,58 @@
+{
+  "project_root": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project",
+  "topic": "duck",
+  "storage": "All new project data stays on the T500. The i9 is a read-only source archive.",
+  "scientific_execution_started": false,
+  "authority_order": [
+    "AGENTS.md",
+    "DECLARATION_OF_RESEARCH.md",
+    "SAM_LIVE/00_CURRENT.md",
+    "Relevant live domain section, then its immediate sources"
+  ],
+  "continuity_history": "H002636",
+  "duck": {
+    "scope": "latest_chapter2_physical_cycle",
+    "scope_note": "Completed Chapter II physical protocols and actual closure boundary; two180-second Connections windows; this scoped cycle has exited.",
+    "history": "H002636",
+    "campaign": "GEN4/voli_chapter2_physical3_20261015",
+    "run": "GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01",
+    "cursor_status": "COMPLETE",
+    "completion_status": "COMPLETE",
+    "last_recorded_phase": "ORGANIZE",
+    "frozen": false,
+    "recorded_resource_release": "PASS",
+    "recorded_archive_status": "UNCONFIRMED",
+    "receipt_scope": "Recorded receipts only; this command does not query live services or reverify an archive.",
+    "round_seconds": [
+      180,
+      180
+    ],
+    "round_two_selector": "CODEX_CURRENT_SESSION",
+    "selector_scope": null,
+    "automatic_third_round": false,
+    "automatic_repeat": false,
+    "next_action": "Read the report and follow-up; any authorized new work uses a separate successor.",
+    "required_files": [
+      "GEN4/duck_process1/RUN_CYCLE.md",
+      "SAM_PROJECT/skills/sam-research/references/duck.md",
+      "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json",
+      "GEN4/voli_chapter2_physical3_20261015/README.md",
+      "SAM_PROJECT/gen6_duck_t500/RESEARCH_MODES.md",
+      "GEN4/voli_chapter2_physical3_20261015/REPORT.md",
+      "GEN4/voli_chapter2_physical3_20261015/FOLLOW_UP.md"
+    ],
+    "receipts": [
+      "GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/COMPLETE.json",
+      "GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/RESOURCE_RELEASE.json"
+    ],
+    "warnings": [
+      "The selected scope is a recovery reference, not authorization to launch or repeat it.",
+      "For a new authorized run use duck-gen6-local and its per-run research modes (H002606). Generic duck-gen6 remains the old remote route.",
+      "A frozen campaign README can contain old prepare/deploy examples. They are not fresh-run commands.",
+      "GEN6 controllers/helpers are native processes, not additional model agents.",
+      "Generic active_run names another campaign; do not use it for this scope.",
+      "Generic GEN6 withheld-test fields are historical; use --topic challenge for corrected status."
+    ],
+    "issues": []
+  }
+}

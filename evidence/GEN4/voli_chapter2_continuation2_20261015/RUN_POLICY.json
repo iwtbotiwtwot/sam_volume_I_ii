@@ -1,0 +1,14 @@
+{
+  "round_seconds": [180, 180],
+  "mode": "connections",
+  "round_two_selector": "CODEX_CURRENT_SESSION",
+  "parent_retained": true,
+  "all_selected_targets_retained": true,
+  "automatic_third_round": false,
+  "automatic_repeat": false,
+  "completed_runs_preserved": true,
+  "mathematical_core_changes": false,
+  "new_data_host": "T500",
+  "authorization": "User: proceed in recommended order; use Duck plugin and look for breadcrumbs; use 3 minute runs instead of 5",
+  "resource_policy": "Inspect current idle inherited slice; use existing qualified bounded runtime; change no persistent configuration"
+}

@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "history": "H002635",
+  "requirements": [
+    {
+      "requirement": "signature_and_calibration",
+      "evidence": "signature/DERIVATION.md",
+      "sha256": "5f497a29fb3826a79325185bb1fa1c83e306d52a2b97485d11b20a3ed07e6aa0",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "finite_record_signature",
+      "evidence": "signature/RESULTS.json",
+      "sha256": "13b30dfc010b73f48a3fd2d1c13149a53eab4cb532207b757e2d20ac6375ab19",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "memory_closure",
+      "evidence": "memory/DERIVATION.md",
+      "sha256": "32c71881686a8fab0d87519b6e575d0fe6c1f15470900bae3dc245493080007e",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "actual54_memory",
+      "evidence": "memory/NATIVE_VERIFICATION.json",
+      "sha256": "adafbcafb51948521c8740c89373aeaf8db2a4bf4e2b15b7d1cff1ff460a4239",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "paid_Write_clock",
+      "evidence": "instrument/DERIVATION.md",
+      "sha256": "24714bf14139580eedd19bfb8229e1fa3344fbd46fb172f6b1e35d98acbd5cb8",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "timed_record_and_feasible_energy",
+      "evidence": "records/DERIVATION.md",
+      "sha256": "2fc8b0daf93e1020bfe60a135ea6a83b8b0586ea16e274451d591407ad576c0f",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "actual_Duck_source_use",
+      "evidence": "BREADCRUMBS.md",
+      "sha256": "43b29c03809afdfebf6af8bcea9d6588e11869c57b33861f66448e42c9f53217",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "native_signature_readback",
+      "evidence": "signature/NATIVE_VERIFICATION.json",
+      "sha256": "5872df5878eb374f9dc0f3e508e9e3d579341b40b782c86b91de079ce829e95b",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "native_reference_and_contact_readback",
+      "evidence": "instrument/NATIVE_VERIFICATION.json",
+      "sha256": "fdf57d009f8810090585e807bb82dbdd8376a792059a36f01594a0acfb99f8f2",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "two180second_cycle_and_custody",
+      "evidence": "CYCLE_VERIFICATION.json",
+      "sha256": "3332bdbabd482e9a531914b31ad3ebe5199c0f241b3d61ad852561e30ad681bd",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "expanded_reader",
+      "evidence": "chapter/PDF_VERIFICATION.json",
+      "sha256": "3397f8b29e20e3cf74951809eaa950b6cf3565ff972ed1c4f65b26647c64a868",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "offline_portable_replay",
+      "evidence": "PORTABLE_VERIFICATION.json",
+      "sha256": "eef01e8dac16e6b8fc04ddb4ff3fc15e29ba3e860d2fb13e87b935a8518e528d",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "resources_released",
+      "evidence": "RESOURCE_RELEASE.json",
+      "sha256": "02ef8c36a2f9d86764d7041925c1e70ef436a82a256c35640079a2d7fb7bbd35",
+      "result": "COMPLETE"
+    },
+    {
+      "requirement": "closing_spin_transfer",
+      "evidence": "CLOSING_SPIN_REVIEW.md",
+      "sha256": "45b911c85bc8e423e964a782ac460ae07dab56090725a50dadaa474920b2d5e6",
+      "result": "COMPLETE"
+    }
+  ],
+  "scope": "Authorized research development, explicit receiving constructions and reproducible expanded reader",
+  "physical_continuation": "Original source actuator and protected preparation/readout incidence, physical g_H/epsilon calibration, autonomous controller and Chapter III spatial law remain stated follow-up; no experiment is represented as executed"
+}

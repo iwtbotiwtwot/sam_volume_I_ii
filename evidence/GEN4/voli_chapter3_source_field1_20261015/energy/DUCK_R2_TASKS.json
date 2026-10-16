@@ -1,0 +1,77 @@
+[
+  {
+    "id": "CH3_QUADRUPOLE_FIELD_SOURCE_MATCHING",
+    "domain": "STARBREAKER",
+    "operation": "GEN2_READOUT_INVERSE",
+    "payload": {
+      "strategy": "linear",
+      "matrix": [
+        [
+          "0",
+          "20",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "30"
+        ],
+        [
+          "1",
+          "1",
+          "-1",
+          "-1"
+        ],
+        [
+          "0",
+          "4",
+          "1",
+          "6"
+        ]
+      ],
+      "observed": [
+        "-2",
+        "-3",
+        "0",
+        "0"
+      ],
+      "context": {
+        "basis": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "mapping": "static positive free-field angular-average source; radial Poisson matching"
+        },
+        "units": {
+          "x": "r/R",
+          "alpha": "a/(2GMf/(c^2R))"
+        },
+        "spectral_coordinate": "piecewise radial potential coefficients (A,B,C,D)"
+      },
+      "source_binding": {
+        "model": "Chapter I static quadrupole free-field angular average",
+        "source_snapshot_sha256": "92b4814d4f6bdd7580943ba7e2d0912cff1dd0510ead61a2ff7da7e811eb4a7e",
+        "verifier_sha256": "7f4b5228d4657505d26dc4091748343b04fc23710acbf94c54edf3f650cca84b",
+        "scope": "Classical static positive free-field angular average under conditional rho=energy/c^2; not a full quantum interacting/counterterm source density."
+      }
+    },
+    "question": "What potential follows from the actual static quadrupole positive free-field density and matching conditions?",
+    "source_mapping": "alpha_in=A+B x^4; alpha_out=C/x+D/x^6. Two source-Poisson rows plus continuity of alpha and its derivative atx=1.",
+    "expected": {
+      "coefficients": [
+        "1",
+        "-1/10",
+        "1",
+        "-1/10"
+      ]
+    }
+  }
+]

@@ -1,0 +1,370 @@
+{
+  "Codex_agents_launched": 0,
+  "actual_ready": 18,
+  "directed_actual_controller_ACKs": 132,
+  "failure": null,
+  "failures": 0,
+  "global_host_lock_acquired": false,
+  "helper_custody": {
+    "RAM_released": true,
+    "custody": {
+      "complete_file_readback": true,
+      "destination": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-signature-memory-20261015-01/retained_ram",
+      "files": 260,
+      "status": "PASS"
+    },
+    "id": "HELPER_NODE",
+    "kind": "HELPER_STOPPED",
+    "worker_exits": {
+      "LH_01": 0,
+      "LH_02": 0,
+      "LH_03": 0,
+      "LH_04": 0,
+      "LH_05": 0,
+      "LH_06": 0
+    }
+  },
+  "native_controllers": 12,
+  "native_returns": 14,
+  "outcomes": [
+    {
+      "controller": "LH_05",
+      "id": "web_r1_000",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_000.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "LH_06",
+      "id": "web_r1_001",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_001.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "LH_05",
+      "id": "web_r1_002",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r1_002.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "G6_01",
+      "id": "r1_cyclic_g0",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g0.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_02",
+      "id": "r1_cyclic_g1",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g1.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_03",
+      "id": "r1_cyclic_g2",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_cyclic_g2.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_04",
+      "id": "r1_memory_Usolve",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r1_memory_Usolve.json",
+      "round": "ROUND1",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "LH_06",
+      "id": "web_r2_003",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_r2_003.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "controller": "G6_05",
+      "id": "r2_finite_record_rank",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_finite_record_rank.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_06",
+      "id": "r2_TLS_control_rank",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_TLS_control_rank.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_07",
+      "id": "r2_H3_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_H3_inverse.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_08",
+      "id": "r2_blind_placement0",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_blind_placement0.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_09",
+      "id": "r2_blind_placement1",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_blind_placement1.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_10",
+      "id": "r2_all54_memory_Usolve",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_all54_memory_Usolve.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_11",
+      "id": "r2_reference_paid_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_reference_paid_inverse.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_12",
+      "id": "r2_record_BD",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_record_BD.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_10",
+      "id": "r2_all54_memory_payment",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_all54_memory_payment.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "G6_12",
+      "id": "r2_record_contact_Gram",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/r2_record_contact_Gram.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "controller": "LH_05",
+      "id": "web_c30ee6765afa48d2a38a606a473a884f",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/native_returns/web_c30ee6765afa48d2a38a606a473a884f.json",
+      "round": "ROUND2",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    }
+  ],
+  "own_cpu_leases_released": true,
+  "phase": "ORGANIZE",
+  "pid": 135813,
+  "research": {
+    "automatic_crawl": true,
+    "depth": 2,
+    "index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/research_web.sqlite",
+    "index_sha256": "21e05f0cfba881ba33e7decc70c09942250cc71ef4c14eb445d2e6f811942307",
+    "max_nodes": 64,
+    "max_results": 8,
+    "mode": "connections",
+    "queries": [
+      {
+        "query": "coherence source clock",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "source action residual",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/duck_spin_upper1_20261014/REPORT.md"
+        ]
+      },
+      {
+        "query": "phase history reference",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/bridge/DERIVATION.md"
+        ]
+      },
+      {
+        "query": "memory retained source",
+        "rounds": [
+          2
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md"
+        ]
+      }
+    ],
+    "search_workers": [
+      "LH_05",
+      "LH_06"
+    ],
+    "source_index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_continuation2_20261015/inputs/RESEARCH_WEB.sqlite"
+  },
+  "research_returns": 5,
+  "round1_accounting": [
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_000",
+      "known_work": "Eight source-linked records inspected; original action-learning/source-action constructions preserve signed phase, positive reverse duration and paid reference.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "web_r1_001",
+      "known_work": "Eight records inspected; completed J21/F11/T5 source-action remainder supplies actual b5/b6 residuals and two-dimensional initial memory.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_SOURCE_CONNECTIONS",
+      "id": "web_r1_002",
+      "known_work": "Eight records inspected; complete history work and moving-reference accounts supply useful source and endpoint-work analogues; numerical receiving application retained separately.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_cyclic_g0",
+      "known_work": "Endpoint placement1 reaches all4 source modes at g_H=0; exact invariant growth1,2,3,4.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_cyclic_g1",
+      "known_work": "Endpoint placement1 reaches all4 source modes at g_H=1; exact source basis and zero leakage retained.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_cyclic_g2",
+      "known_work": "Endpoint placement1 reaches all4 source modes at g_H=2; motivates analytic all-g endpoint access and exceptional interior placement search.",
+      "status": "COMPLETED"
+    },
+    {
+      "disposition": "RETAIN_AND_EXTEND",
+      "id": "r1_memory_Usolve",
+      "known_work": "Native original R015_BASE Usolve completed. Profile metadata was null due to an id-field lookup; literal payload and SOURCE_OPERANDS identify R015_BASE unambiguously. All54 R2 tasks correct the explicit profile label.",
+      "status": "COMPLETED"
+    }
+  ],
+  "round_starts": [
+    {
+      "deadline_monotonic_ns": 17643811383500,
+      "round": 1,
+      "seconds": 180,
+      "start_monotonic_ns": 17463811383500,
+      "time_utc": "2026-10-16T00:12:23.466596+00:00"
+    },
+    {
+      "deadline_monotonic_ns": 17926230080052,
+      "round": 2,
+      "seconds": 180,
+      "start_monotonic_ns": 17746230080052,
+      "time_utc": "2026-10-16T00:17:05.885293+00:00"
+    }
+  ],
+  "selected_targets": [
+    {
+      "from_outcome_ids": [
+        "r1_cyclic_g1",
+        "web_r1_000"
+      ],
+      "id": "FINITE_RECORD",
+      "known_work": "Protected ratio and source eigenmodes retained; exact rational source-bound sample packet developed during R1.",
+      "next_question": "Does a finite noisy record select the multilevel protected signal under independently fixed calibration?",
+      "selection_reason": "General signature becomes an explicit finite receiving test."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_cyclic_g0",
+        "r1_cyclic_g1",
+        "r1_cyclic_g2"
+      ],
+      "id": "SOURCE_ACCESS",
+      "known_work": "Endpoint is cyclic at all three tested couplings; analytic continuation locates a different interior-placement blind point.",
+      "next_question": "What source access changes at g_H=1/164 for placement0 versus endpoint1?",
+      "selection_reason": "A useful exception directs the physical receiving preparation."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_memory_Usolve",
+        "web_r1_001"
+      ],
+      "id": "MEMORY_RANK_TWO",
+      "known_work": "Completed actual source contractions supply two nonzero unresolved directions.",
+      "next_question": "Receive all54 source payments and quantify the exact minimum invariant extension.",
+      "selection_reason": "Connect existing spin residuals to dynamical memory without another source integration."
+    },
+    {
+      "from_outcome_ids": [
+        "web_r1_000",
+        "web_r1_002"
+      ],
+      "id": "PAID_WRITE_CLOCK",
+      "known_work": "Original source action and reverse-path timing located; explicit controlled reference construction is being derived.",
+      "next_question": "Join legal signed role strokes to positive actualclock intervals with complete reference work.",
+      "selection_reason": "Closes the concrete receiving construction selected after the two theorem developments."
+    },
+    {
+      "from_outcome_ids": [
+        "web_r1_002"
+      ],
+      "id": "RECORD_ENERGY",
+      "known_work": "Complete source-history work retains all reference/endpoints; original B18 source displacements are available.",
+      "next_question": "Compute the complete actual endpoint Gram and physical-feasible record payment beside its ambient bound.",
+      "selection_reason": "Connects the operational record to its complete source energy."
+    }
+  ],
+  "source_packet_sha256": "357b09ab9c3d1a2a53a05c238c31a9e1d5f08fb699b3e883b3f4c483b1d0b744",
+  "status": "SCIENCE_COMPLETE_AWAITING_OPERATOR_ORGANIZATION",
+  "time_utc": "2026-10-16T00:20:06.234672+00:00",
+  "total_returns": 19,
+  "worker_exits": {
+    "G6_01": 0,
+    "G6_02": 0,
+    "G6_03": 0,
+    "G6_04": 0,
+    "G6_05": 0,
+    "G6_06": 0,
+    "G6_07": 0,
+    "G6_08": 0,
+    "G6_09": 0,
+    "G6_10": 0,
+    "G6_11": 0,
+    "G6_12": 0,
+    "HELPER_NODE": 0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "command": [
+    "systemd-run",
+    "--user",
+    "--wait",
+    "--pipe",
+    "--collect",
+    "--quiet",
+    "--unit",
+    "sam-r3-chapter2-closure-v001-p3",
+    "--slice",
+    "sam-r3.slice",
+    "--working-directory",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project",
+    "--property=Type=exec",
+    "--property=KillMode=control-group",
+    "--property=AllowedCPUs=6",
+    "--property=CPUAffinity=6",
+    "--property=CPUQuota=100%",
+    "--property=MemoryMax=1073741824",
+    "--property=MemoryHigh=966367641",
+    "--property=MemorySwapMax=0",
+    "--property=TasksMax=32",
+    "--property=RuntimeMaxSec=600",
+    "--setenv=SAM_R3_RUN_ID=managed_v001-p3",
+    "--setenv=SAM_R3_BUDGET=/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/closure/managed_v001-p3/BUDGET.json",
+    "--setenv=SAM_R3_ALLOWED_CPUS=6",
+    "--setenv=SAM_R3_CPU_ORDER=6",
+    "--setenv=SAM_R3_WORKERS=12",
+    "--setenv=PYTHONDONTWRITEBYTECODE=1",
+    "--setenv=PYTHONUNBUFFERED=1",
+    "--",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/.venv-r3/bin/python",
+    "-B",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/ops/source_pilot.py",
+    "--profile",
+    "V001_BASE",
+    "--power",
+    "3",
+    "--attempt",
+    "v001-p3",
+    "--precision",
+    "1024"
+  ],
+  "budget": {
+    "schema": "GEN6_DUCK_OWN_RESOURCE_BUDGET_V1",
+    "host": "lilhelper-T500-local",
+    "allowed_cpus": [
+      6
+    ],
+    "cpu_worker_order": [
+      6
+    ],
+    "workers": 12,
+    "controller_cpus": [
+      0
+    ],
+    "memory_max_bytes": 1073741824,
+    "memory_high_bytes": 966365184,
+    "memory_swap_max_bytes": 0,
+    "parent_limits": {
+      "CPUQuotaPerSecUSec": "13.284000s",
+      "AllowedCPUs": "0-15",
+      "MemoryHigh": "7085892648",
+      "MemoryMax": "7873214054",
+      "MemorySwapMax": "0",
+      "ActiveState": "active"
+    },
+    "prelaunch_available_memory_bytes": 15083073536,
+    "global_host_lock_acquired": false,
+    "aggregate_properties_changed": false,
+    "created_utc": "2026-10-16T00:44:31.592606+00:00"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "P_ref": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "I2": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "fixture_density_source": [
+    [
+      "2/5",
+      "2/5"
+    ],
+    [
+      "2/5",
+      "3/5"
+    ]
+  ],
+  "fixture_density_reference_occupation": [
+    [
+      "3/5",
+      "0"
+    ],
+    [
+      "0",
+      "2/5"
+    ]
+  ],
+  "fixture_density_reference_balanced": [
+    [
+      "1/2",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "1/2"
+    ]
+  ],
+  "fixture_H_source": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "fixture_H_reference_inverse_write": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      "-48/5"
+    ]
+  ],
+  "fixture_E_source": "19/5",
+  "fixture_w": "-1",
+  "scope": "Declared finite apparatus algebra controls only; actual continuum H/preparation remain inherited and unchanged."
+}

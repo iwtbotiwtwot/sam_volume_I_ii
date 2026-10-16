@@ -1,0 +1,1266 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "2ccfc2b4257aee692e198124260d615bab05414991861b5c8ea1b4f34066f268",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T02:24:32.198787+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_06",
+  "imports": [],
+  "key": "r1_si29_uniform_coupling_response",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        "block0:bright0",
+        "block0:bright1",
+        "block0:bright2",
+        "block0:bright3",
+        "block0:bright4",
+        "block0:bright5",
+        "block0:bright6",
+        "block0:bright7",
+        "block1:bright0",
+        "block1:bright1",
+        "block1:bright2",
+        "block1:bright3",
+        "block1:bright4",
+        "block1:bright5",
+        "block1:bright6",
+        "block1:bright7",
+        "block2:bright0",
+        "block2:bright1",
+        "block2:bright2",
+        "block2:bright3",
+        "block2:bright4",
+        "block2:bright5",
+        "block2:bright6",
+        "block2:bright7"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "scope": "uniform static candidate coupling, physical rate eu/Iu assigned separately"
+      },
+      "spectral_coordinate": "actual source companion generator and population contrast",
+      "units": {
+        "B": "incoming minus outgoing probability",
+        "K": "retained dimensionless coherent generator",
+        "W": "physical companion norm Gram"
+      }
+    },
+    "data": {
+      "operators": {
+        "B": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1"
+          ]
+        ],
+        "K": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "128",
+            "8",
+            "0",
+            "8"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "8",
+            "136",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "128",
+            "8"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "8",
+            "0",
+            "8",
+            "128"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "S0": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "S1": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "S2": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "W": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "128",
+            "8",
+            "0",
+            "8"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "8",
+            "136",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "128",
+            "8"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "8",
+            "0",
+            "8",
+            "128"
+          ]
+        ]
+      },
+      "output": "answer",
+      "program": [
+        {
+          "inputs": [
+            "K",
+            "K"
+          ],
+          "name": "K2",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "K2",
+            "B"
+          ],
+          "name": "sqrt_commutator_certificate",
+          "op": "commutator"
+        },
+        {
+          "inputs": [
+            "K",
+            "B"
+          ],
+          "name": "generator_commutator",
+          "op": "commutator"
+        },
+        {
+          "inputs": [
+            "K"
+          ],
+          "name": "Kt",
+          "op": "transpose"
+        },
+        {
+          "inputs": [
+            "W",
+            "K"
+          ],
+          "name": "WK",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "Kt",
+            "W"
+          ],
+          "name": "KtW",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "WK",
+            "KtW"
+          ],
+          "name": "metric_residual",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "S0",
+            "sqrt_commutator_certificate"
+          ],
+          "name": "out0",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "S1",
+            "generator_commutator"
+          ],
+          "name": "out1",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "S2",
+            "metric_residual"
+          ],
+          "name": "out2",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "out0",
+            "out1"
+          ],
+          "name": "out01",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "out01",
+            "out2"
+          ],
+          "name": "answer",
+          "op": "add"
+        }
+      ]
+    },
+    "name": "r1_si29_uniform_coupling_response",
+    "source_binding": {
+      "basis": "Eight actual bright companion coordinates; W-inner-product normalization T=diag(I,sqrtQ).",
+      "campaign": "voli_chapter3_source_field1_20261015",
+      "law_namespace": "SAM_land",
+      "model": "Actual Si29 companion generator and sector-resolved incoming/outgoing effects",
+      "parent": "Chapter III localized source and finite receiving field",
+      "scope": "Exact response of declared positive-excitation coupling; no general gravity verdict or physical coupling selection.",
+      "source_files": {
+        "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+        "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+        "GEN4/voli_chapter3_source_field1_20261015/source/EXACT_INPUTS.json": "e433e1c3e5a271811f313cb35307f4602fb8998766af8e3dac9348b149c80100",
+        "GEN4/voli_chapter3_source_field1_20261015/source/UNIFORM_COUPLING_RESPONSE.md": "870a0dc213d28d3713b6deccf1726bee75b65b6f947e2f4f0d3bba8bfde1f571",
+        "GEN4/voli_chapter3_source_field1_20261015/source/build_uniform_response_task.py": "a735eee0e0feb9bb59b662ac3d3736da68063306fc11dab4a74a6565483f547a",
+        "GEN4/voli_chapter3_source_field1_20261015/source/retained/ENERGY_Q01_RESULT.json": "9b9398dbf838951628c4c7825be2f8e38b6da8d3ea0a79210fd9ee9846755839",
+        "GEN4/voli_chapter3_source_field1_20261015/source/retained/OBSERVABLE_CLOSURE.json": "471933c39958066d81b9ffaf257ce3853431dfd88cb856d3340588897bb64bf6",
+        "GEN4/voli_chapter3_source_field1_20261015/source/retained/SI29_Q01_RESULT.json": "2a250ffeaa972bb305cbbb54bfb6c2cdd58495539c0a96cef6c632549508aaeb",
+        "GEN4/voli_chapter3_source_field1_20261015/source/verify_uniform_coupling.py": "2b8ec7b6d7ecea2f3864a453003157e016bea658b8332b4b8ff8e82d36d3fa31"
+      },
+      "static_frame": "Uniform prescribed lift in a common external physical time chart; candidate deltaH=-(eu*a/2)H0."
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_06/tasks/r1_si29_uniform_coupling_response/RESULT.json",
+  "receipt_sha256": "2d182623ef525854b2d82ee101d53709e13b7418c10cc699467ba7872292c949",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 25392566121502,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-256",
+        "-16",
+        "0",
+        "-16",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-16",
+        "-272",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-256",
+        "-16",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-16",
+        "0",
+        "-16",
+        "-256",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "native_assertions": 218,
+    "ordered_program": [
+      {
+        "inputs": [
+          "K",
+          "K"
+        ],
+        "name": "K2",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "K2",
+          "B"
+        ],
+        "name": "sqrt_commutator_certificate",
+        "op": "commutator"
+      },
+      {
+        "inputs": [
+          "K",
+          "B"
+        ],
+        "name": "generator_commutator",
+        "op": "commutator"
+      },
+      {
+        "inputs": [
+          "K"
+        ],
+        "name": "Kt",
+        "op": "transpose"
+      },
+      {
+        "inputs": [
+          "W",
+          "K"
+        ],
+        "name": "WK",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "Kt",
+          "W"
+        ],
+        "name": "KtW",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "WK",
+          "KtW"
+        ],
+        "name": "metric_residual",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "S0",
+          "sqrt_commutator_certificate"
+        ],
+        "name": "out0",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "S1",
+          "generator_commutator"
+        ],
+        "name": "out1",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "S2",
+          "metric_residual"
+        ],
+        "name": "out2",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "out0",
+          "out1"
+        ],
+        "name": "out01",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "out01",
+          "out2"
+        ],
+        "name": "answer",
+        "op": "add"
+      }
+    ],
+    "output": "answer",
+    "rank": 8,
+    "record_sha256": "3bd3e7050bc4933b7a63559b658424a8c9bb878951b9392dab878f859e7958d4"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "basis": "Eight actual bright companion coordinates; W-inner-product normalization T=diag(I,sqrtQ).",
+    "campaign": "voli_chapter3_source_field1_20261015",
+    "law_namespace": "SAM_land",
+    "model": "Actual Si29 companion generator and sector-resolved incoming/outgoing effects",
+    "parent": "Chapter III localized source and finite receiving field",
+    "scope": "Exact response of declared positive-excitation coupling; no general gravity verdict or physical coupling selection.",
+    "source_files": {
+      "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+      "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+      "GEN4/voli_chapter3_source_field1_20261015/source/EXACT_INPUTS.json": "e433e1c3e5a271811f313cb35307f4602fb8998766af8e3dac9348b149c80100",
+      "GEN4/voli_chapter3_source_field1_20261015/source/UNIFORM_COUPLING_RESPONSE.md": "870a0dc213d28d3713b6deccf1726bee75b65b6f947e2f4f0d3bba8bfde1f571",
+      "GEN4/voli_chapter3_source_field1_20261015/source/build_uniform_response_task.py": "a735eee0e0feb9bb59b662ac3d3736da68063306fc11dab4a74a6565483f547a",
+      "GEN4/voli_chapter3_source_field1_20261015/source/retained/ENERGY_Q01_RESULT.json": "9b9398dbf838951628c4c7825be2f8e38b6da8d3ea0a79210fd9ee9846755839",
+      "GEN4/voli_chapter3_source_field1_20261015/source/retained/OBSERVABLE_CLOSURE.json": "471933c39958066d81b9ffaf257ce3853431dfd88cb856d3340588897bb64bf6",
+      "GEN4/voli_chapter3_source_field1_20261015/source/retained/SI29_Q01_RESULT.json": "2a250ffeaa972bb305cbbb54bfb6c2cdd58495539c0a96cef6c632549508aaeb",
+      "GEN4/voli_chapter3_source_field1_20261015/source/verify_uniform_coupling.py": "2b8ec7b6d7ecea2f3864a453003157e016bea658b8332b4b8ff8e82d36d3fa31"
+    },
+    "static_frame": "Uniform prescribed lift in a common external physical time chart; candidate deltaH=-(eu*a/2)H0."
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T02:24:31.219405+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 4,
+  "worker_pid": 232666
+}

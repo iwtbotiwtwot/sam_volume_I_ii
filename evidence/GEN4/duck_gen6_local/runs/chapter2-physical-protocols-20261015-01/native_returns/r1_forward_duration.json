@@ -1,0 +1,432 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "ffa3ff9aa60604b46cd4fc0a8a8ca0cf27db3a2642de656b06b233c9fe8d85d5",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T01:00:49.976514+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_01",
+  "imports": [],
+  "key": "r1_forward_duration",
+  "kind": "RESULT",
+  "native_payload": {
+    "data": {
+      "clock_path": "LOCAL_DENSITY_INTEGRAL",
+      "event": "W1+",
+      "law": "AN0005_J4_B1_SIGNED_WRITE_V1",
+      "orientation": 1,
+      "state": [
+        0,
+        0,
+        0
+      ]
+    },
+    "precision_bits": 384,
+    "source_binding": {
+      "campaign": "voli_chapter2_physical3_20261015",
+      "law_namespace": "SAM_land",
+      "parent": "H002635",
+      "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+      "question": "Receive the original positive-duration W1+ source integral, preserving its signed orientation",
+      "source_clock": "H02/H05 original local density",
+      "source_files": {
+        "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+        "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+        "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+        "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+        "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+      }
+    }
+  },
+  "operation": "GEN5_SOURCE_STROKE_INTEGRAL",
+  "portable_bundle": {
+    "bundle": {
+      "calculations": {},
+      "objects": {
+        "9f9f65992240fba49f4f416acf8be4776cb3f002fc302136d4369b0873dede61": {
+          "dependencies": [
+            "ea946aaf10e2d93d5012f931f79f31b95859afc24b14b3ef444d2363e8d2e5fe"
+          ],
+          "kind": "mathematical_result",
+          "provenance": {
+            "operation": "GEN5_SOURCE_STROKE_INTEGRAL",
+            "origin": "SOURCE_BOUND_GEN5_RESULT"
+          },
+          "schema": "SLC_MATHEMATICAL_OBJECT_V1",
+          "source_binding": {
+            "operation": "GEN5_SOURCE_STROKE_INTEGRAL",
+            "request": "5dd701d52ed4dad0d6a3c13cd5329e29a2c8f73aaf19a0ed5cc9e92cff2c33a4",
+            "source": {
+              "campaign": "voli_chapter2_physical3_20261015",
+              "law_namespace": "SAM_land",
+              "parent": "H002635",
+              "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+              "question": "Receive the original positive-duration W1+ source integral, preserving its signed orientation",
+              "source_clock": "H02/H05 original local density",
+              "source_files": {
+                "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+                "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+                "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+                "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+                "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+              }
+            }
+          },
+          "value": {
+            "calculation": {
+              "result_ref": "ea946aaf10e2d93d5012f931f79f31b95859afc24b14b3ef444d2363e8d2e5fe"
+            },
+            "implementation": {
+              "files": {
+                "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+                "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+                "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+                "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+                "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+                "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+                "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+                "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+                "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+                "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+                "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+                "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+                "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+                "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+                "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+                "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+                "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+                "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+                "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+                "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+              },
+              "python_flint": "0.8.0",
+              "version": "GEN5_LOG_KERNELS_V1"
+            },
+            "operation": "GEN5_SOURCE_STROKE_INTEGRAL",
+            "output": {
+              "angle_integral": {
+                "lower": "31237101958911115879552672699030892180628566998383425846174806111779833634424950132517180696687038691679077981071109/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+                "upper": "31237101958911115879552672699030892180628566998383425846174806111779833672919106234123378385217575245756513318971141/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408"
+              },
+              "clock_path": "LOCAL_DENSITY_INTEGRAL",
+              "constant_quarter_check": false,
+              "coordinate_crosscheck": true,
+              "donor_method": "GEN4/spin_difference_fifth1/native.py",
+              "evaluation_counts": {
+                "angle": 136,
+                "half_angle": 481
+              },
+              "event": "W1+",
+              "integral": {
+                "lower": "3904637744863889484944084087378861522578570874797928230771850763972479204874675002661401962771317222562276598035681/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176",
+                "upper": "3904637744863889484944084087378861522578570874797928230771850763972479208543332043168667922466759519617172314469601/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176"
+              },
+              "law": "AN0005_J4_B1_SIGNED_WRITE_V1",
+              "method_origin": "GEN4/gen6_spin_clock_successor1_20261014/native.py",
+              "orientation": 1,
+              "precision_bits": 384,
+              "receiver_operand": "Half-angle enclosure; no midpoint replacement or coordinate intersection",
+              "scope": "Original completed signed Write and AN0005 density; unchanged H002618 two-coordinate quadrature",
+              "state": [
+                0,
+                0,
+                0
+              ],
+              "status": "CERTIFIED_SOURCE_STROKE_INTEGRAL"
+            },
+            "precision_bits": 384,
+            "request": {
+              "data": {
+                "clock_path": "LOCAL_DENSITY_INTEGRAL",
+                "event": "W1+",
+                "law": "AN0005_J4_B1_SIGNED_WRITE_V1",
+                "orientation": 1,
+                "state": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "precision_bits": 384,
+              "source_binding": {
+                "campaign": "voli_chapter2_physical3_20261015",
+                "law_namespace": "SAM_land",
+                "parent": "H002635",
+                "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+                "question": "Receive the original positive-duration W1+ source integral, preserving its signed orientation",
+                "source_clock": "H02/H05 original local density",
+                "source_files": {
+                  "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+                  "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+                  "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+                  "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+                  "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+                }
+              }
+            },
+            "schema": "GEN5_LOG_RESULT_V1",
+            "source_binding": {
+              "campaign": "voli_chapter2_physical3_20261015",
+              "law_namespace": "SAM_land",
+              "parent": "H002635",
+              "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+              "question": "Receive the original positive-duration W1+ source integral, preserving its signed orientation",
+              "source_clock": "H02/H05 original local density",
+              "source_files": {
+                "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+                "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+                "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+                "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+                "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+              }
+            },
+            "source_operand_identity": "69474789a5c051be09de4589ed5764a58cb243e8394e11668e2fdd1b6ce0c85c"
+          }
+        },
+        "ea946aaf10e2d93d5012f931f79f31b95859afc24b14b3ef444d2363e8d2e5fe": {
+          "dependencies": [],
+          "kind": "mathematical_result",
+          "provenance": {
+            "operation": "GEN5_SOURCE_STROKE_INTEGRAL",
+            "origin": "NATIVE_GEN5_KERNEL",
+            "prepared_operands": []
+          },
+          "schema": "SLC_MATHEMATICAL_OBJECT_V1",
+          "source_binding": {
+            "identity": "c88e5d24d7b34f0d38d72d179ccd369ba068c9d750990aa2baf951af88f29047",
+            "kind": "GEN5_MATHEMATICAL_OPERAND"
+          },
+          "value": {
+            "implementation": {
+              "files": {
+                "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+                "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+                "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+                "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+                "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+                "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+                "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+                "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+                "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+                "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+                "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+                "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+                "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+                "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+                "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+                "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+                "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+                "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+                "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+                "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+              },
+              "python_flint": "0.8.0",
+              "version": "GEN5_LOG_KERNELS_V1"
+            },
+            "operation": "GEN5_SOURCE_STROKE_INTEGRAL",
+            "output": {
+              "angle_integral": {
+                "lower": "31237101958911115879552672699030892180628566998383425846174806111779833634424950132517180696687038691679077981071109/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+                "upper": "31237101958911115879552672699030892180628566998383425846174806111779833672919106234123378385217575245756513318971141/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408"
+              },
+              "clock_path": "LOCAL_DENSITY_INTEGRAL",
+              "constant_quarter_check": false,
+              "coordinate_crosscheck": true,
+              "donor_method": "GEN4/spin_difference_fifth1/native.py",
+              "evaluation_counts": {
+                "angle": 136,
+                "half_angle": 481
+              },
+              "event": "W1+",
+              "integral": {
+                "lower": "3904637744863889484944084087378861522578570874797928230771850763972479204874675002661401962771317222562276598035681/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176",
+                "upper": "3904637744863889484944084087378861522578570874797928230771850763972479208543332043168667922466759519617172314469601/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176"
+              },
+              "law": "AN0005_J4_B1_SIGNED_WRITE_V1",
+              "method_origin": "GEN4/gen6_spin_clock_successor1_20261014/native.py",
+              "orientation": 1,
+              "precision_bits": 384,
+              "receiver_operand": "Half-angle enclosure; no midpoint replacement or coordinate intersection",
+              "scope": "Original completed signed Write and AN0005 density; unchanged H002618 two-coordinate quadrature",
+              "state": [
+                0,
+                0,
+                0
+              ],
+              "status": "CERTIFIED_SOURCE_STROKE_INTEGRAL"
+            },
+            "precision_bits": 384,
+            "schema": "GEN5_NATIVE_CALCULATION_V1"
+          }
+        }
+      },
+      "roots": [
+        "9f9f65992240fba49f4f416acf8be4776cb3f002fc302136d4369b0873dede61"
+      ],
+      "schema": "SLC_MATHEMATICAL_BUNDLE_V1"
+    },
+    "object_count": 2,
+    "portability": "SELF_CONTAINED",
+    "sha256": "9eb81838557de9c5f45da5701010426efaf69155af9ef2a58f1c5dfa24437466"
+  },
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_01/tasks/r1_forward_duration/RESULT.json",
+  "receipt_sha256": "cd2295dd6caff109043ec7a43405b87339ce10ccf332d8f08605b2acdecc4e5c",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 20370323051247,
+  "returned": {
+    "calculation_reused": false,
+    "exact_preparation_reused": false,
+    "recomputed": true,
+    "result": {
+      "calculation": {
+        "result_ref": "ea946aaf10e2d93d5012f931f79f31b95859afc24b14b3ef444d2363e8d2e5fe"
+      },
+      "implementation": {
+        "files": {
+          "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+          "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+          "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+          "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+          "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+          "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+          "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+          "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+          "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+          "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+          "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+          "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+          "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+          "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+          "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+          "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+          "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+          "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+          "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+          "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+        },
+        "python_flint": "0.8.0",
+        "version": "GEN5_LOG_KERNELS_V1"
+      },
+      "operation": "GEN5_SOURCE_STROKE_INTEGRAL",
+      "output": {
+        "angle_integral": {
+          "lower": "31237101958911115879552672699030892180628566998383425846174806111779833634424950132517180696687038691679077981071109/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+          "upper": "31237101958911115879552672699030892180628566998383425846174806111779833672919106234123378385217575245756513318971141/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408"
+        },
+        "clock_path": "LOCAL_DENSITY_INTEGRAL",
+        "constant_quarter_check": false,
+        "coordinate_crosscheck": true,
+        "donor_method": "GEN4/spin_difference_fifth1/native.py",
+        "evaluation_counts": {
+          "angle": 136,
+          "half_angle": 481
+        },
+        "event": "W1+",
+        "integral": {
+          "lower": "3904637744863889484944084087378861522578570874797928230771850763972479204874675002661401962771317222562276598035681/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176",
+          "upper": "3904637744863889484944084087378861522578570874797928230771850763972479208543332043168667922466759519617172314469601/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176"
+        },
+        "law": "AN0005_J4_B1_SIGNED_WRITE_V1",
+        "method_origin": "GEN4/gen6_spin_clock_successor1_20261014/native.py",
+        "orientation": 1,
+        "precision_bits": 384,
+        "receiver_operand": "Half-angle enclosure; no midpoint replacement or coordinate intersection",
+        "scope": "Original completed signed Write and AN0005 density; unchanged H002618 two-coordinate quadrature",
+        "state": [
+          0,
+          0,
+          0
+        ],
+        "status": "CERTIFIED_SOURCE_STROKE_INTEGRAL"
+      },
+      "precision_bits": 384,
+      "request": {
+        "data": {
+          "clock_path": "LOCAL_DENSITY_INTEGRAL",
+          "event": "W1+",
+          "law": "AN0005_J4_B1_SIGNED_WRITE_V1",
+          "orientation": 1,
+          "state": [
+            0,
+            0,
+            0
+          ]
+        },
+        "precision_bits": 384,
+        "source_binding": {
+          "campaign": "voli_chapter2_physical3_20261015",
+          "law_namespace": "SAM_land",
+          "parent": "H002635",
+          "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+          "question": "Receive the original positive-duration W1+ source integral, preserving its signed orientation",
+          "source_clock": "H02/H05 original local density",
+          "source_files": {
+            "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+            "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+            "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+            "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+            "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+          }
+        }
+      },
+      "schema": "GEN5_LOG_RESULT_V1",
+      "source_binding": {
+        "campaign": "voli_chapter2_physical3_20261015",
+        "law_namespace": "SAM_land",
+        "parent": "H002635",
+        "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+        "question": "Receive the original positive-duration W1+ source integral, preserving its signed orientation",
+        "source_clock": "H02/H05 original local density",
+        "source_files": {
+          "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+          "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+          "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+          "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+          "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+        }
+      },
+      "source_operand_identity": "69474789a5c051be09de4589ed5764a58cb243e8394e11668e2fdd1b6ce0c85c"
+    },
+    "result_ref": "9f9f65992240fba49f4f416acf8be4776cb3f002fc302136d4369b0873dede61"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "voli_chapter2_physical3_20261015",
+    "law_namespace": "SAM_land",
+    "parent": "H002635",
+    "physical_scope": "Original finite-N source and retained continuum calibration; apparatus assumptions separately declared",
+    "question": "Receive the original positive-duration W1+ source integral, preserving its signed orientation",
+    "source_clock": "H02/H05 original local density",
+    "source_files": {
+      "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+      "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+      "GEN4/voli_chapter2_physical3_20261015/build_plan.py": "55099485fcc85470831fb3fc6fa2909e7496d3fb3aa77e4a9bd11407e8c6d935",
+      "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/SOURCE_RAW.json": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2",
+      "GEN4/voli_chapter2_physical3_20261015/measurement/NATIVE_OPERANDS.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T01:00:49.193694+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 2,
+  "worker_pid": 162357
+}

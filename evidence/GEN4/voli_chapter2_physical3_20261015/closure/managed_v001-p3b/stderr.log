@@ -1,0 +1,60 @@
+INSTALLED CAPABILITY MENU — CE/STARBREAKER | SLC-GEN5-R1 | SLC-GEN5-CEV1-R1 | GEN5_SPIN_CLOCK_LIBRARY_V1
+Use the installed source-bound operation and retained operands first. Before writing replacement Python math or installing a package, identify the specific missing operation, input type, precision or size in the current contracts. Python may orchestrate, visualize or perform a labeled independent check. Execute research through DomainSession/project or gen4-math and retain receipts.
+254 installed operation names; choose by task:
+  gen5: GEN5 cooperating logarithmic kernels — Exact expressions; source thermal and operator logs; noncommuting response; factors; protocols; persistent histories; typed transport; source refinement and built-in Duck.
+  exact_logs: Exact logarithmic arithmetic and history — Signed rational arithmetic, formal logarithms, log ratios, ordered rise/fall/variation, maximum ties and incremental reuse.
+  certified_logs: Certified scalar and spectral logarithms — Admit a source; enclose log(1+Q), evaluate its spectral log profile, refine retained modes or reconstruct signed transport logs. C++/GMP rational certificates.
+  operator_logs: Exact operator logarithms — Commuting formal log coefficients and ordered cubic obstruction with exact polynomial matrices.
+  complex: Certified complex matrices and matrix logarithms — Admit Q(i) matrices; logarithm, exponential, products, adjoints, tensors, partial traces, rank and solve using installed Arb/acb. Matrix limit 2048; log limit 512; precision 64..4096 bits. Operation-specific source and method limits also apply.
+  retained: Find and reuse retained mathematical operands — Discover/select/get, apply, compose, compare, moments, dependencies, import/export and publish explicit source-bound results. Begin here before recomputing.
+  spin_clock: Installed spin methods, certified integration and source clocks — Discover completed spin and H02-H06 evidence; adopt exact retained operands; compose full mixed Gram/residual methods and certified original signed-Write integrals.
+  thermal: Thermal solver, crossover/corrections and cancellation solver — Exact component thermal boundaries; full endpoint moments; finite physical/pressure/memory corrections; certified cancellation tilts, shifts and complete finite root brackets.
+  methods: Promoted reusable research methods — Involution reduction; compile/apply accepted and unconditioned protocols; split memory effects; certified positive-boundary integrals; GF4096 hybrid accumulation.
+  dynamics: Finite-state dynamics — Declared-rate generators, propagation/readout and memory; reuse the installed dynamics route with an explicit source clock.
+  full_source: Whole source, continuum and error methods — Correlated projection/resolvents; integer history; Gibbs activity/counts; mixed jets; whole Green correction; causal fields; kinetic/recoil/contact payments; clock assays; quantum wave histories.
+  modular: Modular, Lie, sectors and receivers — Lie words/closure, reconstruction, pulse replay, projectors, sectors, channels, angular transport, conditional radius and source/receiver tools.
+  structure: Exact mathematical structure — Symbolic characteristic polynomials, pencils, equivalence, Schur/local operators, matter spectra, charges, reduction, hooks, fusion and compatibility.
+  exchange: Integrable permutation exchange — Sparse transfers, exact spectra, momentum sectors/census and polynomial Bethe checks.
+  source: Source operator algebra — Ordered words, invariant closure, pair roots, recurrence, creation, exchange and terminal action.
+  bethe: Bethe algebra and constructions — Seed module closure, sparse products, polynomial corrections, local obstructions and construction evaluation.
+  spin: Exact spin and finite-factor tools — Catalog/select/plan, compile source packets, solve exact joint g(E,M,b), reuse field/pair/boundary readouts and retained datasets.
+  language: Native conversation and dictionary learning — Use indexed sourced language libraries, stream native lessons, learn sentence structures, converse with context and recover exact models and histories.
+  learning: Native signed energy, minima and learned models — Signed repayment/gain, complete common minima, exact CART fit/predict, acquired construction planning and observation memory.
+  inverse: Inverse, information and observation planning — Retain every compatible source history; exact inverse fibers, information, adaptive probes and boundary conditioning.
+  execution: Native execution, source geometry and persistence — Ordered Writes, retained relations, construction/source/encounter readouts, scoped Li6/tau routes, checkpoints and replication.
+Log routes: GEN3_LOG_OPEN, GEN3_LOG_APPEND, GEN3_READOUT; GEN3_LOG1P_ENCLOSURE; GEN3_SPECTRAL_LOG_PROFILE; GEN3_SIGNED_TRANSPORT_LOG; GEN3_COMMUTING_LOG; GEN3_COMPLEX_LOG.
+Inspect: ./capabilities --find log | --operation NAME | --all | --json
+Execute: ./project run SESSION --operation NAME --payload input.json --purpose "source/question"
+Cooperation: ./cooperate --help (four native pools, live discoveries, real researcher bridge)
+Installed operation metadata only; source/domain contracts control admission.
+Traceback (most recent call last):
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/ops/source_pilot.py", line 52, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/ops/source_pilot.py", line 38, in main
+    got=session.execute('CHAPTER2_FULL_SOURCE_POINT_KRYLOV_V1',dict(profile_id=a.profile,power=a.power,precision_bits=a.precision,source_binding=binding),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_PROJECT/session.py", line 194, in execute
+    return self._call(operation, payload,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_PROJECT/session.py", line 168, in _call
+    result = action()
+             ^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_PROJECT/session.py", line 195, in <lambda>
+    lambda: self.consumer.execute(operation, payload), purpose=purpose)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/ops/source_pilot.py", line 35, in execute
+    ref=retained.put(machine,'mathematical_result',result,payload,dict(origin=op,source_binding=binding),sorted(retained.nested_refs(result)))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/CURRENT_REVISION/engines/SLC/gen3/retained.py", line 102, in put
+    obj = canonical(dict(schema=SCHEMA, kind=kind, value=value, source_binding=source,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/CURRENT_REVISION/engines/SLC/gen2/exact.py", line 21, in canonical
+    return {k: canonical(value[k]) for k in sorted(value)}
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/CURRENT_REVISION/engines/SLC/gen2/exact.py", line 21, in canonical
+    return {k: canonical(value[k]) for k in sorted(value)}
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/CURRENT_REVISION/engines/SLC/gen2/exact.py", line 28, in canonical
+    raise TypeError(f'Unsupported canonical value: {type(value).__name__}')
+TypeError: Unsupported canonical value: float

@@ -1,0 +1,6 @@
+{
+  "error": "Unsupported canonical value: float",
+  "status": "FAILED",
+  "time": "2026-10-16T00:44:49.053389+00:00",
+  "type": "TypeError"
+}

@@ -1,0 +1,23 @@
+{
+  "round_seconds": [
+    180,
+    180
+  ],
+  "mode": "connections",
+  "round_two_selector": "CODEX_CURRENT_SESSION",
+  "parent_retained": true,
+  "all_selected_targets_retained": true,
+  "automatic_third_round": false,
+  "automatic_repeat": false,
+  "completed_runs_preserved": true,
+  "mathematical_core_changes": false,
+  "new_data_host": "T500",
+  "authorization": "User approved ChapterIII/companionII work and subsequently required sixcontrollers/threehelpers, two180-second rounds, concurrent disjoint own-core leasing",
+  "resource_policy": "Respect existing CPU leases; qualified installed Duck only",
+  "controller_count": 6,
+  "helper_count": 3,
+  "per_run_cpu_ownership_only": true,
+  "concurrent_sessions": 2,
+  "local_memory_gib": 2,
+  "helper_memory_gib": 1
+}

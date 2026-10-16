@@ -1,0 +1,60 @@
+{
+  "Codex_agents_launched": 0,
+  "actual_directed_controller_greeting_ACKs": 132,
+  "actual_native_controllers": 12,
+  "actual_native_helpers": 6,
+  "complete_helper_readback": "PASS",
+  "failed_returns": 0,
+  "native_returns": 11,
+  "research_mode": "connections",
+  "research_returns": 4,
+  "resource_release": "PASS",
+  "run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01",
+  "selected_targets": [
+    {
+      "from_outcome_ids": [
+        "r1_actual_source_rank10",
+        "web_r1_000"
+      ],
+      "id": "ACTUAL_CLOSURE",
+      "known_work": "Actual seven-coordinate residual rank two on54 original profiles; deeper full-source certificate retained.",
+      "next_question": "Certify the reached higher rank and its precise nonstabilization boundary.",
+      "selection_reason": "First user mathematical target."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_forward_duration",
+        "r1_reverse_duration",
+        "web_r1_001"
+      ],
+      "id": "PAID_REFERENCE",
+      "known_work": "Original forward/reverse durations and source energy bound retained; external entry/release and nonzero wait Hamiltonian explicit.",
+      "next_question": "Receive every reference-work coefficient alongside phase unwrapping and gross exchanged work.",
+      "selection_reason": "Complete physical protocol requested."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_observable_cube",
+        "web_r1_002"
+      ],
+      "id": "MEASUREMENT",
+      "known_work": "Fresh-copy destructive observable and explicit apparatus budget; improved source-selected cadence lowers sufficient shots.",
+      "next_question": "Receive the stronger finite-record minor and zero-outcome projector algebra.",
+      "selection_reason": "Turn expectations into a finite-shot measurement protocol."
+    },
+    {
+      "from_outcome_ids": [
+        "web_r1_000",
+        "web_r1_001"
+      ],
+      "id": "COMPACT_CERTIFICATES",
+      "known_work": "Short block/memory/Gram, event-offset, counter and endpoint certificates independently derived.",
+      "next_question": "Receive the actual rank-two counter contrast and place all short proofs in the chapter.",
+      "selection_reason": "Make Chapter II reader-complete for the requested certificates."
+    }
+  ],
+  "status": "COMPLETE",
+  "time_utc": "2026-10-16T01:18:05.002767+00:00",
+  "total_returns": 15,
+  "two_rounds": true
+}

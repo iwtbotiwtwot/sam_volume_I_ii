@@ -1,0 +1,8 @@
+{
+  "actual_profile": "R015_BASE",
+  "correction": "R2 binds each original profile_id explicitly; no original result is edited or replayed",
+  "field_issue": "Source binding spin_profile is null because extractor used id/profile rather than profile_id",
+  "scientific_operands_unchanged": true,
+  "source_operands_sha256": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726",
+  "task": "r1_memory_Usolve"
+}

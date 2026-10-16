@@ -1,0 +1,891 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "6456e0255c9ab45522d2359fba6416b6eb6305a9c3aa39a32103a2cff698a9d4",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T00:12:26.234625+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "r1_memory_Usolve",
+  "kind": "RESULT",
+  "native_payload": {
+    "data": {
+      "matrix": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "24382515114501767222933075760230886374654698159354451644479332916107758252877877815087379/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168",
+                "upper": "24382515114501767222933075760230886374654698159354451644479332916107758252877893998687619/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "814611515604894284184141783923173970773803117808733137323941454486495841165/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+                "upper": "814611515604894284184141783923173970773803117808733137323941455592084468621/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "814611515604894284184141783923173970773803117808733137323941454486495841165/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+                "upper": "814611515604894284184141783923173970773803117808733137323941455592084468621/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "27742641594291068835659460323986874967899610695361086949932702859581816357881179095333681/15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792",
+                "upper": "27742641594291068835659460323986874967899610695361086949932702859581816357881231964655857/15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792"
+              }
+            }
+          ]
+        ],
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "structure": "GENERAL"
+      },
+      "rhs": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "82131003626811659917745643836320673027972980147771906572869034354408435929488502673157912724335744492518210259097331190692048097124858386865117660228139409791680201206844930031479606627217326375814781745680546270990403486623344897174454391153830002481087429407508616413245432510737442125831689692023508638135/359538626972463181545861038157804946723595395788461314546860162315465351611001926265416954644815072042240227759742786715317579537628833244985694861278948248755535786849730970552604439202492188238906165904170011537676301364684925762947826221081654474326701021369172596479894491876959432609670712659248448274432",
+                "upper": "82131003892020347898240626463484754585414382970401620183262362707489569545369574732837260304199265749924333670824090997617355101588170150797406958659626005836595560957442631507277804146340722752543106153410793406934646438432774469896269327076981142611747748798641259331319594888417576271600921186690442402231/359538626972463181545861038157804946723595395788461314546860162315465351611001926265416954644815072042240227759742786715317579537628833244985694861278948248755535786849730970552604439202492188238906165904170011537676301364684925762947826221081654474326701021369172596479894491876959432609670712659248448274432"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-74230313652341591873261208824633579455365213188033189750152953151706588726695128169958409191352916720487084462537521047211066854593308975893139187180312190003438306783423893680915059271578996624349728493154622511870652289899965605064144542191419164068050460429658603376762990356766722345496297184195267346357/193025830561934107162947985381047541665608072055952185017491682078771915023799273387871154500424503798663213600460826789274033295999330021731389427128542432710187362934652673115221889249890533772697227171395058697282798274445240687006095271729621464100656563293799180557568945517759802372156455525060659659679134121984",
+                "upper": "148461026991052384054661322340999910957019590025761294056217310082035256656947867495845154120108622807345898156470883075401736843068724633964858599707069897854735390052774550912879102631957588372511548507347697842513672120463906574524847812877729774332282409894000967573768602152089280476981343377613324124311/386051661123868214325895970762095083331216144111904370034983364157543830047598546775742309000849007597326427200921653578548066591998660043462778854257084865420374725869305346230443778499781067545394454342790117394565596548890481374012190543459242928201313126587598361115137891035519604744312911050121319319358268243968"
+              }
+            }
+          ]
+        ],
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "structure": "GENERAL"
+      }
+    },
+    "precision_bits": 1024,
+    "source_binding": {
+      "campaign": "voli_chapter2_continuation2_20261015",
+      "construction_author": "Codex; installed GEN6 Duck execution",
+      "law_namespace": "SAM_land",
+      "original_law_and_clocks_preserved": true,
+      "parent": "H002634 Chapter II source-bound development",
+      "physical_epsilon": "symbolic, not fitted",
+      "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+      "signed_response": "Original K_response in Q=T+g_H K_response",
+      "source_files": {
+        "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+        "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+        "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+        "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+        "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+        "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+        "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+      },
+      "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+      "spin_profile": null
+    }
+  },
+  "operation": "GEN3_COMPLEX_SOLVE",
+  "portable_bundle": {
+    "bundle": {
+      "calculations": {},
+      "objects": {
+        "7f8d6e7a5ea0a65eaa44937267e05186f76d4a6117fa0169c1d059863621d58e": {
+          "dependencies": [],
+          "kind": "mathematical_result",
+          "provenance": {
+            "implementation": {
+              "files": {
+                "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+                "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+                "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+                "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+                "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+                "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+                "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+                "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+                "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+                "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+                "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+                "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+                "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+                "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+                "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+                "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+                "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+                "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+                "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+                "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+                "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+                "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+                "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+                "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+                "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+                "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+                "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+                "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+                "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+                "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+                "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+                "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+                "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+                "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+                "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+                "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+                "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+                "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+                "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+                "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+                "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+                "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+                "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+                "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+                "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+                "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+                "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+                "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+                "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+                "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+                "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+                "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+                "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+                "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+                "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+                "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+                "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+                "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+                "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+                "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+                "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+                "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+                "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+                "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+                "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+                "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+                "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+                "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+                "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+                "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+                "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+                "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+                "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+                "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+                "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+                "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+                "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+                "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+              },
+              "python_flint": "0.8.0",
+              "version": "SHARED_MODULAR_V4"
+            },
+            "operation": "GEN3_COMPLEX_SOLVE",
+            "origin": "INSTALLED_SHARED_MODULAR_CALCULATION",
+            "request": {
+              "data": {
+                "matrix": {
+                  "column_basis": [
+                    "0",
+                    "1"
+                  ],
+                  "entries": [
+                    [
+                      {
+                        "im": {
+                          "lower": "0",
+                          "upper": "0"
+                        },
+                        "re": {
+                          "lower": "24382515114501767222933075760230886374654698159354451644479332916107758252877877815087379/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168",
+                          "upper": "24382515114501767222933075760230886374654698159354451644479332916107758252877893998687619/63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168"
+                        }
+                      },
+                      {
+                        "im": {
+                          "lower": "0",
+                          "upper": "0"
+                        },
+                        "re": {
+                          "lower": "814611515604894284184141783923173970773803117808733137323941454486495841165/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+                          "upper": "814611515604894284184141783923173970773803117808733137323941455592084468621/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "im": {
+                          "lower": "0",
+                          "upper": "0"
+                        },
+                        "re": {
+                          "lower": "814611515604894284184141783923173970773803117808733137323941454486495841165/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688",
+                          "upper": "814611515604894284184141783923173970773803117808733137323941455592084468621/1018517988167243043134222844204689080525734196832968125318070224677190649881668353091698688"
+                        }
+                      },
+                      {
+                        "im": {
+                          "lower": "0",
+                          "upper": "0"
+                        },
+                        "re": {
+                          "lower": "27742641594291068835659460323986874967899610695361086949932702859581816357881179095333681/15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792",
+                          "upper": "27742641594291068835659460323986874967899610695361086949932702859581816357881231964655857/15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792"
+                        }
+                      }
+                    ]
+                  ],
+                  "row_basis": [
+                    "0",
+                    "1"
+                  ],
+                  "structure": "GENERAL"
+                },
+                "rhs": {
+                  "column_basis": [
+                    "0"
+                  ],
+                  "entries": [
+                    [
+                      {
+                        "im": {
+                          "lower": "0",
+                          "upper": "0"
+                        },
+                        "re": {
+                          "lower": "82131003626811659917745643836320673027972980147771906572869034354408435929488502673157912724335744492518210259097331190692048097124858386865117660228139409791680201206844930031479606627217326375814781745680546270990403486623344897174454391153830002481087429407508616413245432510737442125831689692023508638135/359538626972463181545861038157804946723595395788461314546860162315465351611001926265416954644815072042240227759742786715317579537628833244985694861278948248755535786849730970552604439202492188238906165904170011537676301364684925762947826221081654474326701021369172596479894491876959432609670712659248448274432",
+                          "upper": "82131003892020347898240626463484754585414382970401620183262362707489569545369574732837260304199265749924333670824090997617355101588170150797406958659626005836595560957442631507277804146340722752543106153410793406934646438432774469896269327076981142611747748798641259331319594888417576271600921186690442402231/359538626972463181545861038157804946723595395788461314546860162315465351611001926265416954644815072042240227759742786715317579537628833244985694861278948248755535786849730970552604439202492188238906165904170011537676301364684925762947826221081654474326701021369172596479894491876959432609670712659248448274432"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "im": {
+                          "lower": "0",
+                          "upper": "0"
+                        },
+                        "re": {
+                          "lower": "-74230313652341591873261208824633579455365213188033189750152953151706588726695128169958409191352916720487084462537521047211066854593308975893139187180312190003438306783423893680915059271578996624349728493154622511870652289899965605064144542191419164068050460429658603376762990356766722345496297184195267346357/193025830561934107162947985381047541665608072055952185017491682078771915023799273387871154500424503798663213600460826789274033295999330021731389427128542432710187362934652673115221889249890533772697227171395058697282798274445240687006095271729621464100656563293799180557568945517759802372156455525060659659679134121984",
+                          "upper": "148461026991052384054661322340999910957019590025761294056217310082035256656947867495845154120108622807345898156470883075401736843068724633964858599707069897854735390052774550912879102631957588372511548507347697842513672120463906574524847812877729774332282409894000967573768602152089280476981343377613324124311/386051661123868214325895970762095083331216144111904370034983364157543830047598546775742309000849007597326427200921653578548066591998660043462778854257084865420374725869305346230443778499781067545394454342790117394565596548890481374012190543459242928201313126587598361115137891035519604744312911050121319319358268243968"
+                        }
+                      }
+                    ]
+                  ],
+                  "row_basis": [
+                    "0",
+                    "1"
+                  ],
+                  "structure": "GENERAL"
+                }
+              },
+              "precision_bits": 1024,
+              "source_binding": {
+                "campaign": "voli_chapter2_continuation2_20261015",
+                "construction_author": "Codex; installed GEN6 Duck execution",
+                "law_namespace": "SAM_land",
+                "original_law_and_clocks_preserved": true,
+                "parent": "H002634 Chapter II source-bound development",
+                "physical_epsilon": "symbolic, not fitted",
+                "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+                "signed_response": "Original K_response in Q=T+g_H K_response",
+                "source_files": {
+                  "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+                  "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+                  "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+                  "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+                  "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+                  "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+                  "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+                },
+                "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+                "spin_profile": null
+              }
+            }
+          },
+          "schema": "SLC_MATHEMATICAL_OBJECT_V1",
+          "source_binding": {
+            "implementation": {
+              "files": {
+                "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+                "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+                "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+                "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+                "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+                "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+                "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+                "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+                "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+                "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+                "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+                "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+                "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+                "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+                "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+                "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+                "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+                "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+                "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+                "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+                "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+                "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+                "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+                "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+                "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+                "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+                "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+                "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+                "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+                "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+                "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+                "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+                "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+                "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+                "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+                "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+                "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+                "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+                "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+                "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+                "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+                "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+                "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+                "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+                "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+                "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+                "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+                "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+                "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+                "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+                "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+                "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+                "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+                "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+                "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+                "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+                "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+                "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+                "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+                "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+                "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+                "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+                "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+                "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+                "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+                "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+                "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+                "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+                "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+                "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+                "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+                "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+                "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+                "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+                "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+                "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+                "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+                "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+              },
+              "python_flint": "0.8.0",
+              "version": "SHARED_MODULAR_V4"
+            },
+            "operation": "GEN3_COMPLEX_SOLVE",
+            "request": "255afbe842cc0d0ec4ceeec89f128255320405b8f216970b3d7c80b965abe3c5",
+            "source": {
+              "campaign": "voli_chapter2_continuation2_20261015",
+              "construction_author": "Codex; installed GEN6 Duck execution",
+              "law_namespace": "SAM_land",
+              "original_law_and_clocks_preserved": true,
+              "parent": "H002634 Chapter II source-bound development",
+              "physical_epsilon": "symbolic, not fitted",
+              "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+              "signed_response": "Original K_response in Q=T+g_H K_response",
+              "source_files": {
+                "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+                "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+                "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+                "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+                "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+                "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+                "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+              },
+              "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+              "spin_profile": null
+            }
+          },
+          "value": {
+            "implementation": {
+              "files": {
+                "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+                "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+                "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+                "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+                "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+                "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+                "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+                "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+                "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+                "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+                "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+                "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+                "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+                "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+                "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+                "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+                "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+                "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+                "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+                "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+                "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+                "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+                "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+                "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+                "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+                "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+                "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+                "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+                "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+                "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+                "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+                "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+                "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+                "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+                "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+                "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+                "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+                "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+                "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+                "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+                "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+                "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+                "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+                "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+                "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+                "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+                "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+                "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+                "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+                "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+                "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+                "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+                "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+                "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+                "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+                "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+                "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+                "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+                "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+                "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+                "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+                "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+                "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+                "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+                "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+                "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+                "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+                "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+                "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+                "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+                "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+                "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+                "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+                "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+                "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+                "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+                "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+                "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+              },
+              "python_flint": "0.8.0",
+              "version": "SHARED_MODULAR_V4"
+            },
+            "operation": "GEN3_COMPLEX_SOLVE",
+            "output": {
+              "matrix": {
+                "column_basis": [
+                  "0"
+                ],
+                "entries": [
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "343796568210230423/576460752303423488",
+                        "upper": "343796569320398633/576460752303423488"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "-1017342199/4611686018427387904",
+                        "upper": "1017342413/4611686018427387904"
+                      }
+                    }
+                  ]
+                ],
+                "precision_bits": 1024,
+                "row_basis": [
+                  "0",
+                  "1"
+                ],
+                "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+                "structure": "GENERAL"
+              },
+              "residual_norm_upper": {
+                "lower": "25712897386573733823691246951970021491230861273500701424254635089873516508570902848806583270989540806097547140736966520591662159255501378703659956758833619259718990805393738141453994112319813951134043581606684004877874239580134430660176019001018267394954542529863977176232893115614864407002482611419594862069/24128228820241763395368498172630942708201009006994023127186460259846489377974909173483894312553062974832901700057603348659254161999916252716423678391067804088773420366831584139402736156236316721587153396424382337160349784305655085875761908966202683012582070411724897569696118189719975296519556940632582457459891765248",
+                "upper": "25712897386573733823691246951970021491230861273500701424254635089873516508570902848806583270989540806097547140736966520591662159255501378703659956758833619259718990805393738141453994112319813951134043581606684004877874239580134430660176019001018267394954542529863977176232893115614864407002482611419594862069/24128228820241763395368498172630942708201009006994023127186460259846489377974909173483894312553062974832901700057603348659254161999916252716423678391067804088773420366831584139402736156236316721587153396424382337160349784305655085875761908966202683012582070411724897569696118189719975296519556940632582457459891765248"
+              },
+              "solution": [
+                [
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "42974571026278803/72057594037927936",
+                      "upper": "42974571165049829/72057594037927936"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "-508671099/2305843009213693952",
+                      "upper": "254335603/1152921504606846976"
+                    }
+                  }
+                ]
+              ],
+              "status": "CERTIFIED_SOLVE"
+            },
+            "precision_bits": 1024,
+            "schema": "SLC_MODULAR_RESULT_V1",
+            "source_binding": {
+              "campaign": "voli_chapter2_continuation2_20261015",
+              "construction_author": "Codex; installed GEN6 Duck execution",
+              "law_namespace": "SAM_land",
+              "original_law_and_clocks_preserved": true,
+              "parent": "H002634 Chapter II source-bound development",
+              "physical_epsilon": "symbolic, not fitted",
+              "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+              "signed_response": "Original K_response in Q=T+g_H K_response",
+              "source_files": {
+                "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+                "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+                "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+                "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+                "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+                "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+                "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+              },
+              "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+              "spin_profile": null
+            }
+          }
+        }
+      },
+      "roots": [
+        "7f8d6e7a5ea0a65eaa44937267e05186f76d4a6117fa0169c1d059863621d58e"
+      ],
+      "schema": "SLC_MATHEMATICAL_BUNDLE_V1"
+    },
+    "object_count": 1,
+    "portability": "SELF_CONTAINED",
+    "sha256": "730a12f5791f4f5ff9f4b8c36e70b46831a938f96e401188d4969ae5305057f3"
+  },
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_04/tasks/r1_memory_Usolve/RESULT.json",
+  "receipt_sha256": "95df6457d331ca9a5940a1af41f5a4342d2bb62d558033987e9b3b74ec36a096",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 17466581905950,
+  "returned": {
+    "recomputed": true,
+    "result": {
+      "implementation": {
+        "files": {
+          "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+          "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+          "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+          "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+          "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+          "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+          "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+          "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+          "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+          "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+          "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+          "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+          "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+          "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+          "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+          "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+          "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+          "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+          "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+          "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+          "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+          "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+          "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+          "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+          "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+          "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+          "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+          "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+          "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+          "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+          "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+          "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+          "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+          "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+          "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+          "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+          "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+          "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+          "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+          "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+          "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+          "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+          "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+          "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+          "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+          "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+          "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+          "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+          "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+          "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+          "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+          "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+          "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+          "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+          "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+          "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+          "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+          "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+          "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+          "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+          "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+          "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+          "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+          "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+          "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+          "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+          "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+          "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+          "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+          "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+          "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+          "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+          "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+          "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+          "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+          "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+          "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+          "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+          "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+          "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+        },
+        "python_flint": "0.8.0",
+        "version": "SHARED_MODULAR_V4"
+      },
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output": {
+        "matrix": {
+          "column_basis": [
+            "0"
+          ],
+          "entries": [
+            [
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "343796568210230423/576460752303423488",
+                  "upper": "343796569320398633/576460752303423488"
+                }
+              }
+            ],
+            [
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "-1017342199/4611686018427387904",
+                  "upper": "1017342413/4611686018427387904"
+                }
+              }
+            ]
+          ],
+          "precision_bits": 1024,
+          "row_basis": [
+            "0",
+            "1"
+          ],
+          "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+          "structure": "GENERAL"
+        },
+        "residual_norm_upper": {
+          "lower": "25712897386573733823691246951970021491230861273500701424254635089873516508570902848806583270989540806097547140736966520591662159255501378703659956758833619259718990805393738141453994112319813951134043581606684004877874239580134430660176019001018267394954542529863977176232893115614864407002482611419594862069/24128228820241763395368498172630942708201009006994023127186460259846489377974909173483894312553062974832901700057603348659254161999916252716423678391067804088773420366831584139402736156236316721587153396424382337160349784305655085875761908966202683012582070411724897569696118189719975296519556940632582457459891765248",
+          "upper": "25712897386573733823691246951970021491230861273500701424254635089873516508570902848806583270989540806097547140736966520591662159255501378703659956758833619259718990805393738141453994112319813951134043581606684004877874239580134430660176019001018267394954542529863977176232893115614864407002482611419594862069/24128228820241763395368498172630942708201009006994023127186460259846489377974909173483894312553062974832901700057603348659254161999916252716423678391067804088773420366831584139402736156236316721587153396424382337160349784305655085875761908966202683012582070411724897569696118189719975296519556940632582457459891765248"
+        },
+        "solution": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "42974571026278803/72057594037927936",
+                "upper": "42974571165049829/72057594037927936"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-508671099/2305843009213693952",
+                "upper": "254335603/1152921504606846976"
+              }
+            }
+          ]
+        ],
+        "status": "CERTIFIED_SOLVE"
+      },
+      "precision_bits": 1024,
+      "schema": "SLC_MODULAR_RESULT_V1",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "construction_author": "Codex; installed GEN6 Duck execution",
+        "law_namespace": "SAM_land",
+        "original_law_and_clocks_preserved": true,
+        "parent": "H002634 Chapter II source-bound development",
+        "physical_epsilon": "symbolic, not fitted",
+        "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+        "signed_response": "Original K_response in Q=T+g_H K_response",
+        "source_files": {
+          "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+          "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+          "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        },
+        "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+        "spin_profile": null
+      }
+    },
+    "result_ref": "7f8d6e7a5ea0a65eaa44937267e05186f76d4a6117fa0169c1d059863621d58e"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "voli_chapter2_continuation2_20261015",
+    "construction_author": "Codex; installed GEN6 Duck execution",
+    "law_namespace": "SAM_land",
+    "original_law_and_clocks_preserved": true,
+    "parent": "H002634 Chapter II source-bound development",
+    "physical_epsilon": "symbolic, not fitted",
+    "question": "Receive the completed original spin U and W columns for the exact b5 memory residual; no source reintegration",
+    "signed_response": "Original K_response in Q=T+g_H K_response",
+    "source_files": {
+      "GEN4/duck_chapter1_lane1_20261015/sources/EXACT_INPUTS.json": "77ab5aa2a22f2c3961484f447a30aa21a83596f4fe04204d57509851f7d6dabd",
+      "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e",
+      "GEN4/voli_chapter2_bridge1/comparison/DERIVATION.md": "f5183d37b9cb1862f572f0c102b80c069032ad8f3d4496b2e6481258b8bdee4d",
+      "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+      "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+      "GEN4/voli_chapter2_continuation2_20261015/build_plan.py": "3305b37df17162c250d3e68df35c897aee07ae62e885020ef7f207f1ed0ee10a",
+      "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+    },
+    "spin_basis": "b5=(d,e,u_d,u_e,w_d)",
+    "spin_profile": null
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T00:12:25.585087+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 5,
+  "worker_pid": 135841
+}

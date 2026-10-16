@@ -1,0 +1,43 @@
+{
+  "Codex_agents_launched": 0,
+  "controller_count": 6,
+  "core_version": "0.10.2",
+  "duck_version": "1.2.3",
+  "native_helper_count": 3,
+  "status": "PREPARED_NO_NATIVE_SCIENCE",
+  "target_sha256": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+  "time_utc": "2026-10-16T02:24:10.798993+00:00",
+  "topology": {
+    "controller_cpus": [
+      2,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "controller_ids": [
+      "G6_01",
+      "G6_02",
+      "G6_03",
+      "G6_04",
+      "G6_05",
+      "G6_06"
+    ],
+    "coordinator_cpu": 0,
+    "helper_coordinator_cpu": 1,
+    "helper_cpus": [
+      8,
+      9,
+      10
+    ],
+    "helper_ids": [
+      "LH_01",
+      "LH_02",
+      "LH_03"
+    ],
+    "profile": "a",
+    "schema": "GEN6_DUCK_RUN_TOPOLOGY_V1",
+    "worker_memory_floor_bytes": 134217728
+  }
+}

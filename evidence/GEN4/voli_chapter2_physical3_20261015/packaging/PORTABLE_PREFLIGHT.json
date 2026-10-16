@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "Partial prepublication stage: exact predecessor and new scientific payload plus protocol dependencies; final Duck custody/COMPLETE metadata awaits normal runtime finalization",
+  "native_executions": 0,
+  "scientific_reexecutions": 0,
+  "offline_checks": [
+    {
+      "script": "verify_protocols.py",
+      "status": "PASS",
+      "checks_passed": 410,
+      "measurement_replay_checks": 30,
+      "reference_replay_checks": 1050,
+      "feasible_endpoints": 14
+    },
+    {
+      "script": "closure/reproduce.py",
+      "status": "PASS",
+      "preparations": 54,
+      "point_certificate_checks": 978,
+      "exact_source_law_checks": 36936,
+      "cache_overlap_checks": 216
+    },
+    {
+      "script": "packaging/verify_domain_provenance.py",
+      "status": "PASS",
+      "checks": 2234,
+      "source_returns": 58,
+      "native_inverses": 6
+    },
+    {
+      "script": "verify_native.py",
+      "status": "PASS",
+      "native_outputs_verified": 11,
+      "independent_checks": 2719,
+      "matrix_entries_checked": 1452,
+      "relocated_stage": true
+    }
+  ],
+  "PDF_rebuild": {
+    "status": "PASS",
+    "pages": 20,
+    "sha256": "ce8c0165678bfd9e1953c1f81c19dd34db14608725a5b553467847b66b4ecdfb",
+    "byte_identical": true,
+    "uses_bundled_fonts": true,
+    "renderer_environment": "/home/lilhelper/sam_volume_I_i/.venv/bin/python",
+    "lock": "chapter/requirements-pdf.lock"
+  },
+  "full_portable_cycle_verification": "Pending final manifest-authenticated helper custody capture; not reported as completed by this preflight"
+}

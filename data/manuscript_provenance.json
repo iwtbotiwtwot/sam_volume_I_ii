@@ -1,0 +1,51 @@
+{
+  "schema": "SAM_CHAPTER_II_MANUSCRIPT_PROVENANCE_V1",
+  "history": "H002641",
+  "pages": 24,
+  "sections": 48,
+  "prior_sections_preserved": 40,
+  "source_root": "GEN4/voli_chapter3_source_field1_20261015",
+  "files": [
+    {
+      "path": "manuscript/source/FINAL_CLOSURE.json",
+      "sha256": "16189b99403c9af06fc91cbe6f74a576f365530ce5ec24003cd3ad20c63ca43b",
+      "bytes": 414398
+    },
+    {
+      "path": "manuscript/source/INHERITED_SOURCES.json",
+      "sha256": "45a174a298bc17e7e685882102203cc6b19a9aa9ed04d65890fb893d219d52de",
+      "bytes": 1572
+    },
+    {
+      "path": "manuscript/source/build_pdf.py",
+      "sha256": "c02f4b9bf030d803d625b2aa64ac3b6fe2996c37a1238b7eefb9eab6c045718a",
+      "bytes": 2343
+    },
+    {
+      "path": "manuscript/source/content.py",
+      "sha256": "f2c3adb7b8e5fb5a98aec1fdfab3cedbbb47c4e9a67363aa2a34af34eba4d2ec",
+      "bytes": 12718
+    },
+    {
+      "path": "manuscript/source/continuation_content.py",
+      "sha256": "847f6e5883ae7a5b765b63ec26a4e0ca1c3c6504176c1bdfdbf5316bc16acdef",
+      "bytes": 20047
+    },
+    {
+      "path": "manuscript/source/physical_content.py",
+      "sha256": "6a986636df4459e307201ccd803f4ce923499fe4e331feabd841e6c47a8d58ef",
+      "bytes": 29209
+    },
+    {
+      "path": "manuscript/source/previous_content.py",
+      "sha256": "ada50cd9bb641e5a736a7fab90497b7ad38d0254c5601031bd5238ac8b47d11d",
+      "bytes": 23982
+    },
+    {
+      "path": "manuscript/source/renderer.py",
+      "sha256": "4478aded60d77090b0d120167d64bd64686cc6d6cad4d4f608ee23911cbf2a2c",
+      "bytes": 10849
+    }
+  ],
+  "reviewed_pdf_sha256": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929"
+}

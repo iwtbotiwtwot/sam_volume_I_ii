@@ -1,0 +1,10 @@
+{
+  "root_metadata_preserved_under": "predecessor_metadata/",
+  "schema": "SAM_CH2_PREDECESSOR_BYTES_V1",
+  "scientific_payload_modified": false,
+  "verified_files": 453,
+  "verified_manifest_sha256": "7d2aea6f3b2a35343cce492a8e03929c1c95244858f446f5153c152a5cfe3993",
+  "zip_bytes": 29912781,
+  "zip_name": "SAM_Volume_I_Chapter_II_Continuation_and_Verification_20261015.zip",
+  "zip_sha256": "39d339b049e5580b11c4f2c7ec85ad687452c40e6e8e674411e9f8ac7e5e8d93"
+}

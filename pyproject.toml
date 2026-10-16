@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sam-volume-i-chapter-ii"
+version = "0.1.0"
+description = "Source-bound reference code and reproducibility for SAM Volume I, Chapter II"
+requires-python = ">=3.11"
+dependencies = []
+authors = [{name = "Sean Brady"}, {name = "OpenAI ChatGPT and Codex"}]
+readme = "README.md"
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE", "LICENSES/CC-BY-4.0.txt", "docs/LICENSING.md", "AUTHORS.md"]
+
+[project.urls]
+Repository = "https://github.com/iwtbotiwtwot/sam_volume_I_ii"
+Licensing = "https://github.com/iwtbotiwtwot/sam_volume_I_ii/blob/main/docs/LICENSING.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

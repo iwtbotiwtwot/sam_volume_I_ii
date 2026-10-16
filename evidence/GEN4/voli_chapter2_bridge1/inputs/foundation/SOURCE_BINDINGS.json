@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/home/lilhelper/SAM_Research_Overflow/The_Courtroom/14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM/CR113_result.md",
+    "sha256": "b56d86aa71ffd0ea926f91e92d42e61c9e6c1ae91993b2dce726f58258d59130",
+    "package_path": "inputs/foundation/14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM/CR113_result.md"
+  },
+  {
+    "path": "/home/lilhelper/SAM_Research_Overflow/The_Courtroom/14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_result.md",
+    "sha256": "41d6c7a27ebf10544f820d8b2d00355a3cd268b499c4face5296ae367ad73ada",
+    "package_path": "inputs/foundation/14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_result.md"
+  },
+  {
+    "path": "/home/lilhelper/SAM_Research_Overflow/The_Courtroom/14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM/CR115_result.md",
+    "sha256": "43858b5b02724bd4883f69a74858bf8a60f2b0e3d712e7c935eba992a0e0f305",
+    "package_path": "inputs/foundation/14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM/CR115_result.md"
+  },
+  {
+    "path": "/home/lilhelper/SAM_Research_Overflow/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR218_HIDDEN_SOURCE_BIGRADE_DERIVATION/CR218_result.md",
+    "sha256": "c2552aa075ba989e0c6c30c658aa109ab005aed0df9cbf419de71779fbe8bf6e",
+    "package_path": "inputs/foundation/09a_PARTICLE_MASS_CHAIN/CR218_HIDDEN_SOURCE_BIGRADE_DERIVATION/CR218_result.md"
+  },
+  {
+    "path": "/home/lilhelper/SAM_Research_Overflow/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION/CR238_result.md",
+    "sha256": "7c1b870014b7f45bd1686963c13304375792f443e7a6d156a2ae90c9489174ef",
+    "package_path": "inputs/foundation/09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION/CR238_result.md"
+  }
+]

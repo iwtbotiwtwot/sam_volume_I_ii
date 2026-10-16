@@ -1,0 +1,111 @@
+{
+  "checks": 157,
+  "helper_relocation": "Only manifest-listed original scratch suffix with original SHA, byte count and complete helper-readback binding",
+  "native_executions": 0,
+  "native_returns": 14,
+  "r1_memory_metadata": "Original payload is R015_BASE; preserved null descriptive label clarified separately",
+  "record_sources": [
+    {
+      "key": "r1_cyclic_g0",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_01/tasks/r1_cyclic_g0/RESULT.json",
+      "sha256": "97bbecf920869ac4b4016524959f7ca31a5b582dc20a31b2294ab83915ad0afa"
+    },
+    {
+      "key": "r1_cyclic_g1",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_02/tasks/r1_cyclic_g1/RESULT.json",
+      "sha256": "d741690aa592a7d36e8e520dfcf3d7dfb6b010e4912687fd987c88e76a3dde6b"
+    },
+    {
+      "key": "r1_cyclic_g2",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_03/tasks/r1_cyclic_g2/RESULT.json",
+      "sha256": "8a534f95dca33cce3c1ed4c3fff0031aa6b68540ca041a155c1f2d229752d6a7"
+    },
+    {
+      "key": "r1_memory_Usolve",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_04/tasks/r1_memory_Usolve/RESULT.json",
+      "sha256": "95df6457d331ca9a5940a1af41f5a4342d2bb62d558033987e9b3b74ec36a096"
+    },
+    {
+      "key": "r2_H3_inverse",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_07/tasks/r2_H3_inverse/RESULT.json",
+      "sha256": "0555f929a22fca612c3bd68f052c54df02bddc1b3d27ff6c59085a3e59c2fbee"
+    },
+    {
+      "key": "r2_TLS_control_rank",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_06/tasks/r2_TLS_control_rank/RESULT.json",
+      "sha256": "92d3ec72df24c96e33f02f55b9e3ef27fdbb4d582c0bfcc8e44c40fed784c546"
+    },
+    {
+      "key": "r2_all54_memory_Usolve",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_10/tasks/r2_all54_memory_Usolve/RESULT.json",
+      "sha256": "56d646b9a770fa2e915cee41d8e0847c8b31f217e6efc019135c85024ddcde02"
+    },
+    {
+      "key": "r2_all54_memory_payment",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_10/tasks/r2_all54_memory_payment/RESULT.json",
+      "sha256": "bb3a128f7e69a24cf307fa1f6babcdec0dc51ec7b30a88c2d5bf889d45e0f215"
+    },
+    {
+      "key": "r2_blind_placement0",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_08/tasks/r2_blind_placement0/RESULT.json",
+      "sha256": "c72d729fae40d2f4c4147c234025e9312408fc8e880e601f4e82ec286e7442ab"
+    },
+    {
+      "key": "r2_blind_placement1",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_09/tasks/r2_blind_placement1/RESULT.json",
+      "sha256": "6110cc145bc9996e5a030e7502d8a7ecdf885149819392f12fca44bab45c56a3"
+    },
+    {
+      "key": "r2_finite_record_rank",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_05/tasks/r2_finite_record_rank/RESULT.json",
+      "sha256": "dc09ce7595a6853e3c0b3d8d6780fe21f2c1eed765f6bcf7afd97a0cffbad697"
+    },
+    {
+      "key": "r2_record_BD",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_12/tasks/r2_record_BD/RESULT.json",
+      "sha256": "f61c23029e0bbb6cf5353a2555432a4c17dc77f25ea40dcb0b723879b9e41a53"
+    },
+    {
+      "key": "r2_record_contact_Gram",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_12/tasks/r2_record_contact_Gram/RESULT.json",
+      "sha256": "6f7be5fa234677a0da1540b21c8ef8bc72920c4c497d5032688481dc0ee63c54"
+    },
+    {
+      "key": "r2_reference_paid_inverse",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_11/tasks/r2_reference_paid_inverse/RESULT.json",
+      "sha256": "fdf7d9f082851ef5fa1ef1fdd52b3077bc3e91d3fa0421d622f4d21be55fe863"
+    },
+    {
+      "key": "web_c30ee6765afa48d2a38a606a473a884f",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_05/tasks/web_c30ee6765afa48d2a38a606a473a884f/RESULT.json",
+      "sha256": "e349c379794e7bece811827746e6ff874e74335991b11ce70590914e1eefb30f"
+    },
+    {
+      "key": "web_r1_000",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_05/tasks/web_r1_000/RESULT.json",
+      "sha256": "2ba6c39861a88734229b308e5be02f5fdb63e95af5cc0d78e21feea86423f0e9"
+    },
+    {
+      "key": "web_r1_001",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_06/tasks/web_r1_001/RESULT.json",
+      "sha256": "d0248d099e2d24c2102188aeea7eed1801ec5e682ceead4410be3f97f59fede5"
+    },
+    {
+      "key": "web_r1_002",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_05/tasks/web_r1_002/RESULT.json",
+      "sha256": "efd342da2be05a8a41076156d6bd27d068ece66831d7a18b919add7d247021de"
+    },
+    {
+      "key": "web_r2_003",
+      "path": "GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/helper_custody/retained_ram/LH_06/tasks/web_r2_003/RESULT.json",
+      "sha256": "1b73100fd88ab0ed9d2154dc84953563edd26020197bf52cb407ec3cbd1c7503"
+    }
+  ],
+  "research_returns": 5,
+  "round_seconds": [
+    180,
+    180
+  ],
+  "selected_targets": 5,
+  "status": "PASS"
+}

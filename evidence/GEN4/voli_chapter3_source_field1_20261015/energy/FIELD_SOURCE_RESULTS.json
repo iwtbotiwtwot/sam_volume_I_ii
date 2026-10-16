@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "checks": 52,
+  "check_names": [
+    "field is continuous at physical source interface",
+    "derivative jump retains the source forcing",
+    "positive free field inside density from derivative and angular terms",
+    "positive free field outside density from derivative and angular terms",
+    "inside energy fraction",
+    "outside energy fraction",
+    "positive total free energy is X2/R for kappa4/5",
+    "commuting-current static boundary jump",
+    "commuting static interaction is minus twice positive free energy",
+    "commuting static counterterm equals positive free energy",
+    "commuting three term static package cancels",
+    "inside enclosed mass coefficient",
+    "outside enclosed mass coefficient",
+    "enclosed mass continuous",
+    "inside potential derived from full source kernel",
+    "outside potential derived from full source kernel",
+    "inside Poisson equation with angular averaged density",
+    "outside is sourced rather than vacuum",
+    "potential continuous at interface",
+    "acceleration continuous at interface",
+    "central potential finite and nonzero",
+    "central acceleration zero",
+    "inside mass flux",
+    "outside mass flux",
+    "binding source integral",
+    "binding enclosed mass integral",
+    "binding whole-space gradient integral",
+    "finite Dirichlet inner trace 2",
+    "finite Dirichlet outer trace 2",
+    "finite Dirichlet energy 2",
+    "original field tail energy 2",
+    "tail source interior potential is constant 2",
+    "gravitational gradient tail 2",
+    "finite Dirichlet inner trace 3",
+    "finite Dirichlet outer trace 3",
+    "finite Dirichlet energy 3",
+    "original field tail energy 3",
+    "tail source interior potential is constant 3",
+    "gravitational gradient tail 3",
+    "finite Dirichlet inner trace 4",
+    "finite Dirichlet outer trace 4",
+    "finite Dirichlet energy 4",
+    "original field tail energy 4",
+    "tail source interior potential is constant 4",
+    "gravitational gradient tail 4",
+    "finite Dirichlet inner trace 8",
+    "finite Dirichlet outer trace 8",
+    "finite Dirichlet energy 8",
+    "original field tail energy 8",
+    "tail source interior potential is constant 8",
+    "gravitational gradient tail 8",
+    "boundary and Poisson coefficient solve independently matches kernel integral"
+  ],
+  "kappa": "4/5",
+  "normalization": "R=1, sum x_alpha^2=1, Uf=1; Mf=Uf/c^2; alpha=a/(2GMf/(c^2R))",
+  "phi_in": {
+    "2": "1"
+  },
+  "phi_out": {
+    "-3": "1"
+  },
+  "dUf_dx_inside": {
+    "4": "2"
+  },
+  "dUf_dx_outside": {
+    "-6": "3"
+  },
+  "rho_4piR3_over_Mf_inside": {
+    "2": "2"
+  },
+  "rho_4piR3_over_Mf_outside": {
+    "-8": "3"
+  },
+  "M_over_Mf_inside": {
+    "5": "2/5"
+  },
+  "M_over_Mf_outside": {
+    "-5": "-3/5",
+    "0": "1"
+  },
+  "alpha_inside": {
+    "0": "1",
+    "4": "-1/10"
+  },
+  "alpha_outside": {
+    "-6": "-1/10",
+    "-1": "1"
+  },
+  "g_in_GMf_over_R2_inside": {
+    "3": "-2/5"
+  },
+  "g_in_GMf_over_R2_outside": {
+    "-7": "3/5",
+    "-2": "-1"
+  },
+  "inside_free_energy_fraction": "2/5",
+  "outside_free_energy_fraction": "3/5",
+  "Ugrav_in_GMf2_over_R": "-421/990",
+  "finite_boundary_examples": [
+    {
+      "L_over_R": "2",
+      "original_free_energy_tail_fraction": "3/160",
+      "finite_Dirichlet_total_free_energy_ratio": "32/31",
+      "missing_tail_reduced_lift_inside_L": "1/128",
+      "negative_gravitational_gradient_tail_in_GMf2_over_R": "-279849/1126400"
+    },
+    {
+      "L_over_R": "3",
+      "original_free_energy_tail_fraction": "1/405",
+      "finite_Dirichlet_total_free_energy_ratio": "243/242",
+      "missing_tail_reduced_lift_inside_L": "1/1458",
+      "negative_gravitational_gradient_tail_in_GMf2_over_R": "-1802791/10825650"
+    },
+    {
+      "L_over_R": "4",
+      "original_free_energy_tail_fraction": "3/5120",
+      "finite_Dirichlet_total_free_energy_ratio": "1024/1023",
+      "missing_tail_reduced_lift_inside_L": "1/8192",
+      "negative_gravitational_gradient_tail_in_GMf2_over_R": "-288302089/2306867200"
+    },
+    {
+      "L_over_R": "8",
+      "original_free_energy_tail_fraction": "3/163840",
+      "finite_Dirichlet_total_free_energy_ratio": "32768/32767",
+      "missing_tail_reduced_lift_inside_L": "1/524288",
+      "negative_gravitational_gradient_tail_in_GMf2_over_R": "-295277199369/4724464025600"
+    }
+  ],
+  "commuting_static_example": {
+    "epsilon": "1/7",
+    "currents": [
+      "2/3",
+      "-5/4"
+    ],
+    "R": "3/8",
+    "boundary_coordinates": [
+      "1/21",
+      "-5/56"
+    ],
+    "positive_free_energy": "289/10584",
+    "signed_interaction_energy": "-289/5292",
+    "counterterm_energy": "289/10584",
+    "sum": "0",
+    "scope": "Classical simultaneous c-number currents; not noncommuting quantum D,C."
+  },
+  "scope": "Classical static positive free-field angular average under conditional rho=energy/c^2; not a full quantum interacting/counterterm source density."
+}

@@ -1,0 +1,139 @@
+{
+  "Codex_agents_launched": 0,
+  "budget": {
+    "aggregate_properties_changed": false,
+    "allowed_cpus": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "controller_cpus": [
+      0
+    ],
+    "cpu_worker_order": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "created_utc": "2026-10-16T02:24:19.808426+00:00",
+    "global_host_lock_acquired": false,
+    "host": "lilhelper-T500-local",
+    "memory_high_bytes": 1932734464,
+    "memory_max_bytes": 2147483648,
+    "memory_swap_max_bytes": 0,
+    "parent_limits": {
+      "ActiveState": "active",
+      "AllowedCPUs": "0-15",
+      "CPUQuotaPerSecUSec": "13.284000s",
+      "MemoryHigh": "7085892648",
+      "MemoryMax": "7873214054",
+      "MemorySwapMax": "0"
+    },
+    "prelaunch_available_memory_bytes": 10511056896,
+    "schema": "GEN6_DUCK_OWN_RESOURCE_BUDGET_V1",
+    "workers": 6
+  },
+  "code_identity": {
+    "checked_utc": "2026-10-16T02:24:19.803230+00:00",
+    "core_manifest_sha256": "76b1738967a891997a91cd14ab4ec5e81e57de24c54496bc35dafa50c7cac8b7",
+    "core_version": "0.10.2",
+    "file_count": 717,
+    "ignored_entries": [
+      "*.pyc",
+      "**/__pycache__/**"
+    ],
+    "inventory_sha256": "fbdfce7cf423a2cd100a6f0324f5134497590cc5f14400f57d838215ead70bde",
+    "live_matches_manifest": true,
+    "live_package": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_PROJECT/gen6_duck_t500",
+    "manifest_sha256": "8b6acdc34a78f30a108a9241e9668acce388b9b2b4354d1c8cf5a5411d184c58",
+    "mutation_performed": false,
+    "native_execution_files": 743,
+    "run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03",
+    "runtime_version": "1.2.3",
+    "schema": "GEN6_DUCK_CODE_IDENTITY_V1",
+    "snapshot": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/executed_code",
+    "snapshot_matches_manifest": true,
+    "status": "PASS"
+  },
+  "command": [
+    "systemd-run",
+    "--user",
+    "--collect",
+    "--quiet",
+    "--unit",
+    "sam-r3-gen6-duck-chapter3-source-field-20261015-03",
+    "--slice",
+    "sam-r3.slice",
+    "--working-directory",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project",
+    "--property=Type=exec",
+    "--property=KillMode=control-group",
+    "--property=AllowedCPUs=0,2,3,4",
+    "--property=CPUAffinity=0 2 3 4",
+    "--property=CPUQuota=600%",
+    "--property=MemoryMax=2147483648",
+    "--property=MemoryHigh=1932734464",
+    "--property=MemorySwapMax=0",
+    "--property=TasksMax=128",
+    "--property=RuntimeMaxSec=14400",
+    "--property=TimeoutStopSec=30",
+    "--property=StandardOutput=append:/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/STDOUT.log",
+    "--property=StandardError=append:/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/STDERR.log",
+    "--setenv=SAM_R3_RUN_ID=chapter3-source-field-20261015-03",
+    "--setenv=SAM_R3_BUDGET=/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/BUDGET.json",
+    "--setenv=SAM_R3_ALLOWED_CPUS=0,2,3,4",
+    "--setenv=SAM_R3_CPU_ORDER=0,2,3,4",
+    "--setenv=SAM_R3_WORKERS=6",
+    "--setenv=PYTHONDONTWRITEBYTECODE=1",
+    "--setenv=PYTHONUNBUFFERED=1",
+    "--",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/.venv-r3/bin/python",
+    "-B",
+    "-m",
+    "SAM_PROJECT.gen6_duck_t500.runtime",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03"
+  ],
+  "native_controllers": 6,
+  "operator_profile": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "role": "OUTSIDE_OPERATOR"
+  },
+  "operator_profile_attestation": "REQUESTED_OPERATOR_PROFILE_ONLY",
+  "time_utc": "2026-10-16T02:24:19.832795+00:00",
+  "topology": {
+    "controller_cpus": [
+      2,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "controller_ids": [
+      "G6_01",
+      "G6_02",
+      "G6_03",
+      "G6_04",
+      "G6_05",
+      "G6_06"
+    ],
+    "coordinator_cpu": 0,
+    "helper_coordinator_cpu": 1,
+    "helper_cpus": [
+      8,
+      9,
+      10
+    ],
+    "helper_ids": [
+      "LH_01",
+      "LH_02",
+      "LH_03"
+    ],
+    "profile": "a",
+    "schema": "GEN6_DUCK_RUN_TOPOLOGY_V1",
+    "worker_memory_floor_bytes": 134217728
+  }
+}

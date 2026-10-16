@@ -1,0 +1,34 @@
+{
+  "key": "web_c30ee6765afa48d2a38a606a473a884f",
+  "kind": "TASK",
+  "task": {
+    "because": [
+      73
+    ],
+    "consumes": "r2_reference_paid_inverse",
+    "controller": "LH_05",
+    "estimated_memory_bytes": 268435456,
+    "key": "web_c30ee6765afa48d2a38a606a473a884f",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "purpose": "Find source-linked candidate connections: source duration action reference",
+    "request": {
+      "depth": 2,
+      "max_nodes": 64,
+      "max_results": 8,
+      "query": "source duration action reference",
+      "seeds": [
+        "GEN4/gen6_spin_clock_successor1_20261014/ACTION_LEARNING.md"
+      ]
+    },
+    "source_binding": {
+      "core_wheel_sha256": null,
+      "law_namespace": "SAM_land",
+      "native_core_version": "0.10.2",
+      "original_target": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_continuation2_20261015/TARGET.md",
+      "scope": "Chapter II signature -> memory -> paid Write clock; active breadcrumb exploration",
+      "target_sha256": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230"
+    },
+    "target_id": "PAID_WRITE_CLOCK"
+  }
+}

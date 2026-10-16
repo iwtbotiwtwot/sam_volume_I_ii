@@ -1,0 +1,11 @@
+{
+  "status": "OLD_PREPARATIONS_PRESERVED_UNLAUNCHED",
+  "old_runs": [
+    "chapter3-source-field-20261015-01",
+    "chapter3-source-field-20261015-02"
+  ],
+  "watcher_pid": 202177,
+  "watcher_terminated": true,
+  "reason": "Owner requested6controllers3helpers with two simultaneous sessions and onlyownCPUleases",
+  "successor_after_qualification": "chapter3-source-field-20261015-03"
+}

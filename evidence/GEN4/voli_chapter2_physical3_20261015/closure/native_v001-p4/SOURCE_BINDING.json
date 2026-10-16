@@ -1,0 +1,17 @@
+{
+  "campaign": "voli_chapter2_physical3_20261015",
+  "executed_code": {
+    "point_source.py": "66ecfc213871bf3dd8b926edfbaff9f4e4fe052e9068e2dab23db343baf3bb04",
+    "source_pilot.py": "cd7f045744a9c4f05e0cbb12c4dc4d6cebabdd969d30c686bdccb720fae6df79"
+  },
+  "native_route": "Source-bound DomainSession extension followed by installed GEN3_COMPLEX_SOLVE",
+  "operator": "A=N(I-P); original physical heatbath fields, no auxiliary replacement",
+  "power": 4,
+  "precision_bits": 1024,
+  "profile_id": "V001_BASE",
+  "question": "Does the actual finite-N spin Krylov enlargement have another outgoing direction?",
+  "source_adapter": "GEN4/voli_chapter2_physical3_20261015/closure/native_v001-p4/executed_code",
+  "source_files": {
+    "GEN4/spin_conditional_variance1/sources/original/V001_BASE.json.gz": "647559eef732c2c75aadad3f3744f09ce79cc6a44fc387d9026a3a9e7b7d83ca"
+  }
+}

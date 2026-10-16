@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "fresh_stage": "/tmp/sam-chapter2-continuation-portable-stage/sam_chapter2",
+  "scripts": 8,
+  "native_executions": 0,
+  "manifest_verified_before_replay": true,
+  "source_dependencies_at_replay": 349,
+  "actual_Duck_returns": 19,
+  "authenticated_helper_relocations": 5,
+  "pdf_rebuilt_byte_identical": true,
+  "pdf_sha256": "1a158a6d605711bb2bc1a47cd6fd6fa495670bbcd9d982471f15c7502c6818c4",
+  "interpretation": "Only bounded reader-provenance/history files are added at final packaging; scientific code and source operands unchanged"
+}

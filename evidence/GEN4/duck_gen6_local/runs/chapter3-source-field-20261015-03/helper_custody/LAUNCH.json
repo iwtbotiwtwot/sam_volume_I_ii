@@ -1,0 +1,112 @@
+{
+  "Codex_agents_launched": 0,
+  "budget": {
+    "aggregate_properties_changed": false,
+    "allowed_cpus": [
+      1,
+      8,
+      9,
+      10
+    ],
+    "controller_cpus": [
+      1
+    ],
+    "cpu_worker_order": [
+      1,
+      8,
+      9,
+      10
+    ],
+    "created_utc": "2026-10-16T02:24:26.243821+00:00",
+    "global_host_lock_acquired": false,
+    "host": "lilhelper-T500-local",
+    "memory_high_bytes": 966365184,
+    "memory_max_bytes": 1073741824,
+    "memory_swap_max_bytes": 0,
+    "parent_limits": {
+      "ActiveState": "active",
+      "AllowedCPUs": "0-15",
+      "CPUQuotaPerSecUSec": "13.284000s",
+      "MemoryHigh": "7085892648",
+      "MemoryMax": "7873214054",
+      "MemorySwapMax": "0"
+    },
+    "prelaunch_available_memory_bytes": 9986539520,
+    "schema": "GEN6_DUCK_OWN_RESOURCE_BUDGET_V1",
+    "workers": 3
+  },
+  "command": [
+    "systemd-run",
+    "--user",
+    "--collect",
+    "--quiet",
+    "--unit",
+    "sam-r3-gen6-duck-helper-chapter3-source-field-20261015-03",
+    "--slice",
+    "sam-r3.slice",
+    "--working-directory",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project",
+    "--property=Type=exec",
+    "--property=KillMode=control-group",
+    "--property=AllowedCPUs=1,8,9,10",
+    "--property=CPUAffinity=1 8 9 10",
+    "--property=CPUQuota=300%",
+    "--property=MemoryMax=1073741824",
+    "--property=MemoryHigh=966365184",
+    "--property=MemorySwapMax=0",
+    "--property=TasksMax=128",
+    "--property=RuntimeMaxSec=14400",
+    "--property=TimeoutStopSec=30",
+    "--wait",
+    "--pipe",
+    "--setenv=SAM_R3_RUN_ID=chapter3-source-field-20261015-03",
+    "--setenv=SAM_R3_BUDGET=/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-03/BUDGET.json",
+    "--setenv=SAM_R3_ALLOWED_CPUS=1,8,9,10",
+    "--setenv=SAM_R3_CPU_ORDER=1,8,9,10",
+    "--setenv=SAM_R3_WORKERS=3",
+    "--setenv=PYTHONDONTWRITEBYTECODE=1",
+    "--setenv=PYTHONUNBUFFERED=1",
+    "--",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/.venv-r3/bin/python",
+    "-B",
+    "-m",
+    "SAM_PROJECT.gen6_duck_t500.helper",
+    "serve",
+    "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter3-source-field-20261015-03"
+  ],
+  "native_helper_count": 3,
+  "time_utc": "2026-10-16T02:24:26.245119+00:00",
+  "topology": {
+    "controller_cpus": [
+      2,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "controller_ids": [
+      "G6_01",
+      "G6_02",
+      "G6_03",
+      "G6_04",
+      "G6_05",
+      "G6_06"
+    ],
+    "coordinator_cpu": 0,
+    "helper_coordinator_cpu": 1,
+    "helper_cpus": [
+      8,
+      9,
+      10
+    ],
+    "helper_ids": [
+      "LH_01",
+      "LH_02",
+      "LH_03"
+    ],
+    "profile": "a",
+    "schema": "GEN6_DUCK_RUN_TOPOLOGY_V1",
+    "worker_memory_floor_bytes": 134217728
+  }
+}

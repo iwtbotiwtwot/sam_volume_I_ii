@@ -1,0 +1,126 @@
+{
+  "Q_positive_leading_minors": [
+    "128",
+    "17344",
+    "2220032",
+    "281939968"
+  ],
+  "cube_coordinates_embedding": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      1
+    ],
+    [
+      1,
+      -1,
+      1
+    ],
+    [
+      -1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "independent_exact_checks": 2040,
+  "native_tasks": "Prepared here; actual execution and receipts belong to parent Duck run.",
+  "pair_squared_distance_counts": {
+    "4": 12,
+    "8": 12,
+    "12": 4
+  },
+  "scope": "Exact retained source and finite-cube algebra; displayed retained energy decimals are not new certified square-root evaluation.",
+  "status": "PASS",
+  "theorem_controls": [
+    "All principal minors establish PSD of each rational spatial Gram.",
+    "Congruence by positive energy square root carries exact flatness to H0/8.",
+    "For q=sqrt(3)*ell/r<1, even Legendre tail beyond l=4 bounded by q^6/(r*(1-q^2))."
+  ],
+  "worked_retained_energy_rows": [
+    {
+      "eight_equal_normalized_shares": [
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8"
+      ],
+      "per_site_energy_relative": "11302793352678457/8000000000000000",
+      "preparation": "e0",
+      "retained_energy_relative": "11.302793352678457"
+    },
+    {
+      "eight_equal_normalized_shares": [
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8"
+      ],
+      "per_site_energy_relative": "1182826622637241/800000000000000",
+      "preparation": "plus",
+      "retained_energy_relative": "11.82826622637241"
+    },
+    {
+      "eight_equal_normalized_shares": [
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8"
+      ],
+      "per_site_energy_relative": "11131220607210203/8000000000000000",
+      "preparation": "minus",
+      "retained_energy_relative": "11.131220607210203"
+    },
+    {
+      "eight_equal_normalized_shares": [
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8"
+      ],
+      "per_site_energy_relative": "2295948683358261/1600000000000000",
+      "preparation": "phase",
+      "retained_energy_relative": "11.479743416791305"
+    }
+  ]
+}

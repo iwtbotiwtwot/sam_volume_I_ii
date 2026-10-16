@@ -1,0 +1,282 @@
+{
+  "because": [
+    24,
+    29
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "59f503388046adce9cd66d33c5801c76c81163321b049d3922d0d2f8d1a71b2d",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T00:17:11.866071+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_11",
+  "imports": [],
+  "key": "r2_reference_paid_inverse",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "receiving_status": "Finite controlled fixture, not original continuum preparation or physical source assignment"
+      },
+      "spectral_coordinate": "source plus reference",
+      "units": {
+        "energy": "declared finite reference-apparatus diagnostic"
+      }
+    },
+    "data": {
+      "operators": {
+        "Hr": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            "-48/5"
+          ]
+        ],
+        "Hs": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "I2": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "rr": [
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ]
+        ],
+        "rs": [
+          [
+            "2/5",
+            "2/5"
+          ],
+          [
+            "2/5",
+            "3/5"
+          ]
+        ]
+      },
+      "output": "rhoH",
+      "program": [
+        {
+          "inputs": [
+            "Hs",
+            "I2"
+          ],
+          "name": "HsI",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "I2",
+            "Hr"
+          ],
+          "name": "IHr",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "HsI",
+            "IHr"
+          ],
+          "name": "Htot",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "rs",
+            "rr"
+          ],
+          "name": "rho",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "rho",
+            "Htot"
+          ],
+          "name": "rhoH",
+          "op": "multiply"
+        }
+      ]
+    },
+    "name": "r2_reference_paid_inverse",
+    "source_binding": {
+      "campaign": "voli_chapter2_continuation2_20261015",
+      "declared_fixture": true,
+      "law_namespace": "SAM_land",
+      "operand_sha256": "dbc5b33fb7d58a12513fa7536cd2ab72bf6578a7a2f40b578945b3973fb62b4b",
+      "original_continuum_energy_assigned": false,
+      "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+      "question": "Receive the explicitly driven reference-apparatus inverse-stroke energy balance; trace is the signed ledger rate",
+      "source_files": {
+        "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+        "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+        "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+        "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+        "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+      }
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01/workers/G6_11/tasks/r2_reference_paid_inverse/RESULT.json",
+  "receipt_sha256": "fdf7d9f082851ef5fa1ef1fdd52b3077bc3e91d3fa0421d622f4d21be55fe863",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 17752212293560,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "2/5",
+        "-38/25",
+        "1",
+        "-23/25"
+      ],
+      [
+        "2/5",
+        "-38/25",
+        "1",
+        "-23/25"
+      ],
+      [
+        "2/5",
+        "-38/25",
+        "3/2",
+        "-69/50"
+      ],
+      [
+        "2/5",
+        "-38/25",
+        "3/2",
+        "-69/50"
+      ]
+    ],
+    "native_assertions": 56,
+    "ordered_program": [
+      {
+        "inputs": [
+          "Hs",
+          "I2"
+        ],
+        "name": "HsI",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "I2",
+          "Hr"
+        ],
+        "name": "IHr",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "HsI",
+          "IHr"
+        ],
+        "name": "Htot",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "rs",
+          "rr"
+        ],
+        "name": "rho",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "rho",
+          "Htot"
+        ],
+        "name": "rhoH",
+        "op": "multiply"
+      }
+    ],
+    "output": "rhoH",
+    "rank": 2,
+    "record_sha256": "a29fe93337dcf7115c1178890fb70bba2b7663b5c1bacf4e212fe0f51c874f14"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND2",
+  "source_binding": {
+    "campaign": "voli_chapter2_continuation2_20261015",
+    "declared_fixture": true,
+    "law_namespace": "SAM_land",
+    "operand_sha256": "dbc5b33fb7d58a12513fa7536cd2ab72bf6578a7a2f40b578945b3973fb62b4b",
+    "original_continuum_energy_assigned": false,
+    "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+    "question": "Receive the explicitly driven reference-apparatus inverse-stroke energy balance; trace is the signed ledger rate",
+    "source_files": {
+      "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+      "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+      "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+      "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+      "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T00:17:11.240437+00:00",
+  "status": "COMPLETED",
+  "target_id": "PAID_WRITE_CLOCK",
+  "task_kind": "native",
+  "worker_cpu": 6,
+  "worker_pid": 135855
+}

@@ -1,0 +1,15 @@
+{
+  "native_runtime_replaced": false,
+  "operations": [
+    "GEN5_SOURCE_STROKE_INTEGRAL",
+    "GEN3_COMPLEX_SOLVE",
+    "GEN3_SOURCE_OPERATOR_WORD",
+    "GEN3_COMPLEX_PRODUCT"
+  ],
+  "original_law_preserved": true,
+  "round_seconds": [
+    180,
+    180
+  ],
+  "route": "Qualified installed GEN6 Duck native tasks; source extension separately retained"
+}

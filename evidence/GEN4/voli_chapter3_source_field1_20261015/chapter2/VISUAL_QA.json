@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "pdf_sha256": "c0c22369f5e05087bd2711ae6d7cb4f8e2d3324051e3300e2d02a22819f35929",
+  "method": "Poppler1300pixel first/21-23 images and1500pixel revised page24, direct image inspection",
+  "pages_reviewed": [
+    1,
+    21,
+    22,
+    23,
+    24
+  ],
+  "unchanged_pages_2_to_20": "Inherited verified predecessor body; frozen source integrity checks retained",
+  "findings": "No overflow, clipping, missing equation glyphs or table collisions. Pages23-24 previously reviewed for actual Si29 uniform-coupling invariance and full-history counterterm clarification. Revised page24 directly inspected after adding the common-history phase proof, rational signed bound, exact Earth example and distinction from independent-band comparison; all48sections and24pages retained.",
+  "images": [
+    {
+      "path": "visual/first-01.png",
+      "sha256": "12e390fe159ee3bb563484adcb030cbf01be5dca6963b7b84d1abeddbff306cf"
+    },
+    {
+      "path": "visual/new-21.png",
+      "sha256": "7bd2ec59301f1e88807393c26cc6727d26fc4cdd6f0bc0dca3841190e28df11d"
+    },
+    {
+      "path": "visual/new-22.png",
+      "sha256": "ae249524ace9a1804e6c6698ac30e85cc4e6042ed3b74a6585d152029301ca0b"
+    },
+    {
+      "path": "visual/new-23.png",
+      "sha256": "62db683b85d327addd4e17864854577958b9b0641158d6e8df22b07f0e793100"
+    },
+    {
+      "path": "visual/new-24.png",
+      "sha256": "9b5a4f9797d97f6505fe572ab7f56b08a910111a7dce225741444f7b0e62f6c5"
+    }
+  ]
+}

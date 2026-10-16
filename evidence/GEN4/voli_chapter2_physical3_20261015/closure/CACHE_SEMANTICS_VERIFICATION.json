@@ -1,0 +1,21 @@
+{
+  "schema": "SAM_CH2_SOURCE_CACHE_SEMANTICS_VERIFICATION_V1",
+  "status": "PASS",
+  "independent_exact_interval_overlap_checks": 216,
+  "meaning": "The original retained-cache native source rows and revised per-configuration-clearing native rows enclose the same full-source evaluations",
+  "mathematical_reason": "Memoization stores pure recursive function values; clearing exact intermediates after a retained row changes neither generator, state, input, expression order nor Arb row precision",
+  "inputs": [
+    {
+      "path": "native_batch_p4b/SOURCE_RAW.json",
+      "sha256": "178f6524a43601e0d9384605d1f4e85fc41dbc4ca3f5c6aa583de0b15bde62d7"
+    },
+    {
+      "path": "native_v001-p3c/SOURCE_RAW.json",
+      "sha256": "b2377f334e767612c1e6742ed5314ffd015dbc491110d8ecd1b959f86d2ca755"
+    },
+    {
+      "path": "native_v001-p4/SOURCE_RAW.json",
+      "sha256": "f73006f493fefd84a1b040e607c768e7725780944328c95bd82a789ef49dc3c2"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "because": [],
+  "completed_utc": "2026-10-16T01:04:02.664423+00:00",
+  "execution_class": "SOURCE_RETRIEVAL",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "LH_06",
+  "imports": [],
+  "key": "web_r2_003",
+  "kind": "RESULT",
+  "native_calls": 0,
+  "operation": "RESEARCH_WEB_SEARCH",
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-physical-protocols-20261015-01/t500-scratch-chapter2-physical-protocols-20261015-01/LH_06/tasks/web_r2_003/RESULT.json",
+  "receipt_sha256": "26ca44bb0c4fa272d6ae5d4fdc318c8ef867c57d20a92f9490dedb3ac03308a2",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 20563011115612,
+  "returned": {
+    "bounds": {
+      "deferred_count": 0,
+      "depth": 2,
+      "max_nodes": 64,
+      "max_results": 8,
+      "returned_count": 1,
+      "text_and_seed_roots": 1,
+      "text_records_scanned": 1552,
+      "visited_count": 1
+    },
+    "connection_scope": "Source retrieval and explicit navigation; mathematical applicability requires a source-to-task mapping",
+    "deferred_frontier": [],
+    "execution_class": "SOURCE_RETRIEVAL",
+    "explicit_links": [],
+    "index": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/research_web.sqlite",
+      "sha256": "c249f3e8e78174655f12397f6ac3693cd0680a9ffe1db9fb796858cfac51f180"
+    },
+    "index_sha256": "c249f3e8e78174655f12397f6ac3693cd0680a9ffe1db9fb796858cfac51f180",
+    "matches": [
+      {
+        "body_sha256": "2fc8b0daf93e1020bfe60a135ea6a83b8b0586ea16e274451d591407ad576c0f",
+        "connection_path": [],
+        "depth": 0,
+        "excerpt": {
+          "end_character": 2029,
+          "full_length": 11806,
+          "start_character": 829,
+          "text": "ng to the fixed gate. An event contributes theta_event^k. Every prescribed polynomial exposure/event receiver of degree at most d is exactly its coefficient contraction with these counters. Source time dt instead requires the transported factor 1/nu(theta), and is not generally a polynomial-phase receiver.\n\nA finite number of real/rational counters does not imply a finite number of states or bits: exact precision can grow. An arbitrary retrospective gate requires its own sufficient record; the fixed-gate construction is not such a record by itself.\n\n## R2. Exact minimality is a rank statement for the admitted receiver class\n\nLet F(h) be the full vector of required additive receiver moments on an admitted family of histories. If the initial endpoint and fixed total duration/event count are given, subtract a fixed F(h0). Let V be the linear span of these differences, of dimension r. A summary with c linear additive counters and a linear decoder for every required receiver must have c>=r. Choosing r independent coordinates on V attains that dimension for this family. The same statement applies to finitely many exposure/event measures, modulo all constraints satisfied by their admitted"
+        },
+        "hash": "6453d8191e0fb34dfd399e59ef25e6a85bdbebf59011347a714c9354cb149267",
+        "kind": "GEN4_SOURCE_DOCUMENT",
+        "origin": "EXPLICIT_CURRENT_OVERLAY",
+        "path": "GEN4/voli_chapter2_continuation2_20261015/records/DERIVATION.md",
+        "reasons": [
+          {
+            "kind": "EXPLICIT_REQUEST_SEED",
+            "seed": "GEN4/voli_chapter2_continuation2_20261015/records/DERIVATION.md"
+          }
+        ],
+        "record_ref": {
+          "hash": "6453d8191e0fb34dfd399e59ef25e6a85bdbebf59011347a714c9354cb149267",
+          "index": {
+            "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/research_web.sqlite",
+            "sha256": "c249f3e8e78174655f12397f6ac3693cd0680a9ffe1db9fb796858cfac51f180"
+          }
+        }
+      }
+    ],
+    "mathematical_operations": 0,
+    "missing_seeds": [],
+    "mode": "connections",
+    "next_use": "Map a candidate to an explicit native task; retain the finding as its dependency",
+    "ordering": "Explicit seed BFS first; then ranked text roots with bounded BFS. Text root rank uses path terms, method kind, and capped term frequency.",
+    "request": {
+      "depth": 2,
+      "max_nodes": 64,
+      "max_results": 8,
+      "query": "history counter apparatus work",
+      "seeds": [
+        "GEN4/voli_chapter2_continuation2_20261015/records/DERIVATION.md"
+      ]
+    },
+    "retained_index_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/research_web.sqlite",
+    "schema": "GEN6_DUCK_RESEARCH_PACKET_V1",
+    "source_export": {
+      "bytes": 30617792,
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_clock_install1_20261014/access/SOURCE_EXPORT.json",
+      "sha256": "fb1da3501f8a1620c4309e2d2e33918d018b48a3cb62d3648a80ef71ef5006a5"
+    },
+    "unresolved_source_links": [],
+    "unreturned_visited": [],
+    "visited": [
+      {
+        "depth": 0,
+        "hash": "6453d8191e0fb34dfd399e59ef25e6a85bdbebf59011347a714c9354cb149267",
+        "path": "GEN4/voli_chapter2_continuation2_20261015/records/DERIVATION.md"
+      }
+    ]
+  },
+  "role": "CPU_HELPER",
+  "round": "ROUND2",
+  "source_binding": {
+    "core_wheel_sha256": null,
+    "law_namespace": "SAM_land",
+    "native_core_version": "0.10.2",
+    "original_target": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter2_physical3_20261015/TARGET.md",
+    "scope": "Actual spin closure and physically paid/read records",
+    "target_sha256": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446"
+  },
+  "started_utc": "2026-10-16T01:04:02.523930+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "research_web",
+  "worker_cpu": 13,
+  "worker_pid": 162452
+}

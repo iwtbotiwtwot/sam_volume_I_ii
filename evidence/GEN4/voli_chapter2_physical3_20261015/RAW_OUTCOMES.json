@@ -1,0 +1,111 @@
+{
+  "native": 11,
+  "outcomes": [
+    {
+      "key": "r1_actual_source_rank10",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_03/tasks/r1_actual_source_rank10/RESULT.json",
+      "receipt_sha256": "9c99939fced9779dde2b7072724416d957f4363d7ec3e143d68fc0593a158e7b",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r1_forward_duration",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_01/tasks/r1_forward_duration/RESULT.json",
+      "receipt_sha256": "cd2295dd6caff109043ec7a43405b87339ce10ccf332d8f08605b2acdecc4e5c",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r1_observable_cube",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_04/tasks/r1_observable_cube/RESULT.json",
+      "receipt_sha256": "a336b59d975ac42b86ace06e201d1dc9cc9896b3514b762c20670ac570ac03f7",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r1_reverse_duration",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_02/tasks/r1_reverse_duration/RESULT.json",
+      "receipt_sha256": "f2b8a9f2250208a475fafdc696021d6999e33575015a90c11ef056461e966192",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r2_deep_source_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_08/tasks/r2_deep_source_inverse/RESULT.json",
+      "receipt_sha256": "544fe8ad355173f38cb6b11c8d931b8f322629c27e56b0f8301c3470eb1923c8",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r2_improved_H3_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_06/tasks/r2_improved_H3_inverse/RESULT.json",
+      "receipt_sha256": "7547cc85f86b8fd671ce8a29c847a5ddceb283e4b96f1534b18bc0f5b7fe4344",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r2_improved_H3_word",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_05/tasks/r2_improved_H3_word/RESULT.json",
+      "receipt_sha256": "feef0d56874ac5d454795267134626cf9cf8d549335a01920d9acd3c941dc0f8",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r2_largest_N_inverse",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_09/tasks/r2_largest_N_inverse/RESULT.json",
+      "receipt_sha256": "3c1c1ade2e50ff5cbe9de7b95d309a517460c9595cfa8a762495c18d82f17fc6",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r2_min_counter_rank",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_11/tasks/r2_min_counter_rank/RESULT.json",
+      "receipt_sha256": "b491f3f0ccade76f89cbbc4e6e5454dcde3a787220aee295d410d13445181729",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r2_paid_work_coefficients",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_07/tasks/r2_paid_work_coefficients/RESULT.json",
+      "receipt_sha256": "e9b2570cc3323f9b005588434e6df65ede95821cb87b12c6d9ba2d3474692373",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "r2_zero_readout_projector",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_10/tasks/r2_zero_readout_projector/RESULT.json",
+      "receipt_sha256": "57d6879f068a776b06d5ac3a208f025e138cb7c87a6c36c591755e6d4ebd6d5e",
+      "status": "COMPLETED",
+      "task_kind": "native"
+    },
+    {
+      "key": "web_r1_000",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-physical-protocols-20261015-01/t500-scratch-chapter2-physical-protocols-20261015-01/LH_05/tasks/web_r1_000/RESULT.json",
+      "receipt_sha256": "f56b0743a21a348e359b96cb6bad3e5988632fc54fc8ff38927d967e51a564ad",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "key": "web_r1_001",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-physical-protocols-20261015-01/t500-scratch-chapter2-physical-protocols-20261015-01/LH_06/tasks/web_r1_001/RESULT.json",
+      "receipt_sha256": "50bffe199eea7fd7892e197f5961aa5c1b525c1126ba0e2da01ff8e07608b32d",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "key": "web_r1_002",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-physical-protocols-20261015-01/t500-scratch-chapter2-physical-protocols-20261015-01/LH_05/tasks/web_r1_002/RESULT.json",
+      "receipt_sha256": "1b140c12868044d3a538c21ccafb0a259ded0e38b9788aafb345c55cf8381a6f",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    },
+    {
+      "key": "web_r2_003",
+      "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_RUNTIME/GEN6_DUCK/chapter2-physical-protocols-20261015-01/t500-scratch-chapter2-physical-protocols-20261015-01/LH_06/tasks/web_r2_003/RESULT.json",
+      "receipt_sha256": "26ca44bb0c4fa272d6ae5d4fdc318c8ef867c57d20a92f9490dedb3ac03308a2",
+      "status": "COMPLETED",
+      "task_kind": "research_web"
+    }
+  ],
+  "research": 4
+}

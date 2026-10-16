@@ -1,0 +1,41 @@
+{
+  "schema": "SAM_CH2_MEMORY_THEORY_BINDINGS_V1",
+  "sources": [
+    {
+      "path": "GEN4/voli_chapter2_bridge1/MEMORY_DERIVATION.md",
+      "sha256": "c2cf82b4aee7cf053068d347d0b64741b4dc2dbf6b0c1688de42bdfc3fa9241e"
+    },
+    {
+      "path": "GEN4/spin_hidden_direction1/NEXT.md",
+      "sha256": "1251e6c5ce760e881f1ebe99de46b391afccafcdcb8c7fb26a4050556a657875"
+    },
+    {
+      "path": "GEN4/duck_spin_upper1_20261014/DERIVATION.md",
+      "sha256": "aa5c94f459e0c56dbfc7984edd1bd5e34229fb43bce72106caf34ac9e751b653"
+    },
+    {
+      "path": "GEN4/duck_spin_upper1_20261014/REPORT.md",
+      "sha256": "d2b0e61b7f45ec6307926f80e915ea9faff4cf91f7cd8e1901b0e0de0b8c02b7"
+    },
+    {
+      "path": "GEN4/duck_spin_upper1_20261014/FOLLOW_UP.md",
+      "sha256": "4246dcdd86f0a08fe00776521447bec7b677febe3d50635d83b316df1ee2e03a"
+    },
+    {
+      "path": "GEN4/spin_source_quadratic1/RESOLVENT_RECIPIENT.md",
+      "sha256": "2577ec80f6e603ad4e7b8dc3ec46cb87230f10eda68f371d878875bc752f05d0"
+    },
+    {
+      "path": "GEN4/duck_spin_connections1/DERIVATION.md",
+      "sha256": "44f96fd4e50ef3985a7121d1e7976c192b2781c0a726d6e7245c0453d4ebd720"
+    },
+    {
+      "path": "GEN4/spin_upper_source1_20261014/DERIVATION.md",
+      "sha256": "200f6a4d0be5b02954df5323dad5a00d8aa8a3db3fc1cbe60a746cfa683db933"
+    },
+    {
+      "path": "GEN4/spin_difference_fifth1/DERIVATION.md",
+      "sha256": "6f41b9360fa39790bc8d14aa4963403e9cc17c049fb246de73c020a42fa389a4"
+    }
+  ]
+}

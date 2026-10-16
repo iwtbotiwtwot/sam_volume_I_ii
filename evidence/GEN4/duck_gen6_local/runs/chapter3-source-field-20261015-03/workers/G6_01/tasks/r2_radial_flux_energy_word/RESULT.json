@@ -1,0 +1,1460 @@
+{
+  "because": [
+    25,
+    35
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "9b3cda9d28bec3de63a65b20c36af6022776d07f5e2671fd9abe5ba251b2d5bf",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T02:29:12.585975+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_01",
+  "imports": [],
+  "key": "r2_radial_flux_energy_word",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "mapping": "finite radial shell Poisson source, explicit absorbing outer boundary"
+      },
+      "spectral_coordinate": "dimensionless static radial source lift",
+      "units": {
+        "a": "dimensionless source lift",
+        "energy": "U_L/energy_unit = -sum_ij m_i H_ij m_j/2",
+        "energy_unit": "G*M_unit^2/h",
+        "kappa": "2*G*M_unit/(c^2*h); masses are in M_unit",
+        "outer_radius": "L*h",
+        "r_i": "i*h"
+      }
+    },
+    "data": {
+      "operators": {
+        "B": [
+          [
+            "1",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "C": [
+          [
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "12",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "20",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "30",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "42",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "56",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "72"
+          ]
+        ],
+        "H": [
+          [
+            "8/9",
+            "7/18",
+            "2/9",
+            "5/36",
+            "4/45",
+            "1/18",
+            "2/63",
+            "1/72"
+          ],
+          [
+            "7/18",
+            "7/18",
+            "2/9",
+            "5/36",
+            "4/45",
+            "1/18",
+            "2/63",
+            "1/72"
+          ],
+          [
+            "2/9",
+            "2/9",
+            "2/9",
+            "5/36",
+            "4/45",
+            "1/18",
+            "2/63",
+            "1/72"
+          ],
+          [
+            "5/36",
+            "5/36",
+            "5/36",
+            "5/36",
+            "4/45",
+            "1/18",
+            "2/63",
+            "1/72"
+          ],
+          [
+            "4/45",
+            "4/45",
+            "4/45",
+            "4/45",
+            "4/45",
+            "1/18",
+            "2/63",
+            "1/72"
+          ],
+          [
+            "1/18",
+            "1/18",
+            "1/18",
+            "1/18",
+            "1/18",
+            "1/18",
+            "2/63",
+            "1/72"
+          ],
+          [
+            "2/63",
+            "2/63",
+            "2/63",
+            "2/63",
+            "2/63",
+            "2/63",
+            "2/63",
+            "1/72"
+          ],
+          [
+            "1/72",
+            "1/72",
+            "1/72",
+            "1/72",
+            "1/72",
+            "1/72",
+            "1/72",
+            "1/72"
+          ]
+        ],
+        "I": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "K": [
+          [
+            "2",
+            "-2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "8",
+            "-6",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-6",
+            "18",
+            "-12",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-12",
+            "32",
+            "-20",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-20",
+            "50",
+            "-30",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "-30",
+            "72",
+            "-42",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-42",
+            "98",
+            "-56"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-56",
+            "128"
+          ]
+        ],
+        "S0": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "S1": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "S2": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      },
+      "output": "answer",
+      "program": [
+        {
+          "inputs": [
+            "B"
+          ],
+          "name": "Bt",
+          "op": "transpose"
+        },
+        {
+          "inputs": [
+            "Bt",
+            "C"
+          ],
+          "name": "BtC",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "BtC",
+            "B"
+          ],
+          "name": "BtCB",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "BtCB",
+            "K"
+          ],
+          "name": "incidence_residual",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "K",
+            "H"
+          ],
+          "name": "KH",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "KH",
+            "I"
+          ],
+          "name": "green_residual",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "H",
+            "K"
+          ],
+          "name": "HK",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "HK",
+            "H"
+          ],
+          "name": "HKH",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "HKH",
+            "H"
+          ],
+          "name": "energy_residual",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "S0",
+            "incidence_residual"
+          ],
+          "name": "o0",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "S1",
+            "green_residual"
+          ],
+          "name": "o1",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "S2",
+            "energy_residual"
+          ],
+          "name": "o2",
+          "op": "tensor"
+        },
+        {
+          "inputs": [
+            "o0",
+            "o1"
+          ],
+          "name": "o01",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "o01",
+            "o2"
+          ],
+          "name": "answer",
+          "op": "add"
+        }
+      ]
+    },
+    "name": "CH3_RADIAL_FLUX_ENERGY_IDENTITIES",
+    "source_binding": {
+      "builder_sha256": "e63a4a0374ad605a7b8d8b63abfe004ea34db3609b2a57ecf66f63f0917100d6",
+      "campaign": "voli_chapter3_source_field1_20261015",
+      "law_namespace": "SAM_land",
+      "model": "retained c_i=i(i+1) isotropic-monopole receiver; explicit thin-shell density extension",
+      "question": "Certify incidence/Green/energy identities B^TCB=K, KH=I, HKH=H for the original finite radial receiving law",
+      "scope": "static conditional shell receiving law; physical source-to-mass map and angular isotropy are not inferred",
+      "source_files": {
+        "GEN4/native_energy_source1/RADIAL_ANALYSIS.md": "c0863586c88106f9f538bd84baf8d4843004b0dfff1d4f5d05a41bb78ebffbea",
+        "GEN4/native_energy_source1/RADIAL_METHOD.md": "3702351798b47e7c121f5233d0dd9835a241d1bfb342ee2a8af8a3ffaf3893d7",
+        "GEN4/vol_i_activation_selection1/NETWORK_METHOD.md": "52bbb30b33bc7ba7f4841ac255871911ad6e8bc2d899e8d5e562f06b428a8ffe",
+        "GEN4/vol_i_activation_selection1/network.py": "a65e1ece5bc29d25666a4ccb81de91194fb8212f05129e50e9ef13e5477b97ab",
+        "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+        "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+        "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+        "GEN4/voli_chapter3_source_field1_20261015/radial/DUCK_R2_TASKS.json": "e263fe1d0b893ae8b4ce9c81500992427f6ddf559a27c4b9b1e82e1d34669b19",
+        "GEN4/voli_chapter3_source_field1_20261015/radial/FIXTURE.json": "35e750eefd0a48b6ab4e631ed03b5f7782f39a069ad0c4622aa82fa8ee19cd6b"
+      }
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "native_assertions": 144,
+    "ordered_program": [
+      {
+        "inputs": [
+          "B"
+        ],
+        "name": "Bt",
+        "op": "transpose"
+      },
+      {
+        "inputs": [
+          "Bt",
+          "C"
+        ],
+        "name": "BtC",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "BtC",
+          "B"
+        ],
+        "name": "BtCB",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "BtCB",
+          "K"
+        ],
+        "name": "incidence_residual",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "K",
+          "H"
+        ],
+        "name": "KH",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "KH",
+          "I"
+        ],
+        "name": "green_residual",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "H",
+          "K"
+        ],
+        "name": "HK",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "HK",
+          "H"
+        ],
+        "name": "HKH",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "HKH",
+          "H"
+        ],
+        "name": "energy_residual",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "S0",
+          "incidence_residual"
+        ],
+        "name": "o0",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "S1",
+          "green_residual"
+        ],
+        "name": "o1",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "S2",
+          "energy_residual"
+        ],
+        "name": "o2",
+        "op": "tensor"
+      },
+      {
+        "inputs": [
+          "o0",
+          "o1"
+        ],
+        "name": "o01",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "o01",
+          "o2"
+        ],
+        "name": "answer",
+        "op": "add"
+      }
+    ],
+    "output": "answer",
+    "rank": 0,
+    "record_sha256": "6a95f66c6f571289e29cf99e0780ab182bdff3f393a4696873cf57dd566ba76e"
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "builder_sha256": "e63a4a0374ad605a7b8d8b63abfe004ea34db3609b2a57ecf66f63f0917100d6",
+    "campaign": "voli_chapter3_source_field1_20261015",
+    "law_namespace": "SAM_land",
+    "model": "retained c_i=i(i+1) isotropic-monopole receiver; explicit thin-shell density extension",
+    "question": "Certify incidence/Green/energy identities B^TCB=K, KH=I, HKH=H for the original finite radial receiving law",
+    "scope": "static conditional shell receiving law; physical source-to-mass map and angular isotropy are not inferred",
+    "source_files": {
+      "GEN4/native_energy_source1/RADIAL_ANALYSIS.md": "c0863586c88106f9f538bd84baf8d4843004b0dfff1d4f5d05a41bb78ebffbea",
+      "GEN4/native_energy_source1/RADIAL_METHOD.md": "3702351798b47e7c121f5233d0dd9835a241d1bfb342ee2a8af8a3ffaf3893d7",
+      "GEN4/vol_i_activation_selection1/NETWORK_METHOD.md": "52bbb30b33bc7ba7f4841ac255871911ad6e8bc2d899e8d5e562f06b428a8ffe",
+      "GEN4/vol_i_activation_selection1/network.py": "a65e1ece5bc29d25666a4ccb81de91194fb8212f05129e50e9ef13e5477b97ab",
+      "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+      "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+      "GEN4/voli_chapter3_source_field1_20261015/build_review.py": "b4fd354564a9703b165f40ccb0963a58016c0fdfedcc0de6b51090c45fafc6d3",
+      "GEN4/voli_chapter3_source_field1_20261015/radial/DUCK_R2_TASKS.json": "e263fe1d0b893ae8b4ce9c81500992427f6ddf559a27c4b9b1e82e1d34669b19",
+      "GEN4/voli_chapter3_source_field1_20261015/radial/FIXTURE.json": "35e750eefd0a48b6ab4e631ed03b5f7782f39a069ad0c4622aa82fa8ee19cd6b"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T02:29:12.495990+00:00",
+  "status": "COMPLETED",
+  "task_kind": "native",
+  "worker_cpu": 2,
+  "worker_pid": 232656
+}

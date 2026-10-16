@@ -1,0 +1,133 @@
+{
+  "key": "r2_TLS_control_rank",
+  "kind": "TASK",
+  "task": {
+    "because": [
+      24
+    ],
+    "consumes": {
+      "web_r1_000": "web_r1_000"
+    },
+    "controller": "G6_06",
+    "estimated_memory_bytes": 402653184,
+    "key": "r2_TLS_control_rank",
+    "kind": "native",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "payload": {
+      "context": {
+        "basis": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "source": "Current R1 breadcrumb and authenticated rational operands"
+        },
+        "spectral_coordinate": "retained source/readout",
+        "units": {
+          "matrix": "exact bound source or receiving coefficient"
+        }
+      },
+      "data": {
+        "operators": {
+          "I": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "M": [
+            [
+              "-88/105",
+              "-368/525",
+              "-8/2625",
+              "9152/13125"
+            ],
+            [
+              "-368/525",
+              "-8/2625",
+              "9152/13125",
+              "55112/65625"
+            ],
+            [
+              "-8/2625",
+              "9152/13125",
+              "55112/65625",
+              "101872/328125"
+            ],
+            [
+              "9152/13125",
+              "55112/65625",
+              "101872/328125",
+              "-766568/1640625"
+            ]
+          ]
+        },
+        "output": "checked_product",
+        "program": [
+          {
+            "inputs": [
+              "M",
+              "I"
+            ],
+            "name": "checked_product",
+            "op": "multiply"
+          }
+        ]
+      },
+      "name": "r2_TLS_control_rank",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "law_namespace": "SAM_land",
+        "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+        "question": "Keep an exact autonomous two-level difference-Hankel control of rank two beside the source record",
+        "source_files": {
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+          "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        }
+      }
+    },
+    "purpose": "Keep an exact autonomous two-level difference-Hankel control of rank two beside the source record",
+    "source_binding": {
+      "campaign": "voli_chapter2_continuation2_20261015",
+      "law_namespace": "SAM_land",
+      "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+      "question": "Keep an exact autonomous two-level difference-Hankel control of rank two beside the source record",
+      "source_files": {
+        "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+        "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+        "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+        "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+        "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+      }
+    },
+    "target_id": "FINITE_RECORD"
+  }
+}

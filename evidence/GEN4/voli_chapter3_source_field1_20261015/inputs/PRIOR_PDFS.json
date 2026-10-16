@@ -1,0 +1,12 @@
+[
+  {
+    "original": "/home/lilhelper/Downloads/SAM_Volume_I_Chapter_III_Development_Draft_20261015.pdf",
+    "retained": "GEN4/voli_chapter3_source_field1_20261015/inputs/SAM_Volume_I_Chapter_III_Development_Draft_20261015.pdf",
+    "sha256": "81704189ec71fe102ced817a690efdf5fbcc22a1239c39c77f9b7b3117a249ee"
+  },
+  {
+    "original": "/home/lilhelper/Downloads/SAM_Volume_I_Chapter_II_Physical_Development_Draft_20261015.pdf",
+    "retained": "GEN4/voli_chapter3_source_field1_20261015/inputs/SAM_Volume_I_Chapter_II_Physical_Development_Draft_20261015.pdf",
+    "sha256": "ce8c0165678bfd9e1953c1f81c19dd34db14608725a5b553467847b66b4ecdfb"
+  }
+]

@@ -1,0 +1,651 @@
+[
+  {
+    "id": "CH3_RADIAL_FLUX_ENERGY_IDENTITIES",
+    "domain": "STARBREAKER",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "payload": {
+      "name": "CH3_RADIAL_FLUX_ENERGY_IDENTITIES",
+      "data": {
+        "operators": {
+          "B": [
+            [
+              "1",
+              "-1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "-1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "-1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "-1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "-1"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "C": [
+            [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "6",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "12",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "20",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "30",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "42",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "56",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "72"
+            ]
+          ],
+          "K": [
+            [
+              "2",
+              "-2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-2",
+              "8",
+              "-6",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-6",
+              "18",
+              "-12",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "-12",
+              "32",
+              "-20",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "-20",
+              "50",
+              "-30",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "-30",
+              "72",
+              "-42",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "-42",
+              "98",
+              "-56"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "-56",
+              "128"
+            ]
+          ],
+          "H": [
+            [
+              "8/9",
+              "7/18",
+              "2/9",
+              "5/36",
+              "4/45",
+              "1/18",
+              "2/63",
+              "1/72"
+            ],
+            [
+              "7/18",
+              "7/18",
+              "2/9",
+              "5/36",
+              "4/45",
+              "1/18",
+              "2/63",
+              "1/72"
+            ],
+            [
+              "2/9",
+              "2/9",
+              "2/9",
+              "5/36",
+              "4/45",
+              "1/18",
+              "2/63",
+              "1/72"
+            ],
+            [
+              "5/36",
+              "5/36",
+              "5/36",
+              "5/36",
+              "4/45",
+              "1/18",
+              "2/63",
+              "1/72"
+            ],
+            [
+              "4/45",
+              "4/45",
+              "4/45",
+              "4/45",
+              "4/45",
+              "1/18",
+              "2/63",
+              "1/72"
+            ],
+            [
+              "1/18",
+              "1/18",
+              "1/18",
+              "1/18",
+              "1/18",
+              "1/18",
+              "2/63",
+              "1/72"
+            ],
+            [
+              "2/63",
+              "2/63",
+              "2/63",
+              "2/63",
+              "2/63",
+              "2/63",
+              "2/63",
+              "1/72"
+            ],
+            [
+              "1/72",
+              "1/72",
+              "1/72",
+              "1/72",
+              "1/72",
+              "1/72",
+              "1/72",
+              "1/72"
+            ]
+          ],
+          "I": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "S0": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "S1": [
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "S2": [
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        },
+        "program": [
+          {
+            "name": "Bt",
+            "op": "transpose",
+            "inputs": [
+              "B"
+            ]
+          },
+          {
+            "name": "BtC",
+            "op": "multiply",
+            "inputs": [
+              "Bt",
+              "C"
+            ]
+          },
+          {
+            "name": "BtCB",
+            "op": "multiply",
+            "inputs": [
+              "BtC",
+              "B"
+            ]
+          },
+          {
+            "name": "incidence_residual",
+            "op": "subtract",
+            "inputs": [
+              "BtCB",
+              "K"
+            ]
+          },
+          {
+            "name": "KH",
+            "op": "multiply",
+            "inputs": [
+              "K",
+              "H"
+            ]
+          },
+          {
+            "name": "green_residual",
+            "op": "subtract",
+            "inputs": [
+              "KH",
+              "I"
+            ]
+          },
+          {
+            "name": "HK",
+            "op": "multiply",
+            "inputs": [
+              "H",
+              "K"
+            ]
+          },
+          {
+            "name": "HKH",
+            "op": "multiply",
+            "inputs": [
+              "HK",
+              "H"
+            ]
+          },
+          {
+            "name": "energy_residual",
+            "op": "subtract",
+            "inputs": [
+              "HKH",
+              "H"
+            ]
+          },
+          {
+            "name": "o0",
+            "op": "tensor",
+            "inputs": [
+              "S0",
+              "incidence_residual"
+            ]
+          },
+          {
+            "name": "o1",
+            "op": "tensor",
+            "inputs": [
+              "S1",
+              "green_residual"
+            ]
+          },
+          {
+            "name": "o2",
+            "op": "tensor",
+            "inputs": [
+              "S2",
+              "energy_residual"
+            ]
+          },
+          {
+            "name": "o01",
+            "op": "add",
+            "inputs": [
+              "o0",
+              "o1"
+            ]
+          },
+          {
+            "name": "answer",
+            "op": "add",
+            "inputs": [
+              "o01",
+              "o2"
+            ]
+          }
+        ],
+        "output": "answer"
+      },
+      "context": {
+        "basis": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "field": {
+          "radicand": 0
+        },
+        "history": {
+          "mapping": "finite radial shell Poisson source, explicit absorbing outer boundary"
+        },
+        "units": {
+          "r_i": "i*h",
+          "outer_radius": "L*h",
+          "kappa": "2*G*M_unit/(c^2*h); masses are in M_unit",
+          "a": "dimensionless source lift",
+          "energy_unit": "G*M_unit^2/h",
+          "energy": "U_L/energy_unit = -sum_ij m_i H_ij m_j/2"
+        },
+        "spectral_coordinate": "dimensionless static radial source lift"
+      },
+      "source_binding": {
+        "model": "retained c_i=i(i+1) isotropic-monopole receiver; explicit thin-shell density extension",
+        "source_files": {
+          "GEN4/native_energy_source1/RADIAL_METHOD.md": "3702351798b47e7c121f5233d0dd9835a241d1bfb342ee2a8af8a3ffaf3893d7",
+          "GEN4/native_energy_source1/RADIAL_ANALYSIS.md": "c0863586c88106f9f538bd84baf8d4843004b0dfff1d4f5d05a41bb78ebffbea",
+          "GEN4/vol_i_activation_selection1/NETWORK_METHOD.md": "52bbb30b33bc7ba7f4841ac255871911ad6e8bc2d899e8d5e562f06b428a8ffe",
+          "GEN4/vol_i_activation_selection1/network.py": "a65e1ece5bc29d25666a4ccb81de91194fb8212f05129e50e9ef13e5477b97ab"
+        },
+        "builder_sha256": "e63a4a0374ad605a7b8d8b63abfe004ea34db3609b2a57ecf66f63f0917100d6",
+        "scope": "static conditional shell receiving law; physical source-to-mass map and angular isotropy are not inferred"
+      }
+    },
+    "question": "Do source conductances, telescoping Green kernel and discrete energy form give one exact receiving operator?",
+    "source_mapping": "Three native blocks: B^T C B-K; KH-I; HKH-H. Analytic Green candidate supplied independently of native inverse.",
+    "expected": {
+      "zero_matrix_shape": [
+        24,
+        24
+      ]
+    }
+  }
+]

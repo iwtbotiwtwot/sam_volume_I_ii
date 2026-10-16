@@ -1,0 +1,1966 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "6ca3acf37a1f882d208dc3ce577ebf6cd443d8df03f66a9b9e61e46aebe4fd55",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-10-15T12:41:41.125471+00:00",
+  "gen6_core_version": "0.10.2",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": "Original substrate source-chart coefficient mapping; all mixed entries retained",
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-10-15T12:41:40.536465+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "B",
+        "input": "000_B.input.json",
+        "input_sha256": "f023a24bb00c7b4704ac67823116261da498df8211a5257cd68d5b514ad3eab3",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "000_B.output.json",
+        "output_sha256": "b8e9322530bb3fa46fab21409c89689421df75d35d672484f812db9881481900"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "B_adjoint",
+        "input": "001_B_adjoint.input.json",
+        "input_sha256": "6f401a91e4c8aefdf351c689b190c89cefa1fd54ec7043a0d9faf6ed02f91ff4",
+        "operation": "GEN3_COMPLEX_ADJOINT",
+        "output": "001_B_adjoint.output.json",
+        "output_sha256": "d2edfd4850ef0ed7c35204fc54dda49721989dea2a71fc65f62120f0146845f5"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "T",
+        "input": "002_T.input.json",
+        "input_sha256": "2ca10982f75fbef3795b9c0ae05e271a86032fe60cebacd628fb47379e467931",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "002_T.output.json",
+        "output_sha256": "0dd78bf007b37f9c48d351592be8734ebe543fb5c5adf9d9cd0b648bdd776c37"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "retained_T",
+        "input": "003_retained_T.input.json",
+        "input_sha256": "c70f0914b44c75e33a946f23d0ae5fb4aa4e996e1de8bc228707994a6b236a3b",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "003_retained_T.output.json",
+        "output_sha256": "600f35dc301af27c765350fda8927e470837f51b0194616d77edc0479cf660dd"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "T_transcription_residual",
+        "input": "004_T_transcription_residual.input.json",
+        "input_sha256": "3be51af50a37047c99d89efbdb48bdad0c05705f002adfee93379f41f9126bca",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "004_T_transcription_residual.output.json",
+        "output_sha256": "d53949592da8e6471e98120dbfcaaec76e5fcab7ec818464e231e5a5e3054be6"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "K",
+        "input": "005_K.input.json",
+        "input_sha256": "41256493d79480d14e8b92f9606e7eef92422b36763ac13b20b4ad72336cdb76",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "005_K.output.json",
+        "output_sha256": "7f7b367b9351bf9980854201b215c895a947ba516c345edb809860f65cb01359"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Q_unit_diagnostic",
+        "input": "006_Q_unit_diagnostic.input.json",
+        "input_sha256": "2e6ce75ac918da809dbe8714910042516de340a6685d66af83cfa8215923c58f",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "006_Q_unit_diagnostic.output.json",
+        "output_sha256": "acd843ddf34460a65e4250d12dd48152bb8b5d0c56c632646c12c128c1bdf059"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "retained_Q",
+        "input": "007_retained_Q.input.json",
+        "input_sha256": "036d2be3a796e11f247c72d137c8b3c2e56e00df66139c75196d2403db6f6fb5",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "007_retained_Q.output.json",
+        "output_sha256": "109818d5e88de7c2fcc7d26a92f9d825476596f03cf92de9d621226c8e66b8c4"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              1
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              2
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              3
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Q_transcription_residual",
+        "input": "008_Q_transcription_residual.input.json",
+        "input_sha256": "b11504243140b55611694315bc9bafcb1b20a03b6f4c0d07f8ca3f856a95fe8f",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "008_Q_transcription_residual.output.json",
+        "output_sha256": "02dd91a1d8990415d0c57e36b716b877532957782c445899d750457186742940"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Q00",
+        "input": "009_Q00.input.json",
+        "input_sha256": "ce2117208b232d5a23cbade7fdd4c76bcb7e10d009efc64a9d8d1993f7755721",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "009_Q00.output.json",
+        "output_sha256": "ea5ee763c679f8dde8c3f9048dab9e50a59bf9dc9019c714cbfc30c7faabec82"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Q00_squared",
+        "input": "010_Q00_squared.input.json",
+        "input_sha256": "6745fe82737b78d3c0dd3327aeafddf0688fc9e0519cbc49e16a804bef1ea98f",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "010_Q00_squared.output.json",
+        "output_sha256": "3cd60b7a88337d83b3146eecb22e0e24262cfd971c18be3dff207e62fa913bad"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "I1",
+        "input": "011_I1.input.json",
+        "input_sha256": "43ccfedf88ae46081cba425ba9c7dc76b949e7f9e78d209aa21d9606381c9166",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "011_I1.output.json",
+        "output_sha256": "2f0701b9a2010006d298ecadf873ba72d57e1c04abd1e5f4362bbe743f8eff23"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Eref",
+        "input": "012_Eref.input.json",
+        "input_sha256": "77547c96e785e79820c5f205bf691d8f42df7c7bdfc8eb708279077ce5f2bf65",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "012_Eref.output.json",
+        "output_sha256": "e33b67f30f701df010e3056cdf634bce105828ef81ec3b1cf038e761702271e5"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "epsilon_unit_capacity",
+        "input": "013_epsilon_unit_capacity.input.json",
+        "input_sha256": "84c85d417b4018705e16bf9e0bdc7a42e87e52992ed14d7fc280c1fb5a6244d3",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "output": "013_epsilon_unit_capacity.output.json",
+        "output_sha256": "8ddf47e5b038cba3beba59ab8485c1e7c627d6e29d4a556547b262fab50ae503"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "reference_normalization_closure",
+        "input": "014_reference_normalization_closure.input.json",
+        "input_sha256": "5c01d8db32ed3262e72f48cbd3bf3cf5c532370df2319b724877a91dfa648986",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "014_reference_normalization_closure.output.json",
+        "output_sha256": "3bdbed193a04a81fac68990bff9ddeb569da060a9f058263aec88184c75e0bd1"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "reference_residual",
+        "input": "015_reference_residual.input.json",
+        "input_sha256": "478147f5e46ffcfe74c6575a2827bbcc172b2c2cdf17609b600c6ade847d33b1",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "015_reference_residual.output.json",
+        "output_sha256": "eed1454e633e15e324221cad42ea940de0ad96abe0da96b6da83b47aaef4fda1"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "capacity_incidence",
+        "input": "016_capacity_incidence.input.json",
+        "input_sha256": "819b7fd8bbc04d62163e6aafb0ece3d284a383a225542922146ec12d85ac61dc",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "016_capacity_incidence.output.json",
+        "output_sha256": "337b3789744f36c81d9db15fb6c9fe262357d28cd21fa4c75d7223832337c606"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "signed_gamma_incidence",
+        "input": "017_signed_gamma_incidence.input.json",
+        "input_sha256": "d1fad1f3167eb187024b99f21ce98718c4dbdb2b0c67038aade7862fdfe280e5",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "017_signed_gamma_incidence.output.json",
+        "output_sha256": "9fb5a9b8a05c6483fb5d724e2c0f07092a33c984660d642a0e5ab337778e55b6"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "common_phase_gamma",
+        "input": "018_common_phase_gamma.input.json",
+        "input_sha256": "d00a5b13848a0bc86d85d043d8d4521848b98bc5dfb405007ceb9ca995aca9d8",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "018_common_phase_gamma.output.json",
+        "output_sha256": "3f2538de8762d73642c3e56d70fe196be2838d34e1472e119ffe57d52c217b8a"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "epsilon_current_phase_coefficients",
+        "input": "019_epsilon_current_phase_coefficients.input.json",
+        "input_sha256": "47b90042d2f0631420daa046714a22cf45bd24c97d668426e6a08b85fb7784b4",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "019_epsilon_current_phase_coefficients.output.json",
+        "output_sha256": "934a802e86796ad02e0d00c6e09420cc0e8ecfac8fe13a6e3bde5ac9c734016b"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/write-coupling-clock-20261015-01/workers/G6_02/tasks/original_write_capacity_epsilon/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_02",
+  "imports": [],
+  "key": "original_write_capacity_epsilon",
+  "kind": "RESULT",
+  "native_calls": 20,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/write-coupling-clock-20261015-01/workers/G6_02/tasks/original_write_capacity_epsilon/RESULT.json",
+  "receipt_sha256": "6d47bd0f7f157827692de6b8593b516c7c4a92fc68017632811c2451fe965f1f",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 314757743120633,
+  "returned": {
+    "Eref": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "573049",
+                "upper": "573049"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "K": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "672",
+                "upper": "672"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "96",
+                "upper": "96"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "32",
+                "upper": "32"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "96",
+                "upper": "96"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "2016",
+                "upper": "2016"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "32",
+                "upper": "32"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "672",
+                "upper": "672"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "32",
+                "upper": "32"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "32",
+                "upper": "32"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "672",
+                "upper": "672"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "Q00": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "756",
+                "upper": "756"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "Q00_squared": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "571536",
+                "upper": "571536"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "Q_unit_diagnostic": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "756",
+                "upper": "756"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "104",
+                "upper": "104"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "40",
+                "upper": "40"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "104",
+                "upper": "104"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "2100",
+                "upper": "2100"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "40",
+                "upper": "40"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "756",
+                "upper": "756"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "40",
+                "upper": "40"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "40",
+                "upper": "40"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "756",
+                "upper": "756"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "T": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "84",
+                "upper": "84"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "8",
+                "upper": "8"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "8",
+                "upper": "8"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "8",
+                "upper": "8"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "84",
+                "upper": "84"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "8",
+                "upper": "8"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "84",
+                "upper": "84"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "8",
+                "upper": "8"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "8",
+                "upper": "8"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "84",
+                "upper": "84"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "capacity_incidence": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1",
+                "upper": "1"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1",
+                "upper": "1"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1",
+                "upper": "1"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1",
+                "upper": "-1"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "common_phase_gamma": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "epsilon_current_phase_coefficients": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1/2",
+                "upper": "1/2"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1/2",
+                "upper": "1/2"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1",
+                "upper": "-1"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "epsilon_unit_capacity": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817463/20657999024695268717247353376024094994637646342633788102645274852325180976134729557037162826241102651487225375781979947008",
+                "upper": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817467/20657999024695268717247353376024094994637646342633788102645274852325180976134729557037162826241102651487225375781979947008"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "physical_scale_contract": {
+      "status": "ANALYTIC_CONTRACT",
+      "value": {
+        "Eref": "expectation of Hpair on original placement reference |0,0>:1+2Q00+Q00^2",
+        "counterterm": "Always retain epsilon_R^2(D^2+C^2)/(4R)",
+        "current_matching": "epsilon_current=(t_u/2) dotgamma; gamma=phi_a+phi_b-2phi_p",
+        "current_vs_capacity": "Independent routes require a receiving incidence or clock assignment to identify their physical scales",
+        "epsilon_R": "(hbar/I_s)(t_u/t_SW)lambda_ref/Eref",
+        "g_H": "UNASSIGNED physical source Hamiltonian coefficient; g_H=1 is retained diagnostic",
+        "lambda_ref": "UNASSIGNED reference Write-role capacity fraction",
+        "source_common_phase": "Retained in complete action; no removal of even energy or common phase",
+        "unit_diagnostic": "hbar/I_s=1,t_u/t_SW=1,lambda_ref=1 yields retained 1/Eref"
+      }
+    },
+    "reference_normalization_closure": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306811/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+                "upper": "9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576705/9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576704"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "reference_residual": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-218103809/1322111937580497197903830616065542079656809365928562438569297590548811582472622691650378420879430569695182424050046716608512",
+                "upper": "150994945/1322111937580497197903830616065542079656809365928562438569297590548811582472622691650378420879430569695182424050046716608512"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "signed_gamma_incidence": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1",
+                "upper": "1"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1",
+                "upper": "1"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-2",
+                "upper": "-2"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "source_identities": {
+      "status": "SUPPLIED",
+      "value": {
+        "boundary_target_codes": [
+          13733,
+          13757,
+          16293,
+          38309,
+          38333,
+          40869,
+          42405,
+          42429,
+          44965,
+          45477,
+          45501,
+          46245,
+          46269,
+          46373,
+          46397,
+          46469,
+          46493,
+          46497,
+          46500,
+          46503,
+          46509,
+          46517,
+          46521,
+          46524,
+          46527,
+          46565,
+          46589,
+          47013,
+          47037,
+          48037,
+          48549,
+          48573,
+          48805,
+          48933,
+          49029,
+          49057,
+          49060,
+          49063,
+          49069,
+          49077,
+          49125,
+          62885,
+          62909,
+          65445,
+          73637,
+          77733,
+          79781,
+          80805,
+          81317,
+          81573,
+          81701,
+          81797,
+          81825,
+          81828,
+          81831,
+          81837,
+          81845,
+          81893,
+          98213,
+          112037,
+          112061,
+          114597,
+          177573,
+          177597,
+          180133,
+          212901,
+          308645,
+          308669,
+          311205,
+          343973,
+          570789,
+          570813,
+          573349,
+          606117,
+          1095077,
+          1095101,
+          1097637,
+          1130405
+        ],
+        "decoded_paths": [
+          [
+            0,
+            1,
+            3,
+            2,
+            6,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            3,
+            2,
+            6,
+            7,
+            5
+          ],
+          [
+            0,
+            1,
+            3,
+            7,
+            6,
+            4,
+            5
+          ],
+          [
+            0,
+            2,
+            3,
+            7,
+            6,
+            4,
+            5
+          ]
+        ],
+        "direct_hops_per_path": 21,
+        "missing_source_operand": "Selected original six-cycle signed response ledger; do not infer it from K",
+        "ordered_placement_codes": [
+          46501,
+          46525,
+          49061,
+          81829
+        ],
+        "physical_g_H": "UNASSIGNED",
+        "signed_response_formula": "d_a(s)=sum_edges J(q_u-q_v)sigma_chi e_a; K=sum_a D_a T D_a",
+        "source_incidences_per_cube_hop": 2
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "arithmetic": "Installed SLC-GEN5-R1 certified and exact source arithmetic",
+    "campaign": "duck_write_coupling_clock1_20261015",
+    "coefficients_fitted": false,
+    "completed_campaigns_preserved": true,
+    "construction_author": "Codex source-bound derivation; GEN6 native execution",
+    "parent": "H002618 completed H02-H06 source histories and retained spin methods",
+    "physical_g_H": "UNASSIGNED; unit diagnostic g=1 retained",
+    "physical_scale": "epsilon_R=(hbar/I_s)(t_u/t_SW) lambda_ref/Eref; no assigned microscopic rate or reference capacity",
+    "profile_id": "original_write_capacity_epsilon",
+    "question": "Derive the retained epsilon normalization from the reconstructed original source reference and retain the original Write rate, action-unit and reference-capacity factors explicitly",
+    "signed_response_ledger": "Original selected six-cycle ledger not locally available; exact completed K retained, no reverse-engineered ledger",
+    "source_heads": [
+      "H001523",
+      "H001525",
+      "H002625"
+    ],
+    "source_rules": "Original signed contact witness, phase action and spherical chart",
+    "source_scope": "Original four Li7 seven-slot placement addresses, signed response and complete source Q"
+  },
+  "started_utc": "2026-10-15T12:41:34.478402+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "gen6_job",
+  "worker_cpu": 3,
+  "worker_pid": 1045451
+}

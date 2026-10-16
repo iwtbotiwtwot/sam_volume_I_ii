@@ -1,0 +1,2 @@
+Initial independent checker caught its own uniform-ball energy prefactor error: with alpha=a/[GM/(c²b)], U/(GM²/b)=−one-quarter integral 3x² alpha dx. The checker was corrected from one-half before any result receipt. The manuscript formula −c² integral rho a/4 was already correct.
+The 60-digit Decimal flux recomputation uses an explicit 1e-55 relative rounding tolerance; exact Laurent and Fraction identities keep exact equality.

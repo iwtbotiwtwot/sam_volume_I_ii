@@ -1,0 +1,17 @@
+{
+  "campaign": "voli_chapter2_physical3_20261015",
+  "executed_code": {
+    "point_source.py": "c8c5efcb5137ca34fd06ac89c0066a36eccf90dbd13c777de0d559b1dc0e9f8c",
+    "source_batch.py": "6d489b92c1756980ee30d218883417db0bb05638eec5ca14aaea83cd9f5d8907"
+  },
+  "operator": "A=N(I-P); every original physical field and all N sites",
+  "power": 5,
+  "precision_bits": 1024,
+  "profile_ids": [
+    "V001_BASE"
+  ],
+  "question": "Calculate actual full-N residual after seven dimensions and certify the next exact Krylov ranks",
+  "source_files": {
+    "GEN4/spin_conditional_variance1/sources/original/V001_BASE.json.gz": "647559eef732c2c75aadad3f3744f09ce79cc6a44fc387d9026a3a9e7b7d83ca"
+  }
+}

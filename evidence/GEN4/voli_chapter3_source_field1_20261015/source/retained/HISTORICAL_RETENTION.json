@@ -1,0 +1,36 @@
+{
+  "refs": {
+    "Q01": "e004a48c2b327e79249a4f8d86d44464d39d5edd64e813e886e2d3147c9bd360",
+    "Q02": "4b5fcbdb7f9f3a2ed4f6042b12b9a7b791721b2fc2ab2bc5b21a556dc769fb35",
+    "Q03": "86ec920471f86c7dfb9fd00f84d3fd2ce25de9695955bb4e996ed0baa206b43e",
+    "Q04": "0d2b2014cb2ec6d1027cd57a15924b0d1ce1513dc61ef1d6d4e5f2311098b813",
+    "Q05": "ea2e23ed619f8e79585e50bb6adadad2d9bfbb4acd1d5a597d9e1009b5aa8522",
+    "Q06": "2e7f5520c9a290ff67548751ac5028df3a665f98187b242838668e0d42de77b4",
+    "Q07": "20f9dc5febee69ce65cf01edc0ef8f4fe11061adc20e37e33526717fcf9eb22a",
+    "Q08": "243bb01f59aa8f194b1a72ae38541ab200e3943807812918a1469133ada2cbfa",
+    "Q09": "f5a729f0780c99e2794654d50c47478d459c4acfeda20f5c70625f2a3a1b962d",
+    "Q10": "e09436d95de62a313655aa29d2c45868b4e7ceeb47e31001f4df48b471afd0c9",
+    "Q11": "f00f5184a7deba7c095e280f800b9f8b3d0a295a41ed27526351dcccc125d7d0",
+    "Q12": "1bf6ce20ccb1c3d7067b472bd07cfef8ce04cc7aea20017aa54156bff5d2d899",
+    "Q13": "86f9bbc2f94d2a003503f2693c87870f3107f52cf6502b14cdc9a7e39ae121a0",
+    "installed_propagator": "cb713cccebd1c91d72579cf6df3234fb9cb7edee7b6ffd20a23637ceb76361fc"
+  },
+  "recovered": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q08",
+    "Q09",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13"
+  ],
+  "export_sha256": "962a532fe52f1fead1219859451e97ce3cf49d56bdf252dad8b7f357d0bd42f7",
+  "export_objects": 14,
+  "scope": "Self-contained retained result documents and installed propagator; source code/data and full replay artifacts remain in the campaign directory."
+}

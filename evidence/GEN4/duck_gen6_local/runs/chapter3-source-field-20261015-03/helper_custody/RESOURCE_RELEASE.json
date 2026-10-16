@@ -1,0 +1,12 @@
+{
+  "global_host_lock_acquired": false,
+  "own_cpu_leases_released": true,
+  "own_cpus": [
+    1,
+    8,
+    9,
+    10
+  ],
+  "returncode": 0,
+  "time_utc": "2026-10-16T02:32:12.594987+00:00"
+}

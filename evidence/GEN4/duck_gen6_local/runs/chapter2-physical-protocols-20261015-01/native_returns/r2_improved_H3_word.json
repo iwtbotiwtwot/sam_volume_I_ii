@@ -1,0 +1,190 @@
+{
+  "because": [
+    29,
+    40
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "f51247d14edc86486331ead97a4d212f3b0393914a873594edb44b7211b113f8",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T01:04:03.225854+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_05",
+  "imports": [],
+  "key": "r2_improved_H3_word",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        "0",
+        "1",
+        "2"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "source": "Actual source, specified receiving observable or admitted signed event family; no continuum replacement"
+      },
+      "spectral_coordinate": "declared certificate basis",
+      "units": {
+        "matrix": "source-derived coefficient certificate; original physical units remain in derivation"
+      }
+    },
+    "data": {
+      "operators": {
+        "H": [
+          [
+            "-1961168421349/1000000000000",
+            "-192994881453/1000000000000",
+            "1142144603267/1000000000000"
+          ],
+          [
+            "-192994881453/1000000000000",
+            "-702570315073/1000000000000",
+            "-214903978499/200000000000"
+          ],
+          [
+            "1142144603267/1000000000000",
+            "-214903978499/200000000000",
+            "1470764012879/1000000000000"
+          ]
+        ],
+        "I": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "output": "HI",
+      "program": [
+        {
+          "inputs": [
+            "H",
+            "I"
+          ],
+          "name": "HI",
+          "op": "multiply"
+        }
+      ]
+    },
+    "name": "r2_improved_H3_word",
+    "source_binding": {
+      "campaign": "voli_chapter2_physical3_20261015",
+      "law_namespace": "SAM_land",
+      "original_law_and_clocks_preserved": true,
+      "question": "Certify the exact rational minor for the source-selected improved cadence and its finite-shot witness",
+      "source_files": {
+        "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+        "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+        "GEN4/voli_chapter2_physical3_20261015/build_review.py": "5fba61232b39f79b443b1f4c043840b627d5a1b2ae54d3c4af5796f0e60e00de",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/DEEP_SOURCE_R2.json": "503bc1c9cef98528b3429b8e08cd95c3127d76dd90df0d48cf1e2793d8b888a1",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/LARGEST_SOURCE_R2.json": "5844cf07616f179b86a1b924817cde80e45512e7809711eff3f93bdb91582cdc",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/MEASUREMENT_R2.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49",
+        "GEN4/voli_chapter2_physical3_20261015/inputs/PROTOCOL_R2.json": "bee76943f72bb20189d187b4265f928d14792afa9a4b95bad39a447228c57b0c"
+      }
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-physical-protocols-20261015-01/workers/G6_05/tasks/r2_improved_H3_word/RESULT.json",
+  "receipt_sha256": "feef0d56874ac5d454795267134626cf9cf8d549335a01920d9acd3c941dc0f8",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 20563576381802,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "-1961168421349/1000000000000",
+        "-192994881453/1000000000000",
+        "1142144603267/1000000000000"
+      ],
+      [
+        "-192994881453/1000000000000",
+        "-702570315073/1000000000000",
+        "-214903978499/200000000000"
+      ],
+      [
+        "1142144603267/1000000000000",
+        "-214903978499/200000000000",
+        "1470764012879/1000000000000"
+      ]
+    ],
+    "native_assertions": 25,
+    "ordered_program": [
+      {
+        "inputs": [
+          "H",
+          "I"
+        ],
+        "name": "HI",
+        "op": "multiply"
+      }
+    ],
+    "output": "HI",
+    "rank": 3,
+    "record_sha256": "f39197563bb7340e2d72df2c140e9f280e23576eb9ac3cd01277e862855ee3ce"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND2",
+  "source_binding": {
+    "campaign": "voli_chapter2_physical3_20261015",
+    "law_namespace": "SAM_land",
+    "original_law_and_clocks_preserved": true,
+    "question": "Certify the exact rational minor for the source-selected improved cadence and its finite-shot witness",
+    "source_files": {
+      "GEN4/voli_chapter2_physical3_20261015/RUN_POLICY.json": "3b46b089c9e56fb6d1ccb41ec2e90326d15c6f6f9fb761031b03acbe9b04f8b8",
+      "GEN4/voli_chapter2_physical3_20261015/TARGET.md": "0767e285f8260610b253178d32271b2ef9f31a3d0358c9ddac53adf861a6d446",
+      "GEN4/voli_chapter2_physical3_20261015/build_review.py": "5fba61232b39f79b443b1f4c043840b627d5a1b2ae54d3c4af5796f0e60e00de",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/DEEP_SOURCE_R2.json": "503bc1c9cef98528b3429b8e08cd95c3127d76dd90df0d48cf1e2793d8b888a1",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/LARGEST_SOURCE_R2.json": "5844cf07616f179b86a1b924817cde80e45512e7809711eff3f93bdb91582cdc",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/MEASUREMENT_R2.json": "2c9d723646368aaef97e4d79b1e8cdae394a46f280d0e9132b661eb319d02b49",
+      "GEN4/voli_chapter2_physical3_20261015/inputs/PROTOCOL_R2.json": "bee76943f72bb20189d187b4265f928d14792afa9a4b95bad39a447228c57b0c"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T01:04:02.482828+00:00",
+  "status": "COMPLETED",
+  "target_id": "MEASUREMENT",
+  "task_kind": "native",
+  "worker_cpu": 6,
+  "worker_pid": 162365
+}

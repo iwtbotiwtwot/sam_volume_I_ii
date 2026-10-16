@@ -1,0 +1,46 @@
+{
+  "status": "RETAINED",
+  "successful_source_evaluation_returns": 58,
+  "successful_installed_inverse_returns": 6,
+  "incomplete_attempts": [
+    {
+      "attempt": "v001-p3",
+      "class": "STARTUP_ERROR",
+      "return_record": {
+        "returncode": 1
+      },
+      "meaning": "Syntax typo before the source adapter could execute; frozen command/log retained.",
+      "scientific_result_assigned": false,
+      "retained_directory": "closure/managed_v001-p3"
+    },
+    {
+      "attempt": "v001-p3b",
+      "class": "RETAINED_METADATA_ERROR",
+      "return_record": {
+        "returncode": 1
+      },
+      "meaning": "Computed source result could not be checkpointed because timing metadata was a float; no certified retained output assigned.",
+      "scientific_result_assigned": false,
+      "retained_directory": "closure/managed_v001-p3b"
+    },
+    {
+      "attempt": "v001-p5",
+      "class": "MEMORY_CAP",
+      "return_record": {
+        "returncode": 1
+      },
+      "meaning": "Higher-depth source attempt was killed by its 1 GiB memory cap; no source result retained. Cache release was subsequently bounded per configuration.",
+      "scientific_result_assigned": false,
+      "retained_directory": "closure/managed_v001-p5"
+    },
+    {
+      "attempt": "batch_p4",
+      "class": "CPU_LEASE_BUSY",
+      "return_record": null,
+      "meaning": "Launcher refused a CPU lease already held by an unrelated Duck run; no source execution.",
+      "scientific_result_assigned": false,
+      "retained_directory": "closure/managed_batch_p4"
+    }
+  ],
+  "source_operations_not_installed_runtime_changes": true
+}

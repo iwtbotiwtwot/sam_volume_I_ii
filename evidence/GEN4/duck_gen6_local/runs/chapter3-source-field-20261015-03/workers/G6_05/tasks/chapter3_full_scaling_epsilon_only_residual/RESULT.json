@@ -1,0 +1,211 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "4d30f49695b01ceade0f59fe8b1643ee4014966b5d3ac26bec6d319cb03f040b",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T02:24:32.187952+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_05",
+  "imports": [],
+  "key": "chapter3_full_scaling_epsilon_only_residual",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        "Hs",
+        "Hf",
+        "Hint",
+        "Hct"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "semantic_class": "Original Hamiltonian formal coefficient response; not a finite replacement continuum"
+      },
+      "spectral_coordinate": "original placement pair basis; no source eigenvalue fit",
+      "units": {
+        "coordinate": "dimensionless original model source coefficients"
+      }
+    },
+    "data": {
+      "operators": {
+        "NEG_FULL": [
+          [
+            "1/2",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1/2"
+          ]
+        ],
+        "PARTIAL": [
+          [
+            "-1/2",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ]
+        ]
+      },
+      "output": "residual",
+      "program": [
+        {
+          "inputs": [
+            "PARTIAL",
+            "NEG_FULL"
+          ],
+          "name": "residual",
+          "op": "add"
+        }
+      ]
+    },
+    "name": "chapter3_full_scaling_epsilon_only_residual",
+    "source_binding": {
+      "campaign": "voli_chapter3_source_field1_20261015",
+      "derivation_sha256": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+      "derivation_source_path": "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md",
+      "frozen_source_sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+      "law_namespace": "SAM_land",
+      "parent": "Chapter III localized source and finite receiving field",
+      "physical_scope": "Exact algebra and declared perturbation controls; no microscopic gravity map or measured SI redshift",
+      "source": "Chapter I exact finite source and complete continuum receiving law",
+      "source_files": {
+        "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+        "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+        "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+        "GEN4/voli_chapter3_source_field1_20261015/clock/chapter1_certificate.json": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f"
+      }
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1/2"
+      ]
+    ],
+    "native_assertions": 25,
+    "ordered_program": [
+      {
+        "inputs": [
+          "PARTIAL",
+          "NEG_FULL"
+        ],
+        "name": "residual",
+        "op": "add"
+      }
+    ],
+    "output": "residual",
+    "rank": 2,
+    "record_sha256": "73fb4ae82be0e592b0ab30dc4e1148fc4ef75afa5ef753fd837bc9790e04bd60"
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "campaign": "voli_chapter3_source_field1_20261015",
+    "derivation_sha256": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+    "derivation_source_path": "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md",
+    "frozen_source_sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+    "law_namespace": "SAM_land",
+    "parent": "Chapter III localized source and finite receiving field",
+    "physical_scope": "Exact algebra and declared perturbation controls; no microscopic gravity map or measured SI redshift",
+    "source": "Chapter I exact finite source and complete continuum receiving law",
+    "source_files": {
+      "GEN4/voli_chapter3_source_field1_20261015/RUN_POLICY.json": "38fa5fc2855711ee54e92cf6d9759262195ad71b734e99b85f160b325974f233",
+      "GEN4/voli_chapter3_source_field1_20261015/TARGET.md": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e",
+      "GEN4/voli_chapter3_source_field1_20261015/clock/DERIVATION_R1.md": "228c4e7221d1fcf0be5a0bc36b14b51abe7086e037cabaeb4baf20df632120c4",
+      "GEN4/voli_chapter3_source_field1_20261015/clock/chapter1_certificate.json": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T02:24:31.205975+00:00",
+  "status": "COMPLETED",
+  "task_kind": "native",
+  "worker_cpu": 3,
+  "worker_pid": 232664
+}

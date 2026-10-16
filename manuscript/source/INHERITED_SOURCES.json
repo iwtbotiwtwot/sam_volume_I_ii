@@ -1,0 +1,33 @@
+{
+  "schema": "SAM_CH2_PRESERVED40_SECTION_SOURCES_V1",
+  "files": [
+    {
+      "path": "physical_content.py",
+      "origin": "GEN4/voli_chapter2_physical3_20261015/chapter/content.py",
+      "origin_sha256": "37a9004704dd494f839c26425242ba15f43738476ea829b4296b7fc67db3d2fe",
+      "local_sha256": "6a986636df4459e307201ccd803f4ce923499fe4e331feabd841e6c47a8d58ef",
+      "allowed_transformation": "closure input relocated to local frozen copy"
+    },
+    {
+      "path": "continuation_content.py",
+      "origin": "GEN4/voli_chapter2_physical3_20261015/chapter/continuation_content.py",
+      "origin_sha256": "847f6e5883ae7a5b765b63ec26a4e0ca1c3c6504176c1bdfdbf5316bc16acdef",
+      "local_sha256": "847f6e5883ae7a5b765b63ec26a4e0ca1c3c6504176c1bdfdbf5316bc16acdef",
+      "allowed_transformation": "byte_identical"
+    },
+    {
+      "path": "previous_content.py",
+      "origin": "GEN4/voli_chapter2_physical3_20261015/chapter/previous_content.py",
+      "origin_sha256": "ada50cd9bb641e5a736a7fab90497b7ad38d0254c5601031bd5238ac8b47d11d",
+      "local_sha256": "ada50cd9bb641e5a736a7fab90497b7ad38d0254c5601031bd5238ac8b47d11d",
+      "allowed_transformation": "byte_identical"
+    },
+    {
+      "path": "FINAL_CLOSURE.json",
+      "origin": "GEN4/voli_chapter2_physical3_20261015/chapter/../closure/FINAL_CLOSURE.json",
+      "origin_sha256": "16189b99403c9af06fc91cbe6f74a576f365530ce5ec24003cd3ad20c63ca43b",
+      "local_sha256": "16189b99403c9af06fc91cbe6f74a576f365530ce5ec24003cd3ad20c63ca43b",
+      "allowed_transformation": "byte_identical"
+    }
+  ]
+}

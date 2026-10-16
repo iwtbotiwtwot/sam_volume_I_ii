@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "assertions_passed": 64,
+  "checks": [
+    "radix",
+    "complete_bounded_grid_size",
+    "retained_values",
+    "overflow_values",
+    "sixteen_excluded",
+    "sixteen_is_unrestricted_counterexample",
+    "first_admitted_overflow",
+    "closure",
+    "fixed_binary_closure_scan",
+    "fixed_binary_inequality_scan",
+    "minimal_exchange_scan",
+    "declared_dimension_predicates",
+    "full_phase_return",
+    "half_phase_not_return",
+    "double_phase_return",
+    "square_capacity",
+    "carrier_fraction",
+    "retained_fraction",
+    "carrier_units",
+    "closed_ledger",
+    "shares",
+    "compact_cycle_floor",
+    "radix_floor",
+    "spherical_projection",
+    "radix_floor_product",
+    "binary_factor_equivalence_only_at_two",
+    "linear_difference",
+    "nonlinear_factorization_squared",
+    "raw_ratio_counterexample_squared",
+    "lift_ratio_counterexample_squared",
+    "nonlinear_non_cancellation",
+    "uniform_gradient",
+    "sha256:CR005_overflow_result.md",
+    "git_blob:CR005_overflow_result.md",
+    "sha256:CR002_R12_result.md",
+    "git_blob:CR002_R12_result.md",
+    "sha256:CR003_horizon_projection_result.md",
+    "git_blob:CR003_horizon_projection_result.md",
+    "sha256:CR001_foundation_selector_result.md",
+    "git_blob:CR001_foundation_selector_result.md",
+    "sha256:SAMA_foundation.md",
+    "git_blob:SAMA_foundation.md",
+    "sha256:SAMA_floor.md",
+    "git_blob:SAMA_floor.md",
+    "sha256:CR115.md",
+    "git_blob:CR115.md",
+    "sha256:CR002_R12_selector.py",
+    "git_blob:CR002_R12_selector.py",
+    "sha256:A0_foundation_provenance.md",
+    "git_blob:A0_foundation_provenance.md",
+    "sha256:CR001_foundation_premises.json",
+    "git_blob:CR001_foundation_premises.json",
+    "sha256:CR001_foundation_selector.py",
+    "git_blob:CR001_foundation_selector.py",
+    "sha256:CR002_R12_premises.json",
+    "git_blob:CR002_R12_premises.json",
+    "sha256:SAMA_G229B_index.md",
+    "git_blob:SAMA_G229B_index.md",
+    "sha256:SAMA_G230_index.md",
+    "git_blob:SAMA_G230_index.md",
+    "sha256:SAMA_G355_index.md",
+    "git_blob:SAMA_G355_index.md",
+    "sha256:SAM_COURTROOM_DERIVATION_A0_ALPHAH_D3.md.lines1-500.txt",
+    "sha256:SAM_COURTROOM_DUODECIMAL_R12_PRIORITY_MEMORY_TRACE.md.lines1-500.txt"
+  ],
+  "bounded_grid": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      9
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      6
+    ],
+    [
+      1,
+      2,
+      18
+    ],
+    [
+      2,
+      0,
+      4
+    ],
+    [
+      2,
+      1,
+      12
+    ],
+    [
+      2,
+      2,
+      36
+    ],
+    [
+      3,
+      0,
+      8
+    ],
+    [
+      3,
+      1,
+      24
+    ],
+    [
+      3,
+      2,
+      72
+    ]
+  ],
+  "retained": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+  ],
+  "overflow": [
+    18,
+    24,
+    36,
+    72
+  ],
+  "floor_decimal_display": "0.02652582384864922262814729389541906033908",
+  "source_custody": [
+    {
+      "file": "CR005_overflow_result.md",
+      "sha256": "d21c4e16b5bd4471f158c4ec19d617c11c133f89937eb33a95c0993397a1e6ec",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR002_R12_result.md",
+      "sha256": "f752c0a7eb1579a9b3116a4ae170d0a29b749784eb38511746d77b266cb394a7",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR003_horizon_projection_result.md",
+      "sha256": "eb81ee8d9f8d395ad982133fe622fa0204109d10b2af688e41d44b748e07ad35",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR001_foundation_selector_result.md",
+      "sha256": "7a3417afdb5e0ebfb9e81389667618cec335d150ea6923d175db317c30d2dc4e",
+      "git_blob_verified": true
+    },
+    {
+      "file": "SAMA_foundation.md",
+      "sha256": "e056daa3ffc00992c05383992d29899fefadf352770ff6efd001ac4a0e0a733e",
+      "git_blob_verified": true
+    },
+    {
+      "file": "SAMA_floor.md",
+      "sha256": "d072da7620afcfc038729f4c57f6fb2daa716c435bce235c25cf135434cf96a6",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR115.md",
+      "sha256": "43858b5b02724bd4883f69a74858bf8a60f2b0e3d712e7c935eba992a0e0f305",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR002_R12_selector.py",
+      "sha256": "1a5544bec50a72660d94f20ae58f2aa6825dae6cf884710ef525d0bce4a0a3d8",
+      "git_blob_verified": true
+    },
+    {
+      "file": "A0_foundation_provenance.md",
+      "sha256": "809051264082265b49889094154787fe2026e8f7395d9e23d53c1795e651a671",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR001_foundation_premises.json",
+      "sha256": "f71bd4af10cb4ee903f28fe898c3098d8f17abcdfd1e9bcd0f4e1a1d8e2447ac",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR001_foundation_selector.py",
+      "sha256": "b3245072dd3fbdabce4b7e7b95cffbe7bc2aafb92538d8691f1116ab7d40982e",
+      "git_blob_verified": true
+    },
+    {
+      "file": "CR002_R12_premises.json",
+      "sha256": "7a1bf96a6bbbd5e56025a29edfa71e270da2f1ecaae54319e4d6478be6acf899",
+      "git_blob_verified": true
+    },
+    {
+      "file": "SAMA_G229B_index.md",
+      "sha256": "d7bb5b920806ccba93c1520fc6e067b45b1f77873d202f58d9fb1371ee56a3f8",
+      "git_blob_verified": true
+    },
+    {
+      "file": "SAMA_G230_index.md",
+      "sha256": "71c671ad7874f3073d90efa33aa7adba101fcb602bdfe9044a6579f309e51f0d",
+      "git_blob_verified": true
+    },
+    {
+      "file": "SAMA_G355_index.md",
+      "sha256": "af3874968980db7bb7a95559e0cd7b1135e6b320f79e92f2f5101f690178ee26",
+      "git_blob_verified": true
+    },
+    {
+      "file": "SAM_COURTROOM_DERIVATION_A0_ALPHAH_D3.md.lines1-500.txt",
+      "sha256": "e7194122a41fc1de0ff52fffed759f7c8786908e3bfbdc4c26497e1011c19ad8",
+      "git_blob_verified": false
+    },
+    {
+      "file": "SAM_COURTROOM_DUODECIMAL_R12_PRIORITY_MEMORY_TRACE.md.lines1-500.txt",
+      "sha256": "d9912a94093023835fdc2c80b562958157bd7ff94e1f3dd250ffa7c467613913",
+      "git_blob_verified": false
+    }
+  ],
+  "scope": [
+    "Independent algebra reconstruction, not an original GEN6 campaign.",
+    "Finite scans are regression controls; analytical proofs are in the manuscript.",
+    "No physical premise necessity, topological exhaustiveness, or empirical agreement is proved.",
+    "Hash matches establish snapshot integrity, not scientific validity."
+  ],
+  "sympy_version": "1.14.0"
+}

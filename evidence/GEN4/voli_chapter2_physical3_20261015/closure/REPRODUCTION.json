@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "source_preparations": 54,
+  "independent_exact_source_law_checks": 36936,
+  "independent_point_certificate_checks": 978,
+  "exact_integer_lumped_inventory_checks": 54,
+  "independent_cache_policy_overlap_checks": 216,
+  "native_calls": 0,
+  "source_integrals": 0,
+  "meaning": "Replays physical Gibbs energy-difference identities, retained point-minor rank certificates and exact invariant upper-bound combinatorics"
+}

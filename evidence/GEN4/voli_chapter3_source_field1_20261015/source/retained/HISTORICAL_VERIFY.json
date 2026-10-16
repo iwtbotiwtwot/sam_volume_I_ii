@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "sources": 26,
+  "source_code_dependency_bindings": 520,
+  "research_calls": 13,
+  "native_returned_calls": 55,
+  "preserved_failed_calls": 3,
+  "incomplete_calls": 0,
+  "recovered_documents": 13,
+  "independent_checks": 2872,
+  "calls": [
+    {
+      "question": "Q01",
+      "operation": "GEN4_VOLII_DUCK2_ACCUMULATION",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/c28410f8ef1441b2b235419d8efc6f2f/RECEIPT.json"
+    },
+    {
+      "question": "Q02",
+      "operation": "GEN4_VOLII_DUCK2_COMPLETE_CYCLE",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/24364d0e8fd1440e91078ba3ee2438fe/RECEIPT.json"
+    },
+    {
+      "question": "Q03",
+      "operation": "GEN4_VOLII_DUCK2_PHASE_RECONSTRUCTION",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/0f4e054042be4df392118773021b8a17/RECEIPT.json"
+    },
+    {
+      "question": "Q04",
+      "operation": "GEN4_VOLII_DUCK2_ORIENTATION_MEMORY",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/de994d2d5a5c4df8b0518b119847cecc/RECEIPT.json"
+    },
+    {
+      "question": "Q05",
+      "operation": "GEN4_VOLII_DUCK2_MICROSCOPIC_MEMORY",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/49d1a49ddb664801b204952eff458b2f/RECEIPT.json"
+    },
+    {
+      "question": "Q06",
+      "operation": "GEN4_VOLII_DUCK2_SELECTIVE_STRUCTURE",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/18e31959ee514a109ee0a84fd7cc7c49/RECEIPT.json"
+    },
+    {
+      "question": "Q07",
+      "operation": "GEN4_VOLII_DUCK2_CROSS_SOURCES",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/78cef014b44c4eb4ad2764044cf1b800/RECEIPT.json"
+    },
+    {
+      "question": "Q08",
+      "operation": "GEN4_VOLII_DUCK2_SPATIAL_CYCLE",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/5ea61347358047cdb8df991c0b2235f6/RECEIPT.json"
+    },
+    {
+      "question": "Q09",
+      "operation": "GEN4_VOLII_DUCK2_MEMORY_KERNEL",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/e52dee76ba1b4e8c9ad4d994e04c58e2/RECEIPT.json"
+    },
+    {
+      "question": "Q10",
+      "operation": "GEN4_VOLII_DUCK2_SOURCE_DECODER",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/deded033af1c4eb1bf809bccd4694489/RECEIPT.json"
+    },
+    {
+      "question": "Q11",
+      "operation": "GEN3_COMPLEX_EXP",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/368b6072f39e41949891ceed2235cb85/RECEIPT.json"
+    },
+    {
+      "question": "Q12",
+      "operation": "GEN4_VOLII_DUCK2_CERTIFIED_CLOSURE",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/e288e070eaef48b3bc123173323be494/RECEIPT.json"
+    },
+    {
+      "question": "Q13",
+      "operation": "GEN4_VOLII_DUCK2_SOURCE_RELATIONS",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/GEN4/volii_duck_expansion2/state/sessions/ATOM3D_6bec0a12f43946d3b50fa38b6a4e923c/calls/053b4bbb93ba4c208b31c433fb8c2a60/RECEIPT.json"
+    }
+  ],
+  "scope": "All six requested research branches have source-bound executed results, result-generated follow-ups and explicit physical/scientific open items; no unresolved item is represented as a derived physical law."
+}

@@ -1,0 +1,74 @@
+{
+  "completed_archive": {
+    "members": 148,
+    "report_member": "volii_electron_basis_pod1/REPORT.md",
+    "report_sha256": "c8a489cd186cb528113ca3d293ef185755bb432750f135ee03bb1c1e7767fd52"
+  },
+  "distinct_missing_source": "This electron campaign does not recover the separate Si29 NPZ/coordinate files.",
+  "files": [
+    {
+      "bytes": 46277619,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/archives/volii_electron_basis_pod1_20261009_native_v1.tar.gz",
+      "sha256": "3c283684fd5e8b289a264ca2069cd37399a4ba43483ba6411fecd2b729f43b2b"
+    },
+    {
+      "bytes": 56817323,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/archives/volii_electron_basis_pod1_20261009_completed_v1.tar.gz",
+      "sha256": "d38559a9ed87fb3a826fc543d64baa67d87e4b58bb00c48c78242f8b307c1738"
+    },
+    {
+      "bytes": 9628314,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/operands/GEN4/volii_coupled_attachment_pod1/INPUTS.json",
+      "sha256": "835c1a7b53fee252caba01f91c2fe2f4bf49a84c97c835302bb2bfebc7ab7de8"
+    },
+    {
+      "bytes": 103632,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/operands/GEN4/volii_coupled_attachment_pod1/extend/CACHE.json",
+      "sha256": "663164e9420694b2258e1244eeaf3b40c608d41b261b801495ccc7187b478659"
+    },
+    {
+      "bytes": 77707,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/operands/GEN4/volii_coupled_attachment_pod1/orbital_extension/BASIS.json",
+      "sha256": "b5118d71bb2fb8454c0c3b2e862f1c51dda721165e8fa9d0987f110e8882d0fd"
+    },
+    {
+      "bytes": 32447,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/operands/GEN4/volii_coupled_attachment_pod1/orbital_extension/PRIMITIVES.json",
+      "sha256": "d9253106ff492a49ded688c5241d6f5bf9949c855d661d112dc6fe0f8b5d40c2"
+    },
+    {
+      "bytes": 1495289,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/operands/GEN4/volii_coupled_attachment_pod1/orbital_extension/COMPILE.json",
+      "sha256": "1664fa600768d695b1c81acc3bfd9d81287daef18f3f115f37035018ba38b864"
+    },
+    {
+      "bytes": 890442,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/operands/GEN4/volii_coupled_attachment_pod1/orbital_extension/ENERGIES.json",
+      "sha256": "30ecf92a1a423ba74bb7995f560bd2219e471d9495abb545a0673e477a8ac91c"
+    },
+    {
+      "bytes": 5104086,
+      "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/operands/GEN4/volii_electron_basis_pod1/inputs/PACKET.json",
+      "sha256": "86312f8e42fbf906050c2b86583b0a6c0a8baed2564e097776e9f123072bdf67"
+    }
+  ],
+  "native_executions": 0,
+  "network_requests": 0,
+  "original_sources": [
+    "He4_4",
+    "C12_444",
+    "O16_K4"
+  ],
+  "portable_replay_dependency": false,
+  "remote_host_access": false,
+  "restoration_receipt": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/Restored_Research_Data/electron_orbitals_20261015/RESTORATION_RECEIPT.json",
+    "sha256": "8c3e5715a61a0bf042d9fecb8d0840c8792184a37538478468608d103ed94aab"
+  },
+  "restored_files_verified": 9,
+  "schema": "SAM_CH3_T500_ORBITAL_BREADCRUMB_REVIEW_V1",
+  "scientific_recalculation": false,
+  "scope": "Local restored archive source review; not an operand of the completed chapter cycle.",
+  "status": "PASS",
+  "useful_transfer": "Original angular/radial orbital, full massive kinetic, direct/exchange and collective recoil operands for subsequent local energy/stress accounting."
+}

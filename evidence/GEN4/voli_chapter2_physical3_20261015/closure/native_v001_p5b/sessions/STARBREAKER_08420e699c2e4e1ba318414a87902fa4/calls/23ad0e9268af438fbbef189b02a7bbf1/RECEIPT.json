@@ -1,0 +1,15 @@
+{
+  "ce": "SLC-GEN5-CEV1-R1",
+  "domain": "STARBREAKER",
+  "domain_engine": "SB-GEN3-ACCUMULATION-R1",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "global_slc": "SLC-GEN5-R1",
+  "input_sha256": "a9231e910ccddc6b46ae6b22d3dddd3963e8a7dbecebdba4dfa0d29fa0abcf0f",
+  "meaning": "Runtime call returned; scientific outcome is in OUTPUT.json",
+  "operation": "GEN3_COMPLEX_SOLVE",
+  "output_sha256": "ce865ea7a8697b3fe684fadf8182bf5e64a5f894328f918925e4cd1d2196ae13",
+  "purpose": "Native certification of an actual full-source point minor",
+  "route": "CURRENT_REVISION.open_domain",
+  "status": "RETURNED",
+  "time": "2026-10-16T00:58:29.563991+00:00"
+}

@@ -1,0 +1,1068 @@
+{
+  "because": [
+    24,
+    34
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "a7f03019078becd241115cb1b3d5583313c7595ab2dea78ae2492fb53c392b8a",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-10-16T00:17:07.965595+00:00",
+  "gen6_core_version": "0.10.2",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_07",
+  "imports": [],
+  "key": "r2_H3_inverse",
+  "kind": "RESULT",
+  "native_payload": {
+    "data": {
+      "matrix": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            "-76521818369/100000000000",
+            "-701373822917/500000000000",
+            "100843881893/100000000000"
+          ],
+          [
+            "-701373822917/500000000000",
+            "-209951885349/500000000000",
+            "30718614509/25000000000"
+          ],
+          [
+            "100843881893/100000000000",
+            "30718614509/25000000000",
+            "-1092070458753/1000000000000"
+          ]
+        ],
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "structure": "GENERAL"
+      },
+      "rhs": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "structure": "GENERAL"
+      }
+    },
+    "precision_bits": 1024,
+    "source_binding": {
+      "campaign": "voli_chapter2_continuation2_20261015",
+      "law_namespace": "SAM_land",
+      "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+      "question": "Receive the exact calibrated Hankel minor into the installed native inverse as a separate finite-record certificate",
+      "source_files": {
+        "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+        "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+        "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+        "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+        "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+      }
+    }
+  },
+  "operation": "GEN3_COMPLEX_SOLVE",
+  "portable_bundle": {
+    "bundle": {
+      "calculations": {},
+      "objects": {
+        "38f0fd2f90bf24ba24c10b22fb74e60ad914bbb0fd36471c2cbf2a7e71512976": {
+          "dependencies": [],
+          "kind": "mathematical_result",
+          "provenance": {
+            "implementation": {
+              "files": {
+                "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+                "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+                "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+                "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+                "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+                "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+                "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+                "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+                "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+                "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+                "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+                "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+                "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+                "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+                "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+                "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+                "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+                "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+                "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+                "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+                "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+                "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+                "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+                "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+                "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+                "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+                "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+                "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+                "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+                "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+                "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+                "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+                "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+                "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+                "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+                "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+                "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+                "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+                "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+                "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+                "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+                "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+                "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+                "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+                "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+                "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+                "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+                "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+                "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+                "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+                "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+                "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+                "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+                "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+                "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+                "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+                "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+                "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+                "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+                "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+                "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+                "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+                "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+                "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+                "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+                "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+                "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+                "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+                "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+                "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+                "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+                "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+                "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+                "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+                "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+                "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+                "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+                "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+              },
+              "python_flint": "0.8.0",
+              "version": "SHARED_MODULAR_V4"
+            },
+            "operation": "GEN3_COMPLEX_SOLVE",
+            "origin": "INSTALLED_SHARED_MODULAR_CALCULATION",
+            "request": {
+              "data": {
+                "matrix": {
+                  "column_basis": [
+                    "0",
+                    "1",
+                    "2"
+                  ],
+                  "entries": [
+                    [
+                      "-76521818369/100000000000",
+                      "-701373822917/500000000000",
+                      "100843881893/100000000000"
+                    ],
+                    [
+                      "-701373822917/500000000000",
+                      "-209951885349/500000000000",
+                      "30718614509/25000000000"
+                    ],
+                    [
+                      "100843881893/100000000000",
+                      "30718614509/25000000000",
+                      "-1092070458753/1000000000000"
+                    ]
+                  ],
+                  "row_basis": [
+                    "0",
+                    "1",
+                    "2"
+                  ],
+                  "structure": "GENERAL"
+                },
+                "rhs": {
+                  "column_basis": [
+                    "0",
+                    "1",
+                    "2"
+                  ],
+                  "entries": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      1
+                    ]
+                  ],
+                  "row_basis": [
+                    "0",
+                    "1",
+                    "2"
+                  ],
+                  "structure": "GENERAL"
+                }
+              },
+              "precision_bits": 1024,
+              "source_binding": {
+                "campaign": "voli_chapter2_continuation2_20261015",
+                "law_namespace": "SAM_land",
+                "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+                "question": "Receive the exact calibrated Hankel minor into the installed native inverse as a separate finite-record certificate",
+                "source_files": {
+                  "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+                  "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+                  "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+                  "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+                  "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+                }
+              }
+            }
+          },
+          "schema": "SLC_MATHEMATICAL_OBJECT_V1",
+          "source_binding": {
+            "implementation": {
+              "files": {
+                "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+                "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+                "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+                "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+                "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+                "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+                "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+                "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+                "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+                "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+                "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+                "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+                "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+                "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+                "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+                "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+                "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+                "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+                "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+                "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+                "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+                "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+                "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+                "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+                "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+                "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+                "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+                "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+                "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+                "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+                "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+                "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+                "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+                "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+                "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+                "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+                "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+                "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+                "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+                "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+                "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+                "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+                "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+                "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+                "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+                "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+                "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+                "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+                "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+                "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+                "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+                "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+                "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+                "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+                "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+                "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+                "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+                "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+                "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+                "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+                "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+                "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+                "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+                "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+                "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+                "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+                "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+                "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+                "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+                "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+                "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+                "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+                "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+                "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+                "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+                "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+                "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+                "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+              },
+              "python_flint": "0.8.0",
+              "version": "SHARED_MODULAR_V4"
+            },
+            "operation": "GEN3_COMPLEX_SOLVE",
+            "request": "a9dbe2821fd3f4fd2511462971457daad305757bdace65b1c830a0246a09a86b",
+            "source": {
+              "campaign": "voli_chapter2_continuation2_20261015",
+              "law_namespace": "SAM_land",
+              "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+              "question": "Receive the exact calibrated Hankel minor into the installed native inverse as a separate finite-record certificate",
+              "source_files": {
+                "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+                "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+                "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+                "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+                "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+              }
+            }
+          },
+          "value": {
+            "implementation": {
+              "files": {
+                "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+                "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+                "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+                "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+                "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+                "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+                "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+                "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+                "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+                "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+                "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+                "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+                "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+                "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+                "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+                "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+                "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+                "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+                "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+                "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+                "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+                "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+                "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+                "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+                "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+                "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+                "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+                "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+                "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+                "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+                "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+                "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+                "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+                "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+                "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+                "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+                "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+                "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+                "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+                "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+                "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+                "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+                "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+                "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+                "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+                "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+                "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+                "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+                "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+                "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+                "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+                "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+                "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+                "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+                "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+                "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+                "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+                "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+                "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+                "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+                "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+                "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+                "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+                "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+                "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+                "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+                "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+                "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+                "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+                "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+                "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+                "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+                "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+                "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+                "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+                "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+                "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+                "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+                "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+              },
+              "python_flint": "0.8.0",
+              "version": "SHARED_MODULAR_V4"
+            },
+            "operation": "GEN3_COMPLEX_SOLVE",
+            "output": {
+              "matrix": {
+                "column_basis": [
+                  "0",
+                  "1",
+                  "2"
+                ],
+                "entries": [
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "123029756018119581668124923909031569751763988738014196029052709765198312694912967796688722030864047259187044993397180625497571519421185669031414296310119073605532596106214758778905989533510150050653560555210106447937901099050182329647421317769738039790307751739694394284357897017061251200408699981933914161587/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576",
+                        "upper": "123029756018119581668124923909031569751763988738014196029052709765198312694912967796688722030864047259187044993397180625497571519421185669031414296310119073605532596106214758778905989533510150050653560555210106447937901099050182329647421317769738039790307751739694394284357897017061251200408699981933914162073/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                      }
+                    },
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615444615/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304",
+                        "upper": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615445387/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304"
+                      }
+                    },
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "74297687880876742093716570200763841191828750839586712836101453297678592455830090679339036217192018671690675446689776735848451224210859113000950789573397765209234654210310785131238230832795969958636122614751528151608056541334627581023744303528426959579179159688971552725263474875629976686438673826073301647/5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512",
+                        "upper": "76080832390017783903965767885582173380432640859736793944167888176822878674770012855643173086404627119811251657410331377508814053591919731712973608523159311574256285911358243974387948372783073237643389557505564827246649898326658642968314166813109206609079459521506869990669798272645096126913201997899060886825/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615444697/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304",
+                        "upper": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615445313/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304"
+                      }
+                    },
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "42430349141382099111651832731933211491462958492512301021577083724721447502769316656156513792244703552445720651713306591663193958456507404622388119673205473591508832475624765088321385452137083102254552180908429860633332177641498055371229812238277691472536610458346304502166674605192544807015824203917367124933/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                        "upper": "42430349141382099111651832731933211491462958492512301021577083724721447502769316656156513792244703552445720651713306591663193958456507404622388119673205473591508832475624765088321385452137083102254552180908429860633332177641498055371229812238277691472536610458346304502166674605192544807015824203917367125057/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+                      }
+                    },
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "27755750041826303829674989881159842984570269929973778748276865135843170373690357864517791733833691790452047437601222242338348252102356630220929732638788220900707815856653699142914171003573943060538951405835575755184778455651224503027870629429172032650089562311435462259917501734871881959304403473467412061173/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                        "upper": "55511500083652607659349979762319685969140539859947557496553730271686340747380715729035583467667383580904094875202444484676696504204713260441859465277576441801415631713307398285828342007147886121077902811671151510369556911302449006055741258858344065300179124622870924519835003469743763918608806946934824122537/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "76080832390017783903965767885582173380432640859736793944167888176822878674770012855643173086404627119811251657410331377508814053591919731712973608523159311574256285911358243974387948372783073237643389557505564827246649898326658642968314166813109206609079459521506869990669798272645096126913201997899060886553/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                        "upper": "4755052024376111493997860492848885836277040053733549621510493011051429917173125803477698317900289194988203228588145711094300878349494983232060850532697456973391017869459890248399246773298942077352711847344097801702915618645416165185519635425819325413067466220094179374416862392040318507932075124868691305425/351111940402796075728379920075981393284761128699669252487168127261196632432619068618571244770327218791250222421623815151677323767215657465806342637967722899175327916845440400930277772658683777577056802640791026892262013051450122815378736544025053197584668966180832613749896964723593195907881555331297312768"
+                      }
+                    },
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "27755750041826303829674989881159842984570269929973778748276865135843170373690357864517791733833691790452047437601222242338348252102356630220929732638788220900707815856653699142914171003573943060538951405835575755184778455651224503027870629429172032650089562311435462259917501734871881959304403473467412061171/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                        "upper": "55511500083652607659349979762319685969140539859947557496553730271686340747380715729035583467667383580904094875202444484676696504204713260441859465277576441801415631713307398285828342007147886121077902811671151510369556911302449006055741258858344065300179124622870924519835003469743763918608806946934824122539/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                      }
+                    },
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "96339755650942774657677876520264651756626680372226304897898159804272486871575836364348492514422683048036265454426126172429004731780575151611874294091036455660968348067060703498556850850191822813313303162178479134684261194231501044265949425307002616068682525404016291192298181097527936188129145251477614414509/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                        "upper": "96339755650942774657677876520264651756626680372226304897898159804272486871575836364348492514422683048036265454426126172429004731780575151611874294091036455660968348067060703498556850850191822813313303162178479134684261194231501044265949425307002616068682525404016291192298181097527936188129145251477614414811/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288"
+                      }
+                    }
+                  ]
+                ],
+                "precision_bits": 1024,
+                "row_basis": [
+                  "0",
+                  "1",
+                  "2"
+                ],
+                "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+                "structure": "GENERAL"
+              },
+              "residual_norm_upper": {
+                "lower": "151758506585591508143765018919898251874080992349805108763270534813288481388966826784347509141006711530986649113930699660367256887360598314505563405628017714541388412102685538657834493105397239608397431893006527822696493431413402571321842880307031329730442029340064067932292786693567393018276222774886348311857/986236757547332986472011617696226561292849812918563355472727826767720188564083584387121625107510786855734801053524719833194566624465665316622563244215340671405971599343902468620306327831715457360719532421388780770165778156818229863337344187575566725786793391480600129482653072861971002459947277805295727097226389568776499707662505334062639449916265137796823793276300221537201727072401742985542559596685092673521228140822200236743113743661549252453726123450722876929538747702356573783116366629850199080495560991841329893037292397105499226019760899853193278062243717512000415180826369586332768194383418384126574592",
+                "upper": "151758506585591508143765018919898251874080992349805108763270534813288481388966826784347509141006711530986649113930699660367256887360598314505563405628017714541388412102685538657834493105397239608397431893006527822696493431413402571321842880307031329730442029340064067932292786693567393018276222774886348311857/986236757547332986472011617696226561292849812918563355472727826767720188564083584387121625107510786855734801053524719833194566624465665316622563244215340671405971599343902468620306327831715457360719532421388780770165778156818229863337344187575566725786793391480600129482653072861971002459947277805295727097226389568776499707662505334062639449916265137796823793276300221537201727072401742985542559596685092673521228140822200236743113743661549252453726123450722876929538747702356573783116366629850199080495560991841329893037292397105499226019760899853193278062243717512000415180826369586332768194383418384126574592"
+              },
+              "solution": [
+                [
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "30757439004529895417031230977257892437940997184503549007263177441299578173728241949172180507716011814796761248349295156374392879855296417257853574077529768401383149026553689694726497383377537512663390138802526611984475274762545582411855329442434509947576937934923598571089474254265312800102174995483478540397/2808895523222368605827039360607851146278089029597354019897345018089573059460952548948569958162617750330001779372990521213418590137725259726450741103741783193402623334763523207442222181269470220616454421126328215138096104411600982523029892352200425580677351729446660909999175717788745567263052442650378502144",
+                      "upper": "15378719502264947708515615488628946218970498592251774503631588720649789086864120974586090253858005907398380624174647578187196439927648208628926787038764884200691574513276844847363248691688768756331695069401263305992237637381272791205927664721217254973788468967461799285544737127132656400051087497741739270259/1404447761611184302913519680303925573139044514798677009948672509044786529730476274474284979081308875165000889686495260606709295068862629863225370551870891596701311667381761603721111090634735110308227210563164107569048052205800491261514946176100212790338675864723330454999587858894372783631526221325189251072"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "17132640046501598371760021329837380636934330830966729693926405697052456426542150021494152987252064670735957010907162183606049168001026374200755067786463666855368990312530312516178121993992932237410056105205944635937643623425598996487474160458328138660071638293008769739142147998411854405609275898575576930577/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                      "upper": "68530560186006393487040085319349522547737323323866918775705622788209825706168600085976611949008258682943828043628648734424196672004105496803020271145854667421475961250121250064712487975971728949640224420823778543750574493702395985949896641833312554640286553172035078956568591993647417622437103594302307722693/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773057/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576",
+                      "upper": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773649/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "68530560186006393487040085319349522547737323323866918775705622788209825706168600085976611949008258682943828043628648734424196672004105496803020271145854667421475961250121250064712487975971728949640224420823778543750574493702395985949896641833312554640286553172035078956568591993647417622437103594302307722349/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                      "upper": "2141580005812699796470002666229672579616791353870841211740800712131557053317768752686769123406508083841994626363395272950756146000128296775094383473307958356921123789066289064522265249249116529676257013150743079492205452928199874560934270057291017332508954786626096217392768499801481800701159487321947116333/702223880805592151456759840151962786569522257399338504974336254522393264865238137237142489540654437582500444843247630303354647534431314931612685275935445798350655833690880801860555545317367555154113605281582053784524026102900245630757473088050106395169337932361665227499793929447186391815763110662594625536"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "169721396565528396446607330927732845965851833970049204086308334898885790011077266624626055168978814209782882606853226366652775833826029618489552478692821894366035329902499060353285541808548332409018208723633719442533328710565992221484919248953110765890146441833385218008666698420770179228063296815669468499733/89884656743115795386465259539451236680898848947115328636715040578866337902750481566354238661203768010560056939935696678829394884407208311246423715319737062188883946712432742638151109800623047059726541476042502884419075341171231440736956555270413618581675255342293149119973622969239858152417678164812112068608",
+                      "upper": "169721396565528396446607330927732845965851833970049204086308334898885790011077266624626055168978814209782882606853226366652775833826029618489552478692821894366035329902499060353285541808548332409018208723633719442533328710565992221484919248953110765890146441833385218008666698420770179228063296815669468500227/89884656743115795386465259539451236680898848947115328636715040578866337902750481566354238661203768010560056939935696678829394884407208311246423715319737062188883946712432742638151109800623047059726541476042502884419075341171231440736956555270413618581675255342293149119973622969239858152417678164812112068608"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648244693/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                      "upper": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648245073/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773107/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576",
+                      "upper": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773599/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648244685/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                      "upper": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648245077/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "0",
+                      "upper": "0"
+                    },
+                    "re": {
+                      "lower": "48169877825471387328838938260132325878313340186113152448949079902136243435787918182174246257211341524018132727213063086214502365890287575805937147045518227830484174033530351749278425425095911406656651581089239567342130597115750522132974712653501308034341262702008145596149090548763968094064572625738807207255/2808895523222368605827039360607851146278089029597354019897345018089573059460952548948569958162617750330001779372990521213418590137725259726450741103741783193402623334763523207442222181269470220616454421126328215138096104411600982523029892352200425580677351729446660909999175717788745567263052442650378502144",
+                      "upper": "48169877825471387328838938260132325878313340186113152448949079902136243435787918182174246257211341524018132727213063086214502365890287575805937147045518227830484174033530351749278425425095911406656651581089239567342130597115750522132974712653501308034341262702008145596149090548763968094064572625738807207405/2808895523222368605827039360607851146278089029597354019897345018089573059460952548948569958162617750330001779372990521213418590137725259726450741103741783193402623334763523207442222181269470220616454421126328215138096104411600982523029892352200425580677351729446660909999175717788745567263052442650378502144"
+                    }
+                  }
+                ]
+              ],
+              "status": "CERTIFIED_SOLVE"
+            },
+            "precision_bits": 1024,
+            "schema": "SLC_MODULAR_RESULT_V1",
+            "source_binding": {
+              "campaign": "voli_chapter2_continuation2_20261015",
+              "law_namespace": "SAM_land",
+              "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+              "question": "Receive the exact calibrated Hankel minor into the installed native inverse as a separate finite-record certificate",
+              "source_files": {
+                "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+                "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+                "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+                "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+                "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+              }
+            }
+          }
+        }
+      },
+      "roots": [
+        "38f0fd2f90bf24ba24c10b22fb74e60ad914bbb0fd36471c2cbf2a7e71512976"
+      ],
+      "schema": "SLC_MATHEMATICAL_BUNDLE_V1"
+    },
+    "object_count": 1,
+    "portability": "SELF_CONTAINED",
+    "sha256": "65709e79bb5e355aa74c8ec5527075d09d6620cb1896cf843b841e736bffef45"
+  },
+  "returned": {
+    "recomputed": true,
+    "result": {
+      "implementation": {
+        "files": {
+          "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+          "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+          "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+          "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+          "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+          "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+          "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+          "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+          "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+          "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+          "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+          "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+          "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+          "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+          "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+          "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+          "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+          "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+          "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+          "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+          "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+          "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+          "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+          "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+          "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+          "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+          "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+          "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+          "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+          "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+          "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+          "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+          "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+          "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+          "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+          "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+          "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+          "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+          "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+          "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+          "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+          "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+          "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+          "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+          "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+          "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+          "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+          "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+          "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+          "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+          "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+          "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+          "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+          "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+          "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+          "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+          "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+          "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+          "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+          "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+          "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+          "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+          "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+          "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+          "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+          "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+          "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+          "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+          "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+          "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+          "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+          "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+          "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+          "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+          "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+          "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+          "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+          "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+          "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+          "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+        },
+        "python_flint": "0.8.0",
+        "version": "SHARED_MODULAR_V4"
+      },
+      "operation": "GEN3_COMPLEX_SOLVE",
+      "output": {
+        "matrix": {
+          "column_basis": [
+            "0",
+            "1",
+            "2"
+          ],
+          "entries": [
+            [
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "123029756018119581668124923909031569751763988738014196029052709765198312694912967796688722030864047259187044993397180625497571519421185669031414296310119073605532596106214758778905989533510150050653560555210106447937901099050182329647421317769738039790307751739694394284357897017061251200408699981933914161587/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576",
+                  "upper": "123029756018119581668124923909031569751763988738014196029052709765198312694912967796688722030864047259187044993397180625497571519421185669031414296310119073605532596106214758778905989533510150050653560555210106447937901099050182329647421317769738039790307751739694394284357897017061251200408699981933914162073/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                }
+              },
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615444615/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304",
+                  "upper": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615445387/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304"
+                }
+              },
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "74297687880876742093716570200763841191828750839586712836101453297678592455830090679339036217192018671690675446689776735848451224210859113000950789573397765209234654210310785131238230832795969958636122614751528151608056541334627581023744303528426959579179159688971552725263474875629976686438673826073301647/5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512",
+                  "upper": "76080832390017783903965767885582173380432640859736793944167888176822878674770012855643173086404627119811251657410331377508814053591919731712973608523159311574256285911358243974387948372783073237643389557505564827246649898326658642968314166813109206609079459521506869990669798272645096126913201997899060886825/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288"
+                }
+              }
+            ],
+            [
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615444697/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304",
+                  "upper": "137061120372012786974080170638699045095474646647733837551411245576419651412337200171953223898016517365887656087257297468848393344008210993606040542291709334842951922500242500129424975951943457899280448841647557087501148987404791971899793283666625109280573106344070157913137183987294835244874207188604615445313/44942328371557897693232629769725618340449424473557664318357520289433168951375240783177119330601884005280028469967848339414697442203604155623211857659868531094441973356216371319075554900311523529863270738021251442209537670585615720368478277635206809290837627671146574559986811484619929076208839082406056034304"
+                }
+              },
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "42430349141382099111651832731933211491462958492512301021577083724721447502769316656156513792244703552445720651713306591663193958456507404622388119673205473591508832475624765088321385452137083102254552180908429860633332177641498055371229812238277691472536610458346304502166674605192544807015824203917367124933/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                  "upper": "42430349141382099111651832731933211491462958492512301021577083724721447502769316656156513792244703552445720651713306591663193958456507404622388119673205473591508832475624765088321385452137083102254552180908429860633332177641498055371229812238277691472536610458346304502166674605192544807015824203917367125057/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+                }
+              },
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "27755750041826303829674989881159842984570269929973778748276865135843170373690357864517791733833691790452047437601222242338348252102356630220929732638788220900707815856653699142914171003573943060538951405835575755184778455651224503027870629429172032650089562311435462259917501734871881959304403473467412061173/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                  "upper": "55511500083652607659349979762319685969140539859947557496553730271686340747380715729035583467667383580904094875202444484676696504204713260441859465277576441801415631713307398285828342007147886121077902811671151510369556911302449006055741258858344065300179124622870924519835003469743763918608806946934824122537/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                }
+              }
+            ],
+            [
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "76080832390017783903965767885582173380432640859736793944167888176822878674770012855643173086404627119811251657410331377508814053591919731712973608523159311574256285911358243974387948372783073237643389557505564827246649898326658642968314166813109206609079459521506869990669798272645096126913201997899060886553/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                  "upper": "4755052024376111493997860492848885836277040053733549621510493011051429917173125803477698317900289194988203228588145711094300878349494983232060850532697456973391017869459890248399246773298942077352711847344097801702915618645416165185519635425819325413067466220094179374416862392040318507932075124868691305425/351111940402796075728379920075981393284761128699669252487168127261196632432619068618571244770327218791250222421623815151677323767215657465806342637967722899175327916845440400930277772658683777577056802640791026892262013051450122815378736544025053197584668966180832613749896964723593195907881555331297312768"
+                }
+              },
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "27755750041826303829674989881159842984570269929973778748276865135843170373690357864517791733833691790452047437601222242338348252102356630220929732638788220900707815856653699142914171003573943060538951405835575755184778455651224503027870629429172032650089562311435462259917501734871881959304403473467412061171/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                  "upper": "55511500083652607659349979762319685969140539859947557496553730271686340747380715729035583467667383580904094875202444484676696504204713260441859465277576441801415631713307398285828342007147886121077902811671151510369556911302449006055741258858344065300179124622870924519835003469743763918608806946934824122539/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+                }
+              },
+              {
+                "im": {
+                  "lower": "0",
+                  "upper": "0"
+                },
+                "re": {
+                  "lower": "96339755650942774657677876520264651756626680372226304897898159804272486871575836364348492514422683048036265454426126172429004731780575151611874294091036455660968348067060703498556850850191822813313303162178479134684261194231501044265949425307002616068682525404016291192298181097527936188129145251477614414509/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                  "upper": "96339755650942774657677876520264651756626680372226304897898159804272486871575836364348492514422683048036265454426126172429004731780575151611874294091036455660968348067060703498556850850191822813313303162178479134684261194231501044265949425307002616068682525404016291192298181097527936188129145251477614414811/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288"
+                }
+              }
+            ]
+          ],
+          "precision_bits": 1024,
+          "row_basis": [
+            "0",
+            "1",
+            "2"
+          ],
+          "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+          "structure": "GENERAL"
+        },
+        "residual_norm_upper": {
+          "lower": "151758506585591508143765018919898251874080992349805108763270534813288481388966826784347509141006711530986649113930699660367256887360598314505563405628017714541388412102685538657834493105397239608397431893006527822696493431413402571321842880307031329730442029340064067932292786693567393018276222774886348311857/986236757547332986472011617696226561292849812918563355472727826767720188564083584387121625107510786855734801053524719833194566624465665316622563244215340671405971599343902468620306327831715457360719532421388780770165778156818229863337344187575566725786793391480600129482653072861971002459947277805295727097226389568776499707662505334062639449916265137796823793276300221537201727072401742985542559596685092673521228140822200236743113743661549252453726123450722876929538747702356573783116366629850199080495560991841329893037292397105499226019760899853193278062243717512000415180826369586332768194383418384126574592",
+          "upper": "151758506585591508143765018919898251874080992349805108763270534813288481388966826784347509141006711530986649113930699660367256887360598314505563405628017714541388412102685538657834493105397239608397431893006527822696493431413402571321842880307031329730442029340064067932292786693567393018276222774886348311857/986236757547332986472011617696226561292849812918563355472727826767720188564083584387121625107510786855734801053524719833194566624465665316622563244215340671405971599343902468620306327831715457360719532421388780770165778156818229863337344187575566725786793391480600129482653072861971002459947277805295727097226389568776499707662505334062639449916265137796823793276300221537201727072401742985542559596685092673521228140822200236743113743661549252453726123450722876929538747702356573783116366629850199080495560991841329893037292397105499226019760899853193278062243717512000415180826369586332768194383418384126574592"
+        },
+        "solution": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "30757439004529895417031230977257892437940997184503549007263177441299578173728241949172180507716011814796761248349295156374392879855296417257853574077529768401383149026553689694726497383377537512663390138802526611984475274762545582411855329442434509947576937934923598571089474254265312800102174995483478540397/2808895523222368605827039360607851146278089029597354019897345018089573059460952548948569958162617750330001779372990521213418590137725259726450741103741783193402623334763523207442222181269470220616454421126328215138096104411600982523029892352200425580677351729446660909999175717788745567263052442650378502144",
+                "upper": "15378719502264947708515615488628946218970498592251774503631588720649789086864120974586090253858005907398380624174647578187196439927648208628926787038764884200691574513276844847363248691688768756331695069401263305992237637381272791205927664721217254973788468967461799285544737127132656400051087497741739270259/1404447761611184302913519680303925573139044514798677009948672509044786529730476274474284979081308875165000889686495260606709295068862629863225370551870891596701311667381761603721111090634735110308227210563164107569048052205800491261514946176100212790338675864723330454999587858894372783631526221325189251072"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "17132640046501598371760021329837380636934330830966729693926405697052456426542150021494152987252064670735957010907162183606049168001026374200755067786463666855368990312530312516178121993992932237410056105205944635937643623425598996487474160458328138660071638293008769739142147998411854405609275898575576930577/5617791046444737211654078721215702292556178059194708039794690036179146118921905097897139916325235500660003558745981042426837180275450519452901482207483566386805246669527046414884444362538940441232908842252656430276192208823201965046059784704400851161354703458893321819998351435577491134526104885300757004288",
+                "upper": "68530560186006393487040085319349522547737323323866918775705622788209825706168600085976611949008258682943828043628648734424196672004105496803020271145854667421475961250121250064712487975971728949640224420823778543750574493702395985949896641833312554640286553172035078956568591993647417622437103594302307722693/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773057/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576",
+                "upper": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773649/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "68530560186006393487040085319349522547737323323866918775705622788209825706168600085976611949008258682943828043628648734424196672004105496803020271145854667421475961250121250064712487975971728949640224420823778543750574493702395985949896641833312554640286553172035078956568591993647417622437103594302307722349/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                "upper": "2141580005812699796470002666229672579616791353870841211740800712131557053317768752686769123406508083841994626363395272950756146000128296775094383473307958356921123789066289064522265249249116529676257013150743079492205452928199874560934270057291017332508954786626096217392768499801481800701159487321947116333/702223880805592151456759840151962786569522257399338504974336254522393264865238137237142489540654437582500444843247630303354647534431314931612685275935445798350655833690880801860555545317367555154113605281582053784524026102900245630757473088050106395169337932361665227499793929447186391815763110662594625536"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "169721396565528396446607330927732845965851833970049204086308334898885790011077266624626055168978814209782882606853226366652775833826029618489552478692821894366035329902499060353285541808548332409018208723633719442533328710565992221484919248953110765890146441833385218008666698420770179228063296815669468499733/89884656743115795386465259539451236680898848947115328636715040578866337902750481566354238661203768010560056939935696678829394884407208311246423715319737062188883946712432742638151109800623047059726541476042502884419075341171231440736956555270413618581675255342293149119973622969239858152417678164812112068608",
+                "upper": "169721396565528396446607330927732845965851833970049204086308334898885790011077266624626055168978814209782882606853226366652775833826029618489552478692821894366035329902499060353285541808548332409018208723633719442533328710565992221484919248953110765890146441833385218008666698420770179228063296815669468500227/89884656743115795386465259539451236680898848947115328636715040578866337902750481566354238661203768010560056939935696678829394884407208311246423715319737062188883946712432742638151109800623047059726541476042502884419075341171231440736956555270413618581675255342293149119973622969239858152417678164812112068608"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648244693/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                "upper": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648245073/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773107/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576",
+                "upper": "152161664780035567807931535771164346760865281719473587888335776353645757349540025711286346172809254239622503314820662755017628107183839463425947217046318623148512571822716487948775896745566146475286779115011129654493299796653317285936628333626218413218158919043013739981339596545290192253826403995798121773599/11235582092889474423308157442431404585112356118389416079589380072358292237843810195794279832650471001320007117491962084853674360550901038905802964414967132773610493339054092829768888725077880882465817684505312860552384417646403930092119569408801702322709406917786643639996702871154982269052209770601514008576"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648244685/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152",
+                "upper": "111023000167305215318699959524639371938281079719895114993107460543372681494761431458071166935334767161808189750404888969353393008409426520883718930555152883602831263426614796571656684014295772242155805623342303020739113822604898012111482517716688130600358249245741849039670006939487527837217613893869648245077/22471164185778948846616314884862809170224712236778832159178760144716584475687620391588559665300942002640014234983924169707348721101802077811605928829934265547220986678108185659537777450155761764931635369010625721104768835292807860184239138817603404645418813835573287279993405742309964538104419541203028017152"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "48169877825471387328838938260132325878313340186113152448949079902136243435787918182174246257211341524018132727213063086214502365890287575805937147045518227830484174033530351749278425425095911406656651581089239567342130597115750522132974712653501308034341262702008145596149090548763968094064572625738807207255/2808895523222368605827039360607851146278089029597354019897345018089573059460952548948569958162617750330001779372990521213418590137725259726450741103741783193402623334763523207442222181269470220616454421126328215138096104411600982523029892352200425580677351729446660909999175717788745567263052442650378502144",
+                "upper": "48169877825471387328838938260132325878313340186113152448949079902136243435787918182174246257211341524018132727213063086214502365890287575805937147045518227830484174033530351749278425425095911406656651581089239567342130597115750522132974712653501308034341262702008145596149090548763968094064572625738807207405/2808895523222368605827039360607851146278089029597354019897345018089573059460952548948569958162617750330001779372990521213418590137725259726450741103741783193402623334763523207442222181269470220616454421126328215138096104411600982523029892352200425580677351729446660909999175717788745567263052442650378502144"
+              }
+            }
+          ]
+        ],
+        "status": "CERTIFIED_SOLVE"
+      },
+      "precision_bits": 1024,
+      "schema": "SLC_MODULAR_RESULT_V1",
+      "source_binding": {
+        "campaign": "voli_chapter2_continuation2_20261015",
+        "law_namespace": "SAM_land",
+        "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+        "question": "Receive the exact calibrated Hankel minor into the installed native inverse as a separate finite-record certificate",
+        "source_files": {
+          "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+          "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+          "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+          "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+          "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+        }
+      }
+    },
+    "result_ref": "38f0fd2f90bf24ba24c10b22fb74e60ad914bbb0fd36471c2cbf2a7e71512976"
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "campaign": "voli_chapter2_continuation2_20261015",
+    "law_namespace": "SAM_land",
+    "physical_scope": "Model predictions; diagnostic calibration and declared receiving controls; no measured SI assignment",
+    "question": "Receive the exact calibrated Hankel minor into the installed native inverse as a separate finite-record certificate",
+    "source_files": {
+      "GEN4/voli_chapter2_continuation2_20261015/RUN_POLICY.json": "6efee66d0ae35750cd18d385dfdbd09009f79b26bca51807006a09cde0da19d9",
+      "GEN4/voli_chapter2_continuation2_20261015/TARGET.md": "dcb3cb2dcbbf9fa88e5f1408c1b47aff1282e131ba39a22e100e0f32345fb230",
+      "GEN4/voli_chapter2_continuation2_20261015/build_review.py": "d964117383166995d85daaaf40ab7e3297902584f64ce4469dd5fe3fd7a2e4cd",
+      "GEN4/voli_chapter2_continuation2_20261015/inputs/SIGNATURE_OPERANDS_R2.json": "18622311e9294191f25342f2861a1b60547e60efd4ac2970ae621655ae3d80dd",
+      "GEN4/voli_chapter2_continuation2_20261015/memory/SOURCE_OPERANDS.json": "8078c3333f777d2c58ca849c94ae353caec69712c2546a853fedbabfe4954726"
+    }
+  },
+  "source_checks": [],
+  "started_utc": "2026-10-16T00:17:07.296641+00:00",
+  "status": "COMPLETED",
+  "task_kind": "native",
+  "worker_cpu": 2,
+  "worker_pid": 135847
+}

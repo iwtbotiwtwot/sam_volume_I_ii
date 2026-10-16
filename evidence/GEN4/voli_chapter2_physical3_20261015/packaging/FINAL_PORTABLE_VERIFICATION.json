@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "stage": "/tmp/sam-chapter2-physical-portable-stage/sam_chapter2",
+  "manifest_files_authenticated_before_replay": 1141,
+  "offline_scripts": 8,
+  "native_executions": 0,
+  "all_original_source_and_helper_receipts_verified": true,
+  "relocated_cycle_checks": 203,
+  "relocated_native_checks": 2719,
+  "PDF_rebuild_sha256": "ce8c0165678bfd9e1953c1f81c19dd34db14608725a5b553467847b66b4ecdfb",
+  "history": "H002636"
+}

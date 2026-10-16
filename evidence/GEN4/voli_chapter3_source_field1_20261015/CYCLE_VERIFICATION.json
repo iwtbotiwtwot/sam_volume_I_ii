@@ -1,0 +1,39 @@
+{
+  "controllers": 6,
+  "directed_controller_ACKs": 30,
+  "failed_returns": 0,
+  "global_host_lock_acquired": false,
+  "helper_readback": "PASS",
+  "helpers": 3,
+  "local_corpus_retrieval_returns": 4,
+  "matrix_entries": 28528,
+  "native_checks": 29585,
+  "native_executions_by_this_verifier": 0,
+  "native_returns": 11,
+  "network_requests": 0,
+  "original_round_seconds": [
+    180,
+    180
+  ],
+  "parent_retained": true,
+  "ready": 9,
+  "resource_release": "PASS",
+  "run": "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03",
+  "schema": "SAM_CH3_COMPLETED_CYCLE_READBACK_V1",
+  "selected_targets": [
+    "SOURCE_DENSITY",
+    "FINITE_FIELD",
+    "FIELD_ENERGY",
+    "CLOCK_RESPONSE"
+  ],
+  "sources": {
+    "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/COMPLETE.json": "eaa74e4d18d1532ee4b72c5c12c665b66b9537470f104c114cd98d1199296098",
+    "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/CONFIG.json": "029488cfbe9314f83648c65ac433fb3df25ecd1f9834ded6289c6feabb6c3b1f",
+    "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/HELPER_READBACK.json": "2d9eafe80ff9a35ccfca463309394c29be1c3babfc5705f2a13125f0f4231c66",
+    "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/ORGANIZATION.json": "17b3c8dce76fb3b60b394ed8570902094b7a3d46dec2c8630fecac31bdef1821",
+    "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/RESOURCE_RELEASE.json": "d8ceee87b8355cf71d350db0a00dceb041bab6400d6674f15b41b1b36a5bd4a6",
+    "GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/RUNTIME_RESULT.json": "5301553f9e792d00b1651522e41909fa56c28ed1f8b5deac107a9762f62c92fd",
+    "GEN4/voli_chapter3_source_field1_20261015/NATIVE_VERIFICATION.json": "1ebf3e715cad5bccdbb8ff941646eb56926abb875a3c07765befab84782f8dad"
+  },
+  "status": "PASS"
+}

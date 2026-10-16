@@ -1,0 +1,69 @@
+{
+  "Codex_agents_launched": 0,
+  "actual_directed_controller_greeting_ACKs": 132,
+  "actual_native_controllers": 12,
+  "actual_native_helpers": 6,
+  "complete_helper_readback": "PASS",
+  "failed_returns": 0,
+  "native_returns": 14,
+  "research_mode": "connections",
+  "research_returns": 5,
+  "resource_release": "PASS",
+  "run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter2-signature-memory-20261015-01",
+  "selected_targets": [
+    {
+      "from_outcome_ids": [
+        "r1_cyclic_g1",
+        "web_r1_000"
+      ],
+      "id": "FINITE_RECORD",
+      "known_work": "Protected ratio and source eigenmodes retained; exact rational source-bound sample packet developed during R1.",
+      "next_question": "Does a finite noisy record select the multilevel protected signal under independently fixed calibration?",
+      "selection_reason": "General signature becomes an explicit finite receiving test."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_cyclic_g0",
+        "r1_cyclic_g1",
+        "r1_cyclic_g2"
+      ],
+      "id": "SOURCE_ACCESS",
+      "known_work": "Endpoint is cyclic at all three tested couplings; analytic continuation locates a different interior-placement blind point.",
+      "next_question": "What source access changes at g_H=1/164 for placement0 versus endpoint1?",
+      "selection_reason": "A useful exception directs the physical receiving preparation."
+    },
+    {
+      "from_outcome_ids": [
+        "r1_memory_Usolve",
+        "web_r1_001"
+      ],
+      "id": "MEMORY_RANK_TWO",
+      "known_work": "Completed actual source contractions supply two nonzero unresolved directions.",
+      "next_question": "Receive all54 source payments and quantify the exact minimum invariant extension.",
+      "selection_reason": "Connect existing spin residuals to dynamical memory without another source integration."
+    },
+    {
+      "from_outcome_ids": [
+        "web_r1_000",
+        "web_r1_002"
+      ],
+      "id": "PAID_WRITE_CLOCK",
+      "known_work": "Original source action and reverse-path timing located; explicit controlled reference construction is being derived.",
+      "next_question": "Join legal signed role strokes to positive actualclock intervals with complete reference work.",
+      "selection_reason": "Closes the concrete receiving construction selected after the two theorem developments."
+    },
+    {
+      "from_outcome_ids": [
+        "web_r1_002"
+      ],
+      "id": "RECORD_ENERGY",
+      "known_work": "Complete source-history work retains all reference/endpoints; original B18 source displacements are available.",
+      "next_question": "Compute the complete actual endpoint Gram and physical-feasible record payment beside its ambient bound.",
+      "selection_reason": "Connects the operational record to its complete source energy."
+    }
+  ],
+  "status": "COMPLETE",
+  "time_utc": "2026-10-16T00:25:36.219729+00:00",
+  "total_returns": 19,
+  "two_rounds": true
+}

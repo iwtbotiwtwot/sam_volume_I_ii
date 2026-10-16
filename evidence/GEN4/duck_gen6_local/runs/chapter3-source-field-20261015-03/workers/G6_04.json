@@ -1,0 +1,78 @@
+{
+  "cpu": 2,
+  "domain": "STARBREAKER",
+  "id": "G6_04",
+  "output": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/workers/G6_04",
+  "prepared_run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03",
+  "research": {
+    "automatic_crawl": true,
+    "available_workers": [
+      "G6_01",
+      "G6_02",
+      "G6_03",
+      "G6_04",
+      "G6_05",
+      "G6_06",
+      "LH_01",
+      "LH_02",
+      "LH_03"
+    ],
+    "depth": 2,
+    "index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/research_web.sqlite",
+    "index_sha256": "8a33ac7c75d7c64e4b80aad5e0d0fb02960e80ac446d7488224446402d080b02",
+    "max_nodes": 48,
+    "max_results": 6,
+    "mode": "connections",
+    "queries": [
+      {
+        "query": "positive source energy spatial shell density",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/volii_duck_expansion2/REPORT.md",
+          "GEN4/native_energy_source1/RESULT.md"
+        ]
+      },
+      {
+        "query": "radial Laplacian conductance source continuum",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/native_energy_source1/RESULT.md",
+          "manuscripts/volume_I/02_spherical_sources/DERIVATIONS.md"
+        ]
+      },
+      {
+        "query": "interacting source clock common energy coupling",
+        "rounds": [
+          1
+        ],
+        "seeds": [
+          "GEN4/voli_chapter2_physical3_20261015/REPORT.md",
+          "GEN4/native_coupling_scale1/REPORT.md"
+        ]
+      },
+      {
+        "query": "source spatial response memory clock road",
+        "rounds": [
+          2
+        ],
+        "seeds": [
+          "GEN4/source_spatial_response1/REPORT.md",
+          "GEN4/joint_source_clock_road1/REPORT.md"
+        ]
+      }
+    ],
+    "search_workers": [
+      "LH_02",
+      "LH_03"
+    ],
+    "source_index": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter3_source_field1_20261015/inputs/RESEARCH_WEB.sqlite"
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_packet": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter3-source-field-20261015-03/SOURCE_PACKET.json",
+  "source_packet_sha256": "1afbd5508a94e0a15165fdd46249b0275e8302d2139a48e4acf80874b27e2743",
+  "wire_inline_bytes": 1048576
+}

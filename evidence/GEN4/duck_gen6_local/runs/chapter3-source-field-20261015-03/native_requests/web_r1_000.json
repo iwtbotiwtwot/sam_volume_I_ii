@@ -1,0 +1,32 @@
+{
+  "key": "web_r1_000",
+  "kind": "TASK",
+  "task": {
+    "because": [],
+    "controller": "LH_02",
+    "estimated_memory_bytes": 268435456,
+    "key": "web_r1_000",
+    "kind": "research_web",
+    "operation": "RESEARCH_WEB_SEARCH",
+    "purpose": "Find source-linked candidate connections: positive source energy spatial shell density",
+    "request": {
+      "depth": 2,
+      "max_nodes": 48,
+      "max_results": 6,
+      "query": "positive source energy spatial shell density",
+      "seeds": [
+        "GEN4/volii_duck_expansion2/REPORT.md",
+        "GEN4/native_energy_source1/RESULT.md"
+      ]
+    },
+    "source_binding": {
+      "core_wheel_sha256": null,
+      "law_namespace": "SAM_land",
+      "native_core_version": "0.10.2",
+      "original_target": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/voli_chapter3_source_field1_20261015/TARGET.md",
+      "scope": "Chapter III retained source-energy map, finite static receiving field and actual clock response",
+      "target_sha256": "c6075dec33675c077866b0e2cf6b6f08b29f2237649dad3bb253892bcbecd22e"
+    },
+    "target_id": "PARENT"
+  }
+}
